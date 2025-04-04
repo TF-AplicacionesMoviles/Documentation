@@ -40,6 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha |             Autor             | Descripción de modificación |
 | :-----: | :---: | :---------------------------: | --------------------------- |
+|   TB1   |   -   | Silva Tirado, Sebastian Valentino | -                           |
 |   TB1   |   -   | Uribe Quispe, Jesús Guillermo | -                           |
 
 # Project Report Collaboration Insights
