@@ -200,7 +200,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="Img/Anthony.png" alt="Huapaya Cuevas, Anthony" style="margin-bottom: 5px;" width="800"/>
+            <img src="Img/Anthony.jpg" alt="Huapaya Cuevas, Anthony" style="margin-bottom: 5px;" width="800"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -219,7 +219,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
         <td align="left">
         <b>Acerca de:</b>
         <br>
-        -
+        Me encuentro cursando el sexto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona perseverante, fácil de adaptarse con respecto al ambiente de trabajo y responsable. Elegí el desarrollo de esta carrera para los avances tecnológicos con respecto al software, por que es una parte fundamental para lograr ese objetivo. Me comprometo con este trabajo mantener un ambiente sano en el equipo y apoyar constantemente con el avance de este.
         </td>
     </tr>
     <tr align="center">
