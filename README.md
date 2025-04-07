@@ -40,7 +40,6 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha |             Autor             | Descripción de modificación |
 | :-----: | :---: | :---------------------------: | --------------------------- |
-|   TB1   |   -   | Silva Tirado, Sebastian Valentino | -                           |
 |   TB1   |   -   | Uribe Quispe, Jesús Guillermo | -                           |
 
 # Project Report Collaboration Insights
@@ -127,6 +126,32 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
 - **Huanaco Huayta, Elizabeth Lucero:**
 - **Huapaya Cuevas, Anthony:**
 - **Silva Tirado, Sebastian Valentino:**
+
+Objetivo SMART 1 – Especialización Técnica
+
+Específico: Obtener certificaciones en desarrollo Full Stack e Inteligencia Artificial ofrecidas por IBM y AWS, como primer paso hacia un postgrado en estas áreas.
+
+Medible: Completar al menos dos certificaciones (una de IBM y una de AWS) y desarrollar un proyecto final aplicando lo aprendido.
+
+Alcanzable: Dedicando al menos dos días por semana al estudio y práctica de los contenidos.
+
+Relevante: Estas certificaciones me permitirán fortalecer mi perfil profesional en tecnologías de alta demanda y prepararme para estudios de posgrado.
+
+Temporal: Alcanzar este objetivo dentro del primer año posterior a mi graduación.
+
+Objetivo SMART 2 – Emprendimiento e Impacto Internacional
+
+Específico: Crear una startup tecnológica que desarrolle una aplicación con impacto social, con proyección a internacionalizar el proyecto y trabajar en el extranjero.
+
+Medible: Lanzar una versión funcional de la aplicación, alcanzar los primeros 500 usuarios y generar ingresos sostenibles durante los primeros 2 años.
+
+Alcanzable: Utilizando conocimientos adquiridos durante la carrera, networking profesional y recursos digitales disponibles.
+
+Relevante: Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.
+
+Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
+
+
 - **Uribe Quispe, Jesús Guillermo:**
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
