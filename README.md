@@ -40,6 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha |             Autor             | Descripción de modificación |
 | :-----: | :---: | :---------------------------: | --------------------------- |
+|   TB1   |   -   | Silva Tirado, Sebastian Valentino | -                           |
 |   TB1   |   -   | Uribe Quispe, Jesús Guillermo | -                           |
 
 # Project Report Collaboration Insights
@@ -67,7 +68,7 @@ Los integrantes son:
 - Bohórquez Lerzundi, Gerardo Sebastián (Sebasbl562)
 - Huanaco Huayta, Elizabeth Lucero (lucerohh)
 - Huapaya Cuevas, Anthony (AnthonyHuapaya)
-- Silva Tirado, Sebastián Valentino ()
+- Silva Tirado, Sebastián Valentino (SebasSilvaT)
 - Uribe Quispe, Jesús Guillermo(JesusU27)
 
 # Contenido
@@ -125,7 +126,7 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
 - **Bohorquez Lerzundi, Gerardo Sebastián:**
 - **Huanaco Huayta, Elizabeth Lucero:**
 - **Huapaya Cuevas, Anthony:**
-- **Silva Tirado, Sebastián Valentino:**
+- **Silva Tirado, Sebastian Valentino:**
 - **Uribe Quispe, Jesús Guillermo:**
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
@@ -224,7 +225,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="Img/Silva.jpg" alt="Silva Tirado, Sebastián"  style="margin-bottom: 5px;" width="800"/>
+            <img src="Img/Silva.JPG" alt="Silva Tirado, Sebastián"  style="margin-bottom: 5px;" width="800"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido: </b>
@@ -243,7 +244,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
         <td align="left">
         <b>Acerca de:</b>
         <br>
-         -
+         Soy estudiante del sétimo ciclo de la carrera de Ingeniería de Software en UPC. Opté por estudiar esta carrera porque me gusta la idea de programar y crear algo que pueda llegar a funcionar y ser útil en el mundo. Por lo cual, la universidad me da la posibilidad de estudiar y ser un profesional exitoso. Deseo ser buen integrante para mi equipo y me comprometo en hacer el mejor trabajo posible, y poder superarme más que el ciclo anterior.
         </td>
     </tr>
     <tr align="center">
@@ -339,6 +340,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 
 <div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas </h5></div>
 
+<img src="Img/Canvas.jpg" alt="Lean Ux Canvas" style="margin-bottom: 5px;" width="800"/>
 
 <div id='1.3.'><h3> 1.3 Segmentos Objetivos</h3></div>
 
@@ -363,6 +365,12 @@ Dentistas que buscan y necesitan herramientas para optimizar su gestión de cita
 <div id='2.1.1.'><h4> 2.1.1 Análisis competitivo</h4></div>
 
 <div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div>
+
+- Proporcionaremos una interfaz intuitiva que facilite el uso del software, con una navegación fluida y rápida, además de soporte personalizado para garantizar una adopción eficiente y una alta satisfacción del usuario.
+
+- Ofreceremos planes de suscripción flexibles y escalonados, diseñados para ajustarse a distintos presupuestos y necesidades. Desde opciones básicas hasta funciones avanzadas, cada plan estará orientado a diferentes tipos de consultorios.
+
+- Incorporaremos testimonios de clientes satisfechos en nuestra estrategia de marketing para reforzar la credibilidad. Estos testimonios serán resaltados en nuestro sitio web y materiales promocionales, contribuyendo a atraer nuevos usuarios y fortalecer la confianza en nuestra plataforma.
 
 <div id='2.2.'><h3> 2.2 Entrevistas</h3></div>
 
