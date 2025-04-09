@@ -333,30 +333,30 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 
 **Business Assumptions**
 - Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
-- Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva y recordatorios de las citas y distintas opciones de pago en línea.
-- Los clientes principales son los administradores de clínicas odontológicas, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
-- El valor #1 que un cliente quiere del servicio es su efectividad al momento de gestionar su clínica dental con la satisfacción del paciente con herramientas que mejoran su experiencia.
-- El cliente también puede obtener estos beneficios adicionales gracias a la venta de planes de suscripción, soporte continuo y especializado con respecto a la gestión del consultorio y funcionalidades para el control administrativo, lo que ayuda a mejorar la eficiencia operativa y satisfacción al manejar sus consultorios dentales.
+- Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
+- Los clientes principales son los odontólogos que administran sus propios consultorios, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
+- El valor #1 que un cliente quiere del servicio es su efectividad al momento de gestionar su consultorio dental con herramientas que mejoran su experiencia.
+- El cliente también puede obtener estos beneficios adicionales gracias a la venta de planes de suscripción con soporte continuo y especializado para su consultorio dental, brindando funcionalidades que le ayudarán a mejorar la organización de esta, como la función offline.
 - Vamos a adquirir la mayoría de los clientes mediante el uso del marketing digital y alianzas estratégicas con asociaciones de dentistas profesionales con el fin de ampliar nuestra red de contactos y aumentar la visibilidad de nuestra aplicación móvil.
-- Se hará dinero a través de las ventas de las suscripciones con los distintos niveles de acceso de la plataforma y ventas de productos especializados para los consultorios dentales.
+- Se hará dinero a través de las compras de suscripciones, los cuales le brindarán mayores comodidades para organizar su consultorio de manera eficiente.
 - Nuestra competencia principal en el mercado son las aplicaciones móviles que se encargan de gestionar consultorios dentales, pese a que no ofrezcan una integración completa o falta de intuición para los usuarios.
 - Los venceremos debido al uso de nuevas tecnologías con un enfoque en las constantes mejoras en la experiencia, tanto para los dentistas como para los pacientes, y soporte continuo.
 - Nuestro mayor riesgo es que los dentistas se resistan cambiar a algo nuevo por mantener sus métodos tradicionales en la gestión de sus consultorios dentales.
 - Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
 **Assumptions Worksheet**
-- **¿Quién es el usuario?** Los usuarios son los dentistas que buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
-- **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. Con respecto a los pacientes, mejoras en la experiencia de reserva de citas y el acceso a su información de salud.
+- **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
+- **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
 - **¿Qué problemas tiene nuestro producto? ¿Resolver?** El desafío que pueden tener algunos dentistas es la adopción de nuevas tecnologías. También puede existir resistencia por el uso de plataformas digitales para la gestión de la información.
-- **¿Cuándo y cómo es nuestro producto usado?** La aplicación móvil tiene un uso diario para la gestión de citas, revisión de historiales médicos, los procesos de pagos y el envío de recordatorios. Asimismo, se usará para agendar citas, realizar pagos y el acceso a los registros de salud.
-- **¿Qué características son importantes?** Las principales características son la accesibilidad en los distintos dispositivos móviles con la integración de sistemas de pagos, calendarios, recordatorios automáticos y una interfaz amigable.
+- **¿Cuándo y cómo es nuestro producto usado?** La aplicación móvil tiene un uso diario para la gestión de citas, revisión de historiales médicos y la facturación de los pagos.
+- **¿Qué características son importantes?** Las principales características son la accesibilidad en los distintos dispositivos móviles con la integración de sistemas de pagos y una interfaz amigable.
 - **¿Cómo debe verse nuestro producto y cómo comportarse?** Debe verse limpio, profesional e intuitivo, donde pueda reflejar la seriedad y confianza para el ámbito de salud. Además, la aplicación debe responder rápidamente las acciones del usuario con una navegación sencilla.
 
 <div id='1.2.2.3.'><h5> 1.2.2.3. Lean UX Hypothesis Statements</h5></div>
 
-- Creemos que al brindar las nuevas herramientas para gestionar las citas, historias clínicas y pagos en línea, se mejorará la eficiencia de la clínica y la experiencia del paciente. Sabremos que tenemos éxito en la mejoras de la experiencia de los usuarios cuando observamos un incremento de citas eficientes y reducción de quejas por parte de los pacientes.
-- Creemos que al integrar las opciones de pago en línea y la generación de facturas automáticas, se simplificará el proceso de facturación entre los dentistas y pacientes. Sabemos que estamos cumpliendo este objetivo cuando supera el 80% de los pagos de manera en línea sin problemas y la reducción del tiempo en la emisión de facturas.
-- Creemos que al brindar recursos educativos acerca del cuidado de los dientes y consejos de higiene, mejoraremos la educación de los pacientes y el compromiso para el tratamiento. Sabemos que estamos enseñando a los pacientes cuando el 60% de ellos están interactuando con los recursos brindados regularmente y se registra un incremento de la satisfacción del paciente.
+- Creemos que al brindar las nuevas herramientas para gestionar las citas, historias clínicas y pagos en línea, se mejorará la eficiencia de la clínica y la experiencia del paciente. Sabremos que tenemos éxito en la mejoras de la experiencia de los usuarios cuando observamos mejor organización de las citas y la facturación de los pagos.
+- Creemos que al integrar la generación de facturas automáticas, se simplificará el proceso de facturación de los pagos. Sabemos que estamos cumpliendo este objetivo cuando supera el 80% en la reducción del tiempo con respecto a la emisión de facturas.
+- Creemos que al integrar un modo offline, facilitará el uso de la aplicación en la visualización de las estadísticas y gestión de citas sin la necesidad de estar conectados a internet. Sabemos que estamos cumpliendo este objetivo con la disminución en los problemas de conectividad, sobre todo en áreas con poco acceso a internet.
 
 <div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas </h5></div>
 
