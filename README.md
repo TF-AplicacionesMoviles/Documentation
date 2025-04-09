@@ -161,7 +161,7 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 <div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div>
 
-MediTech es una innovadora startup tecnológica dedicada a transformar la manera en que los consultorios dentales gestionan sus operaciones cotidianas. Nuestro producto Dentify es una aplicación web integral diseñada específicamente para cubrir todas las necesidades de gestión de un consultorio.
+MediTech es una innovadora startup tecnológica dedicada a transformar la manera en que los consultorios dentales gestionan sus operaciones cotidianas. Nuestro producto Dentify es una aplicación móvil integral diseñada específicamente para cubrir todas las necesidades de gestión de un consultorio dental.
 
 **Misión:** Nuestra misión es simplificar y optimizar la gestión de consultorios dentales, permitiendo que los profesionales se concentren en brindar protección y bienestar al paciente.
 
@@ -304,7 +304,10 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
 
 **Antecedentes:**
 
-La incorporación de tecnologías digitales ha transformado notablemente la gestión de pacientes en consultorios dentales, permitiendo optimizar procesos como la programación de citas, la actualización de historiales clínicos y la comunicación entre el personal médico y los pacientes. En el caso del Perú, el desarrollo de la salud digital aún no se encuentra plenamente consolidado, aunque sí muestra un crecimiento progresivo. Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el 72.7 % de la población tenía acceso a internet en el año 2022, frente al 64.5 % registrado en 2020. Este crecimiento evidencia un contexto propicio para impulsar la digitalización en consultorios dentales, con el objetivo de ofrecer una gestión más eficiente, accesible y adaptada a las necesidades actuales de los pacientes.
+La incorporación de tecnologías digitales ha transformado notablemente la gestión de pacientes en consultorios dentales, permitiendo optimizar procesos como la programación de citas, la actualización de historiales clínicos y la comunicación entre el personal médico y los pacientes. En el caso del Perú, el desarrollo de la salud digital aún no se encuentra plenamente consolidado, aunque sí muestra un crecimiento progresivo.<br>
+ Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el 72.7 % de la población tenía acceso a internet en el año 2022, frente al 64.5 % registrado en 2020. Este crecimiento evidencia un contexto propicio para impulsar la digitalización en consultorios dentales, con el objetivo de ofrecer una gestión más eficiente, accesible y adaptada a las necesidades actuales de los pacientes.<br>
+No obstante, cabe señalar que, según datos registrados y analizados por Osiptel, el uso y manejo de dispositivos móviles ha aumentado aproximadamente en un 10 % en 2021, considerando que en 2016 el 78 % de la población ya utilizaba teléfonos móviles (Osiptel, 2022).<br>
+Estos datos reflejan una tendencia creciente hacia la digitalización en la población peruana, así como una fuerte relación entre el uso de dispositivos móviles y el acceso a internet desde estos equipos.
 
 **Problemática:**
 
@@ -313,7 +316,7 @@ No obstante los avances tecnológicos, muchas clínicas dentales, especialmente 
 
 **WHAT (Qué): ¿Cuál es el problema?**
 
-El problema es la ineficiencia y gestión de pacientes en diversos consultorios dentales, lo que se traduce en errores en la programación de citas, pérdida de historiales médicos y una mala experiencia para los pacientes debido a la demora de sus atenciones debido al uso de sistemas de gestión que no son digitales.
+El problema es la ineficiencia y gestión de consultorios o clínicas dentales independientes , lo que se traduce en errores en la programación de citas, pérdida de historiales médicos, posibles pérdidas de boletas y facturas, así como también una mala experiencia para los pacientes debido a la demora de sus atenciones y funciones de dicha clínica.
 
 
 **WHEN (Cuándo): ¿Cuándo sucede el problema?**
@@ -322,26 +325,26 @@ El problema ocurre durante todo el proceso de atención al paciente, desde la pr
 
 **WHERE (Dónde): ¿Dónde surge el problema?**
 
-El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales o sistemas desactualizados para gestionar la información y las operaciones diarias.
+El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales para  manejar y gestionar los datos sobre las operaciones cotidianas, dando como posibles problemas la pérdida de datos importantes.
 
 
 **WHO (Quién): ¿A quiénes les sucede el problema?**
 
-El problema afecta tanto a los dentistas, el personal administrativo y los pacientes. Los profesionales experimentan dificultades para manejar eficazmente las tareas diarias, mientras que los pacientes sufren retrasos y posibles errores en su atención.
+El problema afecta tanto a los dentistas y el personal administrativo que en general son los mismos dueños. Dichos profesionales presentan dificultades para manejar las tareas diarias del consultorio y registrar datos. Este problema repercute indirectamente a los pacientes, ya que, da como resultado una mala atención por falta de orden, gestión y coordinación.
 
 **WHY (Por qué): ¿Cuál es la causa del problema?**
 
-La causa principal es la falta de adopción de tecnologías digitales adecuadas para la gestión de pacientes. Esto se debe a factores como el costo percibido de las soluciones digitales, la falta de formación en el uso de dichas herramientas y la resistencia al cambio por parte de algunos profesionales.
+La principal causa radica en la baja adopción de tecnologías digitales eficaces para gestionar pacientes. Esto se debe, en gran parte, a la percepción de que estas soluciones son costosas, a la falta de capacitación en su uso y a la resistencia al cambio que muestran algunos profesionales de la salud.
 
 
 **HOW (Cómo): ¿Cómo llevó a los involucrados a llegar a esta situación?**
 
-La combinación de la dependencia de métodos tradicionales, la falta de inversión en la tecnología y la ausencia de una formación continua ha llevado a una situación en la cual los consultorios no pueden manejar eficientemente las demandas actuales, resultando en un servicio subóptimo.
+La dependencia de métodos tradicionales, sumada a la escasa inversión en tecnología y a la falta de capacitación continua, ha generado que muchos consultorios no estén preparados para responder eficientemente a las demandas actuales, lo que se traduce en un servicio por debajo del nivel esperado.
 
 
 **HOW MUCH (Cuánto): ¿Cuánto afecta el problema?**
 
-El problema afecta significativamente la eficiencia operativa de los consultorios, la satisfacción del paciente y, en última instancia, la rentabilidad del negocio. Clínicas con sistemas de gestión inadecuados pueden perder pacientes y reputación, además de enfrentar mayores costos operativos debido a la ineficiencia y errores.
+Este problema impacta de manera directa en la eficiencia operativa de los consultorios, disminuye la satisfacción del paciente y, en consecuencia, afecta negativamente la rentabilidad del negocio. Las clínicas que operan con sistemas de gestión ineficientes corren el riesgo de perder pacientes y reputación, además de incurrir en mayores costos operativos por errores y procesos poco optimizados.
 
 <div id='1.2.2.'><h4> 1.2.2. Lean UX Process</h4></div>
 
@@ -484,3 +487,10 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 <div id='3.'><h2>CAPITULO III: REQUIREMENTS SPECIFICATIONS </h2></div>
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
+
+
+<div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
+
+Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
+<br>
+
