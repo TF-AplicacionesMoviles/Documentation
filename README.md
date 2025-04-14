@@ -104,6 +104,8 @@ Los integrantes son:
    3.2. [User Stories.](#3.2.)<br>
    3.3. [Impact Mapping.](#3.3.)<br>
    3.4. [Product Backlog.](#3.4.)<br>
+8. [Referencias Bibliográficas.](#8.)<br>
+9. [Anexos.](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -443,10 +445,25 @@ Dentistas que buscan y necesitan herramientas para optimizar su gestión de cita
 
 <div id='2.2.'><h3> 2.2 Entrevistas</h3></div>
 
+Esta sección recopila la información obtenida a partir de entrevistas realizadas a odontólogos que gestionan sus propios consultorios. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades y hábitos actuales para fundamentar el desarrollo de una solución digital adecuada a su entorno real.
+
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas.</h4></div>
 <div id='2.2.2.'><h3> 2.2.2. Entrevistas</h3></div>
 
 <div id='2.2.3.'><h4> 2.2.3. Analisis de Entrevistas.</h4></div>
+
+A continuación, se presenta el análisis de las entrevistas realizadas a odontólogos independientes. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución digital.
+
+</br>
+
+**Caraterísticas comunes entre odontólogos entrevistados**
+
+<img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
+
+**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
+
+</br>
+De acuerdo al análisis realizado, todos los entrevistados utilizan agendas físicas y WhatsApp para gestionar sus citas y comunicarse con pacientes, pero también han experimentado errores como cruces de citas. Esto ha generado un fuerte interés por funcionalidades como recordatorios automáticos, seguimiento digital de tratamientos, confidencialidad de datos y organización más eficiente. Además, todos expresaron estar dispuestos a pagar por una solución tecnológica que les ayude a mejorar la gestión de sus consultorios, incluso sin tener todos acceso a software especializado actualmente. La importancia que le dan a las recomendaciones de sus pacientes refuerza su motivación por brindar un servicio de alta calidad. Aunque solo uno de los tres gestiona sus ingresos con software y atiende a más de 30 pacientes por semana, el uso de dispositivos móviles para el trabajo es generalizado. Esto muestra que hay una base tecnológica sobre la cual construir una aplicación accesible, útil y adaptada a sus necesidades reales.
 
 <div id='2.3.'><h3> 2.3. NeedFinding. </h3></div>
 
@@ -454,11 +471,75 @@ Dentistas que buscan y necesitan herramientas para optimizar su gestión de cita
 
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix.</h4></div>
 
+A continuación, se presenta una matriz de tareas enfocada en el odontólogo independiente Carlos Hijar Santa María. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su práctica profesional.</br></br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Carlos Hijar Santa María</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agendar citas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Registrar historia clínica</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Hacer seguimiento de tratamientos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar y gestionar ingresos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar insumos y equipo</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar tratamientos periódicos</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con pacientes</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar estado general del consultorio</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+</br>
+Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores. 
+
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
 
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping.</h4></div>
 
 <div id='2.3.5.'><h4> 2.3.5. As-Is Scenario Mapping.</h4></div>
+
+El As-Is Scenario Mapping muestra cómo los odontólogos gestionan actualmente su consultorio sin una solución digital integrada. A partir de entrevistas realizadas, se identificaron procesos, herramientas, pensamientos y emociones relacionados con tareas clave como citas, pagos, historias clínicas e inventario. Esta información permite detectar puntos de mejora y fundamentar el desarrollo de una solución más eficiente y centrada en sus necesidades. </br>
+
+<img src="Img/as-is-scenario-mapping.jpg" alt="As-Is Scenario Mapping" style="margin-bottom: 5px;" width="900"/>
 
 <div id='2.4.'><h4> 2.4. Ubiquitous Language.</h4></div>
 
@@ -508,3 +589,13 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
 <br>
 
+
+<div id='9.'><h2>ANEXOS</h2></div>
+
+**Anexo A**
+
+**Caraterísticas comunes entre odontólogos entrevistados**
+
+<img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
+
+**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
