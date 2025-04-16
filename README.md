@@ -127,6 +127,10 @@ Los integrantes son:
     4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
     4.2.X.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
 
+8. [Referencias Bibliográficas.](#8.)<br>
+9. [Anexos.](#9.)<br>
+
+
 # STUDENT OUTCOME
 
 **ABET – EAC - Student Outcome 7:** La capacidad de adquirir y aplicar nuevos
@@ -174,6 +178,30 @@ Relevante: Esta meta está alineada con mi visión de emprender y generar soluci
 Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
 
 - **Uribe Quispe, Jesús Guillermo:**
+  
+Objetivo SMART 1 – Especialización en tecnologías móviles
+  
+Específico: Mejorar mis habilidades en desarrollo web utilizando Angular.
+  
+Medible: Completar 3 proyectos pequeños y subirlos a GitHub.
+  
+Alcanzable: Dedicar 5 horas por semana al aprendizaje y desarrollo.
+  
+Relevante: Angular es un framework demandado en el mercado laboral.
+  
+Tiempo: En 2 meses.
+  
+Objetivo SMART 2 – Desarrollo de aplicaciones Backend
+  
+Específico: Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.
+
+Medible: API funcional con rutas protegidas, validación y base de datos.
+
+Alcanzable: Con tiempo semanal dedicado (4 horas).
+
+Relevante: Java es una tecnología muy usada en el stack moderno.
+
+Tiempo: 10 semanas.
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
 
@@ -247,12 +275,14 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
     </tr>
     <tr align="center">
         <td rowspan="3">
+
             <img src="Img/Anthony.jpg" alt="Huapaya Cuevas, Anthony" style="margin-bottom: 5px;" width="800"/>
+
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>
-            Huapaya Cuevas, Anthony
+            Huapaya Cuevas, Anthony Martin
         </td>
     </tr>
     <tr>
@@ -326,7 +356,9 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
 **Antecedentes:**
 
 La incorporación de tecnologías digitales ha transformado notablemente la gestión de pacientes en consultorios dentales, permitiendo optimizar procesos como la programación de citas, la actualización de historiales clínicos y la comunicación entre el personal médico y los pacientes. En el caso del Perú, el desarrollo de la salud digital aún no se encuentra plenamente consolidado, aunque sí muestra un crecimiento progresivo.<br>
+
 Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el 72.7 % de la población tenía acceso a internet en el año 2022, frente al 64.5 % registrado en 2020. Este crecimiento evidencia un contexto propicio para impulsar la digitalización en consultorios dentales, con el objetivo de ofrecer una gestión más eficiente, accesible y adaptada a las necesidades actuales de los pacientes.<br>
+
 No obstante, cabe señalar que, según datos registrados y analizados por Osiptel, el uso y manejo de dispositivos móviles ha aumentado aproximadamente en un 10 % en 2021, considerando que en 2016 el 78 % de la población ya utilizaba teléfonos móviles (Osiptel, 2022).<br>
 Estos datos reflejan una tendencia creciente hacia la digitalización en la población peruana, así como una fuerte relación entre el uso de dispositivos móviles y el acceso a internet desde estos equipos.
 
@@ -338,11 +370,13 @@ No obstante los avances tecnológicos, muchas clínicas dentales, especialmente 
 
 El problema es la ineficiencia y gestión de consultorios o clínicas dentales independientes , lo que se traduce en errores en la programación de citas, pérdida de historiales médicos, posibles pérdidas de boletas y facturas, así como también una mala experiencia para los pacientes debido a la demora de sus atenciones y funciones de dicha clínica.
 
+
 **WHEN (Cuándo): ¿Cuándo sucede el problema?**
 
 El problema ocurre durante todo el proceso de atención al paciente, desde la programación de la cita hasta el seguimiento post-tratamiento. Es más evidente en momentos de alta demanda o cuando se manejan múltiples pacientes simultáneamente.
 
 **WHERE (Dónde): ¿Dónde surge el problema?**
+
 
 El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales para manejar y gestionar los datos sobre las operaciones cotidianas, dando como posibles problemas la pérdida de datos importantes.
 
@@ -354,9 +388,11 @@ El problema afecta tanto a los dentistas y el personal administrativo que en gen
 
 La principal causa radica en la baja adopción de tecnologías digitales eficaces para gestionar pacientes. Esto se debe, en gran parte, a la percepción de que estas soluciones son costosas, a la falta de capacitación en su uso y a la resistencia al cambio que muestran algunos profesionales de la salud.
 
+
 **HOW (Cómo): ¿Cómo llevó a los involucrados a llegar a esta situación?**
 
 La dependencia de métodos tradicionales, sumada a la escasa inversión en tecnología y a la falta de capacitación continua, ha generado que muchos consultorios no estén preparados para responder eficientemente a las demandas actuales, lo que se traduce en un servicio por debajo del nivel esperado.
+
 
 **HOW MUCH (Cuánto): ¿Cuánto afecta el problema?**
 
@@ -376,6 +412,17 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 <div id='1.2.2.2.'><h5> 1.2.2.2. Lean UX Assumptions</h5></div>
 
 **Business Assumptions**
+- Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
+- Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
+- Los clientes principales son los odontólogos que administran sus propios consultorios, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
+- El valor #1 que un cliente quiere del servicio es su efectividad al momento de gestionar su consultorio dental con herramientas que mejoran su experiencia.
+- El cliente también puede obtener estos beneficios adicionales gracias a la venta de planes de suscripción con soporte continuo y especializado para su consultorio dental, brindando funcionalidades que le ayudarán a mejorar la organización de esta, como la función offline.
+- Vamos a adquirir la mayoría de los clientes mediante el uso del marketing digital y alianzas estratégicas con asociaciones de dentistas profesionales con el fin de ampliar nuestra red de contactos y aumentar la visibilidad de nuestra aplicación móvil.
+- Se hará dinero a través de las compras de suscripciones, los cuales le brindarán mayores comodidades para organizar su consultorio de manera eficiente.
+- Nuestra competencia principal en el mercado son las aplicaciones móviles que se encargan de gestionar consultorios dentales, pese a que no ofrezcan una integración completa o falta de intuición para los usuarios.
+- Los venceremos debido al uso de nuevas tecnologías con un enfoque en las constantes mejoras en la experiencia, tanto para los dentistas como para los pacientes, y soporte continuo.
+- Nuestro mayor riesgo es que los dentistas se resistan cambiar a algo nuevo por mantener sus métodos tradicionales en la gestión de sus consultorios dentales.
+- Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
 - Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
 - Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
@@ -390,6 +437,12 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 - Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
 **Assumptions Worksheet**
+- **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
+- **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
+- **¿Qué problemas tiene nuestro producto? ¿Resolver?** El desafío que pueden tener algunos dentistas es la adopción de nuevas tecnologías. También puede existir resistencia por el uso de plataformas digitales para la gestión de la información.
+- **¿Cuándo y cómo es nuestro producto usado?** La aplicación móvil tiene un uso diario para la gestión de citas, revisión de historiales médicos y la facturación de los pagos.
+- **¿Qué características son importantes?** Las principales características son la accesibilidad en los distintos dispositivos móviles con la integración de sistemas de pagos y una interfaz amigable.
+- **¿Cómo debe verse nuestro producto y cómo comportarse?** Debe verse limpio, profesional e intuitivo, donde pueda reflejar la seriedad y confianza para el ámbito de salud. Además, la aplicación debe responder rápidamente las acciones del usuario con una navegación sencilla.
 
 - **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
 - **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
@@ -428,11 +481,13 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-| **Competidor**           | **Descripción**                                                                                                                                                                                                            | **Características**                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Logo**                                                                                                          |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **iDentist**             | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube                  | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>                         |
-| **My Dental Clinic**     | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                                                                           | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube    | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/>         |
-| **Cusp Software Dental** | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                                                      | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
+
+| **Competidor**   |         **Descripción**                                                                                                                                 | **Características**                                                                                                                                       | **Logo** |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| **iDentist**  | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>  |
+| **My Dental Clinic**                | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                 | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/> |
+| **Cusp Software Dental**           | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                    | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
+
 
 <div id='2.1.1.'><h4> 2.1.1 Análisis competitivo</h4></div>
 
@@ -460,22 +515,192 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.2.'><h3> 2.2 Entrevistas</h3></div>
 
+Esta sección recopila la información obtenida a partir de entrevistas realizadas a odontólogos que gestionan sus propios consultorios. Se incluyen las preguntas formuladas, las entrevistas realizadas y un análisis comparativo. El objetivo es comprender sus necesidades y hábitos actuales para fundamentar el desarrollo de una solución digital adecuada a su entorno real.
+
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas.</h4></div>
+
+**Preguntas para los odontólogos independientes**
+1. ¿Cuál es tu nombre?
+2. ¿Qué edad tienes?
+3. ¿A qué te dedicas actualmente?
+4. ¿En qué lugar vives o trabajas?
+5. ¿Podrías contarme un poco sobre ti? Por ejemplo, ¿cuántos pacientes sueles atender semanalmente?
+6. ¿Dónde está ubicado tu consultorio?
+7. ¿Cuánto tiempo lleva funcionando tu consultorio?
+8. ¿Utilizas alguna app o software para organizar las tareas diarias en tu clínica? Si es así, ¿podrías contarme cómo funciona y qué te parece?
+9. ¿Qué tan necesario es para ti que esa aplicación funcione sin conexión a internet (modo offline)?
+10. ¿Qué dificultades enfrentas al organizar tu agenda y las citas de tus pacientes?
+11. ¿Cómo manejas la comunicación con los pacientes, especialmente cuando hay cancelaciones o cambios en las citas?
+12. Si pudieras añadir nuevas funciones al software que usas, ¿cuáles agregarías y por qué?
+13. ¿Qué marcas, dispositivos o plataformas digitales prefieres para trabajar y mantenerte al día?
+14. ¿Cómo organizas tu jornada diaria para asegurarte de que todas las citas se realicen sin inconvenientes?
+15. ¿Qué tan complicado te resulta mantener actualizados los registros y tratamientos de tus pacientes? ¿Qué métodos usas para llevar el control de las historias clínicas?
+16. ¿Cómo controlas los ingresos del consultorio y haces seguimiento de los pagos pendientes?
+17. ¿Qué tan relevante es para ti recibir opiniones de tus pacientes? ¿Cómo sabes si recomiendan tus servicios?
+18. ¿Qué tan importante es para ti que la información del consultorio esté segura y bien respaldada?
+19. ¿Estarías dispuesto(a) a pagar por una aplicación que te ayude a gestionar tu consultorio? ¿Qué precio te parecería razonable?
+
 <div id='2.2.2.'><h3> 2.2.2. Entrevistas</h3></div>
+
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <td>Entrevistado N°1</td>
+        <td>Fabrisio Belahonia</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>25</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>San Borja</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-1.png" width="300px"></td>
+        <td>Fabrisio Belahonia es un odontólogo de 25 años con 3 años de experiencia en su consultorio ubicado en San Borja. Actualmente atiende 
+        a 50 pacientes por semana y, para organizarse, utiliza herramientas como Excel, una agenda física y WhatsApp Business. Sin embargo, a pesar de sus esfuerzos, ha tenido cruces de citas debido a la falta de automatización en su gestión. Su principal motivación es brindar un servicio excelente y eficiente a sus pacientes; por ello, le interesan funciones como el historial clínico digital, recordatorios automáticos, un calendario integrado y estándares de seguridad en el manejo de datos.</td>
+    </tr> 
+    <tr>
+        <td>Timing: 0:00 - 7:24</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=sGO9aU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=sGO9aU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°2</td>
+        <td>Yesenia Olorte</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>49</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>Santiago de Surco</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-2.png" width="300px"></td>
+        <td>La Dra. Yesenia Olorte Himato, cirujana dentista especializada en cirugía y estética ortodoncia, atiende en su consultorio en Santiago de Surco desde hace 5 a 6 años. Trabaja con un promedio de 10 pacientes semanales, manejando sus citas a través de una agenda y WhatsApp. Su principal problema es la reprogramación de citas, ya que no utiliza aplicaciones de gestión. Prefiere usar el celular por comodidad y se mantiene actualizada mediante revistas y cursos del colegio médico. Controla personalmente los ingresos y valora mucho la opinión de sus pacientes, además de estar comprometida con la seguridad de su consultorio.</td>
+    </tr> 
+    <tr>
+        <td>Timing: 7:24 - 23:08</td>
+        <td>URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=H0jt4C&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDQzLjUzfX0%3D" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=H0jt4C&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDQzLjUzfX0%3D</a></td>
+    </tr> 
+    <tr>
+        <td>Entrevistado N°3</td>
+        <td>Carlos Santa María</td>
+    </tr> 
+    <tr>
+        <td>Edad</td>
+        <td>46</td>
+    </tr> 
+    <tr>
+        <td>Distrito de residencia</td>
+        <td>Miraflores</td>
+    </tr> 
+    <tr>
+        <td><img src="Img/Entrevista-3.png" width="300px"></td>
+        <td>El Dr. Carlos Hijar, odontólogo con 10 años de experiencia, atiende en su consultorio en Miraflores, Lima, desde hace 6 años. Trabaja con un promedio de 25 a 30 pacientes por semana y utiliza un software clínico para organizar sus tareas, aunque considera fundamental que funcione también sin internet. Su mayor reto es la gestión de citas ante cancelaciones. Se comunica con sus pacientes por WhatsApp y prefiere dispositivos Apple. Valora la opinión de sus pacientes, gestiona personalmente sus ingresos y considera esencial la seguridad digital. Estaría dispuesto a pagar por una app que le ayude a mejorar la gestión de su consultorio.</td>
+    </tr> 
+    <tr>
+        <td>Timing: 23:08 - 32:06</td>
+        <td style="word-wrap: break-word;">URL: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=O10mfP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTM4OC4yNH19" target="_blank">https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EVi0RngO5thJqF1nZZ-HpTQBQqMD679kftRv7LBZbx6PKA?e=O10mfP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTM4OC4yNH19</a></td>
+    </tr> 
+</table>
+
+</div>
 
 <div id='2.2.3.'><h4> 2.2.3. Analisis de Entrevistas.</h4></div>
 
+A continuación, se presenta el análisis de las entrevistas realizadas a odontólogos independientes. Este estudio permite identificar patrones, necesidades y oportunidades clave para el diseño de la solución digital.
+
+</br>
+
+**Caraterísticas comunes entre odontólogos entrevistados**
+
+<img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
+
+**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
+
+</br>
+De acuerdo al análisis realizado, todos los entrevistados utilizan agendas físicas y WhatsApp para gestionar sus citas y comunicarse con pacientes, pero también han experimentado errores como cruces de citas. Esto ha generado un fuerte interés por funcionalidades como recordatorios automáticos, seguimiento digital de tratamientos, confidencialidad de datos y organización más eficiente. Además, todos expresaron estar dispuestos a pagar por una solución tecnológica que les ayude a mejorar la gestión de sus consultorios, incluso sin tener todos acceso a software especializado actualmente. La importancia que le dan a las recomendaciones de sus pacientes refuerza su motivación por brindar un servicio de alta calidad. Aunque solo uno de los tres gestiona sus ingresos con software y atiende a más de 30 pacientes por semana, el uso de dispositivos móviles para el trabajo es generalizado. Esto muestra que hay una base tecnológica sobre la cual construir una aplicación accesible, útil y adaptada a sus necesidades reales.
+
 <div id='2.3.'><h3> 2.3. NeedFinding. </h3></div>
+Es una técnica de diseño centrado en el usuario que busca descubrir necesidades reales de las personas, incluso aquellas que no expresan explícitamente. A través de entrevistas, observaciones y análisis del comportamiento, se identifican problemas, frustraciones, deseos y oportunidades que pueden guiar el desarrollo de soluciones más útiles y significativas.
 
 <div id='2.3.1.'><h4> 2.3.1. User Personas.</h4></div>
 
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix.</h4></div>
 
+A continuación, se presenta una matriz de tareas enfocada en el odontólogo independiente Carlos Hijar Santa María. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su práctica profesional.</br></br>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th rowspan="2">Tarea</th>
+      <th colspan="2">Carlos Hijar Santa María</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agendar citas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Registrar historia clínica</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Hacer seguimiento de tratamientos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar y gestionar ingresos</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar insumos y equipo</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recordar tratamientos periódicos</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Comunicarse con pacientes</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Revisar estado general del consultorio</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+</br>
+Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores. 
+
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
 
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping.</h4></div>
+Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los usuarios que hemos escogido viendo desde una perspectiva más humana y emocional, en este caso para los odontólogos independientes.
 
+<img src="Img/Emphaty-Map.png" width="800">
 <div id='2.3.5.'><h4> 2.3.5. As-Is Scenario Mapping.</h4></div>
+
+El As-Is Scenario Mapping muestra cómo los odontólogos gestionan actualmente su consultorio sin una solución digital integrada. A partir de entrevistas realizadas, se identificaron procesos, herramientas, pensamientos y emociones relacionados con tareas clave como citas, pagos, historias clínicas e inventario. Esta información permite detectar puntos de mejora y fundamentar el desarrollo de una solución más eficiente y centrada en sus necesidades. </br>
+
+<img src="Img/as-is-scenario-mapping.jpg" alt="As-Is Scenario Mapping" style="margin-bottom: 5px;" width="900"/>
 
 <div id='2.4.'><h4> 2.4. Ubiquitous Language.</h4></div>
 
@@ -518,6 +743,7 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 <div id='3.'><h2>CAPITULO III: REQUIREMENTS SPECIFICATIONS </h2></div>
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
+
 <table>
   <thead>
     <tr>
@@ -690,3 +916,14 @@ Por ello, hemos hecho los domain storytelling en referencia a las conexiones ent
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
 <br>
+
+<div id='9.'><h2>ANEXOS</h2></div>
+
+**Anexo A**
+
+**Caraterísticas comunes entre odontólogos entrevistados**
+
+<img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
+
+**Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
+
