@@ -104,6 +104,28 @@ Los integrantes son:
    3.2. [User Stories.](#3.2.)<br>
    3.3. [Impact Mapping.](#3.3.)<br>
    3.4. [Product Backlog.](#3.4.)<br>
+4. [**Capítulo IV: Solution Software Design.**](#4)<br>
+   4.1. [Strategic-Level Domain-Driven Design](#4.1.)  
+   4.1.1. [EventStorming](#4.1.1.)  
+   4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)  
+   4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.)  
+   4.1.1.3. [Bounded Context Canvases](#4.1.1.3.)  
+   4.1.2. [Context Mapping](#4.1.2.)  
+   4.1.3. [Software Architecture](#4.1.3.)  
+   4.1.3.1. [Software Architecture Context Level Diagrams](#4.1.3.1.)  
+   4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)  
+   4.1.3.3. [Software Architecture Deployment Diagrams](#4.1.3.3.)
+
+   4.2. [Tactical-Level Domain-Driven Design](#4.2.)  
+    4.2.X. [Bounded Context: <Bounded Context Name>](#4.2.X.)  
+    4.2.X.1. [Domain Layer](#4.2.X.1.)  
+    4.2.X.2. [Interface Layer](#4.2.X.2.)  
+    4.2.X.3. [Application Layer](#4.2.X.3.)  
+    4.2.X.4. [Infrastructure Layer](#4.2.X.4.)  
+    4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.X.5.)  
+    4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.X.6.)  
+    4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
+    4.2.X.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
 
 # STUDENT OUTCOME
 
@@ -150,7 +172,6 @@ Alcanzable: Utilizando conocimientos adquiridos durante la carrera, networking p
 Relevante: Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.
 
 Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
-
 
 - **Uribe Quispe, Jesús Guillermo:**
 
@@ -305,7 +326,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
 **Antecedentes:**
 
 La incorporación de tecnologías digitales ha transformado notablemente la gestión de pacientes en consultorios dentales, permitiendo optimizar procesos como la programación de citas, la actualización de historiales clínicos y la comunicación entre el personal médico y los pacientes. En el caso del Perú, el desarrollo de la salud digital aún no se encuentra plenamente consolidado, aunque sí muestra un crecimiento progresivo.<br>
- Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el 72.7 % de la población tenía acceso a internet en el año 2022, frente al 64.5 % registrado en 2020. Este crecimiento evidencia un contexto propicio para impulsar la digitalización en consultorios dentales, con el objetivo de ofrecer una gestión más eficiente, accesible y adaptada a las necesidades actuales de los pacientes.<br>
+Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el 72.7 % de la población tenía acceso a internet en el año 2022, frente al 64.5 % registrado en 2020. Este crecimiento evidencia un contexto propicio para impulsar la digitalización en consultorios dentales, con el objetivo de ofrecer una gestión más eficiente, accesible y adaptada a las necesidades actuales de los pacientes.<br>
 No obstante, cabe señalar que, según datos registrados y analizados por Osiptel, el uso y manejo de dispositivos móviles ha aumentado aproximadamente en un 10 % en 2021, considerando que en 2016 el 78 % de la población ya utilizaba teléfonos móviles (Osiptel, 2022).<br>
 Estos datos reflejan una tendencia creciente hacia la digitalización en la población peruana, así como una fuerte relación entre el uso de dispositivos móviles y el acceso a internet desde estos equipos.
 
@@ -313,11 +334,9 @@ Estos datos reflejan una tendencia creciente hacia la digitalización en la pobl
 
 No obstante los avances tecnológicos, muchas clínicas dentales, especialmente aquellas de menor tamaño, continúan utilizando métodos manuales o sistemas informáticos desactualizados para gestionar la atención de sus pacientes. Esta situación puede derivar en errores en la programación de citas, pérdida de información clínica relevante y una experiencia poco satisfactoria para los usuarios. Además, la falta de capacitación en el uso adecuado de estas herramientas limita su correcta implementación, afectando tanto la eficiencia operativa como la calidad del servicio. A ello se suma la percepción de que las soluciones digitales son costosas y difíciles de integrar, lo que representa un obstáculo adicional para su adopción en la práctica diaria.
 
-
 **WHAT (Qué): ¿Cuál es el problema?**
 
 El problema es la ineficiencia y gestión de consultorios o clínicas dentales independientes , lo que se traduce en errores en la programación de citas, pérdida de historiales médicos, posibles pérdidas de boletas y facturas, así como también una mala experiencia para los pacientes debido a la demora de sus atenciones y funciones de dicha clínica.
-
 
 **WHEN (Cuándo): ¿Cuándo sucede el problema?**
 
@@ -325,8 +344,7 @@ El problema ocurre durante todo el proceso de atención al paciente, desde la pr
 
 **WHERE (Dónde): ¿Dónde surge el problema?**
 
-El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales para  manejar y gestionar los datos sobre las operaciones cotidianas, dando como posibles problemas la pérdida de datos importantes.
-
+El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales para manejar y gestionar los datos sobre las operaciones cotidianas, dando como posibles problemas la pérdida de datos importantes.
 
 **WHO (Quién): ¿A quiénes les sucede el problema?**
 
@@ -336,11 +354,9 @@ El problema afecta tanto a los dentistas y el personal administrativo que en gen
 
 La principal causa radica en la baja adopción de tecnologías digitales eficaces para gestionar pacientes. Esto se debe, en gran parte, a la percepción de que estas soluciones son costosas, a la falta de capacitación en su uso y a la resistencia al cambio que muestran algunos profesionales de la salud.
 
-
 **HOW (Cómo): ¿Cómo llevó a los involucrados a llegar a esta situación?**
 
 La dependencia de métodos tradicionales, sumada a la escasa inversión en tecnología y a la falta de capacitación continua, ha generado que muchos consultorios no estén preparados para responder eficientemente a las demandas actuales, lo que se traduce en un servicio por debajo del nivel esperado.
-
 
 **HOW MUCH (Cuánto): ¿Cuánto afecta el problema?**
 
@@ -354,13 +370,13 @@ En la actualidad, los consultorios dentales se enfrentan al reto de gestionar de
 
 Se ha observado que una gran parte de los consultorios aún recurre a métodos tradicionales y fragmentados para organizar sus procesos, lo cual genera una experiencia poco eficiente para pacientes y profesionales por igual. La ausencia de una solución digital integral dificulta la coordinación oportuna de citas, el acceso ágil a los historiales clínicos y la automatización de los procesos de pago, lo que repercute negativamente en la satisfacción del paciente y en la productividad del consultorio.
 
-
 **¿Cómo podemos desarrollar una plataforma web integral y fácil de usar que optimice la gestión de los consultorios dentales, permitiendo a los profesionales concentrarse en brindar un servicio de alta calidad, mientras se mejora la experiencia del paciente a través de la digitalización y la automatización de tareas clave?**
 <br><br>
 
 <div id='1.2.2.2.'><h5> 1.2.2.2. Lean UX Assumptions</h5></div>
 
 **Business Assumptions**
+
 - Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
 - Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
 - Los clientes principales son los odontólogos que administran sus propios consultorios, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
@@ -374,6 +390,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 - Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
 **Assumptions Worksheet**
+
 - **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
 - **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
 - **¿Qué problemas tiene nuestro producto? ¿Resolver?** El desafío que pueden tener algunos dentistas es la adopción de nuevas tecnologías. También puede existir resistencia por el uso de plataformas digitales para la gestión de la información.
@@ -396,26 +413,26 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 En esta sección, definiremos los perfiles específicos del público objetivo para nuestro producto. Dichos grupos comparten características demográficas, comportamientos o necesidades similares, lo que les diferencia de otros segmentos del mercado y permite ajustar estrategias para satisfacer sus necesidades de una mejor manera.
 
 - **Segmento demográfico:**
-Dentistas que poseen un ingreso medio y que tienen la capacidad de hacer una inversión en herramientas y sistemas que mejoren su gestión de pacientes.
+  Dentistas que poseen un ingreso medio y que tienen la capacidad de hacer una inversión en herramientas y sistemas que mejoren su gestión de pacientes.
 
 - **Segmento geográfico:**
-Dentistas en áreas urbanas con una base de pacientes significativa.
+  Dentistas en áreas urbanas con una base de pacientes significativa.
 
 - **Segmento psicográfico:**
-Profesionales que buscan optimizar sus prácticas y ofrecer un mejor servicio a sus pacientes.
+  Profesionales que buscan optimizar sus prácticas y ofrecer un mejor servicio a sus pacientes.
 
 - **Segmento Conductual:**
-Dentistas que buscan y necesitan herramientas para optimizar su gestión de citas.
+  Dentistas que buscan y necesitan herramientas para optimizar su gestión de citas.
 
 <div id='2.'><h2>Capítulo II: Requirements Elicitation & Analysis</h2></div>
 
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-| **Competidor**   |         **Descripción**                                                                                                                                 | **Características**                                                                                                                                       | **Logo** |
-|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| **iDentist**  | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>  |
-| **My Dental Clinic**                | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                 | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/> |
-| **Cusp Software Dental**           | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                    | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
+| **Competidor**           | **Descripción**                                                                                                                                                                                                            | **Características**                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Logo**                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **iDentist**             | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube                  | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>                         |
+| **My Dental Clinic**     | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                                                                           | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube    | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/>         |
+| **Cusp Software Dental** | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                                                      | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
 
 <div id='2.1.1.'><h4> 2.1.1 Análisis competitivo</h4></div>
 
@@ -487,10 +504,175 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 <div id='3.'><h2>CAPITULO III: REQUIREMENTS SPECIFICATIONS </h2></div>
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
+<table>
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Registrar usuario</td>
+      <td>Como personal del consultorio, quiero registrarme en la aplicación para acceder a los servicios.</td>
+      <td>Escenario 1: Personal del consultorio se registra en la aplicación<br><br>
+    Dado que el consultorio odontológico se ha registrado en la aplicación<br>
+    Cuando esté en registro<br>
+    Y complete los datos solicitados en el formulario de registro<br>
+    Y seleccione el botón Registrarme<br>
+    Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+  </tbody>
+</table>
 
+<div id='3.3.'><h3>3.3. Impact map</h3></div>
+<div id='3.4.'><h3>3.4. Product Backlog</h3></div>
+
+<div id='4.'><h2> CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
+</h2></div>
+<div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
+
+<div id='4.1.1.'><h4>4.1.1. EventStorming</h4></div>
+A través de la plataforma "Miro" hemos realizado el proceso de EventStorming, lo que nos permitió identificar los eventos, usuarios o agentes, comandos que desencadenan dichos eventos, agregados y bounded contexts. <br><br>
+
+Para facilitar la comprensión, la información se seccionará y presentará por distintos "post its" en donde:
+
+- **Post It Anaranjado:** Evento a realizar.
+- **Post It Azul:** Comando que desata el evento de su derecha.
+- **Post It Amarillo:** Usuario final que genera el comando de su derecha.
+- **Delimitaciones amarillas:** Secciona eventos y comandos relacionados a un "aggregate".
+- **Delimitaciones de color negro:** Secciona uno o más aggregates relacionados a un bounded context.
+- **Flechas punteadas:** indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
+
+<img src="Img/4-1-1d.jpg" alt="IAM"></img>
+
+<div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
+
+La técnica Start-With-Value es un enfoque dentro del diseño centrado en el usuario y Domain-Driven Design (DDD) que propone comenzar el modelado del dominio desde los valores que el sistema debe entregar al usuario final o al negocio.
+
+Por ello, usamos dicha técnica para determinar los eventos clave de nuestros bounded contexts y el valor esperado por el usuario final.
+
+| Bounded Context          | Valor esperado por el usuario                                 | Eventos clave                                                  |
+| ------------------------ | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| **IAM (Accesos)**        | Registrarse, iniciar sesión y navegar por la aplicación       | usuario registrado, usuario iniciado, dirigir a inicio         |
+| **Citas**                | Crear, editar, eliminar o consultar citas de pacientes        | cita añadida, cita editada, cita eliminada, cita pagada        |
+| **Pacientes**            | Agregar, editar, eliminar o buscar pacientes                  | paciente añadido, paciente editado, eliminar paciente          |
+| **Historial Clínico**    | Consultar o añadir historial clínico del paciente             | historial clínico añadido, historial clínico eliminado         |
+| **Inventario (Objetos)** | Gestionar objetos: añadir, editar o eliminar insumos clínicos | objeto añadido, objeto editado, objeto eliminado               |
+| **Registro de Consumo**  | Registrar el uso de insumos por cita o hacer ajustes de stock | fecha de ajuste guardada, item reabastecido, función ejecutada |
+| **Facturación**          | Registrar que una cita fue pagada                             | pago realizado                                                 |
+
+<div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
+
+El Domain Storytelling es una técnica colaborativa y visual para descubrir el conocimiento sobre un dominio de negocio. Su finalidad es construir una comprensión compartida de cómo funciona un proceso de negocio específico entre las diferentes partes interesadas, incluyendo expertos del negocio y equipos técnicos.
+
+Por ello, hemos hecho los domain storytelling en referencia a las conexiones entre los bounded context para analizar y saber de una mejor manera la lógica del negocio.
+
+##### Escenario 1: Atención completa de un paciente
+
+**Objetivo:** Un usuario quiere registrar una atención odontológica completa, desde la creación del paciente hasta el pago y uso de insumos.
+
+<img src="Img/4-1-1-2a.jpg" alt="Storytelling"/>
+
+##### Escenario 2: Control y reposición de stock
+
+**Objetivo:** El usuario desea mantener actualizado el inventario y registrar los consumos durante la atención.
+
+<img src="Img/4-1-1-2b.jpg" alt="Storytelling"/>
+
+##### Escenario 3: Gestión y trazabilidad financiera
+
+**Objetivo:** Registrar pagos y relacionarlos con citas y pacientes.
+
+<img src="Img/4-1-1-2c.jpg" alt="Storytelling"/>
+
+<div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
+<div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
+<div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
+<div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture Context Level Diagrams</h5></div>
+<div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Container Level Diagrams</h5></div>
+<div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Deployment Diagrams</h5></div>
+
+<div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
+<div id='4.2.X.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
+<div id='4.2.X.1.'><h5>4.2.X.1. Domain Layer</h5></div>
+<div id='4.2.X.2.'><h5>4.2.X.2. Interface Layer</h5></div>
+<div id='4.2.X.3.'><h5>4.2.X.3. Application Layer</h5></div>
+<div id='4.2.X.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
+<div id='4.2.X.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.X.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.X.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+<div id='4.2.X.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
 <br>
-
