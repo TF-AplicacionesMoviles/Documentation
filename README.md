@@ -7,7 +7,7 @@ margin-left:auto;
 margin-right: auto; 
 width=50%"/>
 
-<h5 style="text-align: center"> Área:  de Software </h5>
+<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
 
 <h5 style="text-align: center"> Curso: Aplicaciones Para Dispositivos Móviles </h5>
 <h5 style="text-align: center"> NRC: 353 </h5>
