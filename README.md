@@ -408,9 +408,15 @@ Dentistas que buscan y necesitan herramientas para optimizar su gestión de cita
 
 <div id='2.3.1.'><h4> 2.3.1. User Personas.</h4></div>
 
+**a. User Persona de un Dueño de Consultorio**
+
+<img src="Img/Carlos Hijar Santa Maria.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/> 
+
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix.</h4></div>
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
+
+<img src="Img/User-Journey-Mapping-1.png" alt="JS" style="margin-bottom: 5px;" width="700"/> 
 
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping.</h4></div>
 
