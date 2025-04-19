@@ -832,6 +832,8 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 </table>
 
 <div id='3.3.'><h3>3.3. Impact map</h3></div>
+
+<img src="Img/Impact-Map.png" width="800">
 <div id='3.4.'><h3>3.4. Product Backlog</h3></div>
 
 <div id='4.'><h2> CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
