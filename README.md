@@ -771,12 +771,18 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td>Epic ?</td>
     </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US02</td>
+  <td>Iniciar sesión</td>
+  <td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
+  <td>
+    Escenario 1: Personal del consultorio inicia sesión correctamente<br><br>
+    Dado que el personal del consultorio ya se encuentra registrado en la aplicación<br>
+    Cuando ingrese su correo y contraseña en el formulario de inicio de sesión<br>
+    Y seleccione el botón Iniciar Sesión<br>
+    Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
+  </td>
+  <td>Epic ?</td>
+</tr>
     <tr>
       <td>US0X</td>
       <td> - </td>
@@ -785,12 +791,18 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td>Epic ?</td>
     </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US04</td>
+  <td>Mostrar citas</td>
+  <td>Como personal del consultorio, quiero visualizar todas las citas registradas para poder gestionar los horarios de atención.</td>
+  <td>
+    Escenario 1: Visualización de citas registradas<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y accede a la sección de citas<br>
+    Cuando se cargue la pantalla de citas<br>
+    Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
+  </td>
+  <td>Epic ?</td>
+</tr>
     <tr>
       <td>US0X</td>
       <td> - </td>
@@ -799,12 +811,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td>Epic ?</td>
     </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US06</td>
+  <td>Añadir citas</td>
+  <td>Como personal del consultorio, quiero registrar nuevas citas para poder agendar la atención de los pacientes.</td>
+  <td>
+    Escenario 1: Registro de una nueva cita<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y se encuentra en la sección de citas<br>
+    Cuando seleccione la opción para añadir nueva cita<br>
+    Y complete los campos requeridos como paciente, fecha y hora<br>
+    Y confirme el registro<br>
+    Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
+  </td>
+  <td>Epic ?</td>
+</tr>
     <tr>
       <td>US0X</td>
       <td> - </td>
@@ -812,6 +832,24 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td> - </td>
       <td>Epic ?</td>
     </tr>
+  <tr>
+  <td>US08</td>
+  <td>Buscar citas</td>
+  <td>Como personal del consultorio, quiero buscar citas por fecha o mediante filtros para localizar rápidamente una cita específica.</td>
+  <td>
+    Escenario 1: Búsqueda de cita por fecha<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese una fecha en el campo de búsqueda<br>
+    Y seleccione el botón Buscar<br>
+    Entonces la aplicación mostrará las citas programadas para esa fecha.<br><br>
+    Escenario 2: Busqueda de citas por DNI<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese el DNI de un paciente en el campo de busqueda<br>
+    Y seleccione el boton Buscar<br>
+    Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.
+  </td>
+  <td>Epic ?</td>
+</tr>
     <tr>
       <td>US0X</td>
       <td> - </td>
@@ -819,20 +857,231 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td> - </td>
       <td>Epic ?</td>
     </tr>
-    <tr>
+  <tr>
+  <td>US10</td>
+  <td>Pagar tratamiento</td>
+  <td>Como personal del consultorio, quiero registrar el pago de un tratamiento para generar la facturación correspondiente.</td>
+  <td>
+    Escenario 1: Registro de pago exitoso<br><br>
+    Dado que un paciente ha recibido un tratamiento<br>
+    Y el personal accede al módulo de pagos<br>
+    Cuando seleccione el tratamiento y registre el monto pagado<br>
+    Y presione el botón "Confirmar pago"<br>
+    Entonces el sistema generará la factura correspondiente actualizando el estado del tratamiento como pagado y generando una disminicion en los articulos medicos usados en la atencion.
+  </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
       <td>US0X</td>
       <td> - </td>
       <td> - </td>
       <td> - </td>
       <td>Epic ?</td>
     </tr>
-    <tr>
+<tr>
+  <td>US12</td>
+  <td>Mostrar pacientes</td>
+  <td>Como personal del consultorio, quiero visualizar la lista de pacientes registrados para consultar y gestionar sus datos.</td>
+  <td>
+    Escenario 1: Visualización de pacientes registrados<br><br>
+    Dado que el personal ha iniciado sesión en la aplicación<br>
+    Y accede a la sección de pacientes<br>
+    Cuando se cargue la pantalla<br>
+    Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
+  </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
       <td>US0X</td>
       <td> - </td>
       <td> - </td>
       <td> - </td>
       <td>Epic ?</td>
     </tr>
+<tr>
+  <td>US14</td>
+  <td>Editar paciente</td>
+  <td>Como personal del consultorio, quiero modificar los datos de un paciente para mantener su información actualizada.</td>
+  <td>
+    Escenario 1: Edición de datos exitosa<br><br>
+    Dado que el personal accede a la sección de pacientes<br>
+    Y selecciona a un paciente de la lista<br>
+    Cuando actualice los datos en el formulario<br>
+    Y presione el botón "Guardar cambios"<br>
+    Entonces el sistema actualizará la información del paciente correctamente.
+  </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+<tr>
+  <td>US16</td>
+  <td>Buscar pacientes</td>
+  <td>Como personal del consultorio, quiero buscar pacientes por DNI para encontrarlos rápidamente en el sistema.</td>
+  <td>
+    Escenario 1: Búsqueda exitosa por DNI<br><br>
+    Dado que existen pacientes registrados<br>
+    Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>
+    Y seleccione el botón de buscar<br>
+    Entonces la aplicación mostrará al paciente correspondiente en los resultados.
+  </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
+  <td>US18</td>
+  <td>Eliminar historial clínico</td>
+  <td>Como personal del consultorio, quiero eliminar un historial clínico para mantener la información actualizada y precisa.</td>
+  <td>
+    Escenario 1: Eliminación de historial clínico<br><br>
+    Dado que el personal accede al historial clínico de un paciente<br>
+    Cuando seleccione la opción de eliminar historial<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará dicho historial y actualizará la vista.
+  </td>
+  <td>Epic ?</td>
+</tr>
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US20</td>
+  <td>Inventario</td>
+  <td>Como personal del consultorio, quiero acceder al inventario general para revisar la disponibilidad de materiales y equipos.</td>
+  <td>
+    Escenario 1: Visualización del inventario<br><br>
+    Dado que el personal se encuentra correctamente logueado en la apliacion.<br>
+    Cuando acceda al módulo de inventario<br>
+    Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US22</td>
+  <td>Editar objeto de inventario</td>
+  <td>Como personal del consultorio, quiero modificar los datos de un objeto del inventario para reflejar información correcta y actualizada.</td>
+  <td>
+    Escenario 1: Modificación de objeto del inventario<br><br>
+    Dado que el personal accede a la sección de inventario<br>
+    Cuando seleccione un objeto de la lista<br>
+    Y actualice su información<br>
+    Y presione "Guardar cambios"<br>
+    Entonces la aplicación guardará la información modificada del objeto.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US24</td>
+  <td>Dashboard de inventario</td>
+  <td>Como personal del consultorio, quiero visualizar un resumen del inventario para tomar decisiones sobre abastecimiento.</td>
+  <td>
+    Escenario 1: Visualización del dashboard<br><br>
+    Dado que el personal accede a la seccion de inventario<br>
+    Cuando seleccione la opción de "Dashboard"<br>
+    Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US26</td>
+  <td>Guardar ID de item</td>
+  <td>Como personal del consultorio, quiero que se guarde el identificador del objeto usado en un tratamiento para registrar el consumo exacto.</td>
+  <td>
+    Escenario 1: Registro del ID del ítem consumido<br><br>
+    Dado que se está realizando un registro de facturación<br>
+    Cuando se añadan ítems al tratamiento<br>
+    Entonces la aplicación almacenará automáticamente los IDs de los objetos seleccionados.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US28</td>
+  <td>Registrar cantidad consumida de ítems</td>
+  <td>Como personal del consultorio, quiero registrar la cantidad de objetos usados en cada tratamiento para llevar un control detallado de insumos.</td>
+  <td>
+    Escenario 1: Registro de consumo de objetos<br><br>
+    Dado que se realiza una facturación asociada a un tratamiento<br>
+    Cuando se especifique la cantidad utilizada de cada objeto<br>
+    Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US0X</td>
+  <td> - </td>
+  <td> - </td>
+  <td> - </td>
+  <td>Epic ?</td>
+</tr>
+
+<tr>
+  <td>US30</td>
+  <td>Perfil</td>
+  <td>Como personal del consultorio, quiero acceder y editar mi perfil para mantener mi información personal actualizada.</td>
+  <td>
+    Escenario 1: Visualización y edición del perfil<br><br>
+    Dado que el personal ha iniciado sesión<br>
+    Cuando acceda a la sección de perfil<br>
+    Entonces podrá visualizar su información registrada<br>
+    Y si edita sus datos y guarda los cambios<br>
+    Entonces la aplicación actualizará su perfil correctamente.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
   </tbody>
 </table>
 
