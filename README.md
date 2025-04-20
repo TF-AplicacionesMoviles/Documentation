@@ -769,27 +769,27 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td>Registrar usuario</td>
       <td>Como personal del consultorio, quiero registrarme en la aplicación para acceder a los servicios.</td>
       <td>Escenario 1: Personal del consultorio se registra en la aplicación<br><br>
-    Dado que el consultorio odontológico se ha registrado en la aplicación<br>
-    Cuando esté en registro<br>
-    Y complete los datos solicitados en el formulario de registro<br>
-    Y seleccione el botón Registrarme<br>
-    Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
+    	Dado que el consultorio odontológico se ha registrado en la aplicación<br>
+    	Cuando esté en registro<br>
+    	Y complete los datos solicitados en el formulario de registro<br>
+    	Y seleccione el botón Registrarme<br>
+    	Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
       <td>Epic ?</td>
     </tr>
     <tr>
-  <td>US02</td>
-  <td>Iniciar sesión</td>
-  <td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
-  <td>
-    Escenario 1: Personal del consultorio inicia sesión correctamente<br><br>
-    Dado que el personal del consultorio ya se encuentra registrado en la aplicación<br>
-    Cuando ingrese su correo y contraseña en el formulario de inicio de sesión<br>
-    Y seleccione el botón Iniciar Sesión<br>
-    Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
-  </td>
+  	<td>US02</td>
+  	<td>Iniciar sesión</td>
+  	<td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
+  	<td>
+    	Escenario 1: Personal del consultorio inicia sesión correctamente<br><br>
+    	Dado que el personal del consultorio ya se encuentra registrado en la aplicación<br>
+    	Cuando ingrese su correo y contraseña en el formulario de inicio de sesión<br>
+    	Y seleccione el botón Iniciar Sesión<br>
+    	Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
+  	</td>
   <td>Epic ?</td>
 </tr>
-    <tr>
+<tr>
       <td>US03</td>
       <td>Recordatorio de citas</td>
       <td>Como paciente, quiero recibir recordatorios automáticos de mis citas dentales para no olvidar mis compromisos y asistir puntualmente.</td>
@@ -798,7 +798,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Dado que una cita ha sido registrada con al menos 24h de anticipación<br>
         Cuando se acerque la fecha y hora de la cita<br>
         Entonces el sistema enviará un correo recordatorio al paciente.<br><br>
-
         <strong>Escenario 2: Envío de notificación interna</strong><br>
         Dado que el paciente ha iniciado sesión<br>
         Cuando tenga una cita próxima (24h antes)<br>
@@ -828,7 +827,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Dado que el asistente visualiza una cita futura<br>
         Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
         Entonces la información se actualizará correctamente en el sistema.<br><br>
-
         <strong>Escenario 2: Cita pasada no editable</strong><br>
         Dado que una cita ya ha pasado<br>
         Cuando el asistente intente editarla<br>
@@ -860,7 +858,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Dado que el asistente accede a la lista de citas<br>
         Cuando seleccione una cita futura y confirme la eliminación<br>
         Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
-
         <strong>Escenario 2: Intento de eliminar cita pasada</strong><br>
         Dado que la cita ya ocurrió<br>
         Cuando se intente eliminar<br>
@@ -895,12 +892,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
     Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
     Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
-
     <strong>Escenario 2: Error en el pago</strong><br>
     Dado que el paciente intenta pagar<br>
     Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
     Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
-
     <strong>Escenario 3: Ver historial de pagos</strong><br>
     Dado que el paciente ha realizado pagos anteriores<br>
     Cuando acceda a la sección de historial<br>
