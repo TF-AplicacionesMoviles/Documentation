@@ -740,6 +740,11 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 
 <div id='3.'><h2>CAPITULO III: REQUIREMENTS SPECIFICATIONS </h2></div>
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
+
+El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su consultorio de forma más eficiente con esta aplicación móvil. A partir del As-Is Scenario Mapping, que permitió identificar cómo trabajan actualmente y los problemas que enfrentan, se definió un escenario futuro optimizado. Esta comparación ayudó a detectar oportunidades de mejora en tareas como citas, pagos, historias clínicas e inventario, y a diseñar una solución centrada en sus necesidades, precisa y fácil de usar.
+
+<img src="Img/to-be-scenario-mapping.jpg" alt="To-Be Scenario Mapping" style="margin-bottom: 5px;" width="900"/>
+
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
 
 <table>
@@ -926,4 +931,3 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
 
 **Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
-
