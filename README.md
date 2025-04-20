@@ -626,6 +626,10 @@ Es una técnica de diseño centrado en el usuario que busca descubrir necesidade
 
 <div id='2.3.1.'><h4> 2.3.1. User Personas.</h4></div>
 
+**a. User Persona de un Dueño de Consultorio**
+
+<img src="Img/Carlos Hijar Santa Maria.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/> 
+
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix.</h4></div>
 
 A continuación, se presenta una matriz de tareas enfocada en el odontólogo independiente Carlos Hijar Santa María. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su práctica profesional.</br></br>
@@ -689,6 +693,8 @@ A continuación, se presenta una matriz de tareas enfocada en el odontólogo ind
 Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores. 
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
+
+<img src="Img/User-Journey-Mapping-1.png" alt="JS" style="margin-bottom: 5px;" width="700"/> 
 
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping.</h4></div>
 Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los usuarios que hemos escogido viendo desde una perspectiva más humana y emocional, en este caso para los odontólogos independientes.
@@ -784,11 +790,21 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   <td>Epic ?</td>
 </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
+      <td>US03</td>
+      <td>Recordatorio de citas</td>
+      <td>Como paciente, quiero recibir recordatorios automáticos de mis citas dentales para no olvidar mis compromisos y asistir puntualmente.</td>
+      <td>
+        <strong>Escenario 1: Envío automático de recordatorio por correo electrónico</strong><br>
+        Dado que una cita ha sido registrada con al menos 24h de anticipación<br>
+        Cuando se acerque la fecha y hora de la cita<br>
+        Entonces el sistema enviará un correo recordatorio al paciente.<br><br>
+
+        <strong>Escenario 2: Envío de notificación interna</strong><br>
+        Dado que el paciente ha iniciado sesión<br>
+        Cuando tenga una cita próxima (24h antes)<br>
+        Entonces el sistema mostrará una notificación en la plataforma.
+      </td>
+      <td>EPIC-CITAS</td>
     </tr>
     <tr>
   <td>US04</td>
@@ -803,12 +819,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
-    <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
+   <tr>
+      <td>US05</td>
+      <td>Editar cita</td>
+      <td>Como asistente, quiero poder editar la información de una cita ya registrada para corregir errores o adaptarla a cambios de disponibilidad.</td>
+      <td>
+        <strong>Escenario 1: Modificación exitosa de una cita</strong><br>
+        Dado que el asistente visualiza una cita futura<br>
+        Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+        Entonces la información se actualizará correctamente en el sistema.<br><br>
+
+        <strong>Escenario 2: Cita pasada no editable</strong><br>
+        Dado que una cita ya ha pasado<br>
+        Cuando el asistente intente editarla<br>
+        Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
+      </td>
+      <td>EPIC-CITAS</td>
     </tr>
     <tr>
   <td>US06</td>
@@ -826,11 +852,21 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   <td>Epic ?</td>
 </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
+      <td>US07</td>
+      <td>Eliminar cita</td>
+      <td>Como asistente, quiero eliminar una cita del sistema para evitar confusiones si un paciente cancela o reprograma.</td>
+      <td>
+        <strong>Escenario 1: Eliminación confirmada de cita futura</strong><br>
+        Dado que el asistente accede a la lista de citas<br>
+        Cuando seleccione una cita futura y confirme la eliminación<br>
+        Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
+
+        <strong>Escenario 2: Intento de eliminar cita pasada</strong><br>
+        Dado que la cita ya ocurrió<br>
+        Cuando se intente eliminar<br>
+        Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
+      </td>
+      <td>EPIC-CITAS</td>
     </tr>
   <tr>
   <td>US08</td>
@@ -851,12 +887,27 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   <td>Epic ?</td>
 </tr>
     <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US09</td>
+  <td>Pagar tratamiento</td>
+  <td>Como paciente, quiero pagar mi tratamiento desde la plataforma para mayor comodidad y rapidez en el proceso de atención.</td>
+  <td>
+    <strong>Escenario 1: Pago exitoso desde la plataforma</strong><br>
+    Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+    Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+    Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+
+    <strong>Escenario 2: Error en el pago</strong><br>
+    Dado que el paciente intenta pagar<br>
+    Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+    Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+
+    <strong>Escenario 3: Ver historial de pagos</strong><br>
+    Dado que el paciente ha realizado pagos anteriores<br>
+    Cuando acceda a la sección de historial<br>
+    Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
+  </td>
+  <td>EPIC-PAGOS</td>
+</tr>
   <tr>
   <td>US10</td>
   <td>Pagar tratamiento</td>
@@ -1180,3 +1231,4 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
 
 **Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
+
