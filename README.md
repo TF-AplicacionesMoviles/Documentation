@@ -113,25 +113,23 @@ Los integrantes son:
    4.1.2. [Context Mapping](#4.1.2.)  
    4.1.3. [Software Architecture](#4.1.3.)  
    4.1.3.1. [Software Architecture Context Level Diagrams](#4.1.3.1.)  
-   4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)
+   4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)<br>
    4.1.3.3. [Software Architecture Components Diagrams](#4.1.3.3.)
    4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)
 
    4.2. [Tactical-Level Domain-Driven Design](#4.2.)  
-    4.2.X. [Bounded Context: <Bounded Context Name>](#4.2.X.)  
-    4.2.X.1. [Domain Layer](#4.2.X.1.)  
-    4.2.X.2. [Interface Layer](#4.2.X.2.)  
-    4.2.X.3. [Application Layer](#4.2.X.3.)  
-    4.2.X.4. [Infrastructure Layer](#4.2.X.4.)  
-    4.2.X.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.X.5.)  
-    4.2.X.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.X.6.)  
-    4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
-    4.2.X.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
+    4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.X.)  
+    4.2.1.1. [Domain Layer](#4.2.X.1.)  
+    4.2.1.2. [Interface Layer](#4.2.X.2.)  
+    4.2.1.3. [Application Layer](#4.2.X.3.)  
+    4.2.1.4. [Infrastructure Layer](#4.2.X.4.)  
+    4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.X.5.)  
+    4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.X.6.)  
+    4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
+    4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
 
-8. [Referencias Bibliográficas.](#8.)<br>
-9. [Anexos.](#9.)<br>
-
-
+5. [Referencias Bibliográficas.](#8.)<br>
+6. [Anexos.](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -180,30 +178,6 @@ Relevante: Esta meta está alineada con mi visión de emprender y generar soluci
 Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
 
 - **Uribe Quispe, Jesús Guillermo:**
-  
-Objetivo SMART 1 – Especialización en tecnologías móviles
-  
-Específico: Mejorar mis habilidades en desarrollo web utilizando Angular.
-  
-Medible: Completar 3 proyectos pequeños y subirlos a GitHub.
-  
-Alcanzable: Dedicar 5 horas por semana al aprendizaje y desarrollo.
-  
-Relevante: Angular es un framework demandado en el mercado laboral.
-  
-Tiempo: En 2 meses.
-  
-Objetivo SMART 2 – Desarrollo de aplicaciones Backend
-  
-Específico: Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.
-
-Medible: API funcional con rutas protegidas, validación y base de datos.
-
-Alcanzable: Con tiempo semanal dedicado (4 horas).
-
-Relevante: Java es una tecnología muy usada en el stack moderno.
-
-Tiempo: 10 semanas.
 
 Objetivo SMART 1 – Especialización en tecnologías móviles
 
@@ -459,26 +433,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 - Nuestro mayor riesgo es que los dentistas se resistan cambiar a algo nuevo por mantener sus métodos tradicionales en la gestión de sus consultorios dentales.
 - Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
-- Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
-- Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
-- Los clientes principales son los odontólogos que administran sus propios consultorios, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
-- El valor #1 que un cliente quiere del servicio es su efectividad al momento de gestionar su consultorio dental con herramientas que mejoran su experiencia.
-- El cliente también puede obtener estos beneficios adicionales gracias a la venta de planes de suscripción con soporte continuo y especializado para su consultorio dental, brindando funcionalidades que le ayudarán a mejorar la organización de esta, como la función offline.
-- Vamos a adquirir la mayoría de los clientes mediante el uso del marketing digital y alianzas estratégicas con asociaciones de dentistas profesionales con el fin de ampliar nuestra red de contactos y aumentar la visibilidad de nuestra aplicación móvil.
-- Se hará dinero a través de las compras de suscripciones, los cuales le brindarán mayores comodidades para organizar su consultorio de manera eficiente.
-- Nuestra competencia principal en el mercado son las aplicaciones móviles que se encargan de gestionar consultorios dentales, pese a que no ofrezcan una integración completa o falta de intuición para los usuarios.
-- Los venceremos debido al uso de nuevas tecnologías con un enfoque en las constantes mejoras en la experiencia, tanto para los dentistas como para los pacientes, y soporte continuo.
-- Nuestro mayor riesgo es que los dentistas se resistan cambiar a algo nuevo por mantener sus métodos tradicionales en la gestión de sus consultorios dentales.
-- Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
-
 **Assumptions Worksheet**
-
-- **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
-- **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
-- **¿Qué problemas tiene nuestro producto? ¿Resolver?** El desafío que pueden tener algunos dentistas es la adopción de nuevas tecnologías. También puede existir resistencia por el uso de plataformas digitales para la gestión de la información.
-- **¿Cuándo y cómo es nuestro producto usado?** La aplicación móvil tiene un uso diario para la gestión de citas, revisión de historiales médicos y la facturación de los pagos.
-- **¿Qué características son importantes?** Las principales características son la accesibilidad en los distintos dispositivos móviles con la integración de sistemas de pagos y una interfaz amigable.
-- **¿Cómo debe verse nuestro producto y cómo comportarse?** Debe verse limpio, profesional e intuitivo, donde pueda reflejar la seriedad y confianza para el ámbito de salud. Además, la aplicación debe responder rápidamente las acciones del usuario con una navegación sencilla.
 
 - **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
 - **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
@@ -524,14 +479,11 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-
-| **Competidor**   |         **Descripción**                                                                                                                                 | **Características**                                                                                                                                       | **Logo** |
-|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| **iDentist**  | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>  |
-| **My Dental Clinic**                | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                 | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/> |
-| **Cusp Software Dental**           | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                    | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
-
-
+| **Competidor**           | **Descripción**                                                                                                                                                                                                            | **Características**                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Logo**                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **iDentist**             | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube                  | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>                         |
+| **My Dental Clinic**     | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                                                                           | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube    | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/>         |
+| **Cusp Software Dental** | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                                                      | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
 
 <div id='2.1.1.'><h4> 2.1.1 Análisis competitivo</h4></div>
 
@@ -672,10 +624,6 @@ Es una técnica de diseño centrado en el usuario que busca descubrir necesidade
 
 <div id='2.3.1.'><h4> 2.3.1. User Personas.</h4></div>
 
-**a. User Persona de un Dueño de Consultorio**
-
-<img src="Img/Carlos Hijar Santa Maria.png" alt="Imagen_User" style="margin-bottom: 5px;" width="800"/> 
-
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix.</h4></div>
 
 A continuación, se presenta una matriz de tareas enfocada en el odontólogo independiente Carlos Hijar Santa María. Esta herramienta permite identificar y clasificar las actividades clave que realiza en su día a día, considerando la frecuencia con la que las lleva a cabo y el nivel de importancia que representan dentro de su práctica profesional.</br></br>
@@ -740,8 +688,6 @@ Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca qu
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
 
-<img src="Img/User-Journey-Mapping-1.png" alt="JS" style="margin-bottom: 5px;" width="700"/> 
-
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping.</h4></div>
 Utilizaremos esta herramienta visual que nos ayudará a comprender mejor a los usuarios que hemos escogido viendo desde una perspectiva más humana y emocional, en este caso para los odontólogos independientes.
 
@@ -792,11 +738,6 @@ Programas formativos y cursos especializados orientados a que los profesionales 
 
 <div id='3.'><h2>CAPITULO III: REQUIREMENTS SPECIFICATIONS </h2></div>
 <div id='3.1.'><h3>3.1. To-Be Scenario Mapping</h3></div>
-
-El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su consultorio de forma más eficiente con esta aplicación móvil. A partir del As-Is Scenario Mapping, que permitió identificar cómo trabajan actualmente y los problemas que enfrentan, se definió un escenario futuro optimizado. Esta comparación ayudó a detectar oportunidades de mejora en tareas como citas, pagos, historias clínicas e inventario, y a diseñar una solución centrada en sus necesidades, precisa y fácil de usar.
-
-<img src="Img/to-be-scenario-mapping.jpg" alt="To-Be Scenario Mapping" style="margin-bottom: 5px;" width="900"/>
-
 <div id='3.2.'><h3>3.2. User Stories</h3></div>
 
 <table>
@@ -815,371 +756,80 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       <td>Registrar usuario</td>
       <td>Como personal del consultorio, quiero registrarme en la aplicación para acceder a los servicios.</td>
       <td>Escenario 1: Personal del consultorio se registra en la aplicación<br><br>
-    	Dado que el consultorio odontológico se ha registrado en la aplicación<br>
-    	Cuando esté en registro<br>
-    	Y complete los datos solicitados en el formulario de registro<br>
-    	Y seleccione el botón Registrarme<br>
-    	Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
+    Dado que el consultorio odontológico se ha registrado en la aplicación<br>
+    Cuando esté en registro<br>
+    Y complete los datos solicitados en el formulario de registro<br>
+    Y seleccione el botón Registrarme<br>
+    Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
       <td>Epic ?</td>
     </tr>
     <tr>
-  	<td>US02</td>
-  	<td>Iniciar sesión</td>
-  	<td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
-  	<td>
-    	Escenario 1: Personal del consultorio inicia sesión correctamente<br><br>
-    	Dado que el personal del consultorio ya se encuentra registrado en la aplicación<br>
-    	Cuando ingrese su correo y contraseña en el formulario de inicio de sesión<br>
-    	Y seleccione el botón Iniciar Sesión<br>
-    	Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
-  	</td>
-  <td>Epic ?</td>
-</tr>
-<tr>
-      <td>US03</td>
-      <td>Recordatorio de citas</td>
-      <td>Como paciente, quiero recibir recordatorios automáticos de mis citas dentales para no olvidar mis compromisos y asistir puntualmente.</td>
-      <td>
-        <strong>Escenario 1: Envío automático de recordatorio por correo electrónico</strong><br>
-        Dado que una cita ha sido registrada con al menos 24h de anticipación<br>
-        Cuando se acerque la fecha y hora de la cita<br>
-        Entonces el sistema enviará un correo recordatorio al paciente.<br><br>
-        <strong>Escenario 2: Envío de notificación interna</strong><br>
-        Dado que el paciente ha iniciado sesión<br>
-        Cuando tenga una cita próxima (24h antes)<br>
-        Entonces el sistema mostrará una notificación en la plataforma.
-      </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
-  <td>US04</td>
-  <td>Mostrar citas</td>
-  <td>Como personal del consultorio, quiero visualizar todas las citas registradas para poder gestionar los horarios de atención.</td>
-  <td>
-    Escenario 1: Visualización de citas registradas<br><br>
-    Dado que el personal del consultorio ha iniciado sesión<br>
-    Y accede a la sección de citas<br>
-    Cuando se cargue la pantalla de citas<br>
-    Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
-  </td>
-  <td>Epic ?</td>
-</tr>
-   <tr>
-      <td>US05</td>
-      <td>Editar cita</td>
-      <td>Como asistente, quiero poder editar la información de una cita ya registrada para corregir errores o adaptarla a cambios de disponibilidad.</td>
-      <td>
-        <strong>Escenario 1: Modificación exitosa de una cita</strong><br>
-        Dado que el asistente visualiza una cita futura<br>
-        Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
-        Entonces la información se actualizará correctamente en el sistema.<br><br>
-        <strong>Escenario 2: Cita pasada no editable</strong><br>
-        Dado que una cita ya ha pasado<br>
-        Cuando el asistente intente editarla<br>
-        Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
-      </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
-  <td>US06</td>
-  <td>Añadir citas</td>
-  <td>Como personal del consultorio, quiero registrar nuevas citas para poder agendar la atención de los pacientes.</td>
-  <td>
-    Escenario 1: Registro de una nueva cita<br><br>
-    Dado que el personal del consultorio ha iniciado sesión<br>
-    Y se encuentra en la sección de citas<br>
-    Cuando seleccione la opción para añadir nueva cita<br>
-    Y complete los campos requeridos como paciente, fecha y hora<br>
-    Y confirme el registro<br>
-    Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
-  </td>
-  <td>Epic ?</td>
-</tr>
-    <tr>
-      <td>US07</td>
-      <td>Eliminar cita</td>
-      <td>Como asistente, quiero eliminar una cita del sistema para evitar confusiones si un paciente cancela o reprograma.</td>
-      <td>
-        <strong>Escenario 1: Eliminación confirmada de cita futura</strong><br>
-        Dado que el asistente accede a la lista de citas<br>
-        Cuando seleccione una cita futura y confirme la eliminación<br>
-        Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
-        <strong>Escenario 2: Intento de eliminar cita pasada</strong><br>
-        Dado que la cita ya ocurrió<br>
-        Cuando se intente eliminar<br>
-        Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
-      </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-  <tr>
-  <td>US08</td>
-  <td>Buscar citas</td>
-  <td>Como personal del consultorio, quiero buscar citas por fecha o mediante filtros para localizar rápidamente una cita específica.</td>
-  <td>
-    Escenario 1: Búsqueda de cita por fecha<br><br>
-    Dado que el personal del consultorio se encuentra en la sección de citas<br>
-    Cuando ingrese una fecha en el campo de búsqueda<br>
-    Y seleccione el botón Buscar<br>
-    Entonces la aplicación mostrará las citas programadas para esa fecha.<br><br>
-    Escenario 2: Busqueda de citas por DNI<br><br>
-    Dado que el personal del consultorio se encuentra en la sección de citas<br>
-    Cuando ingrese el DNI de un paciente en el campo de busqueda<br>
-    Y seleccione el boton Buscar<br>
-    Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.
-  </td>
-  <td>Epic ?</td>
-</tr>
-    <tr>
-  <td>US09</td>
-  <td>Pagar tratamiento</td>
-  <td>Como paciente, quiero pagar mi tratamiento desde la plataforma para mayor comodidad y rapidez en el proceso de atención.</td>
-  <td>
-    <strong>Escenario 1: Pago exitoso desde la plataforma</strong><br>
-    Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
-    Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
-    Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
-    <strong>Escenario 2: Error en el pago</strong><br>
-    Dado que el paciente intenta pagar<br>
-    Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
-    Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
-    <strong>Escenario 3: Ver historial de pagos</strong><br>
-    Dado que el paciente ha realizado pagos anteriores<br>
-    Cuando acceda a la sección de historial<br>
-    Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
-  </td>
-  <td>EPIC-PAGOS</td>
-</tr>
-  <tr>
-  <td>US10</td>
-  <td>Pagar tratamiento</td>
-  <td>Como personal del consultorio, quiero registrar el pago de un tratamiento para generar la facturación correspondiente.</td>
-  <td>
-    Escenario 1: Registro de pago exitoso<br><br>
-    Dado que un paciente ha recibido un tratamiento<br>
-    Y el personal accede al módulo de pagos<br>
-    Cuando seleccione el tratamiento y registre el monto pagado<br>
-    Y presione el botón "Confirmar pago"<br>
-    Entonces el sistema generará la factura correspondiente actualizando el estado del tratamiento como pagado y generando una disminicion en los articulos medicos usados en la atencion.
-  </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
       <td>US0X</td>
       <td> - </td>
       <td> - </td>
       <td> - </td>
       <td>Epic ?</td>
     </tr>
-<tr>
-  <td>US12</td>
-  <td>Mostrar pacientes</td>
-  <td>Como personal del consultorio, quiero visualizar la lista de pacientes registrados para consultar y gestionar sus datos.</td>
-  <td>
-    Escenario 1: Visualización de pacientes registrados<br><br>
-    Dado que el personal ha iniciado sesión en la aplicación<br>
-    Y accede a la sección de pacientes<br>
-    Cuando se cargue la pantalla<br>
-    Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
-  </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
+    <tr>
       <td>US0X</td>
       <td> - </td>
       <td> - </td>
       <td> - </td>
       <td>Epic ?</td>
     </tr>
-<tr>
-  <td>US14</td>
-  <td>Editar paciente</td>
-  <td>Como personal del consultorio, quiero modificar los datos de un paciente para mantener su información actualizada.</td>
-  <td>
-    Escenario 1: Edición de datos exitosa<br><br>
-    Dado que el personal accede a la sección de pacientes<br>
-    Y selecciona a un paciente de la lista<br>
-    Cuando actualice los datos en el formulario<br>
-    Y presione el botón "Guardar cambios"<br>
-    Entonces el sistema actualizará la información del paciente correctamente.
-  </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
+    <tr>
       <td>US0X</td>
       <td> - </td>
       <td> - </td>
       <td> - </td>
       <td>Epic ?</td>
     </tr>
-<tr>
-  <td>US16</td>
-  <td>Buscar pacientes</td>
-  <td>Como personal del consultorio, quiero buscar pacientes por DNI para encontrarlos rápidamente en el sistema.</td>
-  <td>
-    Escenario 1: Búsqueda exitosa por DNI<br><br>
-    Dado que existen pacientes registrados<br>
-    Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>
-    Y seleccione el botón de buscar<br>
-    Entonces la aplicación mostrará al paciente correspondiente en los resultados.
-  </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
-  <td>US18</td>
-  <td>Eliminar historial clínico</td>
-  <td>Como personal del consultorio, quiero eliminar un historial clínico para mantener la información actualizada y precisa.</td>
-  <td>
-    Escenario 1: Eliminación de historial clínico<br><br>
-    Dado que el personal accede al historial clínico de un paciente<br>
-    Cuando seleccione la opción de eliminar historial<br>
-    Y confirme la acción<br>
-    Entonces la aplicación eliminará dicho historial y actualizará la vista.
-  </td>
-  <td>Epic ?</td>
-</tr>
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US20</td>
-  <td>Inventario</td>
-  <td>Como personal del consultorio, quiero acceder al inventario general para revisar la disponibilidad de materiales y equipos.</td>
-  <td>
-    Escenario 1: Visualización del inventario<br><br>
-    Dado que el personal se encuentra correctamente logueado en la apliacion.<br>
-    Cuando acceda al módulo de inventario<br>
-    Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
-  </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US22</td>
-  <td>Editar objeto de inventario</td>
-  <td>Como personal del consultorio, quiero modificar los datos de un objeto del inventario para reflejar información correcta y actualizada.</td>
-  <td>
-    Escenario 1: Modificación de objeto del inventario<br><br>
-    Dado que el personal accede a la sección de inventario<br>
-    Cuando seleccione un objeto de la lista<br>
-    Y actualice su información<br>
-    Y presione "Guardar cambios"<br>
-    Entonces la aplicación guardará la información modificada del objeto.
-  </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US24</td>
-  <td>Dashboard de inventario</td>
-  <td>Como personal del consultorio, quiero visualizar un resumen del inventario para tomar decisiones sobre abastecimiento.</td>
-  <td>
-    Escenario 1: Visualización del dashboard<br><br>
-    Dado que el personal accede a la seccion de inventario<br>
-    Cuando seleccione la opción de "Dashboard"<br>
-    Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
-  </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US26</td>
-  <td>Guardar ID de item</td>
-  <td>Como personal del consultorio, quiero que se guarde el identificador del objeto usado en un tratamiento para registrar el consumo exacto.</td>
-  <td>
-    Escenario 1: Registro del ID del ítem consumido<br><br>
-    Dado que se está realizando un registro de facturación<br>
-    Cuando se añadan ítems al tratamiento<br>
-    Entonces la aplicación almacenará automáticamente los IDs de los objetos seleccionados.
-  </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US28</td>
-  <td>Registrar cantidad consumida de ítems</td>
-  <td>Como personal del consultorio, quiero registrar la cantidad de objetos usados en cada tratamiento para llevar un control detallado de insumos.</td>
-  <td>
-    Escenario 1: Registro de consumo de objetos<br><br>
-    Dado que se realiza una facturación asociada a un tratamiento<br>
-    Cuando se especifique la cantidad utilizada de cada objeto<br>
-    Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.
-  </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
-</tr>
-
-<tr>
-  <td>US30</td>
-  <td>Perfil</td>
-  <td>Como personal del consultorio, quiero acceder y editar mi perfil para mantener mi información personal actualizada.</td>
-  <td>
-    Escenario 1: Visualización y edición del perfil<br><br>
-    Dado que el personal ha iniciado sesión<br>
-    Cuando acceda a la sección de perfil<br>
-    Entonces podrá visualizar su información registrada<br>
-    Y si edita sus datos y guarda los cambios<br>
-    Entonces la aplicación actualizará su perfil correctamente.
-  </td>
-  <td>Epic ?</td>
-</tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
+    <tr>
+      <td>US0X</td>
+      <td> - </td>
+      <td> - </td>
+      <td> - </td>
+      <td>Epic ?</td>
+    </tr>
   </tbody>
 </table>
 
 <div id='3.3.'><h3>3.3. Impact map</h3></div>
-
-<img src="Img/Impact-Map.png" width="800">
-
 <div id='3.4.'><h3>3.4. Product Backlog</h3></div>
 
 <div id='4.'><h2> CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
@@ -1198,7 +848,6 @@ Para facilitar la comprensión, la información se seccionará y presentará por
 - **Delimitaciones de color negro:** Secciona uno o más aggregates relacionados a un bounded context.
 - **Flechas punteadas:** indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
 
-
 <img src="Img/4-1-1aa.jpg" alt="Eventstorming"></img>
 
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
@@ -1213,7 +862,6 @@ Por ello, usamos dicha técnica para determinar los eventos clave de nuestros bo
 | **Atención (Citas, Pacientes, Historiales Clínicos)** | Crear, editar, eliminar o consultar citas de pacientes y sus historiales clínicos                                         | Operaciones CRUD de citas, pacientes, historiales clínicos                    |
 | **Inventario (Objetos)**                              | Gestionar objetos: añadir, editar o eliminar insumos clínicos. Registrar uso de insumos por cita y hacer ajustes de stock | objeto añadido, objeto editado, objeto eliminado, objeto consumido registrado |
 | **Facturación**                                       | Registrar que una cita fue pagada y actualiza los objetos del inventario dependiendo del uso de los insumos               | pago realizado                                                                |
-
 
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
 
@@ -1716,4 +1364,3 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
 
 **Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
-
