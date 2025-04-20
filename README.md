@@ -105,28 +105,28 @@ Los integrantes son:
    3.3. [Impact Mapping.](#3.3.)<br>
    3.4. [Product Backlog.](#3.4.)<br>
 4. [**Capítulo IV: Solution Software Design.**](#4)<br>
-   4.1. [Strategic-Level Domain-Driven Design](#4.1.)  
-   4.1.1. [EventStorming](#4.1.1.)  
-   4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)  
-   4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.)  
-   4.1.1.3. [Bounded Context Canvases](#4.1.1.3.)  
-   4.1.2. [Context Mapping](#4.1.2.)  
-   4.1.3. [Software Architecture](#4.1.3.)  
-   4.1.3.1. [Software Architecture Context Level Diagrams](#4.1.3.1.)  
+   4.1. [Strategic-Level Domain-Driven Design](#4.1.)<br>  
+   4.1.1. [EventStorming](#4.1.1.) <br>
+   4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)<br>  
+   4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.) <br>
+   4.1.1.3. [Bounded Context Canvases](#4.1.1.3.) <br>
+   4.1.2. [Context Mapping](#4.1.2.) <br>
+   4.1.3. [Software Architecture](#4.1.3.) <br>
+   4.1.3.1. [Software Architecture Context Level Diagrams](#4.1.3.1.)<br>  
    4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)<br>
-   4.1.3.3. [Software Architecture Components Diagrams](#4.1.3.3.)
-   4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)
+   4.1.3.3. [Software Architecture Components Diagrams](#4.1.3.3.)<br>
+   4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)<br>
 
-   4.2. [Tactical-Level Domain-Driven Design](#4.2.)  
-    4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.X.)  
-    4.2.1.1. [Domain Layer](#4.2.X.1.)  
-    4.2.1.2. [Interface Layer](#4.2.X.2.)  
-    4.2.1.3. [Application Layer](#4.2.X.3.)  
-    4.2.1.4. [Infrastructure Layer](#4.2.X.4.)  
-    4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.X.5.)  
-    4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.X.6.)  
-    4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
-    4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
+   4.2. [Tactical-Level Domain-Driven Design](#4.2.) <br>
+   4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.X.)<br>  
+    4.2.1.1. [Domain Layer](#4.2.X.1.) <br>
+   4.2.1.2. [Interface Layer](#4.2.X.2.) <br>
+   4.2.1.3. [Application Layer](#4.2.X.3.) <br>
+   4.2.1.4. [Infrastructure Layer](#4.2.X.4.) <br>
+   4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.X.5.) <br>
+   4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.X.6.) <br>
+   4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.) <br>
+   4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)<br>
 
 5. [Referencias Bibliográficas.](#8.)<br>
 6. [Anexos.](#9.)<br>
@@ -275,9 +275,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
     </tr>
     <tr align="center">
         <td rowspan="3">
-
             <img src="Img/Anthony.jpg" alt="Huapaya Cuevas, Anthony" style="margin-bottom: 5px;" width="800"/>
-
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -1283,6 +1281,7 @@ a continuación detallaremos las capas del Bounded Context referenciado.
 <div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
 Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design (DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
+
 <div align="center">
 <img src="Img/IAM-component.png" alt="class-diagram">
 </div>
