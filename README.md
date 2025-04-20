@@ -113,8 +113,9 @@ Los integrantes son:
    4.1.2. [Context Mapping](#4.1.2.)  
    4.1.3. [Software Architecture](#4.1.3.)  
    4.1.3.1. [Software Architecture Context Level Diagrams](#4.1.3.1.)  
-   4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)  
-   4.1.3.3. [Software Architecture Deployment Diagrams](#4.1.3.3.)
+   4.1.3.2. [Software Architecture Container Level Diagrams](#4.1.3.2.)
+   4.1.3.3. [Software Architecture Components Diagrams](#4.1.3.3.)
+   4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)
 
    4.2. [Tactical-Level Domain-Driven Design](#4.2.)  
     4.2.X. [Bounded Context: <Bounded Context Name>](#4.2.X.)  
@@ -127,9 +128,8 @@ Los integrantes son:
     4.2.X.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.X.6.1.)  
     4.2.X.6.2. [Bounded Context Database Design Diagram](#4.2.X.6.2.)
 
-8. [Referencias Bibliográficas.](#8.)<br>
-9. [Anexos.](#9.)<br>
-
+5. [Referencias Bibliográficas.](#8.)<br>
+6. [Anexos.](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -178,21 +178,21 @@ Relevante: Esta meta está alineada con mi visión de emprender y generar soluci
 Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
 
 - **Uribe Quispe, Jesús Guillermo:**
-  
+
 Objetivo SMART 1 – Especialización en tecnologías móviles
-  
+
 Específico: Mejorar mis habilidades en desarrollo web utilizando Angular.
-  
+
 Medible: Completar 3 proyectos pequeños y subirlos a GitHub.
-  
+
 Alcanzable: Dedicar 5 horas por semana al aprendizaje y desarrollo.
-  
+
 Relevante: Angular es un framework demandado en el mercado laboral.
-  
+
 Tiempo: En 2 meses.
-  
+
 Objetivo SMART 2 – Desarrollo de aplicaciones Backend
-  
+
 Específico: Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.
 
 Medible: API funcional con rutas protegidas, validación y base de datos.
@@ -345,10 +345,10 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
         <b>Acerca de:</b>
         <br>
         Soy estudiante de Ingenieria de Software en la UPC y actualmente estoy en el 6to ciclo. Elegí esta carrera porque me interesó el campo del software y la matemáticas. Me comprometo a
-		ayudar a mis compañeros con el trabajo asi como también fuera de este.
+    	ayudar a mis compañeros con el trabajo asi como también fuera de este.
         </td>
     </tr>
-	 
+
 </table>
 <div id='1.2.'><h3> 1.2. Solution Profile</h3></div>
 <div id='1.2.1.'><h4> 1.2.1. Antecedentes y Problemática</h4></div>
@@ -370,13 +370,11 @@ No obstante los avances tecnológicos, muchas clínicas dentales, especialmente 
 
 El problema es la ineficiencia y gestión de consultorios o clínicas dentales independientes , lo que se traduce en errores en la programación de citas, pérdida de historiales médicos, posibles pérdidas de boletas y facturas, así como también una mala experiencia para los pacientes debido a la demora de sus atenciones y funciones de dicha clínica.
 
-
 **WHEN (Cuándo): ¿Cuándo sucede el problema?**
 
 El problema ocurre durante todo el proceso de atención al paciente, desde la programación de la cita hasta el seguimiento post-tratamiento. Es más evidente en momentos de alta demanda o cuando se manejan múltiples pacientes simultáneamente.
 
 **WHERE (Dónde): ¿Dónde surge el problema?**
-
 
 El problema surge dentro de los consultorios dentales, especialmente de aquellos que aún dependen de métodos manuales para manejar y gestionar los datos sobre las operaciones cotidianas, dando como posibles problemas la pérdida de datos importantes.
 
@@ -388,11 +386,9 @@ El problema afecta tanto a los dentistas y el personal administrativo que en gen
 
 La principal causa radica en la baja adopción de tecnologías digitales eficaces para gestionar pacientes. Esto se debe, en gran parte, a la percepción de que estas soluciones son costosas, a la falta de capacitación en su uso y a la resistencia al cambio que muestran algunos profesionales de la salud.
 
-
 **HOW (Cómo): ¿Cómo llevó a los involucrados a llegar a esta situación?**
 
 La dependencia de métodos tradicionales, sumada a la escasa inversión en tecnología y a la falta de capacitación continua, ha generado que muchos consultorios no estén preparados para responder eficientemente a las demandas actuales, lo que se traduce en un servicio por debajo del nivel esperado.
-
 
 **HOW MUCH (Cuánto): ¿Cuánto afecta el problema?**
 
@@ -412,6 +408,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 <div id='1.2.2.2.'><h5> 1.2.2.2. Lean UX Assumptions</h5></div>
 
 **Business Assumptions**
+
 - Creemos que nuestros clientes necesitan una mejor aplicación con respecto a la gestión de citas, historial clínico y los pagos en línea.
 - Estas necesidades se pueden resolver mediante el uso de una aplicación móvil que logre integrar la gestión de pacientes, registro de los historiales clínicos, reserva de las citas y la comprobación del pago realizado.
 - Los clientes principales son los odontólogos que administran sus propios consultorios, quiénes buscan brindar un servicio eficiente y cómodo para sus pacientes.
@@ -437,6 +434,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 - Resolveremos esto a través de las demostraciones del software y el enfoque con respecto al soporte al cliente con el fin de ayudar para su rápida adaptación a la aplicación.
 
 **Assumptions Worksheet**
+
 - **¿Quién es el usuario?** Los usuarios son los dentistas con su propio consultorios, quienes buscan una aplicación que pueda gestionar de manera eficiente sus consultorios y a su vez ser moderno.
 - **¿Dónde encaja nuestro producto en su trabajo o vida?** Nuestra aplicación móvil se integra a la vida cotidiana de los dentistas, facilitando las gestiones de citas, historiales médicos y los pagos. También implementando una función offline en caso de que no necesite estar conectado todo el tiempo a la red.
 - **¿Qué problemas tiene nuestro producto? ¿Resolver?** El desafío que pueden tener algunos dentistas es la adopción de nuevas tecnologías. También puede existir resistencia por el uso de plataformas digitales para la gestión de la información.
@@ -481,29 +479,26 @@ En esta sección, definiremos los perfiles específicos del público objetivo pa
 
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-
-| **Competidor**   |         **Descripción**                                                                                                                                 | **Características**                                                                                                                                       | **Logo** |
-|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| **iDentist**  | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>  |
-| **My Dental Clinic**                | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                 | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/> |
-| **Cusp Software Dental**           | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                    | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
-
+| **Competidor**           | **Descripción**                                                                                                                                                                                                            | **Características**                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Logo**                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **iDentist**             | iDentist es una aplicación móvil para clínicas dentales que facilita la gestión de pacientes, pagos, historias clínicas, imágenes dentales y tratamientos. Además, ofrece automatización de recordatorio de citas por SMS. | - Administración de pacientes <br> - Gestión de historias clínicas <br> - Gestión de citas <br> - Seguimiento de planes de tratamiento <br> - Diagnósticos <br> - Registros dentales <br> - Control contable de ingresos y gastos <br> - Almacenamiento de imágenes <br> - Modo offline <br> - Recordatorios automatizados de citas por SMS <br> - Interfaz intuitiva <br> - Modo oscuro <br> - Compatibilidad con Android, iOS y Windows <br> - Funcionalidad basada en la nube                  | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>                         |
+| **My Dental Clinic**     | My Dental Clinic es una aplicación móvil para consultorios dentales que optimiza la gestión de consultorios dentales con herramientas avanzadas.                                                                           | - Gestión de pacientes <br> - Gestión de historial clínico <br> - Conversión de la ficha clínica a PDF <br> - Gráficos dentales <br> - Notas dentales <br> - Gestión de citas <br> - Almacenamiento de imágenes dentales <br> - Gestión de pagos <br> - Contacto con el paciente por SMS <br> - Sincronización de citas con el calendario del celular <br> - Modo offline <br> - Capacidad para hacer zoom en las imágenes dentales <br> - Funcionalidad multi-idioma <br> - Basada en la nube    | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/>         |
+| **Cusp Software Dental** | Cusp Software Dental es una aplicación móvil diseñada para ayudar a gestionar clínicas dentales con herramientas tecnológicas que ayudan a monitorear el tratamiento.                                                      | - Gestión de pacientes <br> - Gestión de citas <br> - Sistema de recordatorio para programar una cita <br> - Recordatorio de citas por SMS <br> - Gestión de historias clínicas <br> - Gestión de pagos <br> - Odontogramas <br> - Gráficos para registrar información <br> - Herramientas de contabilidad <br> - Seguimiento de tratamiento <br> - Calendario <br> - Sincronización de datos con otros dispositivos <br> - Contacto con pacientes por SMS <br> - Funcionalidad basada en la nube | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
 
 <div id='2.1.1.'><h4> 2.1.1 Análisis competitivo</h4></div>
 
-| **Competidor**                     |  <img src="Img/Dentify-logo.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/>                                                                        | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>                                                                                          | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/>                                                                             |  <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/>                                                                                 |
-|------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Perfil Overview**                |App móvil para dentistas que facilita citas, pagos y seguimiento de pacientes en tiempo real.       | App móvil para clínicas dentales con enfoque en automatización desde dispositivos móviles.       | App móvil que digitaliza procesos clínicos y administrativos de forma simple.                    | App móvil con herramientas digitales enfocadas en tratamiento y contabilidad para clínicas dentales.     |
-| **Ventaja competitiva**            | Gestión total del consultorio desde el móvil, con notificaciones push e interfaz optimizada para smartphones.                        | Multiplataforma (iOS, Android, Windows), modo offline, control de ingresos y gastos.             | Facilidad de uso, integración con calendario y soporte multilenguaje.                            | Buen balance entre funciones clínicas y contables, acceso en múltiples dispositivos.                      |
-| **Mercado objetivo**              | Clínicas pequeñas y medianas en zonas urbanas del Perú.                                     | Clínicas modernas que trabajan desde dispositivos móviles.                                        | Consultorios que quieren digitalizar sin complicaciones técnicas.                               | Clínicas que quieren seguimiento visual y contable de tratamientos.                                      |
-| **Estrategia de marketing**        | Presencia digital, publicidad en redes, alianzas con gremios dentales.                      | App Store, Play Store, redes sociales, enfoque en movilidad y facilidad.                         | Enfocada en App Stores, recomendaciones y facilidad de uso.                                     | Uso de redes sociales, beneficios de digitalización rápida y clara.                                       |
-| **Productos & Servicios**          | Citas, historial, pagos, métricas, backup, dashboard, recordatorios, soporte técnico.       | Citas, pacientes, diagnósticos, pagos, imágenes, gastos, recordatorios SMS, modo oscuro.         | Citas, historial, notas dentales, gráficos dentales, imágenes, PDF, pagos.                      | Citas, pacientes, pagos, odontogramas, contabilidad, gráficos, historial, recordatorios SMS.             |
-| **Precios & Costos**              | Precio accesible mensual con prueba gratuita.                                               | Plan de pago mensual/anual (varía según plataforma).                                               | Costos bajos, con versiones gratuitas limitadas y planes premium.                              | Plan de pago mensual con acceso completo desde el inicio.                                                |
-| **Canales de distribución**        | Móvil                                                                                         | Móvil                                                                     | Móvil                                                                                             | Móvil                                                                                                     |
-| **Debilidades**                    | Nuevo en el mercado, falta de confianza inicial.                                             | Puede no cubrir necesidades avanzadas de grandes clínicas.                                        | Limitado a móviles, poco robusto para clínicas grandes.                                          | Falta de personalización en algunos módulos, riesgo de estancamiento.                                    |
-| **Oportunidades**                  | Alta demanda de digitalización en clínicas del Perú.                                         | Aumento de uso de móviles en el rubro médico.                                                     | Gran adopción de móviles en regiones con bajo acceso a PCs.                                    | Interés en herramientas visuales y simples para contabilidad.                                             |
-| **Fortalezas**                     | Solución local con soporte completo, adaptable y segura.                                    | Automatización, compatibilidad, almacenamiento en la nube.                                        | Facilidad, conexión con calendario, interfaz amigable.                                           | Funciones clínicas novedosas, sincronización entre dispositivos.                                       |
-
+| **Competidor**              | <img src="Img/Dentify-logo.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/>     | <img src="Img/identist.png" alt="Logo iDentist" style="margin-bottom: 5px;" width="800"/>  | <img src="Img/my-dental-clinic.png" alt="Logo My Dental Clinic" style="margin-bottom: 5px;" width="800"/> | <img src="Img/cusp-software-dental.png" alt="Logo Cusp Software Dental" style="margin-bottom: 5px;" width="800"/> |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Perfil Overview**         | App móvil para dentistas que facilita citas, pagos y seguimiento de pacientes en tiempo real.                 | App móvil para clínicas dentales con enfoque en automatización desde dispositivos móviles. | App móvil que digitaliza procesos clínicos y administrativos de forma simple.                             | App móvil con herramientas digitales enfocadas en tratamiento y contabilidad para clínicas dentales.              |
+| **Ventaja competitiva**     | Gestión total del consultorio desde el móvil, con notificaciones push e interfaz optimizada para smartphones. | Multiplataforma (iOS, Android, Windows), modo offline, control de ingresos y gastos.       | Facilidad de uso, integración con calendario y soporte multilenguaje.                                     | Buen balance entre funciones clínicas y contables, acceso en múltiples dispositivos.                              |
+| **Mercado objetivo**        | Clínicas pequeñas y medianas en zonas urbanas del Perú.                                                       | Clínicas modernas que trabajan desde dispositivos móviles.                                 | Consultorios que quieren digitalizar sin complicaciones técnicas.                                         | Clínicas que quieren seguimiento visual y contable de tratamientos.                                               |
+| **Estrategia de marketing** | Presencia digital, publicidad en redes, alianzas con gremios dentales.                                        | App Store, Play Store, redes sociales, enfoque en movilidad y facilidad.                   | Enfocada en App Stores, recomendaciones y facilidad de uso.                                               | Uso de redes sociales, beneficios de digitalización rápida y clara.                                               |
+| **Productos & Servicios**   | Citas, historial, pagos, métricas, backup, dashboard, recordatorios, soporte técnico.                         | Citas, pacientes, diagnósticos, pagos, imágenes, gastos, recordatorios SMS, modo oscuro.   | Citas, historial, notas dentales, gráficos dentales, imágenes, PDF, pagos.                                | Citas, pacientes, pagos, odontogramas, contabilidad, gráficos, historial, recordatorios SMS.                      |
+| **Precios & Costos**        | Precio accesible mensual con prueba gratuita.                                                                 | Plan de pago mensual/anual (varía según plataforma).                                       | Costos bajos, con versiones gratuitas limitadas y planes premium.                                         | Plan de pago mensual con acceso completo desde el inicio.                                                         |
+| **Canales de distribución** | Móvil                                                                                                         | Móvil                                                                                      | Móvil                                                                                                     | Móvil                                                                                                             |
+| **Debilidades**             | Nuevo en el mercado, falta de confianza inicial.                                                              | Puede no cubrir necesidades avanzadas de grandes clínicas.                                 | Limitado a móviles, poco robusto para clínicas grandes.                                                   | Falta de personalización en algunos módulos, riesgo de estancamiento.                                             |
+| **Oportunidades**           | Alta demanda de digitalización en clínicas del Perú.                                                          | Aumento de uso de móviles en el rubro médico.                                              | Gran adopción de móviles en regiones con bajo acceso a PCs.                                               | Interés en herramientas visuales y simples para contabilidad.                                                     |
+| **Fortalezas**              | Solución local con soporte completo, adaptable y segura.                                                      | Automatización, compatibilidad, almacenamiento en la nube.                                 | Facilidad, conexión con calendario, interfaz amigable.                                                    | Funciones clínicas novedosas, sincronización entre dispositivos.                                                  |
 
 <div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
@@ -520,6 +515,7 @@ Esta sección recopila la información obtenida a partir de entrevistas realizad
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas.</h4></div>
 
 **Preguntas para los odontólogos independientes**
+
 1. ¿Cuál es tu nombre?
 2. ¿Qué edad tienes?
 3. ¿A qué te dedicas actualmente?
@@ -688,7 +684,7 @@ A continuación, se presenta una matriz de tareas enfocada en el odontólogo ind
 </table>
 
 </br>
-Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores. 
+Del análisis de la matriz de tareas de Carlos Hijar Santa María, se destaca que las actividades más frecuentes y de mayor importancia están relacionadas directamente con la atención al paciente y la gestión financiera: agendar citas, hacer seguimiento de tratamientos, revisar ingresos y comunicarse con los pacientes. Estas tareas son claves en su rutina diaria y representan puntos críticos que una solución digital debe priorizar. Asimismo, aunque tareas como recordar tratamientos periódicos, revisar insumos y equipos, y revisar estado general del consultorio no se realizan con tanta frecuencia, sí tienen un nivel de importancia alto, lo que indica oportunidades para automatización o recordatorios que aumenten la eficiencia y reduzcan errores.
 
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping.</h4></div>
 
@@ -852,7 +848,7 @@ Para facilitar la comprensión, la información se seccionará y presentará por
 - **Delimitaciones de color negro:** Secciona uno o más aggregates relacionados a un bounded context.
 - **Flechas punteadas:** indicadores de comandos que generan eventos en distintos aggregates o bounded contexts.
 
-<img src="Img/4-1-1d.jpg" alt="IAM"></img>
+<img src="Img/4-1-1aa.jpg" alt="Eventstorming"></img>
 
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
 
@@ -860,15 +856,12 @@ La técnica Start-With-Value es un enfoque dentro del diseño centrado en el usu
 
 Por ello, usamos dicha técnica para determinar los eventos clave de nuestros bounded contexts y el valor esperado por el usuario final.
 
-| Bounded Context          | Valor esperado por el usuario                                 | Eventos clave                                                  |
-| ------------------------ | ------------------------------------------------------------- | -------------------------------------------------------------- |
-| **IAM (Accesos)**        | Registrarse, iniciar sesión y navegar por la aplicación       | usuario registrado, usuario iniciado, dirigir a inicio         |
-| **Citas**                | Crear, editar, eliminar o consultar citas de pacientes        | cita añadida, cita editada, cita eliminada, cita pagada        |
-| **Pacientes**            | Agregar, editar, eliminar o buscar pacientes                  | paciente añadido, paciente editado, eliminar paciente          |
-| **Historial Clínico**    | Consultar o añadir historial clínico del paciente             | historial clínico añadido, historial clínico eliminado         |
-| **Inventario (Objetos)** | Gestionar objetos: añadir, editar o eliminar insumos clínicos | objeto añadido, objeto editado, objeto eliminado               |
-| **Registro de Consumo**  | Registrar el uso de insumos por cita o hacer ajustes de stock | fecha de ajuste guardada, item reabastecido, función ejecutada |
-| **Facturación**          | Registrar que una cita fue pagada                             | pago realizado                                                 |
+| Bounded Context                                       | Valor esperado por el usuario                                                                                             | Eventos clave                                                                 |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **IAM (Accesos)**                                     | Registrarse, iniciar sesión y navegar por la aplicación                                                                   | usuario registrado, usuario iniciado, dirigir a inicio                        |
+| **Atención (Citas, Pacientes, Historiales Clínicos)** | Crear, editar, eliminar o consultar citas de pacientes y sus historiales clínicos                                         | Operaciones CRUD de citas, pacientes, historiales clínicos                    |
+| **Inventario (Objetos)**                              | Gestionar objetos: añadir, editar o eliminar insumos clínicos. Registrar uso de insumos por cita y hacer ajustes de stock | objeto añadido, objeto editado, objeto eliminado, objeto consumido registrado |
+| **Facturación**                                       | Registrar que una cita fue pagada y actualiza los objetos del inventario dependiendo del uso de los insumos               | pago realizado                                                                |
 
 <div id='4.1.1.2.'><h5>4.1.1.2. Domain Message Flows Modeling</h5></div>
 
@@ -880,37 +873,481 @@ Por ello, hemos hecho los domain storytelling en referencia a las conexiones ent
 
 **Objetivo:** Un usuario quiere registrar una atención odontológica completa, desde la creación del paciente hasta el pago y uso de insumos.
 
-<img src="Img/4-1-1-2a.jpg" alt="Storytelling"/>
+<img src="Img/4-1-1-2a.jpg" alt="Esc-1"/>
 
 ##### Escenario 2: Control y reposición de stock
 
 **Objetivo:** El usuario desea mantener actualizado el inventario y registrar los consumos durante la atención.
 
-<img src="Img/4-1-1-2b.jpg" alt="Storytelling"/>
+<img src="Img/4-1-1-2b.jpg" alt="Esc-2"/>
 
 ##### Escenario 3: Gestión y trazabilidad financiera
 
 **Objetivo:** Registrar pagos y relacionarlos con citas y pacientes.
 
-<img src="Img/4-1-1-2c.jpg" alt="Storytelling"/>
+<img src="Img/4-1-1-2c.jpg" alt="Esc-3"/>
 
 <div id='4.1.1.3.'><h5>4.1.1.3. Bounded Context Canvases</h5></div>
+
+El Bounded Context Canvas es una herramienta visual utilizada en talleres de Diseño Dirigido por el Dominio (DDD) para definir y documentar explícitamente los límites y las relaciones de diferentes Contextos Delimitados dentro de un sistema más grande.
+<br>Ayuda a los equipos a lograr una comprensión compartida de el nombre y el propósito de cada contexto delimitado, las entidades y agregados que que posee el contexto y las politicas de negocio que poseen.
+
+a continuación determinaremos y realizaremos los Bounded Context Canvases de nuestros 3 contextos delimitados:
+
+## IAM:
+
+<img src="Img/4-1-1-3b.jpg" alt="IAM"/>
+
+## INVENTARIO:
+
+<img src="Img/4-1-1-3a.jpg" alt="Inventory"/>
+
+## ATENCIÓN:
+
+<img src="Img/4-1-1-3c.jpg" alt="Appointments"/>
+
+## FACTURACIÓN:
+
+<img src="Img/4-1-1-3d.jpg" alt="Billing"/>
+
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
+
+Este Context Map representa la interacción entre los distintos Bounded Contexts del sistema de gestión clínica. Se aplican patrones de comunicación del enfoque de Domain-Driven Design (DDD), como relaciones Upstream/Downstream, ACLs, y Conformist.
+
+<img src="Img/4-1-2.jpg" alt="Context-Map"/>
+
+#### Bounded Contexts
+
+**1. Gestión Clínica:**
+Responsable de manejar la información de pacientes, citas, tratamientos, entre otros.
+
+_Downstream de:_
+
+- IAM (Autenticación): consume servicios de autenticación e identidad.
+
+- Facturación: envía información vía una API protegida mediante un ACL.
+
+Relación Conformist con IAM: adopta el modelo de usuario tal como lo provee IAM.
+
+**2. Facturación:**
+Maneja la generación de facturas, pagos, precios de servicios, etc.
+
+_Upstream de:_
+
+- Gestión Clínica (protegido por ACL).
+
+- Inventario: notifica sobre consumo de insumos.
+
+_Downstream de:_
+
+- IAM (para identificación de usuarios).
+
+- Relación Conformist con IAM.
+
+**3. Inventario:**
+Controla el stock de insumos, entradas/salidas y disponibilidad de materiales.
+
+_Downstream de:_
+
+- Facturación (posible consumo por actos clínicos).
+
+- IAM (para auditoría o trazabilidad de operaciones).
+
+Relación Conformist con IAM.
+
+**4. Autenticación IAM:**
+Servicio centralizado de autenticación y gestión de usuarios.
+
+Upstream de todos los demás contextos.
+
+No depende de ningún otro contexto (altamente reutilizable).
+
+Cada consumidor adopta su modelo de usuario directamente (Conformist).
+
+**Anti-Corruption Layer (ACL)**
+
+Implementado entre Gestión Clínica y Facturación. Este componente evita el acoplamiento directo de los modelos, traduciendo los datos que se intercambian.
+
+Asegura que los cambios internos en Gestión Clínica no afecten la lógica de Facturación.
+
+**Patrones de Integración:**
+
+- Conformist: presente en todos los contextos que consumen IAM. Se asume que los modelos de usuario/rol provistos por IAM son aceptados sin modificación.
+  <br>
+- ACL: cuando es necesario proteger la autonomía de modelos y evitar acoplamiento fuerte (como entre Gestión Clínica y Facturación).<br><br>
+
+- API Directa: usada entre contextos con comunicación sincrónica, como en el caso de Facturación y Gestión Clínica.<br>
+
+**Flujos de Dependencia (U/D):**
+
+Las relaciones Upstream (U) y Downstream (D) están definidas para representar qué contexto expone su modelo y cuál lo consume.
+
+- IAM está en el centro como proveedor universal de identidad.
+
+- Facturación actúa como proveedor de información tanto para Inventario como para Gestión Clínica.
+
+- Gestión Clínica provee datos a Facturación, pero de forma controlada mediante un ACL.
+
 <div id='4.1.3.'><h4>4.1.3. Software Architecture</h4></div>
 <div id='4.1.3.1.'><h5>4.1.3.1. Software Architecture Context Level Diagrams</h5></div>
+
+En nuestro diagrama de contexto se puede visualizar a nuestro Actor, que representa a nuestro segmento objetivo.
+
+Dentify es una plataforma de gestión clínica odontológica que centraliza la administración de citas, pacientes, facturación, inventario e identidad de usuarios, accedida por el personal clínico desde la aplicación móvil.
+
+<div align="center">
+<img src="img/ContextDiagram.png" alt="Context-Diagram">
+</div>
+
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Container Level Diagrams</h5></div>
-<div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Deployment Diagrams</h5></div>
+
+El diagrama de contenedores de Dentify representa los principales componentes del sistema y cómo interactúan entre sí. Este nivel de abstracción permite visualizar cómo se organiza la aplicación en distintos contenedores (como aplicaciones web, móviles, backend y base de datos), mostrando tanto la tecnología empleada como las relaciones entre ellos. El objetivo es ofrecer una visión clara de la arquitectura técnica y de las responsabilidades de cada parte del sistema desde una perspectiva de alto nivel.<br><br>
+
+<div align="center">
+<img src="img/ContainerDiagram.png" alt="Container-Diagram">
+</div>
+
+##### Dentify - Containers Overview:
+
+| Container        | Propósito                                                             | Tecnología         | Interacciones clave                                                                                    |
+| ---------------- | --------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
+| **Landing Page** | Proporciona información general sobre la app móvil                    | React.js           | - Los usuarios la visitan para conocer la app <br> - Redirige a los usuarios a la aplicación móvil     |
+| **Mobile App**   | Ofrece experiencia nativa para odontólogos en Android e iOS           | Kotlin & Flutter   | - Los usuarios acceden directamente o desde la landing page <br> - Se comunica con el backend por HTTP |
+| **API Backend**  | Implementa lógica de negocio y servicios vía API REST                 | Java y Spring MVC  | - Recibe solicitudes de la app móvil <br> - Lee y escribe datos en la base de datos                    |
+| **Database**     | Almacena datos personales, citas, pacientes, facturación e inventario | MySQL (relacional) | - Gestiona consultas y actualizaciones desde el backend                                                |
+
+<div id='4.1.3.3.'><h5>4.1.3.3. Software Architecture Components Diagrams</h5></div>
+
+Los diagramas de componentes de arquitectura de software son representaciones visuales que muestran cómo se organiza un sistema de software en términos de sus componentes o módulos. Estos diagramas son esenciales para comprender la estructura interna de un sistema y cómo interactúan los diferentes componentes entre sí.
+
+##### Diagrama de componentes de la API de Dentify:
+
+En esta presente imagen se detalla la descripción y funcionalidad de los componentes clave dentro de la arquitectura del sistema Dentify, un software que permite a los dentistas gestionar su clínica. Los componentes son partes fundamentales de la solución, y cada uno juega un papel crucial en el sistema global.
+
+---
+
+<div align="center">
+<img src="img/ComponentDiagram.png" alt="Component-Diagram">
+</div>
+
+---
+
+#### 1. **BillingService (Servicio de Facturación)**
+
+- **Descripción**: Este componente maneja todo lo relacionado con la facturación dentro del sistema. Procesa las facturas generadas en función de los servicios prestados en la clínica dental.
+- **Responsabilidades**:
+  - Procesar las facturas generadas por los tratamientos y servicios realizados.
+  - Actualizar el stock de productos en el inventario luego de que se registre una factura.
+  - Escribir los datos de la factura en la base de datos.
+- **Interacciones**:
+  - Interactúa con el **InventoryService** para actualizar el stock después de generar una factura.
+  - Comunica los datos a la **Database** para almacenamiento de la información.
+  - Registra las acciones de consumo en el **LogInventoryService**.
+
+---
+
+#### 2. **InventoryService (Servicio de Inventario)**
+
+- **Descripción**: Este componente administra el inventario de la clínica dental, controlando los productos y su disponibilidad.
+- **Responsabilidades**:
+  - Gestionar los artículos en el inventario de la clínica (agregar, eliminar y modificar productos).
+  - Mantener el estado actualizado del stock de productos.
+  - Escribir y leer información relacionada con el inventario en la base de datos.
+- **Interacciones**:
+  - Comunica con la **Database** para leer y escribir datos sobre el inventario.
+  - Envía datos al **LogInventoryService** para registrar los cambios en el inventario debido a consumos o ventas.
+
+---
+
+#### 3. **IAMService (Servicio de Gestión de Autenticación e Identidad)**
+
+- **Descripción**: El componente IAMService gestiona la autenticación y autorización de usuarios dentro de la plataforma.
+- **Responsabilidades**:
+  - Verificar la identidad del usuario y autorizar el acceso a la aplicación.
+  - Gestionar la creación, actualización y validación de cuentas de usuario.
+- **Interacciones**:
+  - Interactúa con la **Database** para validar y verificar las credenciales del usuario.
+  - Proporciona servicios de autenticación a los **iamController** para procesar solicitudes de autenticación de los usuarios.
+
+---
+
+#### 4. **ManagementService (Servicio de Gestión de Pacientes y Citas)**
+
+- **Descripción**: Este componente gestiona los datos de las citas y pacientes dentro de la clínica dental.
+- **Responsabilidades**:
+  - Gestionar la creación, actualización y eliminación de citas de pacientes.
+  - Gestionar la información personal de los pacientes.
+  - Escribir y leer datos de citas y pacientes en la base de datos.
+- **Interacciones**:
+  - Se comunica con la **Database** para manejar datos relacionados con citas y pacientes.
+
+---
+
+#### 5. **LogInventoryService (Servicio de Registro de Inventario)**
+
+- **Descripción**: Este componente registra las acciones que afectan el inventario, tales como la venta de productos o el consumo dentro de la clínica.
+- **Responsabilidades**:
+  - Registrar cada cambio de inventario en el sistema.
+  - Proporcionar un historial completo de los movimientos de inventario, para auditar y analizar las tendencias.
+  - Escribir los registros en la base de datos.
+- **Interacciones**:
+  - Se comunica con el **InventoryController** para proporcionar datos relacionados con los cambios en el inventario.
+  - Envía datos a la **Database** para registrar la información de los movimientos de inventario.
+
+---
+
+#### 6. **InventoryController (Controlador de Inventario)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con el inventario.
+- **Responsabilidades**:
+  - Proporcionar acceso a los datos del inventario a través de la API.
+  - Exponer servicios para consultar y actualizar el inventario.
+- **Interacciones**:
+  - Se comunica con el **InventoryService** para obtener datos del inventario.
+  - Usa el **LogInventoryService** para registrar los movimientos del inventario.
+
+---
+
+#### 7. **ManagementController (Controlador de Gestión de Pacientes y Citas)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la gestión de citas y pacientes.
+- **Responsabilidades**:
+  - Proporcionar acceso a los datos de citas y pacientes a través de la API.
+  - Permitir la creación, actualización y consulta de citas y pacientes.
+- **Interacciones**:
+  - Se comunica con el **ManagementService** para gestionar las operaciones sobre pacientes y citas.
+
+---
+
+#### 8. **IAMController (Controlador de Gestión de Autenticación)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST responsables de la autenticación y registro de usuarios.
+- **Responsabilidades**:
+  - Gestionar las solicitudes de autenticación y registro de nuevos usuarios.
+  - Verificar las credenciales de usuario y permitir el acceso a la aplicación.
+- **Interacciones**:
+  - Se comunica con el **IAMService** para procesar las solicitudes de autenticación.
+  - Interactúa con la **Database** para validar las credenciales de los usuarios.
+
+---
+
+#### 9. **BillingController (Controlador de Facturación)**
+
+- **Descripción**: Este componente expone los puntos finales (endpoints) de la API REST relacionados con la facturación.
+- **Responsabilidades**:
+  - Proveer los servicios para la creación y consulta de facturas.
+  - Gestionar la interacción entre el frontend y el servicio de facturación.
+- **Interacciones**:
+  - Se comunica con el **BillingService** para procesar las solicitudes de facturación.
+    <br>
+
+<div id='4.1.3.4.'><h5>4.1.3.4. Software Architecture Deployment Diagrams</h5></div>
+
+En este apartado visualizaremos las herramientas y el flujo de comunicación en el despliegue del software hecho.
+
+<div align="center">
+<img src="img/DeployDiagram.png" alt="Deploy-Diagram">
+</div>
+
+#### Mobile App
+
+**Contenedor:** Kotlin y Flutter  
+**Ubicación de Despliegue:**
+
+- **Firebase Service**
+  - Nodo de Despliegue: `Firebase`
+  - Región: `US-East-1`
+
+**Funcionalidad:**
+
+- Realiza llamadas API al Backend usando JSON sobre HTTPS.
+
+---
+
+#### API Backend
+
+**Contenedor:** Java y Spring Boot  
+**Ubicación de Despliegue:**
+
+- **Azure Web App Service**
+  - Nodo de Despliegue: `Azure`
+
+**Funcionalidad:**
+
+- Expone endpoints para ser consumidos por la aplicación móvil.
+- Realiza operaciones de lectura y escritura en la base de datos usando protocolo MySQL sobre SSL.
+
+---
+
+#### Base de Datos
+
+**Ubicación de Despliegue:**
+
+- **MySQL**
+  - Nodo de Despliegue: `Azure Cloud`
+
+**Protocolo de Comunicación:**
+
+- MySQL Protocol sobre SSL.
+
+---
+
+#### Infraestructura General
+
+- Plataforma en la nube utilizada: `Azure & Google Web Services`
+- Integración entre Firebase (Google) y Azure (Microsoft).
+
+---
+
+#### Flujo General
+
+1. **Mobile App** (Flutter/Kotlin) realiza llamadas API.
+2. **API Backend** (Spring Boot en Azure Web App Service).
+3. Interactúa con **Base de Datos** (MySQL en Azure Cloud).
+
+---
+
+#### Seguridad
+
+- Comunicación entre componentes asegurada vía **HTTPS** y **SSL**.
+- La API solo se comunica mediante protocolos seguros.
+
+---
 
 <div id='4.2.'><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
-<div id='4.2.X.'><h4>4.2.X. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
-<div id='4.2.X.1.'><h5>4.2.X.1. Domain Layer</h5></div>
-<div id='4.2.X.2.'><h5>4.2.X.2. Interface Layer</h5></div>
-<div id='4.2.X.3.'><h5>4.2.X.3. Application Layer</h5></div>
-<div id='4.2.X.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
-<div id='4.2.X.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
-<div id='4.2.X.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
-<div id='4.2.X.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
-<div id='4.2.X.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+
+Para el diseño de la solución de software, hemos implementado el concepto de "Clean Architecture", separando por capas, que son Interfaces, Application, Domain e Infrastructure. Además usaremos Dtos para entrada y salida, patrones CQRS.
+
+<div id='4.2.1.'><h4>4.2.1. Bounded Context: &lt;IAM&gt;</h4></div>
+
+Siguiendo el modelo de arquitectura "Clean Architecture" hemos dividido el proyecto en capas.
+
+a continuación detallaremos las capas del Bounded Context referenciado.
+
+<div id='4.2.1.1.'><h5>4.2.1.1. Domain Layer</h5></div>
+
+**Sub-capa Model:**
+
+| Tipo         | Nombre        | Descripción                                    | Responsabilidad Principal                                                                                         | Relación con otros elementos                                                          |
+| ------------ | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Aggregate    | User          | clase para definir el Usuario de la aplicación | Ser el punto de entrada para modificar y mantener la integridad del usuario como entidad del dominio de identidad | Relacionado con los demás boundedContext, ya que encapsula toda la lógica de negocio. |
+| Command      | SignInCommand | comando para el inicio de sesión               | representar la intención de iniciar sesión                                                                        | Usado en la implementación del servicio de autenticación.                             |
+| Command      | SignUpCommand | comando para registro                          | representa la intención de registrarse a la aplicación                                                            | Usado en la implementación del servicio de autenticación                              |
+| Value Object | EmailAddress  | dirección de correo electrónico del usuario    | representar la dirección de correo del usuario                                                                    | usado en "User"                                                                       |
+| Value Object | PersonName    | nombre y apellido de usuario                   | representa los nombres y apellidos de un usuario                                                                  | usado en "User"                                                                       |
+
+**Sub-capa Services:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Interface|AuthCommandService|servicio para métodos de autenticación|estipular una estructura clara a seguir|Uso en la capa "application" para implementar los métodos dados|
+|Interface| JWTService | servicio para métodos de JWT | estipular una estructura clara a seguir | uso en la capa "Infrastructure" para la implementación de los métodos.
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Interface Layer</h5></div>
+
+**Sub-capa REST:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+| Resource | AuthRequestResource | estructura de una petición para autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en la autenticación|
+|Resource | AuthResponseResource | estructura de una respuesta al autenticar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para emitir datos de una manera predeterminada en la autenticación|
+| Resource | RegisterRequestResource | estructura de una petición para registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.| Uso en el "AuthController" para peticionar datos de una manera predeterminada en el registro|
+|Resource | RegisterResponseResource | estructura de una respuesta al registrar un usuario|Representar y exponer datos del dominio de forma accesible y estructurada para el cliente.|Uso en el "AuthController" para emitir datos de una manera predeterminada en el registro|
+|Assembler | SignInCommandFromResourceAssembler| Convierte un recurso a un comando| Evitar la corrupción entre la comunicación de datos | Usado en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Assembler | SignUpCommandFromResourceAssembler|Convierte un recurso a un comando| Evitar la corrupcion entre comunicación de datos | Usaso en el "AuthController" para convertir el recurso pedido en autenticación a un comando|
+|Controller|AuthController| Parte de la aplicación que recibe las solicitudes del cliente| recibe solicitudes, coordina la ejecución y devuelve respuestas.|-|
+
+<div id='4.2.1.3.'><h5>4.2.1.3. Application Layer</h5></div>
+
+**Sub-capa Internal:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|CommandHandlers| AuthCommandServiceImpl|Implementación de los Comandos de Autenticación| Implementar los métodos para el servicio de autenticación | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
+
+<div id='4.2.1.4.'><h5>4.2.1.4. Infrastructure Layer</h5></div>
+
+**Sub-capa Repository:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Repository| UserRepository| repositorio a usar del modelo "User"| acceder y manipular datos persistidos| Usado en la Capa "Application" para implementar el registro y autenticación de un usuario.|
+
+**Sub-capa Security:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Config|SecurityConfig| configuración de autorizaciones y permisos| configurar reglas de seguridad para la aplicación| Relacionado a la aplicación|
+
+**Sub-capa JWT:**
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+| ---- | ------ | ----------- | ------------------------- | ---------------------------- |
+|Class| JwtAuthFilter| Un filtro que intercepta cada petición HTTP para verificar si contiene un token JWT válido antes de dejar que llegue al controlador.|Validar el JWT en cada solicitud y establecer la autenticación en el contexto de seguridad.| Relacionado con la seguridad de la aplicación|
+|Class|JwtServiceImpl|Una clase de servicio que gestiona la creación, validación y decodificación de tokens JWT.|Encapsular toda la lógica relacionada con el manejo de tokens JWT.|Relacionado con la seguridad de la aplicación|
+
+<div id='4.2.1.5.'><h5>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+
+Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design (DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
+<div align="center">
+<img src="Img/IAM-component.png" alt="class-diagram">
+</div>
+
+<div id='4.2.1.6.'><h5>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.1.6.1.'><h5>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h5></div>
+
+**Diagrama de clases de la capa Domain:**
+
+<div align="center">
+<img src="Img/UML_iam.png" alt="class-diagram">
+</div>
+en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "AuditableAbstractAggregateRoot", que son importantes para la implementación con Json Web Token y atributos predeterminados respectivamente.
+
+<div id='4.2.1.6.2.'><h5>4.2.1.6.2. Bounded Context Database Design Diagram</h5></div>
+
+<div align="center">
+<img src="Img/IAM_DB.png" alt="class-diagram">
+</div>
+
+| Nombre       | Descripción                                                                 |
+| ------------ | --------------------------------------------------------------------------- |
+| id           | Identificador único del registro, generalmente una clave primaria.          |
+| created_at   | Fecha y hora en que se creó el registro.                                    |
+| updated_at   | Fecha y hora de la última actualización del registro.                       |
+| company_name | Nombre de la empresa asociada al usuario o entidad.                         |
+| email        | Dirección de correo electrónico del usuario.                                |
+| first_name   | Primer nombre del usuario.                                                  |
+| last_name    | Apellido del usuario.                                                       |
+| password     | Contraseña del usuario (almacenada de forma segura, usualmente encriptada). |
+| trial        | Indica si el usuario está en un periodo de prueba (true/false).             |
+| username     | Nombre de usuario único utilizado para iniciar sesión.                      |
+
+<div id='4.2.2.'><h4>4.2.2. Bounded Context: &lt;Inventory&gt;</h4></div>
+
+<div id='4.2.2.1.'><h5>4.2.X.1. Domain Layer</h5></div>
+<div id='4.2.2.2.'><h5>4.2.X.2. Interface Layer</h5></div>
+<div id='4.2.2.3.'><h5>4.2.X.3. Application Layer</h5></div>
+<div id='4.2.2.4.'><h5>4.2.X.4. Infrastructure Layer</h5></div>
+<div id='4.2.2.5.'><h5>4.2.X.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.2.6.'><h5>4.2.X.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.2.6.1.'><h6>4.2.X.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+<div id='4.2.2.6.2.'><h6>4.2.X.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Management&gt;</h4></div>
+
+<div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
+<div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
+<div id='4.2.3.3.'><h5>4.2.3.3. Application Layer</h5></div>
+<div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
+<div id='4.2.3.5.'><h5>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.3.6.1.'><h6>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+<div id='4.2.3.6.2.'><h6>4.2.3.6.2. Bounded Context Database Design Diagram</h6></div>
+
+<div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Invoices&gt;</h4></div>
+
+<div id='4.2.4.1.'><h5>4.2.4.1. Domain Layer</h5></div>
+<div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
+<div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
+<div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
+<div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
+<div id='4.2.4.6.'><h5>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
+<div id='4.2.4.6.1.'><h6>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h6></div>
+<div id='4.2.4.6.2.'><h6>4.2.4.6.2. Bounded Context Database Design Diagram</h6></div>
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
@@ -926,4 +1363,3 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
 
 **Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
-
