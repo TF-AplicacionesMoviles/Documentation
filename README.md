@@ -996,7 +996,7 @@ En nuestro diagrama de contexto se puede visualizar a nuestro Actor, que represe
 Dentify es una plataforma de gestión clínica odontológica que centraliza la administración de citas, pacientes, facturación, inventario e identidad de usuarios, accedida por el personal clínico desde la aplicación móvil.
 
 <div align="center">
-<img src="img/ContextDiagram.png" alt="Context-Diagram">
+<img src="Img/ContextDiagram.png" alt="Context-Diagram">
 </div>
 
 <div id='4.1.3.2.'><h5>4.1.3.2. Software Architecture Container Level Diagrams</h5></div>
@@ -1004,7 +1004,7 @@ Dentify es una plataforma de gestión clínica odontológica que centraliza la a
 El diagrama de contenedores de Dentify representa los principales componentes del sistema y cómo interactúan entre sí. Este nivel de abstracción permite visualizar cómo se organiza la aplicación en distintos contenedores (como aplicaciones web, móviles, backend y base de datos), mostrando tanto la tecnología empleada como las relaciones entre ellos. El objetivo es ofrecer una visión clara de la arquitectura técnica y de las responsabilidades de cada parte del sistema desde una perspectiva de alto nivel.<br><br>
 
 <div align="center">
-<img src="img/ContainerDiagram.png" alt="Container-Diagram">
+<img src="Img/ContainerDiagram.png" alt="Container-Diagram">
 </div>
 
 ##### Dentify - Containers Overview:
@@ -1027,7 +1027,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 ---
 
 <div align="center">
-<img src="img/ComponentDiagram.png" alt="Component-Diagram">
+<img src="Img/ComponentDiagram.png" alt="Component-Diagram">
 </div>
 
 ---
@@ -1146,7 +1146,7 @@ En esta presente imagen se detalla la descripción y funcionalidad de los compon
 En este apartado visualizaremos las herramientas y el flujo de comunicación en el despliegue del software hecho.
 
 <div align="center">
-<img src="img/DeployDiagram.png" alt="Deploy-Diagram">
+<img src="Img/DeployDiagram.png" alt="Deploy-Diagram">
 </div>
 
 #### Mobile App
@@ -1302,6 +1302,7 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 <div align="center">
 <img src="Img/IAM_DB.png" alt="class-diagram">
 </div>
+<br><br>
 
 | Nombre       | Descripción                                                                 |
 | ------------ | --------------------------------------------------------------------------- |
