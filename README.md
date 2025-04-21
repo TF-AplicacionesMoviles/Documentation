@@ -741,7 +741,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     </tr>
   </thead>
   <tbody>
-    <tr>
+  
+<tr>
       <td>US01</td>
       <td>Registrar usuario</td>
       <td>Como personal del consultorio, quiero registrarme en la aplicación para acceder a los servicios.</td>
@@ -752,8 +753,9 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y seleccione el botón Registrarme<br>
     Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
       <td>Epic ?</td>
-    </tr>
-    <tr>
+</tr>
+
+<tr>
   <td>US02</td>
   <td>Iniciar sesión</td>
   <td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
@@ -766,7 +768,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
-    <tr>
+
+<tr>
       <td>US03</td>
       <td>Recordatorio de citas</td>
       <td>Como paciente, quiero recibir recordatorios automáticos de mis citas dentales para no olvidar mis compromisos y asistir puntualmente.</td>
@@ -781,9 +784,9 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Entonces el sistema mostrará una notificación en la plataforma.
       </td>
       <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
+</tr>
 
+<tr>
   <td>US04</td>
   <td>Mostrar citas</td>
   <td>Como personal del consultorio, quiero visualizar todas las citas registradas para poder gestionar los horarios de atención.</td>
@@ -796,7 +799,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
-   <tr>
+
+<tr>
       <td>US05</td>
       <td>Editar cita</td>
       <td>Como asistente, quiero poder editar la información de una cita ya registrada para corregir errores o adaptarla a cambios de disponibilidad.</td>
@@ -810,10 +814,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Cuando el asistente intente editarla<br>
         Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
       </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
+    <td>EPIC-CITAS</td>
+</tr>
 
+<tr>
   <td>US06</td>
   <td>Añadir citas</td>
   <td>Como personal del consultorio, quiero registrar nuevas citas para poder agendar la atención de los pacientes.</td>
@@ -828,7 +832,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
-    <tr>
+
+<tr>
       <td>US07</td>
       <td>Eliminar cita</td>
       <td>Como asistente, quiero eliminar una cita del sistema para evitar confusiones si un paciente cancela o reprograma.</td>
@@ -843,9 +848,9 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
       </td>
       <td>EPIC-CITAS</td>
-    </tr>
+</tr>
 
-  <tr>
+<tr>
   <td>US08</td>
   <td>Buscar citas</td>
   <td>Como personal del consultorio, quiero buscar citas por fecha o mediante filtros para localizar rápidamente una cita específica.</td>
@@ -863,7 +868,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
-    <tr>
+
+<tr>
   <td>US09</td>
   <td>Pagar tratamiento</td>
   <td>Como paciente, quiero pagar mi tratamiento desde la plataforma para mayor comodidad y rapidez en el proceso de atención.</td>
@@ -884,7 +890,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EPIC-PAGOS</td>
 </tr>
-  <tr>
+
+<tr>
   <td>US10</td>
   <td>Pagar tratamiento</td>
   <td>Como personal del consultorio, quiero registrar el pago de un tratamiento para generar la facturación correspondiente.</td>
@@ -898,13 +905,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US11</td>
+  <td>Historial de pagos</td>
+  <td>Como personal del consultorio, quiero visualizar el historial de pagos realizados para tener un control financiero detallado.</td>
+  <td>
+    Escenario 1: Visualización de historial de pagos<br><br>
+    Dado que el personal accede al módulo de pagos<br>
+    Cuando seleccione la opción "Historial de pagos"<br>
+    Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
 <tr>
   <td>US12</td>
   <td>Mostrar pacientes</td>
@@ -918,13 +932,21 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US13</td>
+  <td>Añadir pacientes</td>
+  <td>Como personal del consultorio, quiero registrar nuevos pacientes para poder gestionarlos en las citas y tratamientos.</td>
+  <td>
+    Escenario 1: Registro de paciente<br><br>
+    Dado que el personal accede a la sección de pacientes<br>
+    Cuando complete el formulario con los datos del nuevo paciente<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
 <tr>
   <td>US14</td>
   <td>Editar paciente</td>
@@ -939,13 +961,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US15</td>
+  <td>Eliminar pacientes</td>
+  <td>Como personal del consultorio, quiero eliminar un paciente inactivo o registrado por error para mantener limpia la base de datos.</td>
+  <td>
+    Escenario 1: Eliminación de paciente<br><br>
+    Dado que el personal accede a la lista de pacientes<br>
+    Cuando seleccione un paciente<br>
+    Y elija la opción de eliminar<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará dicho registro de la base de datos.
+  </td>
+  <td>Epic ?</td>
+</tr>
+
 <tr>
   <td>US16</td>
   <td>Buscar pacientes</td>
@@ -959,13 +990,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US17</td>
+  <td>Añadir historial clínico</td>
+  <td>Como personal del consultorio, quiero registrar un nuevo historial clínico para tener un seguimiento detallado del paciente.</td>
+  <td>
+    Escenario 1: Registro de historial clínico<br><br>
+    Dado que el personal accede al perfil de un paciente<br>
+    Cuando seleccione "Añadir historial clínico"<br>
+    Y complete los campos requeridos<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+  </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
   <td>US18</td>
   <td>Eliminar historial clínico</td>
@@ -979,11 +1019,17 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic ?</td>
 </tr>
+
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US19</td>
+  <td>Mostrar historial clínico</td>
+  <td>Como personal del consultorio, quiero visualizar el historial clínico de un paciente para revisar sus antecedentes y tratamientos.</td>
+  <td>
+    Escenario 1: Visualización del historial clínico<br><br>
+    Dado que el personal accede al perfil de un paciente<br>
+    Cuando seleccione "Ver historial clínico"<br>
+    Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
+  </td>
   <td>Epic ?</td>
 </tr>
 
@@ -1001,10 +1047,16 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US21</td>
+  <td>Añadir objeto al inventario</td>
+  <td>Como personal del consultorio, quiero añadir nuevos objetos al inventario para mantener actualizado el stock disponible.</td>
+  <td>
+    Escenario 1: Registro de nuevo objeto<br><br>
+    Dado que el personal accede al módulo de inventario<br>
+    Cuando seleccione "Añadir objeto"<br>
+    Y complete los campos requeridos (nombre, tipo, cantidad)<br>
+    Entonces la aplicación registrará el objeto en el inventario.
+  </td>
   <td>Epic ?</td>
 </tr>
 
@@ -1024,10 +1076,17 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US23</td>
+  <td>Eliminar objeto de inventario</td>
+  <td>Como personal del consultorio, quiero eliminar objetos del inventario.</td>
+  <td>
+    Escenario 1: Eliminación de objeto<br><br>
+    Dado que el personal accede a la lista del inventario<br>
+    Cuando seleccione un objeto<br>
+    Y presione "Eliminar"<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará el objeto seleccionado.
+  </td>
   <td>Epic ?</td>
 </tr>
 
@@ -1045,10 +1104,15 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US25</td>
+  <td>Guardar fecha de ajuste</td>
+  <td>Como personal del consultorio, quiero que se guarde la fecha del ajuste del inventario para poder llevar un seguimiento de movimientos.</td>
+  <td>
+    Escenario 1: Registro de fecha de ajuste<br><br>
+    Dado que se está registrando una acción de consumo o edición en el inventario<br>
+    Cuando se complete el proceso<br>
+    Entonces la aplicación registrará automáticamente la fecha del ajuste en el historial.
+  </td>
   <td>Epic ?</td>
 </tr>
 
@@ -1066,10 +1130,15 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US27</td>
+  <td>Guardar ID de facturación</td>
+  <td>Como personal del consultorio, quiero que se guarde el ID de la facturación al momento del consumo de materiales para mantener la trazabilidad.</td>
+  <td>
+    Escenario 1: Registro del ID de facturación<br><br>
+    Dado que se está generando una factura con objetos del inventario<br>
+    Cuando se complete el proceso de facturación<br>
+    Entonces la aplicación almacenará el ID de esa factura junto al registro de consumo.
+  </td>
   <td>Epic ?</td>
 </tr>
 
@@ -1087,10 +1156,15 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
+  <td>US29</td>
+  <td>Menú</td>
+  <td>Como personal del consultorio, quiero acceder a un menú general para navegar fácilmente entre las secciones del sistema.</td>
+  <td>
+    Escenario 1: Acceso al menú de navegación<br><br>
+    Dado que el personal ha iniciado sesión<br>
+    Cuando acceda a la aplicación<br>
+    Entonces visualizará un menú con las secciones disponibles como citas, pacientes, inventario, perfil, pagos y dashboard.
+  </td>
   <td>Epic ?</td>
 </tr>
 
