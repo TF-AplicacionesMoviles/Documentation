@@ -148,60 +148,107 @@ apropiadas.
 
 Los objetivos SMART son una forma de definir metas de manera clara, medible y alcanzable.
 
-- **Bohorquez Lerzundi, Gerardo Sebastián:**
-- **Huanaco Huayta, Elizabeth Lucero:**
-- **Huapaya Cuevas, Anthony:**
-- **Silva Tirado, Sebastian Valentino:**
+<table border="1">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Objetivo SMART</th>
+      <th>Específico</th>
+      <th>Medible</th>
+      <th>Alcanzable</th>
+      <th>Relevante</th>
+      <th>Temporal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+  <td rowspan="2">Bohorquez Lerzundi, Gerardo Sebastián</td>
+  <td>Objetivo SMART 1</td>
+  <td>Convertirme en desarrollador Full Stack con sólidos conocimientos en ciberseguridad, aplicando buenas prácticas en todos los proyectos.</td>
+  <td>Completar al menos dos cursos certificados (uno de desarrollo web avanzado y otro de ciberseguridad práctica), y desarrollar un sistema web que aplique principios OWASP.</td>
+  <td>Estudiando 5 horas semanales y aplicando lo aprendido en proyectos personales.</td>
+  <td>Esta meta fortalecerá mi perfil profesional integrando seguridad en el desarrollo, una habilidad clave en el mundo actual.</td>
+  <td>Alcanzar este objetivo en los próximos 6 meses.</td>
+</tr>
+<tr>
+  <td>Objetivo SMART 2</td>
+  <td>Construir una marca personal como desarrollador Full Stack enfocado en ciberseguridad, compartiendo contenido técnico en LinkedIn y GitHub.</td>
+  <td>Publicar 1 post técnico por semana en LinkedIn, completar 3 proyectos documentados en GitHub, y alcanzar 200 seguidores nuevos en 3 meses.</td>
+  <td>Asignando 3 horas semanales para escribir, revisar y publicar contenido basado en experiencias propias.</td>
+  <td>Potenciar mi visibilidad profesional y demostrar mis conocimientos al público profesional.</td>
+  <td>Lograrlo en 3 meses, y mantener una frecuencia mensual de publicaciones posteriormente.</td>
+</tr>
+    <tr>
+      <td rowspan="2">Huanaco Huayta, Elizabeth Lucero</td>
+      <td>Objetivo SMART 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Objetivo SMART 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Huapaya Cuevas, Anthony</td>
+      <td>Objetivo SMART 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Objetivo SMART 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Silva Tirado, Sebastian Valentino</td>
+     <td>Especialización Técnica</td>
+      <td>Obtener certificaciones en desarrollo Full Stack e Inteligencia Artificial ofrecidas por IBM y AWS, como primer paso hacia un postgrado en estas áreas.</td>
+      <td>Completar al menos dos certificaciones (una de IBM y una de AWS) y desarrollar un proyecto final aplicando lo aprendido.</td>
+      <td>Dedicando al menos dos días por semana al estudio y práctica de los contenidos.</td>
+      <td>Estas certificaciones me permitirán fortalecer mi perfil profesional en tecnologías de alta demanda y prepararme para estudios de posgrado.</td>
+      <td>Alcanzar este objetivo dentro del primer año posterior a mi graduación.</td>
+    </tr>
+    <tr>
+      <td>Emprendimiento e Impacto Internacional</td>
+      <td>Crear una startup tecnológica que desarrolle una aplicación con impacto social, con proyección a internacionalizar el proyecto y trabajar en el extranjero.</td>
+      <td>Lanzar una versión funcional de la aplicación, alcanzar los primeros 500 usuarios y generar ingresos sostenibles durante los primeros 2 años.</td>
+      <td>Utilizando conocimientos adquiridos durante la carrera, networking profesional y recursos digitales disponibles.</td>
+      <td>Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.</td>
+      <td>Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Uribe Quispe, Jesús Guillermo</td>
+      <td>Especialización en tecnologías móviles</td>
+      <td>Mejorar mis habilidades en desarrollo web utilizando Angular.</td>
+      <td>Completar 3 proyectos pequeños y subirlos a GitHub.</td>
+      <td>Dedicar 5 horas por semana al aprendizaje y desarrollo.</td>
+      <td>Angular es un framework demandado en el mercado laboral.</td>
+      <td>En 2 meses.</td>
+    </tr>
+    <tr>
+      <td>Desarrollo de aplicaciones Backend</td>
+      <td>Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.</td>
+      <td>API funcional con rutas protegidas, validación y base de datos.</td>
+      <td>Con tiempo semanal dedicado (4 horas).</td>
+      <td>Java es una tecnología muy usada en el stack moderno.</td>
+      <td>10 semanas.</td>
+    </tr>
+  </tbody>
+</table>
 
-Objetivo SMART 1 – Especialización Técnica
-
-Específico: Obtener certificaciones en desarrollo Full Stack e Inteligencia Artificial ofrecidas por IBM y AWS, como primer paso hacia un postgrado en estas áreas.
-
-Medible: Completar al menos dos certificaciones (una de IBM y una de AWS) y desarrollar un proyecto final aplicando lo aprendido.
-
-Alcanzable: Dedicando al menos dos días por semana al estudio y práctica de los contenidos.
-
-Relevante: Estas certificaciones me permitirán fortalecer mi perfil profesional en tecnologías de alta demanda y prepararme para estudios de posgrado.
-
-Temporal: Alcanzar este objetivo dentro del primer año posterior a mi graduación.
-
-Objetivo SMART 2 – Emprendimiento e Impacto Internacional
-
-Específico: Crear una startup tecnológica que desarrolle una aplicación con impacto social, con proyección a internacionalizar el proyecto y trabajar en el extranjero.
-
-Medible: Lanzar una versión funcional de la aplicación, alcanzar los primeros 500 usuarios y generar ingresos sostenibles durante los primeros 2 años.
-
-Alcanzable: Utilizando conocimientos adquiridos durante la carrera, networking profesional y recursos digitales disponibles.
-
-Relevante: Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.
-
-Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
-
-- **Uribe Quispe, Jesús Guillermo:**
-
-Objetivo SMART 1 – Especialización en tecnologías móviles
-
-Específico: Mejorar mis habilidades en desarrollo web utilizando Angular.
-
-Medible: Completar 3 proyectos pequeños y subirlos a GitHub.
-
-Alcanzable: Dedicar 5 horas por semana al aprendizaje y desarrollo.
-
-Relevante: Angular es un framework demandado en el mercado laboral.
-
-Tiempo: En 2 meses.
-
-Objetivo SMART 2 – Desarrollo de aplicaciones Backend
-
-Específico: Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.
-
-Medible: API funcional con rutas protegidas, validación y base de datos.
-
-Alcanzable: Con tiempo semanal dedicado (4 horas).
-
-Relevante: Java es una tecnología muy usada en el stack moderno.
-
-Tiempo: 10 semanas.
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
 
