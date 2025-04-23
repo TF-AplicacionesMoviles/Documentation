@@ -170,8 +170,8 @@ apropiadas.
 
 | Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                               | Conclusiones |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
-| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
+| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
+| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
 
 # OBJETIVOS SMART
 
@@ -209,20 +209,20 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
 </tr>
     <tr>
       <td rowspan="2">Huanaco Huayta, Elizabeth Lucero</td>
-      <td>Objetivo SMART 1</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Desarrollo de habilidades full stack con Angular y Spring Boot</td>
+      <td>Mejorar mis habilidades de desarrollo web con Angular para el frontend y Spring Boot para el backend, usando buenas prácticas.</td>
+      <td>Terminar un pequeño proyecto web y subirlo a GitHub.</td>
+      <td>Dedicar 4 horas por semana al estudio y práctica de Angular y Spring Boot, usando tutoriales y documentación oficial.</td>
+      <td>Adquirir conocimientos en desarrollo web full stack es clave para poder avanzar profesionalmente, ya que estas tecnologías son ampliamente utilizadas y demandadas en el mercado laboral.</td>
+      <td>Alcanzar este objetivo en un plazo de 3 meses.</td>
     </tr>
     <tr>
-      <td>Objetivo SMART 2</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Especialización en desarrollo y diseño de aplicaciones móviles</td>
+      <td>Adquirir habilidades en el desarrollo de aplicaciones móviles utilizando Flutter, enfocándome tanto en la programación funcional como en el diseño de interfaces de usuario modernas, atractivas y centradas en la experiencia del usuario.</td>
+      <td>Diseñar y desarrollar una aplicación móvil pequeña con una interfaz de usuario (UI) funcional y moderna, centrada en ofrecer una experiencia de usuario (UX) intuitiva y agradable, y publicarla en GitHub</td>
+      <td>Dedicar 6 horas por semana al aprendizaje y práctica del desarrollo móvil y diseño de interfaces usando Flutter.</td>
+      <td>Flutter es un framework popular y demandado en la industria por su capacidad para crear aplicaciones multiplataforma con interfaces de alta calidad. Estas habilidades son clave para destacar en el mercado laboral.</td>
+      <td>Alcanzar este objetivo en un plazo de 4 meses.</td>
     </tr>
     <tr>
       <td rowspan="2">Huapaya Cuevas, Anthony Martin</td>
