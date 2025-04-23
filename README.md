@@ -105,7 +105,7 @@ Los integrantes son:
    3.3. [Impact Mapping.](#3.3.)<br>
    3.4. [Product Backlog.](#3.4.)<br>
 
-4. [**Capítulo IV: Solution Software Design.**](#4)<br>
+4. [**Capítulo IV: Solution Software Design.**](#4.)<br>
    4.1. [Strategic-Level Domain-Driven Design](#4.1.)<br>
    4.1.1. [EventStorming](#4.1.1.) <br>
    4.1.1.1. [Candidate Context Discovery](#4.1.1.1.) <br>
@@ -118,7 +118,7 @@ Los integrantes son:
    4.1.3.3. [Software Architecture Deployment Diagrams](#4.1.3.3.)<br>
 
    4.2. [Tactical-Level Domain-Driven Design](#4.2.)<br>  
-    4.2.1. [Bounded Context: <Bounded Context Name>](#4.2.X.) <br>
+   4.2.1. [Bounded Context: IAM](#4.2.1.) <br>
    4.2.1.1. [Domain Layer](#4.2.1.1.) <br>
    4.2.1.2. [Interface Layer](#4.2.1.2.) <br>
    4.2.1.3. [Application Layer](#4.2.1.3.) <br>
@@ -127,6 +127,35 @@ Los integrantes son:
    4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.) <br>
    4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.) <br>
    4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
+   4.2.2. [Bounded Context: Inventory](#4.2.2.) <br>
+   4.2.2.1. [Domain Layer](#4.2.2.1.) <br>
+   4.2.2.2. [Interface Layer](#4.2.2.2.) <br>
+   4.2.2.3. [Application Layer](#4.2.2.3.) <br>
+   4.2.2.4. [Infrastructure Layer](#4.2.2.4.) <br>
+   4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.2.5.) <br>
+   4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.2.6.) <br>
+   4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.2.6.1.) <br>
+   4.2.2.6.2. [Bounded Context Database Design Diagram](#4.2.2.6.2.) <br>
+
+   4.2.3. [Bounded Context: Management](#4.2.3.) <br>
+   4.2.3.1. [Domain Layer](#4.2.3.1.) <br>
+   4.2.3.2. [Interface Layer](#4.2.3.2.) <br>
+   4.2.3.3. [Application Layer](#4.2.3.3.) <br>
+   4.2.3.4. [Infrastructure Layer](#4.2.3.4.) <br>
+   4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.3.5.) <br>
+   4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.3.6.) <br>
+   4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.3.6.1.) <br>
+   4.2.3.6.2. [Bounded Context Database Design Diagram](#4.2.3.6.2.) <br>
+
+   4.2.4. [Bounded Context: Invoices](#4.2.4.) <br>
+   4.2.4.1. [Domain Layer](#4.2.4.1.) <br>
+   4.2.4.2. [Interface Layer](#4.2.4.2.) <br>
+   4.2.4.3. [Application Layer](#4.2.4.3.) <br>
+   4.2.4.4. [Infrastructure Layer](#4.2.4.4.) <br>
+   4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.4.5.) <br>
+   4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.4.6.) <br>
+   4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.4.6.1.) <br>
+   4.2.4.6.2. [Bounded Context Database Design Diagram](#4.2.4.6.2.) <br>
 
 5. [Referencias Bibliográficas.](#8.)<br>
 6. [Anexos.](#9.)<br>
