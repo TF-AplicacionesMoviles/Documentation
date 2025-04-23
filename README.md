@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha |             Autor             | Descripción de modificación |
 | :-----: | :---: | :---------------------------: | --------------------------- |
-|   TB1   |   -   | Uribe Quispe, Jesús Guillermo | -                           |
+|   TB1   |   24/04/2025   | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design                          |
 
 # Project Report Collaboration Insights
 
@@ -52,11 +52,11 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante                        | Tareas Asignadas |
 | --------------------------------- | ---------------- |
-| Bohorquez Lerzundi, Gerardo       | -                |
-| Huanaco Huayta, Elizabeth         | -                |
-| Huapaya Cuevas, Anthony           | -                |
-| Silva Tirado, Sebastián Valentino | -                |
-| Uribe Quispe, Jesús               | -                |
+| Bohorquez Lerzundi, Gerardo       | Analisis Competitivo y User Stories              |
+| Huanaco Huayta, Elizabeth         | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT          |
+| Huapaya Cuevas, Anthony           | Lean Ux, Entrevistas, Análisis de entrevistas y Needfinding, impact map                |
+| Silva Tirado, Sebastián Valentino | Lean Ux, User Stories, NeedFinding, Elaboración de PPT                |
+| Uribe Quispe, Jesús               | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd           |
 
 **Github Collaboration Insights**
 
