@@ -225,21 +225,21 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2">Huapaya Cuevas, Anthony</td>
-      <td>Objetivo SMART 1</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td rowspan="2">Huapaya Cuevas, Anthony Martin</td>
+      <td>Especialización en testeo y calidad de software</td>
+      <td>Convertirme en especialista en pruebas automatizadas y control de calidad de software.</td>
+      <td>Completar como mínimo dos cursos certificados (como Selenium + Cypress) y contribuir en dos proyectos.</td>
+      <td>Con tiempo de estudio de seis horas semanales con accesos a cursos en línea como Coursera o Udemy.</td>
+      <td>Me permitirá a mejorar la calidad de los productos en los que me encuentro trabajando y aumentar mis oportunidades laborales.</td>
+      <td>Alcanzar este objetivo en 6 meses, comenzando luego de este ciclo.</td>
     </tr>
     <tr>
-      <td>Objetivo SMART 2</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Desarrollo de videojuegos</td>
+      <td>Aprender a desarrollar videojuegos usando Unity y programar un juego 2D como proyecto final.</td>
+      <td>Completar un curso estructurado de Unity, y tener un prototipo funcional que tenga como mínimo dos niveles jugables.</td>
+      <td>Dedicarle ocho horas semanales, con recursos gratuitos y pagos disponibles en línea.</td>
+      <td>Explorar mi creatividad, aprender la lógica que tiene los juegos y abrirme a nuevas oportunidades laborales.</td>
+      <td>Lograrlo en un plazo de 4 o 5 meses. Finalizar el prototipo antes que termine el año.</td>
     </tr>
     <tr>
       <td rowspan="2">Silva Tirado, Sebastian Valentino</td>
