@@ -177,60 +177,107 @@ apropiadas.
 
 Los objetivos SMART son una forma de definir metas de manera clara, medible y alcanzable.
 
-- **Bohorquez Lerzundi, Gerardo Sebastián:**
-- **Huanaco Huayta, Elizabeth Lucero:**
-- **Huapaya Cuevas, Anthony:**
-- **Silva Tirado, Sebastian Valentino:**
+<table border="1">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Objetivo SMART</th>
+      <th>Específico</th>
+      <th>Medible</th>
+      <th>Alcanzable</th>
+      <th>Relevante</th>
+      <th>Temporal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+  <td rowspan="2">Bohorquez Lerzundi, Gerardo Sebastián</td>
+  <td>Objetivo SMART 1</td>
+  <td>Convertirme en desarrollador Full Stack con sólidos conocimientos en ciberseguridad, aplicando buenas prácticas en todos los proyectos.</td>
+  <td>Completar al menos dos cursos certificados (uno de desarrollo web avanzado y otro de ciberseguridad práctica), y desarrollar un sistema web que aplique principios OWASP.</td>
+  <td>Estudiando 5 horas semanales y aplicando lo aprendido en proyectos personales.</td>
+  <td>Esta meta fortalecerá mi perfil profesional integrando seguridad en el desarrollo, una habilidad clave en el mundo actual.</td>
+  <td>Alcanzar este objetivo en los próximos 6 meses.</td>
+</tr>
+<tr>
+  <td>Objetivo SMART 2</td>
+  <td>Construir una marca personal como desarrollador Full Stack enfocado en ciberseguridad, compartiendo contenido técnico en LinkedIn y GitHub.</td>
+  <td>Publicar 1 post técnico por semana en LinkedIn, completar 3 proyectos documentados en GitHub, y alcanzar 200 seguidores nuevos en 3 meses.</td>
+  <td>Asignando 3 horas semanales para escribir, revisar y publicar contenido basado en experiencias propias.</td>
+  <td>Potenciar mi visibilidad profesional y demostrar mis conocimientos al público profesional.</td>
+  <td>Lograrlo en 3 meses, y mantener una frecuencia mensual de publicaciones posteriormente.</td>
+</tr>
+    <tr>
+      <td rowspan="2">Huanaco Huayta, Elizabeth Lucero</td>
+      <td>Objetivo SMART 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Objetivo SMART 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Huapaya Cuevas, Anthony</td>
+      <td>Objetivo SMART 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Objetivo SMART 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Silva Tirado, Sebastian Valentino</td>
+     <td>Especialización Técnica</td>
+      <td>Obtener certificaciones en desarrollo Full Stack e Inteligencia Artificial ofrecidas por IBM y AWS, como primer paso hacia un postgrado en estas áreas.</td>
+      <td>Completar al menos dos certificaciones (una de IBM y una de AWS) y desarrollar un proyecto final aplicando lo aprendido.</td>
+      <td>Dedicando al menos dos días por semana al estudio y práctica de los contenidos.</td>
+      <td>Estas certificaciones me permitirán fortalecer mi perfil profesional en tecnologías de alta demanda y prepararme para estudios de posgrado.</td>
+      <td>Alcanzar este objetivo dentro del primer año posterior a mi graduación.</td>
+    </tr>
+    <tr>
+      <td>Emprendimiento e Impacto Internacional</td>
+      <td>Crear una startup tecnológica que desarrolle una aplicación con impacto social, con proyección a internacionalizar el proyecto y trabajar en el extranjero.</td>
+      <td>Lanzar una versión funcional de la aplicación, alcanzar los primeros 500 usuarios y generar ingresos sostenibles durante los primeros 2 años.</td>
+      <td>Utilizando conocimientos adquiridos durante la carrera, networking profesional y recursos digitales disponibles.</td>
+      <td>Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.</td>
+      <td>Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Uribe Quispe, Jesús Guillermo</td>
+      <td>Especialización en tecnologías móviles</td>
+      <td>Mejorar mis habilidades en desarrollo web utilizando Angular.</td>
+      <td>Completar 3 proyectos pequeños y subirlos a GitHub.</td>
+      <td>Dedicar 5 horas por semana al aprendizaje y desarrollo.</td>
+      <td>Angular es un framework demandado en el mercado laboral.</td>
+      <td>En 2 meses.</td>
+    </tr>
+    <tr>
+      <td>Desarrollo de aplicaciones Backend</td>
+      <td>Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.</td>
+      <td>API funcional con rutas protegidas, validación y base de datos.</td>
+      <td>Con tiempo semanal dedicado (4 horas).</td>
+      <td>Java es una tecnología muy usada en el stack moderno.</td>
+      <td>10 semanas.</td>
+    </tr>
+  </tbody>
+</table>
 
-Objetivo SMART 1 – Especialización Técnica
-
-Específico: Obtener certificaciones en desarrollo Full Stack e Inteligencia Artificial ofrecidas por IBM y AWS, como primer paso hacia un postgrado en estas áreas.
-
-Medible: Completar al menos dos certificaciones (una de IBM y una de AWS) y desarrollar un proyecto final aplicando lo aprendido.
-
-Alcanzable: Dedicando al menos dos días por semana al estudio y práctica de los contenidos.
-
-Relevante: Estas certificaciones me permitirán fortalecer mi perfil profesional en tecnologías de alta demanda y prepararme para estudios de posgrado.
-
-Temporal: Alcanzar este objetivo dentro del primer año posterior a mi graduación.
-
-Objetivo SMART 2 – Emprendimiento e Impacto Internacional
-
-Específico: Crear una startup tecnológica que desarrolle una aplicación con impacto social, con proyección a internacionalizar el proyecto y trabajar en el extranjero.
-
-Medible: Lanzar una versión funcional de la aplicación, alcanzar los primeros 500 usuarios y generar ingresos sostenibles durante los primeros 2 años.
-
-Alcanzable: Utilizando conocimientos adquiridos durante la carrera, networking profesional y recursos digitales disponibles.
-
-Relevante: Esta meta está alineada con mi visión de emprender y generar soluciones innovadoras para personas con necesidades específicas, como estudiantes o comunidades vulnerables.
-
-Temporal: Tener el proyecto en funcionamiento dentro del primer año y consolidarlo con impacto regional o internacional en un plazo de 1 a 5 años.
-
-- **Uribe Quispe, Jesús Guillermo:**
-
-Objetivo SMART 1 – Especialización en tecnologías móviles
-
-Específico: Mejorar mis habilidades en desarrollo web utilizando Angular.
-
-Medible: Completar 3 proyectos pequeños y subirlos a GitHub.
-
-Alcanzable: Dedicar 5 horas por semana al aprendizaje y desarrollo.
-
-Relevante: Angular es un framework demandado en el mercado laboral.
-
-Tiempo: En 2 meses.
-
-Objetivo SMART 2 – Desarrollo de aplicaciones Backend
-
-Específico: Aprender backend con Java Springboot creando una API REST con buenos principios de arquitectura de software.
-
-Medible: API funcional con rutas protegidas, validación y base de datos.
-
-Alcanzable: Con tiempo semanal dedicado (4 horas).
-
-Relevante: Java es una tecnología muy usada en el stack moderno.
-
-Tiempo: 10 semanas.
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
 
@@ -770,7 +817,8 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     </tr>
   </thead>
   <tbody>
-    <tr>
+
+<tr>
       <td>US01</td>
       <td>Registrar usuario</td>
       <td>Como personal del consultorio, quiero registrarme en la aplicación para acceder a los servicios.</td>
@@ -780,9 +828,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y complete los datos solicitados en el formulario de registro<br>
     Y seleccione el botón Registrarme<br>
     Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
-      <td>Epic ?</td>
-    </tr>
-    <tr>
+      <td>Epic 01</td>
+</tr>
+
+<tr>
   <td>US02</td>
   <td>Iniciar sesión</td>
   <td>Como personal del consultorio, quiero iniciar sesión en la aplicación para acceder a las funcionalidades.</td>
@@ -793,9 +842,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y seleccione el botón Iniciar Sesión<br>
     Entonces la aplicación lo redirigirá a la pantalla de inicio con acceso a sus funcionalidades.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 01</td>
 </tr>
-    <tr>
+
+<tr>
       <td>US03</td>
       <td>Recordatorio de citas</td>
       <td>Como paciente, quiero recibir recordatorios automáticos de mis citas dentales para no olvidar mis compromisos y asistir puntualmente.</td>
@@ -809,10 +859,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Cuando tenga una cita próxima (24h antes)<br>
         Entonces el sistema mostrará una notificación en la plataforma.
       </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
+      <td>Epic 02</td>
+</tr>
 
+<tr>
   <td>US04</td>
   <td>Mostrar citas</td>
   <td>Como personal del consultorio, quiero visualizar todas las citas registradas para poder gestionar los horarios de atención.</td>
@@ -823,9 +873,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando se cargue la pantalla de citas<br>
     Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 02</td>
 </tr>
-   <tr>
+
+<tr>
       <td>US05</td>
       <td>Editar cita</td>
       <td>Como asistente, quiero poder editar la información de una cita ya registrada para corregir errores o adaptarla a cambios de disponibilidad.</td>
@@ -839,10 +890,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Cuando el asistente intente editarla<br>
         Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
       </td>
-      <td>EPIC-CITAS</td>
-    </tr>
-    <tr>
+    <td>Epic 02</td>
+</tr>
 
+<tr>
   <td>US06</td>
   <td>Añadir citas</td>
   <td>Como personal del consultorio, quiero registrar nuevas citas para poder agendar la atención de los pacientes.</td>
@@ -855,9 +906,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y confirme el registro<br>
     Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 02</td>
 </tr>
-    <tr>
+
+<tr>
       <td>US07</td>
       <td>Eliminar cita</td>
       <td>Como asistente, quiero eliminar una cita del sistema para evitar confusiones si un paciente cancela o reprograma.</td>
@@ -871,10 +923,10 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
         Cuando se intente eliminar<br>
         Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
       </td>
-      <td>EPIC-CITAS</td>
-    </tr>
+      <td>Epic 02</td>
+</tr>
 
-  <tr>
+<tr>
   <td>US08</td>
   <td>Buscar citas</td>
   <td>Como personal del consultorio, quiero buscar citas por fecha o mediante filtros para localizar rápidamente una cita específica.</td>
@@ -890,10 +942,28 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y seleccione el boton Buscar<br>
     Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 02</td>
 </tr>
-    <tr>
+
+<tr>
   <td>US09</td>
+  <td>Gestionar horarios de atención</td>
+  <td>Como administrador de un consultorio dental, quisiera gestionar los horarios de atención de mi consultorio con las citas ya agendadas para poder optimizar la disponibilidad de los especialistas.</td>
+  <td>
+    <strong>Escenario 1: Ver horarios de atención con citas agendadas</strong><br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando accedo a la sección de gestión de horarios de atención<br>
+    Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+    <strong>Escenario 2: Editar horarios de atención</strong><br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando modifico los horarios de atención de un especialista<br>
+    Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.
+  </td>
+  <td>Epic 02</td>
+</tr>
+
+<tr>
+  <td>US10</td>
   <td>Pagar tratamiento</td>
   <td>Como paciente, quiero pagar mi tratamiento desde la plataforma para mayor comodidad y rapidez en el proceso de atención.</td>
   <td>
@@ -911,29 +981,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
 
   </td>
-  <td>EPIC-PAGOS</td>
+  <td>Epic 05</td>
 </tr>
-  <tr>
-  <td>US10</td>
-  <td>Pagar tratamiento</td>
-  <td>Como personal del consultorio, quiero registrar el pago de un tratamiento para generar la facturación correspondiente.</td>
-  <td>
-    Escenario 1: Registro de pago exitoso<br><br>
-    Dado que un paciente ha recibido un tratamiento<br>
-    Y el personal accede al módulo de pagos<br>
-    Cuando seleccione el tratamiento y registre el monto pagado<br>
-    Y presione el botón "Confirmar pago"<br>
-    Entonces el sistema generará la factura correspondiente actualizando el estado del tratamiento como pagado y generando una disminicion en los articulos medicos usados en la atencion.
-  </td>
-  <td>Epic ?</td>
-</tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US11</td>
+  <td>Historial de pagos</td>
+  <td>Como personal del consultorio, quiero visualizar el historial de pagos realizados para tener un control financiero detallado.</td>
+  <td>
+    Escenario 1: Visualización de historial de pagos<br><br>
+    Dado que el personal accede al módulo de pagos<br>
+    Cuando seleccione la opción "Historial de pagos"<br>
+    Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
+  </td>
+  <td>Epic 05</td>
+</tr>
+
 <tr>
   <td>US12</td>
   <td>Mostrar pacientes</td>
@@ -945,15 +1008,23 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando se cargue la pantalla<br>
     Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 03</td>
 </tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US13</td>
+  <td>Añadir pacientes</td>
+  <td>Como personal del consultorio, quiero registrar nuevos pacientes para poder gestionarlos en las citas y tratamientos.</td>
+  <td>
+    Escenario 1: Registro de paciente<br><br>
+    Dado que el personal accede a la sección de pacientes<br>
+    Cuando complete el formulario con los datos del nuevo paciente<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+  </td>
+  <td>Epic 03</td>
+</tr>
+
 <tr>
   <td>US14</td>
   <td>Editar paciente</td>
@@ -966,15 +1037,24 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y presione el botón "Guardar cambios"<br>
     Entonces el sistema actualizará la información del paciente correctamente.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 03</td>
 </tr>
+
 <tr>
-      <td>US0X</td>
-      <td> - </td>
-      <td> - </td>
-      <td> - </td>
-      <td>Epic ?</td>
-    </tr>
+  <td>US15</td>
+  <td>Eliminar pacientes</td>
+  <td>Como personal del consultorio, quiero eliminar un paciente inactivo o registrado por error para mantener limpia la base de datos.</td>
+  <td>
+    Escenario 1: Eliminación de paciente<br><br>
+    Dado que el personal accede a la lista de pacientes<br>
+    Cuando seleccione un paciente<br>
+    Y elija la opción de eliminar<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará dicho registro de la base de datos.
+  </td>
+  <td>Epic 03</td>
+</tr>
+
 <tr>
   <td>US16</td>
   <td>Buscar pacientes</td>
@@ -986,15 +1066,24 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y seleccione el botón de buscar<br>
     Entonces la aplicación mostrará al paciente correspondiente en los resultados.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 03</td>
 </tr>
+
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US17</td>
+  <td>Añadir historial clínico</td>
+  <td>Como personal del consultorio, quiero registrar un nuevo historial clínico para tener un seguimiento detallado del paciente.</td>
+  <td>
+    Escenario 1: Registro de historial clínico<br><br>
+    Dado que el personal accede al perfil de un paciente<br>
+    Cuando seleccione "Añadir historial clínico"<br>
+    Y complete los campos requeridos<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+  </td>
+  <td>Epic 03</td>
 </tr>
+
 <tr>
   <td>US18</td>
   <td>Eliminar historial clínico</td>
@@ -1006,14 +1095,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y confirme la acción<br>
     Entonces la aplicación eliminará dicho historial y actualizará la vista.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 03</td>
 </tr>
+
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US19</td>
+  <td>Mostrar historial clínico</td>
+  <td>Como personal del consultorio, quiero visualizar el historial clínico de un paciente para revisar sus antecedentes y tratamientos.</td>
+  <td>
+    Escenario 1: Visualización del historial clínico<br><br>
+    Dado que el personal accede al perfil de un paciente<br>
+    Cuando seleccione "Ver historial clínico"<br>
+    Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
+  </td>
+  <td>Epic 03</td>
 </tr>
 
 <tr>
@@ -1026,15 +1121,21 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando acceda al módulo de inventario<br>
     Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US21</td>
+  <td>Añadir objeto al inventario</td>
+  <td>Como personal del consultorio, quiero añadir nuevos objetos al inventario para mantener actualizado el stock disponible.</td>
+  <td>
+    Escenario 1: Registro de nuevo objeto<br><br>
+    Dado que el personal accede al módulo de inventario<br>
+    Cuando seleccione "Añadir objeto"<br>
+    Y complete los campos requeridos (nombre, tipo, cantidad)<br>
+    Entonces la aplicación registrará el objeto en el inventario.
+  </td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
@@ -1049,15 +1150,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y presione "Guardar cambios"<br>
     Entonces la aplicación guardará la información modificada del objeto.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US23</td>
+  <td>Eliminar objeto de inventario</td>
+  <td>Como personal del consultorio, quiero eliminar objetos del inventario.</td>
+  <td>
+    Escenario 1: Eliminación de objeto<br><br>
+    Dado que el personal accede a la lista del inventario<br>
+    Cuando seleccione un objeto<br>
+    Y presione "Eliminar"<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará el objeto seleccionado.
+  </td>
+  <td>Epic 04/td>
 </tr>
 
 <tr>
@@ -1070,15 +1178,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando seleccione la opción de "Dashboard"<br>
     Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US25</td>
+  <td>Guardar fecha de ajuste</td>
+  <td>Como personal del consultorio, quiero que se guarde la fecha del ajuste del inventario para poder llevar un seguimiento de movimientos.</td>
+  <td>
+    Escenario 1: Registro de fecha de ajuste<br><br>
+    Dado que se está registrando una acción de consumo o edición en el inventario<br>
+    Cuando se complete el proceso<br>
+    Entonces la aplicación registrará automáticamente la fecha del ajuste en el historial.
+  </td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
@@ -1091,15 +1204,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando se añadan ítems al tratamiento<br>
     Entonces la aplicación almacenará automáticamente los IDs de los objetos seleccionados.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US27</td>
+  <td>Guardar ID de facturación</td>
+  <td>Como personal del consultorio, quiero que se guarde el ID de la facturación al momento del consumo de materiales para mantener la trazabilidad.</td>
+  <td>
+    Escenario 1: Registro del ID de facturación<br><br>
+    Dado que se está generando una factura con objetos del inventario<br>
+    Cuando se complete el proceso de facturación<br>
+    Entonces la aplicación almacenará el ID de esa factura junto al registro de consumo.
+  </td>
+  <td>Epic 05</td>
 </tr>
 
 <tr>
@@ -1112,15 +1230,20 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Cuando se especifique la cantidad utilizada de cada objeto<br>
     Entonces el sistema almacenará dicha cantidad como parte del historial de consumo.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 04</td>
 </tr>
 
 <tr>
-  <td>US0X</td>
-  <td> - </td>
-  <td> - </td>
-  <td> - </td>
-  <td>Epic ?</td>
+  <td>US29</td>
+  <td>Menú</td>
+  <td>Como personal del consultorio, quiero acceder a un menú general para navegar fácilmente entre las secciones del sistema.</td>
+  <td>
+    Escenario 1: Acceso al menú de navegación<br><br>
+    Dado que el personal ha iniciado sesión<br>
+    Cuando acceda a la aplicación<br>
+    Entonces visualizará un menú con las secciones disponibles como citas, pacientes, inventario, perfil, pagos y dashboard.
+  </td>
+  <td>Epic 01</td>
 </tr>
 
 <tr>
@@ -1135,11 +1258,22 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Y si edita sus datos y guarda los cambios<br>
     Entonces la aplicación actualizará su perfil correctamente.
   </td>
-  <td>Epic ?</td>
+  <td>Epic 01</td>
 </tr>
 
   </tbody>
 </table>
+
+<h4>Epics</h4>
+
+| Epic ID  | Título                | Explicación                                                                                      |
+|----------|-----------------------|--------------------------------------------------------------------------------------------------|
+| EP01     | Autenticación         | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.        |
+| EP02     | Gestión de Citas      | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.      |
+| EP03     | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.     |
+| EP04     | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.        |
+| EP05     | Pagos                 | Gestiona el registro, historial y control de los pagos relacionados con tratamientos dentales.  |
+
 
 <div id='3.3.'><h3>3.3. Impact map</h3></div>
 
