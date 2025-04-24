@@ -47,11 +47,11 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 URL del repositorio para el reporte del proyecto: https://github.com/TF-AplicacionesMoviles/Documentation
 
 <div align="center">
-<img src="Img/insights_tb_1.png" alt="insights-1">
+<img src="Img/insights_tb1_1.png" alt="insights-1">
 </div>
 
 <div align="center">
-<img src="Img/insights_tb_2.png" alt="insights-2">
+<img src="Img/insights_tb1_2.png" alt="insights-2">
 </div>
 
 **TB1**
