@@ -817,16 +817,15 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 
 <table>
   <thead>
-    <tr>
-      <th>Epic / Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
+     <tr>
+    <th class="tg-4zxv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Epic / Story ID</span></th>
+    <th class="tg-4zxv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Título</span></th>
+    <th class="tg-4zxv"><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent">Descripción</span></th>
+    <th class="tg-4zxv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Criterios de Aceptación</span></th>
+    <th class="tg-4zxv"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Relacionado con (Epic ID)</span></th>
+  </tr>
   </thead>
   <tbody>
-
 <tr>
       <td>US01</td>
       <td>Registrar usuario</td>
@@ -839,7 +838,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Entonces la aplicación redirigirá al personal odontológico a la pantalla de inicio.</td>
       <td>Epic 01</td>
 </tr>
-
 <tr>
   <td>US02</td>
   <td>Iniciar sesión</td>
@@ -853,7 +851,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 01</td>
 </tr>
-
 <tr>
       <td>US03</td>
       <td>Recordatorio de citas</td>
@@ -870,7 +867,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       </td>
       <td>Epic 02</td>
 </tr>
-
 <tr>
   <td>US04</td>
   <td>Mostrar citas</td>
@@ -884,7 +880,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 02</td>
 </tr>
-
 <tr>
       <td>US05</td>
       <td>Editar cita</td>
@@ -901,7 +896,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       </td>
     <td>Epic 02</td>
 </tr>
-
 <tr>
   <td>US06</td>
   <td>Añadir citas</td>
@@ -917,7 +911,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 02</td>
 </tr>
-
 <tr>
       <td>US07</td>
       <td>Eliminar cita</td>
@@ -934,7 +927,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
       </td>
       <td>Epic 02</td>
 </tr>
-
 <tr>
   <td>US08</td>
   <td>Buscar citas</td>
@@ -953,7 +945,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 02</td>
 </tr>
-
 <tr>
   <td>US09</td>
   <td>Gestionar horarios de atención</td>
@@ -970,7 +961,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 02</td>
 </tr>
-
 <tr>
   <td>US10</td>
   <td>Pagar tratamiento</td>
@@ -988,11 +978,9 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
     Dado que el paciente ha realizado pagos anteriores<br>
     Cuando acceda a la sección de historial<br>
     Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
-
   </td>
   <td>Epic 05</td>
 </tr>
-
 <tr>
   <td>US11</td>
   <td>Historial de pagos</td>
@@ -1005,7 +993,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 05</td>
 </tr>
-
 <tr>
   <td>US12</td>
   <td>Mostrar pacientes</td>
@@ -1019,7 +1006,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US13</td>
   <td>Añadir pacientes</td>
@@ -1033,7 +1019,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US14</td>
   <td>Editar paciente</td>
@@ -1048,7 +1033,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US15</td>
   <td>Eliminar pacientes</td>
@@ -1063,7 +1047,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US16</td>
   <td>Buscar pacientes</td>
@@ -1077,7 +1060,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US17</td>
   <td>Añadir historial clínico</td>
@@ -1092,7 +1074,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US18</td>
   <td>Eliminar historial clínico</td>
@@ -1106,7 +1087,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US19</td>
   <td>Mostrar historial clínico</td>
@@ -1119,7 +1099,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 03</td>
 </tr>
-
 <tr>
   <td>US20</td>
   <td>Inventario</td>
@@ -1132,7 +1111,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US21</td>
   <td>Añadir objeto al inventario</td>
@@ -1146,7 +1124,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US22</td>
   <td>Editar objeto de inventario</td>
@@ -1161,7 +1138,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US23</td>
   <td>Eliminar objeto de inventario</td>
@@ -1176,7 +1152,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04/td>
 </tr>
-
 <tr>
   <td>US24</td>
   <td>Dashboard de inventario</td>
@@ -1189,7 +1164,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US25</td>
   <td>Guardar fecha de ajuste</td>
@@ -1202,7 +1176,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US26</td>
   <td>Guardar ID de item</td>
@@ -1215,7 +1188,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US27</td>
   <td>Guardar ID de facturación</td>
@@ -1228,7 +1200,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 05</td>
 </tr>
-
 <tr>
   <td>US28</td>
   <td>Registrar cantidad consumida de ítems</td>
@@ -1241,7 +1212,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 04</td>
 </tr>
-
 <tr>
   <td>US29</td>
   <td>Menú</td>
@@ -1254,7 +1224,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 01</td>
 </tr>
-
 <tr>
   <td>US30</td>
   <td>Perfil</td>
@@ -1360,7 +1329,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP01</td>
 </tr>
-
 <tr>
   <td>TS02</td>
   <td>Inicio de sesión exitoso</td>
@@ -1408,7 +1376,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS06</td>
   <td>Bloqueo de edición para cita pasada</td>
@@ -1420,7 +1387,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS07</td>
   <td>Registro de nueva cita</td>
@@ -1432,7 +1398,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS08</td>
   <td>Eliminación de cita futura</td>
@@ -1444,7 +1409,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS09</td>
   <td>Restricción para eliminar cita pasada</td>
@@ -1456,7 +1420,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS10</td>
   <td>Búsqueda de cita por fecha</td>
@@ -1468,7 +1431,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS11</td>
   <td>Búsqueda de cita por DNI</td>
@@ -1480,7 +1442,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP02</td>
 </tr>
-
 <tr>
   <td>TS12</td>
   <td>Pago exitoso por parte del paciente</td>
@@ -1492,7 +1453,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>TS13</td>
   <td>Error en el pago del paciente</td>
@@ -1504,7 +1464,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>TS14</td>
   <td>Visualización del historial de pagos</td>
@@ -1516,7 +1475,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>TS15</td>
   <td>Registro de pago por parte del personal</td>
@@ -1528,7 +1486,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>TS16</td>
   <td>Visualizar historial de pagos</td>
@@ -1540,7 +1497,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP05</td>
 </tr>
-
 <tr>
   <td>TS17</td>
   <td>Visualizar lista de pacientes</td>
@@ -1553,7 +1509,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS18</td>
   <td>Registrar nuevo paciente</td>
@@ -1566,7 +1521,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS19</td>
   <td>Editar datos de un paciente</td>
@@ -1580,7 +1534,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS20</td>
   <td>Eliminar un paciente</td>
@@ -1594,7 +1547,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS21</td>
   <td>Buscar paciente por DNI</td>
@@ -1607,7 +1559,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS22</td>
   <td>Registrar historial clínico</td>
@@ -1621,7 +1572,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>EP03</td>
 </tr>
-
 <tr>
   <td>TS23</td>
   <td>Eliminar historial clínico</td>
@@ -1753,6 +1703,9 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
    </td>
    <td>EP01</td>
 </tr>
+</tbody>
+</table>
+
 
 <h4>Epics</h4>
 
@@ -2338,6 +2291,8 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 </div>
 <br><br>
 
+<div align="center">
+
 | Nombre       | Descripción                                                                 |
 | ------------ | --------------------------------------------------------------------------- |
 | id           | Identificador único del registro, generalmente una clave primaria.          |
@@ -2350,6 +2305,8 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 | password     | Contraseña del usuario (almacenada de forma segura, usualmente encriptada). |
 | trial        | Indica si el usuario está en un periodo de prueba (true/false).             |
 | username     | Nombre de usuario único utilizado para iniciar sesión.                      |
+
+</div>
 
 <div id='4.2.2.'><h4>4.2.2. Bounded Context: &lt;Inventory&gt;</h4></div>
 
@@ -2445,6 +2402,8 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 Representa los ítems que se encuentran registrados en el inventario. Cada ítem puede pertenecer a un usuario específico y está clasificado según una categoría predefinida. Incluye datos básicos como nombre, cantidad disponible y metadatos de auditoría.
 
+<div align="center">
+
 | Campo          | Tipo     | Descripción                                               |
 | -------------- | -------- | --------------------------------------------------------- |
 | id             | uuid     | Identificador único del ítem                              |
@@ -2457,11 +2416,15 @@ Representa los ítems que se encuentran registrados en el inventario. Cada ítem
 | category       | string   | Categoría del ítem (puede ser representado como un ENUM)  |
 | user_id        | int      | Identificador del usuario al que pertenece o creó el ítem |
 
+</div>
+
 ---
 
 #### Tabla: LogItems
 
 Registra los consumos o movimientos de los ítems del inventario, incluyendo la cantidad consumida, la fecha y una posible referencia a la factura. Permite llevar control y trazabilidad del uso de cada ítem.
+
+<div align="center">
 
 | Campo             | Tipo     | Descripción                                          |
 | ----------------- | -------- | ---------------------------------------------------- |
@@ -2470,6 +2433,8 @@ Registra los consumos o movimientos de los ítems del inventario, incluyendo la 
 | consumed_quantity | int      | Cantidad de ítem consumida                           |
 | consumed_at       | datetime | Fecha y hora en la que ocurrió el consumo            |
 | invoice_id        | int      | Referencia a la factura en donde se consumió         |
+
+</div>
 
 <div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Management&gt;</h4></div>
 
@@ -2617,6 +2582,8 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 
 ## Tabla: Patients
 
+<div align="center">
+
 | Campo        | Tipo          | Descripción                                   |
 | ------------ | ------------- | --------------------------------------------- |
 | `id`         | `int`         | Identificador único del paciente              |
@@ -2630,7 +2597,11 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 | `created_at` | `dateTime`    | Fecha de creación del registro                |
 | `updated_at` | `dateTime`    | Fecha de la última actualización del registro |
 
+</div>
+
 ## Tabla: Medical Histories
+
+<div align="center">
 
 | Campo         | Tipo           | Descripción                                    |
 | ------------- | -------------- | ---------------------------------------------- |
@@ -2643,6 +2614,8 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 | `patient_id`  | `int`          | ID del paciente asociado al historial          |
 | `created_at`  | `dateTime`     | Fecha de creación del historial                |
 | `updated_at`  | `dateTime`     | Fecha de la última actualización del historial |
+
+</div>
 
 <div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Invoices&gt;</h4></div>
 
@@ -2717,6 +2690,8 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <img src="Img/Invoices_DB.png">
 </div>
 
+<div align="center">
+
 | Campo          | Tipo de Dato | Descripción                                                          |
 | -------------- | ------------ | -------------------------------------------------------------------- |
 | id             | int          | Identificador único de la factura. Es la clave primaria de la tabla. |
@@ -2724,6 +2699,8 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 | appointment_id | int          | Clave foránea que referencia a la cita relacionada con esta factura. |
 | user_id        | int          | Clave foránea que identifica al usuario al que pertenece la factura. |
 | created_at`    | DateTime     | Fecha y hora en la que se generó la factura.                         |
+
+</div>
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
