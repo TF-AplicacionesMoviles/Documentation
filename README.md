@@ -521,7 +521,7 @@ Se ha observado que una gran parte de los consultorios aún recurre a métodos t
 
 <div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas </h5></div>
 
-<img src="Img/Canvas.jpg" alt="Lean Ux Canvas" style="margin-bottom: 5px;" width="800"/>
+<img src="Img/Lean-UX-Canvas.jpg" alt="Lean Ux Canvas" style="margin-bottom: 5px;" width="800"/>
 
 <div id='1.3.'><h3> 1.3 Segmentos Objetivos</h3></div>
 
