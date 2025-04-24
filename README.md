@@ -40,7 +40,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha |             Autor             | Descripción de modificación |
 | :-----: | :---: | :---------------------------: | --------------------------- |
-|   TB1   |   -   | Uribe Quispe, Jesús Guillermo | -                           |
+|   TB1   |   24/04/2025   | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design                          |
 
 # Project Report Collaboration Insights
 
@@ -52,11 +52,11 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante                        | Tareas Asignadas |
 | --------------------------------- | ---------------- |
-| Bohorquez Lerzundi, Gerardo       | -                |
-| Huanaco Huayta, Elizabeth         | -                |
-| Huapaya Cuevas, Anthony           | -                |
-| Silva Tirado, Sebastián Valentino | -                |
-| Uribe Quispe, Jesús               | -                |
+| Bohorquez Lerzundi, Gerardo       | Analisis Competitivo y User Stories              |
+| Huanaco Huayta, Elizabeth         | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT          |
+| Huapaya Cuevas, Anthony           | Lean Ux, Entrevistas, Análisis de entrevistas y Needfinding, impact map                |
+| Silva Tirado, Sebastián Valentino | Lean Ux, User Stories, NeedFinding, Elaboración de PPT                |
+| Uribe Quispe, Jesús               | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd           |
 
 **Github Collaboration Insights**
 
@@ -127,6 +127,7 @@ Los integrantes son:
    4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.) <br>
    4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.) <br>
    4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
+   
    4.2.2. [Bounded Context: Inventory](#4.2.2.) <br>
    4.2.2.1. [Domain Layer](#4.2.2.1.) <br>
    4.2.2.2. [Interface Layer](#4.2.2.2.) <br>
@@ -170,8 +171,8 @@ apropiadas.
 
 | Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                               | Conclusiones |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
-| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
+| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
+| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony** <br> **TB1:** <br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:**  A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** <br><br> | **TB1:**     |
 
 # OBJETIVOS SMART
 
@@ -209,20 +210,20 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
 </tr>
     <tr>
       <td rowspan="2">Huanaco Huayta, Elizabeth Lucero</td>
-      <td>Objetivo SMART 1</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Desarrollo de habilidades full stack con Angular y Spring Boot</td>
+      <td>Mejorar mis habilidades de desarrollo web con Angular para el frontend y Spring Boot para el backend, usando buenas prácticas.</td>
+      <td>Terminar un pequeño proyecto web y subirlo a GitHub.</td>
+      <td>Dedicar 4 horas por semana al estudio y práctica de Angular y Spring Boot, usando tutoriales y documentación oficial.</td>
+      <td>Adquirir conocimientos en desarrollo web full stack es clave para poder avanzar profesionalmente, ya que estas tecnologías son ampliamente utilizadas y demandadas en el mercado laboral.</td>
+      <td>Alcanzar este objetivo en un plazo de 3 meses.</td>
     </tr>
     <tr>
-      <td>Objetivo SMART 2</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Especialización en desarrollo y diseño de aplicaciones móviles</td>
+      <td>Adquirir habilidades en el desarrollo de aplicaciones móviles utilizando Flutter, enfocándome tanto en la programación funcional como en el diseño de interfaces de usuario modernas, atractivas y centradas en la experiencia del usuario.</td>
+      <td>Diseñar y desarrollar una aplicación móvil pequeña con una interfaz de usuario (UI) funcional y moderna, centrada en ofrecer una experiencia de usuario (UX) intuitiva y agradable, y publicarla en GitHub</td>
+      <td>Dedicar 6 horas por semana al aprendizaje y práctica del desarrollo móvil y diseño de interfaces usando Flutter.</td>
+      <td>Flutter es un framework popular y demandado en la industria por su capacidad para crear aplicaciones multiplataforma con interfaces de alta calidad. Estas habilidades son clave para destacar en el mercado laboral.</td>
+      <td>Alcanzar este objetivo en un plazo de 4 meses.</td>
     </tr>
     <tr>
       <td rowspan="2">Huapaya Cuevas, Anthony Martin</td>
@@ -277,7 +278,6 @@ Los objetivos SMART son una forma de definir metas de manera clara, medible y al
     </tr>
   </tbody>
 </table>
-
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
 
@@ -394,7 +394,7 @@ MediTech es una innovadora startup tecnológica dedicada a transformar la manera
         <td align="left">
         <b>Acerca de:</b>
         <br>
-         Soy estudiante del sétimo ciclo de la carrera de Ingeniería de Software en UPC. Opté por estudiar esta carrera porque me gusta la idea de programar y crear algo que pueda llegar a funcionar y ser útil en el mundo. Por lo cual, la universidad me da la posibilidad de estudiar y ser un profesional exitoso. Deseo ser buen integrante para mi equipo y me comprometo en hacer el mejor trabajo posible, y poder superarme más que el ciclo anterior.
+         Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software en UPC. Opté por estudiar esta carrera porque me gusta la idea de programar y crear algo que pueda llegar a funcionar y ser útil en el mundo. Por lo cual, la universidad me da la posibilidad de estudiar y ser un profesional exitoso. Deseo ser buen integrante para mi equipo y me comprometo en hacer el mejor trabajo posible, y poder superarme más que el ciclo anterior.
         </td>
     </tr>
     <tr align="center">
@@ -1260,25 +1260,575 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
   </td>
   <td>Epic 01</td>
 </tr>
+<tr>
+  <td>US31</td>
+  <td>Visualización del menú principal</td>
+  <td>Como visitante del sitio, quiero ver un menú principal en la parte superior de la página para acceder fácilmente a otras secciones.</td>
+  <td>
+    - Dado que estoy en la landing page,<br>
+    - Cuando se carga el sitio,<br>
+    - Entonces el menú principal debe estar visible en la parte superior y mostrar enlaces a About Us, Services, Contact Us y Formulario.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US32</td>
+  <td>Navegación por la barra principal</td>
+  <td>Como visitante del sitio, quiero poder hacer clic en los elementos del menú para navegar a las secciones correspondientes de la misma página.</td>
+  <td>
+    - Dado que estoy en la landing page,<br>
+    - Cuando hago clic en "About Us",<br>
+    - Entonces la vista debe desplazarse suavemente a la sección "About Us".<br>
+    - Y lo mismo debe suceder con "Services", "Contact Us" y "Formulario".
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US33</td>
+  <td>Sección About Us</td>
+  <td>Como visitante del sitio, quiero ver información sobre la empresa en la sección About Us para conocer su misión y valores.</td>
+  <td>
+    - Dado que he navegado a la sección About Us,<br>
+    - Entonces debo ver texto con información clara sobre la empresa,<br>
+    - Y un diseño consistente con el resto de la página.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US34</td>
+  <td>Sección de Servicios</td>
+  <td>Como visitante del sitio, quiero conocer los servicios ofrecidos para saber si se ajustan a mis necesidades.</td>
+  <td>
+    - Dado que estoy en la sección de Servicios,<br>
+    - Entonces debo ver una lista o tarjetas con los servicios ofrecidos,<br>
+    - Y cada servicio debe tener un título y una breve descripción.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US35</td>
+  <td>Sección Contact Us</td>
+  <td>Como visitante del sitio, quiero tener acceso a datos de contacto para poder comunicarme con la empresa.</td>
+  <td>
+    - Dado que estoy en la sección de Contact Us,<br>
+    - Entonces debo ver una dirección, número de teléfono y correo electrónico válidos,<br>
+    - Y deben estar visibles y legibles.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US36</td>
+  <td>Formulario de contacto</td>
+  <td>Como visitante del sitio, quiero poder enviar un formulario de contacto con mis datos para recibir más información.</td>
+  <td>
+    - Dado que estoy en la sección del formulario,<br>
+    - Cuando completo mis datos (nombre, email, mensaje),<br>
+    - Y presiono el botón enviar,<br>
+    - Entonces el sistema debe confirmar que el mensaje fue enviado correctamente o mostrar un mensaje de error en caso contrario.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>US37</td>
+  <td>Footer informativo</td>
+  <td>Como visitante del sitio, quiero ver información adicional en el pie de página para acceder a datos legales o complementarios.</td>
+  <td>
+    - Dado que estoy al final de la página,<br>
+    - Entonces debo ver un footer con información como derechos de autor,<br>
+    - Y enlaces a redes sociales o políticas del sitio si están disponibles.
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td>TS01</td>
+  <td>Registro exitoso del personal</td>
+  <td>Verificar que el personal pueda registrarse correctamente en la aplicación completando el formulario.</td>
+  <td>
+    - Dado que el consultorio ya está registrado<br>
+    - Cuando el personal complete el formulario de registro<br>
+    - Y presione "Registrarme"<br>
+    - Entonces debe redirigirlo a la pantalla de inicio.
+  </td>
+  <td>EP01</td>
+</tr>
 
-  </tbody>
-</table>
+<tr>
+  <td>TS02</td>
+  <td>Inicio de sesión exitoso</td>
+  <td>Verificar que el personal registrado pueda iniciar sesión con sus credenciales válidas.</td>
+  <td>
+    - Dado que el personal ya está registrado<br>
+    - Cuando ingrese su correo y contraseña<br>
+    - Y presione "Iniciar Sesión"<br>
+    - Entonces debe ser redirigido a la pantalla de inicio.
+  </td>
+  <td>EP01</td>
+</tr>
+
+<tr>
+  <td>TS05</td>
+  <td>Edición de cita futura</td>
+  <td>Verificar que una cita futura pueda ser editada correctamente.</td>
+  <td>
+    - Dado que el asistente ve una cita futura<br>
+    - Cuando modifique sus campos<br>
+    - Entonces el sistema debe actualizarla exitosamente.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS06</td>
+  <td>Bloqueo de edición para cita pasada</td>
+  <td>Verificar que no se pueda editar una cita ya pasada.</td>
+  <td>
+    - Dado que la cita ya pasó<br>
+    - Cuando se intente editar<br>
+    - Entonces el sistema debe mostrar un mensaje de restricción.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS07</td>
+  <td>Registro de nueva cita</td>
+  <td>Verificar que se pueda registrar una nueva cita correctamente.</td>
+  <td>
+    - Dado que el personal está autenticado<br>
+    - Cuando complete los datos de la cita y presione "Registrar"<br>
+    - Entonces debe guardarse y aparecer en la lista.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS08</td>
+  <td>Eliminación de cita futura</td>
+  <td>Verificar que una cita futura pueda ser eliminada y notificar al paciente.</td>
+  <td>
+    - Dado que el asistente selecciona una cita futura<br>
+    - Cuando confirme la eliminación<br>
+    - Entonces debe eliminarse y enviarse la notificación.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS09</td>
+  <td>Restricción para eliminar cita pasada</td>
+  <td>Verificar que no se pueda eliminar una cita que ya ocurrió.</td>
+  <td>
+    - Dado que la cita ya ocurrió<br>
+    - Cuando se intente eliminar<br>
+    - Entonces el sistema debe bloquear la acción con un mensaje.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS10</td>
+  <td>Búsqueda de cita por fecha</td>
+  <td>Verificar que se puedan buscar citas por fecha correctamente.</td>
+  <td>
+    - Dado que el personal está en la sección de citas<br>
+    - Cuando ingrese una fecha y presione buscar<br>
+    - Entonces debe mostrar las citas de esa fecha.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS11</td>
+  <td>Búsqueda de cita por DNI</td>
+  <td>Verificar que se puedan buscar citas mediante el DNI del paciente.</td>
+  <td>
+    - Dado que el personal está en la sección de citas<br>
+    - Cuando ingrese un DNI y presione buscar<br>
+    - Entonces debe mostrar las citas que coincidan con ese paciente.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td>TS12</td>
+  <td>Pago exitoso por parte del paciente</td>
+  <td>Verificar que el paciente pueda pagar un tratamiento desde la plataforma.</td>
+  <td>
+    - Dado que el paciente tiene un tratamiento pendiente<br>
+    - Cuando complete los datos de pago<br>
+    - Entonces el sistema debe procesar y confirmar el pago.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS13</td>
+  <td>Error en el pago del paciente</td>
+  <td>Verificar que el sistema muestre un mensaje ante un error de pago y permita reintentar.</td>
+  <td>
+    - Dado que hay un error de transacción<br>
+    - Cuando el paciente intente pagar<br>
+    - Entonces debe ver un mensaje de error y opción de reintento.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS14</td>
+  <td>Visualización del historial de pagos</td>
+  <td>Verificar que el paciente pueda ver el historial de sus pagos anteriores.</td>
+  <td>
+    - Dado que el paciente accede al historial<br>
+    - Cuando lo visualice<br>
+    - Entonces debe mostrar los pagos previos y sus estados.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS15</td>
+  <td>Registro de pago por parte del personal</td>
+  <td>Verificar que el personal pueda registrar un pago de tratamiento y generar la factura.</td>
+  <td>
+    - Dado que el paciente recibió un tratamiento<br>
+    - Cuando el personal registre el monto pagado<br>
+    - Entonces debe actualizar el estado como pagado y reducir el stock médico.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS16</td>
+  <td>Visualizar historial de pagos</td>
+  <td>Validar que el personal pueda ver una lista de pagos con fecha, monto y paciente.</td>
+  <td>
+    Dado que el personal accede al módulo de pagos<br>
+    Cuando seleccione la opción "Historial de pagos"<br>
+    Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
+  </td>
+  <td>EP05</td>
+</tr>
+
+<tr>
+  <td>TS17</td>
+  <td>Visualizar lista de pacientes</td>
+  <td>Validar que el sistema muestre correctamente los pacientes registrados.</td>
+  <td>
+    Dado que el personal ha iniciado sesión en la aplicación<br>
+    Y accede a la sección de pacientes<br>
+    Cuando se cargue la pantalla<br>
+    Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS18</td>
+  <td>Registrar nuevo paciente</td>
+  <td>Validar que el sistema permita guardar nuevos pacientes correctamente.</td>
+  <td>
+    Dado que el personal accede a la sección de pacientes<br>
+    Cuando complete el formulario con los datos del nuevo paciente<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación registrará al paciente y lo mostrará en la lista.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS19</td>
+  <td>Editar datos de un paciente</td>
+  <td>Validar que se actualicen correctamente los datos de un paciente.</td>
+  <td>
+    Dado que el personal accede a la sección de pacientes<br>
+    Y selecciona a un paciente de la lista<br>
+    Cuando actualice los datos en el formulario<br>
+    Y presione el botón "Guardar cambios"<br>
+    Entonces el sistema actualizará la información del paciente correctamente.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS20</td>
+  <td>Eliminar un paciente</td>
+  <td>Validar que el sistema permita eliminar pacientes con confirmación.</td>
+  <td>
+    Dado que el personal accede a la lista de pacientes<br>
+    Cuando seleccione un paciente<br>
+    Y elija la opción de eliminar<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará dicho registro de la base de datos.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS21</td>
+  <td>Buscar paciente por DNI</td>
+  <td>Validar que el sistema muestre resultados correctos al buscar por DNI.</td>
+  <td>
+    Dado que existen pacientes registrados<br>
+    Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>
+    Y seleccione el botón de buscar<br>
+    Entonces la aplicación mostrará al paciente correspondiente en los resultados.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS22</td>
+  <td>Registrar historial clínico</td>
+  <td>Validar que se pueda añadir un historial clínico a un paciente.</td>
+  <td>
+    Dado que el personal accede al perfil de un paciente<br>
+    Cuando seleccione "Añadir historial clínico"<br>
+    Y complete los campos requeridos<br>
+    Y presione "Guardar"<br>
+    Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+  </td>
+  <td>EP03</td>
+</tr>
+
+<tr>
+  <td>TS23</td>
+  <td>Eliminar historial clínico</td>
+  <td>Validar que el personal pueda eliminar un historial clínico con confirmación.</td>
+  <td>
+    Dado que el personal accede al historial clínico de un paciente<br>
+    Cuando seleccione la opción de eliminar historial<br>
+    Y confirme la acción<br>
+    Entonces la aplicación eliminará dicho historial y actualizará la vista.
+  </td>
+  <td>EP03</td>
+</tr>
+<tr>
+   <td>TS24</td>
+   <td>Visualizar historial clínico</td>
+   <td>Validar que se muestre el historial clínico completo de un paciente.</td>
+   <td> 
+     Dado que el personal accede al perfil de un paciente<br>
+     Cuando seleccione "Ver historial clínico"<br>
+     Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
+   </td>
+   <td>EP03</td> 
+</tr>
+<tr>
+   <td>TS25</td>
+   <td>Visualizar inventario</td>
+   <td>Validar que el personal pueda ver el inventario con los objetos y su stock.</td>
+   <td> 
+     Dado que el personal se encuentra correctamente logueado en la aplicación<br>
+     Cuando acceda al módulo de inventario<br>
+     Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS26</td>
+   <td>Formulario de registro de objetos</td>
+   <td>Implementar un formulario que permita al personal del consultorio añadir nuevos objetos al inventario con nombre, tipo y cantidad.</td>
+   <td> 
+     - Cuando el usuario acceda al módulo de inventario, entonces podrá ver el botón "Añadir objeto".<br>
+     - Cuando el usuario complete los campos requeridos y envíe el formulario, entonces el objeto se añadirá a la base de datos y aparecerá en la lista del inventario.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS27</td>
+   <td>Edición de objeto del inventario</td>
+   <td>Permitir al usuario seleccionar un objeto del inventario y modificar sus datos.</td>
+   <td> 
+     - Cuando el usuario seleccione un objeto del inventario, entonces podrá ver sus datos actuales.<br>
+     - Cuando el usuario modifique los datos y presione "Guardar cambios", entonces se actualizarán en la base de datos.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS28</td>
+   <td>Eliminar objeto del inventario</td>
+   <td>Permitir al usuario eliminar un objeto del inventario previa confirmación.</td>
+   <td> 
+     - Cuando el usuario presione "Eliminar" en un objeto del inventario, entonces se mostrará una confirmación.<br>
+     - Cuando el usuario confirme, entonces el objeto será eliminado de la base de datos.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS29</td>
+   <td>Dashboard de inventario con métricas</td>
+   <td>Crear una vista de dashboard para visualizar métricas y gráficos de inventario.</td>
+   <td> 
+     - Cuando el usuario acceda al dashboard desde la sección de inventario, entonces verá gráficos con métricas de stock, consumo y disponibilidad.<br>
+     - Los datos deberán estar actualizados en tiempo real o con sincronización periódica.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS30</td>
+   <td>Registro de fecha de ajuste de inventario</td>
+   <td>Guardar automáticamente la fecha de cualquier edición o consumo registrado en el inventario.</td>
+   <td> 
+     - Cuando se realice una edición o consumo de inventario, entonces el sistema almacenará la fecha del ajuste en el historial.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS31</td>
+   <td>Guardar ID del objeto consumido</td>
+   <td>Al registrar un tratamiento con ítems, guardar el ID de cada objeto consumido.</td>
+   <td> 
+     - Cuando se añadan ítems a un tratamiento, entonces el sistema guardará automáticamente los IDs de los objetos usados.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS32</td>
+   <td>Guardar ID de facturación en consumo</td>
+   <td>Guardar el ID de la factura generada junto con el registro de consumo de inventario.</td>
+   <td> 
+     - Cuando se complete el proceso de facturación, entonces el sistema almacenará el ID de la factura junto con los datos de los objetos consumidos.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS33</td>
+   <td>Registro de cantidad consumida de objetos</td>
+   <td>Permitir especificar la cantidad de cada objeto usado en un tratamiento y guardarlo en el historial.</td>
+   <td> 
+     - Cuando se registre el consumo de objetos, entonces se deberá ingresar la cantidad utilizada.<br>
+     - Entonces el sistema almacenará esa cantidad como parte del historial de consumo.
+   </td>
+   <td>EP04</td>
+</tr>
+<tr>
+   <td>TS34</td>
+   <td>Menú de navegación del sistema</td>
+   <td>Implementar un menú principal que muestre las secciones: citas, pacientes, inventario, perfil, pagos y dashboard.</td>
+   <td> 
+     - Cuando el usuario inicie sesión y acceda a la aplicación, entonces visualizará el menú con todas las secciones disponibles.<br>
+     - Cuando el usuario seleccione una opción, entonces será redirigido a la vista correspondiente.
+   </td>
+   <td>EP01</td>
+</tr>
+<tr>
+   <td>TS35</td>
+   <td>Gestión del perfil del usuario</td>
+   <td>Permitir visualizar y editar los datos del perfil del usuario.</td>
+   <td> 
+     - Cuando el usuario acceda a la sección de perfil, entonces verá su información actual.<br>
+     - Cuando edite sus datos y presione "Guardar", entonces la información será actualizada correctamente en la base de datos.
+   </td>
+   <td>EP01</td>
+</tr>
 
 <h4>Epics</h4>
 
-| Epic ID  | Título                | Explicación                                                                                      |
-|----------|-----------------------|--------------------------------------------------------------------------------------------------|
-| EP01     | Autenticación         | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.        |
-| EP02     | Gestión de Citas      | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.      |
-| EP03     | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.     |
-| EP04     | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.        |
-| EP05     | Pagos                 | Gestiona el registro, historial y control de los pagos relacionados con tratamientos dentales.  |
+| Epic ID | Título                | Explicación                                                                                    |
+| ------- | --------------------- | ---------------------------------------------------------------------------------------------- |
+| EP01    | Autenticación         | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
+| EP02    | Gestión de Citas      | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.     |
+| EP03    | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.    |
+| EP04    | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.       |
+| EP05    | Pagos                 | Gestiona el registro, historial y control de los pagos relacionados con tratamientos dentales. |
+|EP06 | Landing Page | componentes relacionados al Landing Page |
 
 
 <div id='3.3.'><h3>3.3. Impact map</h3></div>
 
 <img src="Img/Impact-Map.png" width="800">
 <div id='3.4.'><h3>3.4. Product Backlog</h3></div>
+
+Esta tabla presenta una lista organizada de las funcionalidades clave que se deben implementar en el sistema odontológico, basado en las prioridades de negocio y las necesidades del usuario. Las funcionalidades están divididas en "User Stories" (historias de usuario) y "Technical Stories" (historias de desarrollador), y se ordenan según su prioridad para asegurar que se aborden primero las funcionalidades más críticas.
+
+El objetivo de esta organización es garantizar una implementación eficiente, donde las características más relevantes para el negocio y la experiencia del usuario se desarrollen primero. Esto incluye la gestión de pacientes, citas, historial clínico, inventario, pagos, y otros aspectos esenciales para el funcionamiento del consultorio odontológico. Además, se toma en cuenta el esfuerzo necesario para cada tarea, representado por los Story Points, con el fin de maximizar el valor entregado en el menor tiempo posible.
+
+De esta forma, se establece un plan claro de acción para los desarrolladores, asegurando que las funcionalidades esenciales estén disponibles desde las primeras etapas del proyecto.
+
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr><td>1</td><td>US12</td><td>Mostrar pacientes</td><td>3</td></tr>
+    <tr><td>2</td><td>US13</td><td>Añadir pacientes</td><td>3</td></tr>
+    <tr><td>3</td><td>US14</td><td>Editar paciente</td><td>3</td></tr>
+    <tr><td>4</td><td>US15</td><td>Eliminar pacientes</td><td>3</td></tr>
+    <tr><td>5</td><td>US16</td><td>Buscar pacientes</td><td>3</td></tr>
+    <tr><td>6</td><td>TS17</td><td>Visualizar lista de pacientes</td><td>3</td></tr>
+    <tr><td>7</td><td>TS18</td><td>Registrar nuevo paciente</td><td>3</td></tr>
+    <tr><td>8</td><td>TS19</td><td>Editar datos de un paciente</td><td>3</td></tr>
+    <tr><td>9</td><td>TS20</td><td>Eliminar un paciente</td><td>3</td></tr>
+    <tr><td>10</td><td>TS21</td><td>Buscar paciente por DNI</td><td>3</td></tr>
+    <tr><td>11</td><td>US04</td><td>Mostrar citas</td><td>3</td></tr>
+    <tr><td>12</td><td>US06</td><td>Añadir citas</td><td>3</td></tr>
+    <tr><td>13</td><td>US07</td><td>Eliminar cita</td><td>3</td></tr>
+    <tr><td>14</td><td>TS07</td><td>Registro de nueva cita</td><td>3</td></tr>
+    <tr><td>15</td><td>TS08</td><td>Eliminación de cita futura</td><td>3</td></tr>
+    <tr><td>16</td><td>TS09</td><td>Restricción para eliminar cita pasada</td><td>3</td></tr>
+    <tr><td>17</td><td>US05</td><td>Editar cita</td><td>5</td></tr>
+    <tr><td>18</td><td>TS05</td><td>Edición de cita futura</td><td>3</td></tr>
+    <tr><td>19</td><td>TS06</td><td>Bloqueo de edición para cita pasada</td><td>3</td></tr>
+    <tr><td>20</td><td>US08</td><td>Buscar citas</td><td>5</td></tr>
+    <tr><td>21</td><td>TS10</td><td>Búsqueda de cita por fecha</td><td>3</td></tr>
+    <tr><td>22</td><td>TS11</td><td>Búsqueda de cita por DNI</td><td>3</td></tr>
+    <tr><td>23</td><td>US03</td><td>Recordatorio de citas</td><td>5</td></tr>
+    <tr><td>24</td><td>US17</td><td>Añadir historial clínico</td><td>5</td></tr>
+    <tr><td>25</td><td>US18</td><td>Eliminar historial clínico</td><td>3</td></tr>
+    <tr><td>26</td><td>US19</td><td>Mostrar historial clínico</td><td>3</td></tr>
+    <tr><td>27</td><td>TS22</td><td>Registrar historial clínico</td><td>3</td></tr>
+    <tr><td>28</td><td>TS23</td><td>Eliminar historial clínico</td><td>3</td></tr>
+    <tr><td>29</td><td>TS24</td><td>Visualizar historial clínico</td><td>3</td></tr>
+    <tr><td>30</td><td>US20</td><td>Inventario</td><td>3</td></tr>
+    <tr><td>31</td><td>US21</td><td>Añadir objeto al inventario</td><td>3</td></tr>
+    <tr><td>32</td><td>US22</td><td>Editar objeto de inventario</td><td>3</td></tr>
+    <tr><td>33</td><td>US23</td><td>Eliminar objeto de inventario</td><td>3</td></tr>
+    <tr><td>34</td><td>TS25</td><td>Visualizar inventario</td><td>3</td></tr>
+    <tr><td>35</td><td>TS26</td><td>Formulario de registro de objetos</td><td>3</td></tr>
+    <tr><td>36</td><td>TS27</td><td>Edición de objeto del inventario</td><td>3</td></tr>
+    <tr><td>37</td><td>TS28</td><td>Eliminar objeto del inventario</td><td>3</td></tr>
+    <tr><td>38</td><td>US24</td><td>Dashboard de inventario</td><td>5</td></tr>
+    <tr><td>39</td><td>TS29</td><td>Dashboard de inventario con métricas</td><td>5</td></tr>
+    <tr><td>40</td><td>US25</td><td>Guardar fecha de ajuste</td><td>3</td></tr>
+    <tr><td>41</td><td>US26</td><td>Guardar ID de item</td><td>3</td></tr>
+    <tr><td>42</td><td>US28</td><td>Registrar cantidad consumida de ítems</td><td>5</td></tr>
+    <tr><td>43</td><td>TS30</td><td>Registro de fecha de ajuste de inventario</td><td>3</td></tr>
+    <tr><td>44</td><td>TS31</td><td>Guardar ID del objeto consumido</td><td>3</td></tr>
+    <tr><td>45</td><td>TS32</td><td>Guardar ID de facturación en consumo</td><td>3</td></tr>
+    <tr><td>46</td><td>TS33</td><td>Registro de cantidad consumida de objetos</td><td>3</td></tr>
+    <tr><td>47</td><td>US10</td><td>Pagar tratamiento</td><td>5</td></tr>
+    <tr><td>48</td><td>US11</td><td>Historial de pagos</td><td>3</td></tr>
+    <tr><td>49</td><td>TS12</td><td>Pago exitoso por parte del paciente</td><td>5</td></tr>
+    <tr><td>50</td><td>TS13</td><td>Error en el pago del paciente</td><td>3</td></tr>
+    <tr><td>51</td><td>TS14</td><td>Visualización del historial de pagos</td><td>3</td></tr>
+    <tr><td>52</td><td>TS15</td><td>Registro de pago por parte del personal</td><td>5</td></tr>
+    <tr><td>53</td><td>TS16</td><td>Visualizar historial de pagos</td><td>3</td></tr>
+    <tr><td>54</td><td>US29</td><td>Menú</td><td>3</td></tr>
+    <tr><td>55</td><td>TS34</td><td>Menú de navegación del sistema</td><td>3</td></tr>
+    <tr><td>56</td><td>US30</td><td>Perfil</td><td>3</td></tr>
+    <tr><td>57</td><td>TS35</td><td>Gestión del perfil del usuario</td><td>3</td></tr>
+    <tr><td>58</td><td>US01</td><td>Registrar usuario</td><td>3</td></tr>
+    <tr><td>59</td><td>US02</td><td>Iniciar sesión</td><td>3</td></tr>
+    <tr><td>60</td><td>TS01</td><td>Registro exitoso del personal</td><td>3</td></tr>
+    <tr><td>61</td><td>TS02</td><td>Inicio de sesión exitoso</td><td>3</td></tr>
+    <tr><td>62</td><td>US09</td><td>Gestionar horarios de atención</td><td>5</td></tr>
+    <tr><td>63</td><td>US27</td><td>Guardar ID de facturación</td><td>3</td></tr>
+    <tr><td>64</td><td>US31</td><td>Visualización del menú principal</td><td>3</td></tr>
+    <tr><td>65</td><td>US32</td><td>Navegación por la barra principal</td><td>3</td></tr>
+    <tr><td>66</td><td>US33</td>  <td>Sección About Us</td><td>3</td></tr>
+    <tr><td>67</td><td>US34</td>    <td>Sección de Servicios</td><td>3</td></tr>
+    <tr><td>68</td><td>US35</td>  <td>Sección Contact Us</td><td>3</td></tr>
+    <tr><td>69</td><td>US36</td>  <td>Formulario de contacto</td><td>3</td></tr>
+
+  </tbody>
+</table>
+</div>
 <div id='4.'><h2> CAPÍTULO IV: SOLUTION SOFTWARE DESIGN
 </h2></div>
 <div id='4.1.'><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
@@ -1742,11 +2292,9 @@ Este diagrama representa la descomposición interna del container IAM Applicatio
 
 en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "AuditableAbstractAggregateRoot", que son importantes para la implementación con Json Web Token y atributos predeterminados respectivamente.
 
-
 <div align="center">
 <img src="Img/UML_iam.png" alt="class-diagram">
 </div>
-
 
 <div id='4.2.1.6.2.'><h5>4.2.1.6.2. Bounded Context Database Design Diagram</h5></div>
 
@@ -1774,17 +2322,16 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 
 **Sub-capa Model:**
 
-| Tipo         | Nombre        | Descripción                                 | Responsabilidad Principal                                                                            | Relación con otros elementos                                                                                                             |
-| ------------ | ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Aggregate    | Item                   | Clase para definir objetos en el inventario      | Ser el punto de entrada para la gestión de inventario                                     | Relacionado con el registro de consumo y comandos de creación y de obtención.<br><br>Relacionado con Facturación.      |
-| Aggregate    | Log Entry               | Define el registro de consumo de items           | Representar el registro de uso de items dependiendo de las distintas citas en facturación | Usado en el Bounded Context de Facturación.                                                                             |
-| Command      | CreateItemCommand      | Comando para crear un nuevo item                 | Crear una nueva instancia de Item en el inventario                                      | Invocado desde la interfaz de administración o procesos automáticos.                                                   |
-| Command      | UpdateItemCommand      | Comando para actualizar un item existente        | Modificar atributos como nombre, cantidad, tipo o estado del item                         | Utilizado para mantener actualizada la información del inventario.                                                     |
-| Command      | DeleteItemCommand      | Comando para eliminar un item                    | Eliminar lógicamente o físicamente un Item del sistema                                  | Considera restricciones como si el item está asociado a un Log existente.                                              |
-| Query        | GetAllItemQuery        | Consulta de todos los items                      | Recuperar todos los items registrados en el sistema                                       | Puede ser usada en reportes o interfaces de usuario.                                                                   |
-| Command      | CreateLogEntryCommand  | Comando para registrar el uso de un item         | Crear una nueva entrada de uso en Log Item                                              | Asociado a una cita específica en el proceso de facturación.                                                           |
-| Query        | GetAllLogQuery         | Consulta de todos los registros de uso (logs)    | Obtener todas las entradas del log de uso de items                                        | Útil para generar reportes de consumo, auditorías o validación de facturación.                                         |
-
+| Tipo      | Nombre                | Descripción                                   | Responsabilidad Principal                                                                 | Relación con otros elementos                                                                                      |
+| --------- | --------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Aggregate | Item                  | Clase para definir objetos en el inventario   | Ser el punto de entrada para la gestión de inventario                                     | Relacionado con el registro de consumo y comandos de creación y de obtención.<br><br>Relacionado con Facturación. |
+| Aggregate | Log Entry             | Define el registro de consumo de items        | Representar el registro de uso de items dependiendo de las distintas citas en facturación | Usado en el Bounded Context de Facturación.                                                                       |
+| Command   | CreateItemCommand     | Comando para crear un nuevo item              | Crear una nueva instancia de Item en el inventario                                        | Invocado desde la interfaz de administración o procesos automáticos.                                              |
+| Command   | UpdateItemCommand     | Comando para actualizar un item existente     | Modificar atributos como nombre, cantidad, tipo o estado del item                         | Utilizado para mantener actualizada la información del inventario.                                                |
+| Command   | DeleteItemCommand     | Comando para eliminar un item                 | Eliminar lógicamente o físicamente un Item del sistema                                    | Considera restricciones como si el item está asociado a un Log existente.                                         |
+| Query     | GetAllItemQuery       | Consulta de todos los items                   | Recuperar todos los items registrados en el sistema                                       | Puede ser usada en reportes o interfaces de usuario.                                                              |
+| Command   | CreateLogEntryCommand | Comando para registrar el uso de un item      | Crear una nueva entrada de uso en Log Item                                                | Asociado a una cita específica en el proceso de facturación.                                                      |
+| Query     | GetAllLogQuery        | Consulta de todos los registros de uso (logs) | Obtener todas las entradas del log de uso de items                                        | Útil para generar reportes de consumo, auditorías o validación de facturación.                                    |
 
 **Sub-capa Services:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -1792,24 +2339,23 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 |Interface|ItemCommandService|servicio para métodos para modificar o actualizar Items|estipular una estructura clara a seguir|Uso en la capa "application" para implementar los métodos dados|
 |Interface| LogEntryCommandService | servicio para la creación de registros de consumo | estipular una estructura clara a seguir | uso en la capa "Application" para la implementación de los métodos.|
 |Interface| ItemQueryService | servicio para métodos de obtención de datos| estipular una estructura clara a seguir. | Uso en la capa "application" para implementar el método estipulado.|
-|Interface | LogEntryQueryService | servicio para métodos de obtención de registros de consumo| estipular una estructura clara a seguir.| Uso en la capa "application" para implementar el método estipulado.| 
-
+|Interface | LogEntryQueryService | servicio para métodos de obtención de registros de consumo| estipular una estructura clara a seguir.| Uso en la capa "application" para implementar el método estipulado.|
 
 <div id='4.2.2.2.'><h5>4.2.2.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
-| Tipo      | Nombre                                      | Descripción                                               | Responsabilidad Principal                                                                      | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |-----------|---------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Controller| InventoryController                              | Controlador REST para gestionar items                     | Recibe solicitudes del cliente relacionadas con items, coordina comandos y devuelve respuestas| Utiliza ItemRequestResource, ItemResponseResource y los assemblers correspondientes      |
-| Resource  | ItemRequestResource                         | Estructura de una petición para crear o actualizar un item| Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InventoryController para enviar datos estructurados al sistema                           |
-| Resource  | ItemResponseResource                        | Estructura de una respuesta con información de un item    | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InventoryController para responder con datos del sistema                                 |
-| Resource  | LogEntryRequestResource                     | Estructura de una petición para registrar un consumo      | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InventoryController para registrar el uso de un item                                  |
-| Resource  | LogEntryResponseResource                    | Estructura de una respuesta con información de un consumo | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InventoryController para responder con datos de consumo registrados                   |
-| Assembler | CreateItemCommandFromResourceAssembler      | Convierte un recurso de petición en un comando de creación| Evitar acoplamiento entre la interfaz REST y la capa de aplicación                            | Usado en InventoryController para traducir la petición a CreateItemCommand                 |
-| Assembler | UpdateItemCommandFromResourceAssembler      | Convierte un recurso de petición en un comando de actualización | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                      | Usado en InventoryController para traducir la petición a UpdateItemCommand                 |
-| Assembler |ItemResourceFromEntityAssembler             | Convierte una entidad Item en un recurso de respuesta   | Asegura una respuesta consistente para el cliente                                              | Usado en InventoryController para retornar ItemResponseResource                              |
-| Assembler | CreateLogEntryCommandFromResourceAssembler  | Convierte un recurso de petición en un comando de log     | Evitar acoplamiento entre la interfaz REST y la capa de aplicación                            | Usado en InventoryController para traducir la petición a CreateLogEntryCommand             |
-| Assembler | LogEntryResourceFromEntityAssembler         | Convierte una entidad LogEntry en un recurso de respuesta| Asegura una respuesta consistente para el cliente                                              | Usado en LogItemController para retornar LogEntryResponseResource                       |
+| Controller| InventoryController | Controlador REST para gestionar items | Recibe solicitudes del cliente relacionadas con items, coordina comandos y devuelve respuestas| Utiliza ItemRequestResource, ItemResponseResource y los assemblers correspondientes |
+| Resource | ItemRequestResource | Estructura de una petición para crear o actualizar un item| Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InventoryController para enviar datos estructurados al sistema |
+| Resource | ItemResponseResource | Estructura de una respuesta con información de un item | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InventoryController para responder con datos del sistema |
+| Resource | LogEntryRequestResource | Estructura de una petición para registrar un consumo | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InventoryController para registrar el uso de un item |
+| Resource | LogEntryResponseResource | Estructura de una respuesta con información de un consumo | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InventoryController para responder con datos de consumo registrados |
+| Assembler | CreateItemCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación| Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en InventoryController para traducir la petición a CreateItemCommand |
+| Assembler | UpdateItemCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en InventoryController para traducir la petición a UpdateItemCommand |
+| Assembler |ItemResourceFromEntityAssembler | Convierte una entidad Item en un recurso de respuesta | Asegura una respuesta consistente para el cliente | Usado en InventoryController para retornar ItemResponseResource |
+| Assembler | CreateLogEntryCommandFromResourceAssembler | Convierte un recurso de petición en un comando de log | Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en InventoryController para traducir la petición a CreateLogEntryCommand |
+| Assembler | LogEntryResourceFromEntityAssembler | Convierte una entidad LogEntry en un recurso de respuesta| Asegura una respuesta consistente para el cliente | Usado en LogItemController para retornar LogEntryResponseResource |
 
 <div id='4.2.2.3.'><h5>4.2.2.3. Application Layer</h5></div>
 
@@ -1838,7 +2384,6 @@ en esta presente imagen, la clase User tiene como interfaces a "UserDetails" y "
 
 El flujo completo muestra una arquitectura bien separada, donde cada componente cumple una función clara: los controladores manejan la comunicación externa, los servicios de aplicación orquestan la lógica, los comandos y consultas expresan intenciones específicas, las entidades encapsulan el comportamiento del dominio y los repositorios manejan la interacción con la base de datos. Este diseño respeta los principios de Clean Architecture y DDD, promoviendo un sistema mantenible y extensible.
 
-
 <div align="center">
 <img src="Img/Inventory-component.png">
 </div>
@@ -1851,13 +2396,11 @@ Este diagrama de clases representa la estructura del modelo de dominio para el m
 
 El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde las entidades mantienen su lógica y reglas de negocio, apoyadas por una base auditable y clasificadas semánticamente mediante enumeraciones. Esta estructura promueve la escalabilidad, cohesión y mantenibilidad del sistema.
 
-
 <div align="center">
 <img src="Img/UML_inventory.png">
 </div>
 
 <div id='4.2.2.6.2.'><h5>4.2.2.6.2. Bounded Context Database Design Diagram</h5></div>
-
 
 <div align="center">
 <img src="Img/inventory_DB.jpeg">
@@ -1867,17 +2410,17 @@ El diseño refleja una clara orientación a DDD (Domain-Driven Design), donde la
 
 Representa los ítems que se encuentran registrados en el inventario. Cada ítem puede pertenecer a un usuario específico y está clasificado según una categoría predefinida. Incluye datos básicos como nombre, cantidad disponible y metadatos de auditoría.
 
-| Campo          | Tipo      | Descripción                                                    |
-|----------------|-----------|----------------------------------------------------------------|
-| id             | uuid      | Identificador único del ítem                                   |
-| name           | string    | Nombre del ítem                                                |
-| description    | string    | Descripción opcional del ítem                                  |
-| stock_quantity | int       | Cantidad disponible del ítem en inventario                     |
-| created_at     | datetime  | Fecha y hora en la que se creó el ítem                         |
-| updated_at     | datetime  | Fecha y hora de la última actualización del ítem               |
-| is_active      | boolean   | Indica si el ítem está activo en el sistema                    |
-| category       | string    | Categoría del ítem (puede ser representado como un ENUM)       |
-| user_id        | int       | Identificador del usuario al que pertenece o creó el ítem      |
+| Campo          | Tipo     | Descripción                                               |
+| -------------- | -------- | --------------------------------------------------------- |
+| id             | uuid     | Identificador único del ítem                              |
+| name           | string   | Nombre del ítem                                           |
+| description    | string   | Descripción opcional del ítem                             |
+| stock_quantity | int      | Cantidad disponible del ítem en inventario                |
+| created_at     | datetime | Fecha y hora en la que se creó el ítem                    |
+| updated_at     | datetime | Fecha y hora de la última actualización del ítem          |
+| is_active      | boolean  | Indica si el ítem está activo en el sistema               |
+| category       | string   | Categoría del ítem (puede ser representado como un ENUM)  |
+| user_id        | int      | Identificador del usuario al que pertenece o creó el ítem |
 
 ---
 
@@ -1885,82 +2428,78 @@ Representa los ítems que se encuentran registrados en el inventario. Cada ítem
 
 Registra los consumos o movimientos de los ítems del inventario, incluyendo la cantidad consumida, la fecha y una posible referencia a la factura. Permite llevar control y trazabilidad del uso de cada ítem.
 
-| Campo             | Tipo      | Descripción                                                       |
-|-------------------|-----------|-------------------------------------------------------------------|
-| id                | uuid      | Identificador único del registro de consumo                       |
-| item_id           | uuid      | Referencia al ítem consumido (clave foránea a Items)            |
-| consumed_quantity | int       | Cantidad de ítem consumida                                        |
-| consumed_at       | datetime  | Fecha y hora en la que ocurrió el consumo                         |
-| invoice_id        | int   | Referencia a la factura en donde se consumió |
-
+| Campo             | Tipo     | Descripción                                          |
+| ----------------- | -------- | ---------------------------------------------------- |
+| id                | uuid     | Identificador único del registro de consumo          |
+| item_id           | uuid     | Referencia al ítem consumido (clave foránea a Items) |
+| consumed_quantity | int      | Cantidad de ítem consumida                           |
+| consumed_at       | datetime | Fecha y hora en la que ocurrió el consumo            |
+| invoice_id        | int      | Referencia a la factura en donde se consumió         |
 
 <div id='4.2.3.'><h4>4.2.3. Bounded Context: &lt;Management&gt;</h4></div>
 
 <div id='4.2.3.1.'><h5>4.2.3.1. Domain Layer</h5></div>
 
-
 **Sub-capa Model:**
-| Tipo         | Nombre                        | Descripción                                              | Responsabilidad Principal                                                                       | Relación con otros elementos                                                                                  |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |--------------|-------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Aggregate    | Appointment                   | Clase para definir citas                                 | Ser el punto de entrada para la gestión de citas y pacientes                                     | Relacionado con el registro de consumo, inventario, y pacientes. Relacionado con Facturación.                |
-| Aggregate    | MedicalHistory                | Clase para definir historiales clínicos                  | Ser el objeto principal del modelo clínico                                                       | Relacionado con pacientes                                                                                      |
-| Aggregate    | Patient                       | Clase para definir pacientes                             | Objeto principal para representar los datos de pacientes                                         | Relacionado con citas e historiales clínicos                                                                   |
-| Value Object | Birthday                      | Value object usado en el Aggregate de Patient            | Representar la fecha de nacimiento de un paciente                                                | Relacionado con Patient                                                                                        |
-| Value Object | DNI                           | Value object usado en el Aggregate de Patient            | Representar el documento de identidad del paciente                                               | Relacionado con Patient                                                                                        |
-| Value Object | PersonName                    | Value object usado en el Aggregate de Patient            | Representar el nombre y apellido de un paciente                                                  | Relacionado con Patient                                                                                        |
-| Value Object | EmailAddress                  | Value object usado en el Aggregate de Patient            | Representar el correo electrónico de un paciente                                                 | Relacionado con Patient                                                                                        |
-| Value Object | Diagnosis                     | Value object usado en MedicalHistory                     | Representar el diagnóstico dado al paciente                                                      | Relacionado con MedicalHistory                                                                                 |
-| Value Object | Medication                    | Value object usado en MedicalHistory                     | Representar la medicación prescrita a un paciente                                                | Relacionado con MedicalHistory                                                                                 |
-| Query        | GetAppointmentByDateQuery     | Consulta para obtener citas según una fecha              | Encapsular los parámetros necesarios para buscar citas por fecha                                | Usado por servicios de consulta de citas                                                                       |
-| Query        | GetAllAppointmentsQuery       | Consulta para obtener todas las citas registradas        | Recuperar todas las citas disponibles                                                            | Usado en vistas administrativas o reportes                                                                     |
-| Query        | GetAllPatientsQuery           | Consulta para obtener todos los pacientes registrados    | Recuperar todos los pacientes registrados                                                        | Usado en administración y módulos clínicos                                                                     |
-| Query        | GetPatientByIdQuery           | Consulta para obtener un paciente específico             | Encapsular el identificador del paciente                                                         | Usado para cargar información personal o clínica específica                                                    |
-| Query        | GetMedicalHistoryByPatientQuery| Consulta para obtener historial médico por paciente      | Obtener el historial médico asociado a un paciente                                               | Usado en el módulo clínico para diagnóstico o tratamiento                                                      |
-| Command      | CreateAppointmentCommand      | Comando para crear una nueva cita                        | Encapsular los datos requeridos para crear una cita                                              | Usado por capas de aplicación desde formularios o procesos automáticos                                        |
-| Command      | UpdateAppointmentCommand      | Comando para actualizar una cita existente               | Actualizar los datos de una cita registrada previamente                                          | Usado cuando se modifican detalles de una cita                                                                 |
-| Command      | DeleteAppointmentCommand      | Comando para eliminar una cita                           | Encapsular los datos necesarios para borrar una cita                                             | Puede verificar si la cita tiene registros relacionados                                                        |
-| Command      | CreatePatientCommand          | Comando para registrar un nuevo paciente                 | Encapsular los datos para crear un nuevo registro de paciente                                    | Usado por interfaces de registro de pacientes                                                                  |
-| Command      | UpdatePatientCommand          | Comando para actualizar los datos de un paciente         | Modificar información existente de un paciente                                                   | Usado por interfaces clínicas o administrativas                                                                |
-| Command      | DeletePatientCommand          | Comando para eliminar a un paciente                      | Encapsular la lógica para eliminar (o desactivar) un paciente del sistema                        | Puede requerir validaciones de referencias a citas o historiales                                               |
-| Command      | CreateMedicalHistoryCommand   | Comando para crear un historial médico                   | Crear un nuevo historial asociado a un paciente                                                  | Usado en diagnósticos o nuevas consultas                                                                       |
-| Command      | DeleteMedicalHistoryCommand   | Comando para eliminar un historial médico                | Eliminar un historial clínico registrado                                                         | Puede requerir verificación de autorización o trazabilidad                                                     |
-
+| Aggregate | Appointment | Clase para definir citas | Ser el punto de entrada para la gestión de citas y pacientes | Relacionado con el registro de consumo, inventario, y pacientes. Relacionado con Facturación. |
+| Aggregate | MedicalHistory | Clase para definir historiales clínicos | Ser el objeto principal del modelo clínico | Relacionado con pacientes |
+| Aggregate | Patient | Clase para definir pacientes | Objeto principal para representar los datos de pacientes | Relacionado con citas e historiales clínicos |
+| Value Object | Birthday | Value object usado en el Aggregate de Patient | Representar la fecha de nacimiento de un paciente | Relacionado con Patient |
+| Value Object | DNI | Value object usado en el Aggregate de Patient | Representar el documento de identidad del paciente | Relacionado con Patient |
+| Value Object | PersonName | Value object usado en el Aggregate de Patient | Representar el nombre y apellido de un paciente | Relacionado con Patient |
+| Value Object | EmailAddress | Value object usado en el Aggregate de Patient | Representar el correo electrónico de un paciente | Relacionado con Patient |
+| Value Object | Diagnosis | Value object usado en MedicalHistory | Representar el diagnóstico dado al paciente | Relacionado con MedicalHistory |
+| Value Object | Medication | Value object usado en MedicalHistory | Representar la medicación prescrita a un paciente | Relacionado con MedicalHistory |
+| Query | GetAppointmentByDateQuery | Consulta para obtener citas según una fecha | Encapsular los parámetros necesarios para buscar citas por fecha | Usado por servicios de consulta de citas |
+| Query | GetAllAppointmentsQuery | Consulta para obtener todas las citas registradas | Recuperar todas las citas disponibles | Usado en vistas administrativas o reportes |
+| Query | GetAllPatientsQuery | Consulta para obtener todos los pacientes registrados | Recuperar todos los pacientes registrados | Usado en administración y módulos clínicos |
+| Query | GetPatientByIdQuery | Consulta para obtener un paciente específico | Encapsular el identificador del paciente | Usado para cargar información personal o clínica específica |
+| Query | GetMedicalHistoryByPatientQuery| Consulta para obtener historial médico por paciente | Obtener el historial médico asociado a un paciente | Usado en el módulo clínico para diagnóstico o tratamiento |
+| Command | CreateAppointmentCommand | Comando para crear una nueva cita | Encapsular los datos requeridos para crear una cita | Usado por capas de aplicación desde formularios o procesos automáticos |
+| Command | UpdateAppointmentCommand | Comando para actualizar una cita existente | Actualizar los datos de una cita registrada previamente | Usado cuando se modifican detalles de una cita |
+| Command | DeleteAppointmentCommand | Comando para eliminar una cita | Encapsular los datos necesarios para borrar una cita | Puede verificar si la cita tiene registros relacionados |
+| Command | CreatePatientCommand | Comando para registrar un nuevo paciente | Encapsular los datos para crear un nuevo registro de paciente | Usado por interfaces de registro de pacientes |
+| Command | UpdatePatientCommand | Comando para actualizar los datos de un paciente | Modificar información existente de un paciente | Usado por interfaces clínicas o administrativas |
+| Command | DeletePatientCommand | Comando para eliminar a un paciente | Encapsular la lógica para eliminar (o desactivar) un paciente del sistema | Puede requerir validaciones de referencias a citas o historiales |
+| Command | CreateMedicalHistoryCommand | Comando para crear un historial médico | Crear un nuevo historial asociado a un paciente | Usado en diagnósticos o nuevas consultas |
+| Command | DeleteMedicalHistoryCommand | Comando para eliminar un historial médico | Eliminar un historial clínico registrado | Puede requerir verificación de autorización o trazabilidad |
 
 **Sub-capa Services:**
-| Tipo      | Nombre                          | Descripción                                                        | Responsabilidad Principal                                                                | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |-----------|---------------------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Interface | PatientCommandService           | Servicio para comandos relacionados con pacientes                  | Declarar métodos para crear, actualizar o eliminar pacientes                             | Implementado por la clase `PatientCommandServiceImpl`. Usado en capa Application             |
-| Interface | AppointmentCommandService       | Servicio para comandos relacionados con citas                      | Declarar métodos para crear, actualizar o eliminar citas                                 | Implementado por la clase `AppointmentCommandServiceImpl`. Usado en capa Application          |
-| Interface | MedicalHistoryCommandService    | Servicio para comandos relacionados con historiales clínicos       | Declarar métodos para crear o eliminar historiales médicos                               | Implementado por la clase `MedicalHistoryCommandServiceImpl`. Usado en capa Application       |
-| Interface | PatientQueryService             | Servicio para consultas relacionadas con pacientes                 | Declarar métodos para obtener datos de pacientes                                         | Implementado por la clase `PatientQueryServiceImpl`. Usado en capa Application                |
-| Interface | AppointmentQueryService         | Servicio para consultas relacionadas con citas                     | Declarar métodos para obtener citas por fecha, ID o listado completo                     | Implementado por la clase `AppointmentQueryServiceImpl`. Usado en capa Application            |
-| Interface | MedicalHistoryQueryService      | Servicio para consultas relacionadas con historiales médicos       | Declarar métodos para obtener historiales médicos asociados a un paciente                | Implementado por la clase `MedicalHistoryQueryServiceImpl`. Usado en capa Application         |
+| Interface | PatientCommandService | Servicio para comandos relacionados con pacientes | Declarar métodos para crear, actualizar o eliminar pacientes | Implementado por la clase `PatientCommandServiceImpl`. Usado en capa Application |
+| Interface | AppointmentCommandService | Servicio para comandos relacionados con citas | Declarar métodos para crear, actualizar o eliminar citas | Implementado por la clase `AppointmentCommandServiceImpl`. Usado en capa Application |
+| Interface | MedicalHistoryCommandService | Servicio para comandos relacionados con historiales clínicos | Declarar métodos para crear o eliminar historiales médicos | Implementado por la clase `MedicalHistoryCommandServiceImpl`. Usado en capa Application |
+| Interface | PatientQueryService | Servicio para consultas relacionadas con pacientes | Declarar métodos para obtener datos de pacientes | Implementado por la clase `PatientQueryServiceImpl`. Usado en capa Application |
+| Interface | AppointmentQueryService | Servicio para consultas relacionadas con citas | Declarar métodos para obtener citas por fecha, ID o listado completo | Implementado por la clase `AppointmentQueryServiceImpl`. Usado en capa Application |
+| Interface | MedicalHistoryQueryService | Servicio para consultas relacionadas con historiales médicos | Declarar métodos para obtener historiales médicos asociados a un paciente | Implementado por la clase `MedicalHistoryQueryServiceImpl`. Usado en capa Application |
 
 <div id='4.2.3.2.'><h5>4.2.3.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
-| Tipo      | Nombre                                      | Descripción                                                      | Responsabilidad Principal                                                                      | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Controller| PatientController                           | Controlador REST para gestionar pacientes                        | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes    |
-| Controller| AppointmentController                       | Controlador REST para gestionar citas                            | Maneja solicitudes relacionadas con la creación, edición o consulta de citas                  | Utiliza AppointmentRequestResource, AppointmentResponseResource y sus respectivos assemblers  |
-| Controller| MedicalHistoryController                    | Controlador REST para gestionar historiales clínicos             | Coordina la creación y consulta de historiales médicos asociados a pacientes                   | Utiliza MedicalHistoryRequestResource, MedicalHistoryResponseResource y los assemblers        |
-| Resource  | PatientRequestResource                      | Estructura de una petición para crear o actualizar un paciente   | Representa datos de entrada del cliente sobre pacientes                                        | Usado por `PatientController` para enviar datos al sistema                                   |
-| Resource  | PatientResponseResource                     | Estructura de la respuesta con información de un paciente        | Devuelve al cliente una representación clara de un paciente                                   | Usado por `PatientController` como respuesta                                                  |
-| Resource  | AppointmentRequestResource                  | Estructura de una petición para crear o actualizar una cita      | Representa datos de entrada del cliente sobre una cita médica                                 | Usado por `AppointmentController` para procesar citas                                         |
-| Resource  | AppointmentResponseResource                 | Estructura de una respuesta con datos de una cita                | Devuelve al cliente una representación clara de una cita                                      | Usado por `AppointmentController`                                                             |
-| Resource  | MedicalHistoryRequestResource               | Estructura de una petición para registrar historial clínico      | Representa datos de entrada del cliente sobre diagnóstico y medicación                        | Usado por `MedicalHistoryController` para crear historiales clínicos                         |
-| Resource  | MedicalHistoryResponseResource              | Estructura de una respuesta con información de un historial clínico | Devuelve al cliente la información del historial clínico registrado                           | Usado por `MedicalHistoryController`                                                          |
-| Assembler | CreatePatientCommandFromResourceAssembler   | Convierte un recurso de petición en un comando de creación       | Traducir la entrada del cliente a un comando de dominio                                       | Usado por `PatientController`                                                                |
-| Assembler | UpdatePatientCommandFromResourceAssembler   | Convierte un recurso de petición en un comando de actualización  | Traducir la entrada del cliente a un comando de dominio                                       | Usado por `PatientController`                                                                |
-| Assembler | PatientResourceFromEntityAssembler          | Convierte una entidad `Patient` en un recurso de respuesta       | Traducir objetos de dominio a estructuras legibles para el cliente                            | Usado por `PatientController`                                                                |
-| Assembler | CreateAppointmentCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación       | Traducir la entrada del cliente a un comando de dominio                                       | Usado por `AppointmentController`                                                            |
-| Assembler | AppointmentResourceFromEntityAssembler      | Convierte una entidad `Appointment` en un recurso de respuesta   | Traduce objetos del dominio a respuestas claras para el cliente                               | Usado por `AppointmentController`                                                            |
-| Assembler | CreateMedicalHistoryCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación       | Traducir entrada del cliente a un comando de dominio                                          | Usado por `MedicalHistoryController`                                                         |
-| Assembler | MedicalHistoryResourceFromEntityAssembler   | Convierte una entidad `MedicalHistory` en un recurso de respuesta| Traduce entidades del dominio a recursos entendibles por el cliente                           | Usado por `MedicalHistoryController`                                                         |
-
+| Controller| PatientController | Controlador REST para gestionar pacientes | Recibe solicitudes del cliente relacionadas con pacientes, coordina comandos y devuelve respuestas | Utiliza PatientRequestResource, PatientResponseResource y los assemblers correspondientes |
+| Controller| AppointmentController | Controlador REST para gestionar citas | Maneja solicitudes relacionadas con la creación, edición o consulta de citas | Utiliza AppointmentRequestResource, AppointmentResponseResource y sus respectivos assemblers |
+| Controller| MedicalHistoryController | Controlador REST para gestionar historiales clínicos | Coordina la creación y consulta de historiales médicos asociados a pacientes | Utiliza MedicalHistoryRequestResource, MedicalHistoryResponseResource y los assemblers |
+| Resource | PatientRequestResource | Estructura de una petición para crear o actualizar un paciente | Representa datos de entrada del cliente sobre pacientes | Usado por `PatientController` para enviar datos al sistema |
+| Resource | PatientResponseResource | Estructura de la respuesta con información de un paciente | Devuelve al cliente una representación clara de un paciente | Usado por `PatientController` como respuesta |
+| Resource | AppointmentRequestResource | Estructura de una petición para crear o actualizar una cita | Representa datos de entrada del cliente sobre una cita médica | Usado por `AppointmentController` para procesar citas |
+| Resource | AppointmentResponseResource | Estructura de una respuesta con datos de una cita | Devuelve al cliente una representación clara de una cita | Usado por `AppointmentController` |
+| Resource | MedicalHistoryRequestResource | Estructura de una petición para registrar historial clínico | Representa datos de entrada del cliente sobre diagnóstico y medicación | Usado por `MedicalHistoryController` para crear historiales clínicos |
+| Resource | MedicalHistoryResponseResource | Estructura de una respuesta con información de un historial clínico | Devuelve al cliente la información del historial clínico registrado | Usado por `MedicalHistoryController` |
+| Assembler | CreatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | UpdatePatientCommandFromResourceAssembler | Convierte un recurso de petición en un comando de actualización | Traducir la entrada del cliente a un comando de dominio | Usado por `PatientController` |
+| Assembler | PatientResourceFromEntityAssembler | Convierte una entidad `Patient` en un recurso de respuesta | Traducir objetos de dominio a estructuras legibles para el cliente | Usado por `PatientController` |
+| Assembler | CreateAppointmentCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir la entrada del cliente a un comando de dominio | Usado por `AppointmentController` |
+| Assembler | AppointmentResourceFromEntityAssembler | Convierte una entidad `Appointment` en un recurso de respuesta | Traduce objetos del dominio a respuestas claras para el cliente | Usado por `AppointmentController` |
+| Assembler | CreateMedicalHistoryCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación | Traducir entrada del cliente a un comando de dominio | Usado por `MedicalHistoryController` |
+| Assembler | MedicalHistoryResourceFromEntityAssembler | Convierte una entidad `MedicalHistory` en un recurso de respuesta| Traduce entidades del dominio a recursos entendibles por el cliente | Usado por `MedicalHistoryController` |
 
 **Sub-capa ACL:**
-| Tipo      | Nombre                                      | Descripción                                                      | Responsabilidad Principal                                                                      | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 |ACL | ManagementContextFacade | salida de lógica de Management | se usa para mandar la lógica a otros boundedContext | Relación con bounded context "Invoices"|
 
@@ -1981,7 +2520,6 @@ Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros e
 |-----------|---------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 Facade | ManagementContextFacadeImpl | Implementación del acceso al bounded context "Invoices" | Encapsular la lógica de salida de "Management" hacia otros bounded contexts, específicamente "Invoices" | Implementa ManagementContextFacade. Utiliza repositorios y servicios de contexto "Invoices"
 
-
 <div id='4.2.3.4.'><h5>4.2.3.4. Infrastructure Layer</h5></div>
 
 **Sub-capa Infrastructure:**
@@ -1995,23 +2533,23 @@ Repository | MedicalHistoryRepository | Repositorio para gestionar historiales m
 
 En la arquitectura de software del sistema, los diagramas a nivel de componente han sido organizados en tres controladores principales: AppointmentController, PatientController y MedicalHistoryController. Esta división se realiza con el objetivo de mejorar la precisión y la claridad de la estructura arquitectónica, permitiendo una visualización más detallada de las interacciones y responsabilidades específicas de cada área funcional del sistema. Cada controlador es responsable de gestionar solicitudes relacionadas con citas, pacientes e historiales clínicos, respectivamente, y se conecta estrechamente con sus respectivos servicios, comandos, queries y repositorios. A pesar de estar organizados en tres controladores distintos, todos los componentes están interconectados, garantizando una integración fluida y coherente en el sistema en su totalidad. Esto permite una gestión eficiente de los recursos y facilita la evolución del sistema conforme crecen las necesidades del negocio.
 
-
 **APPOINTMENT:**
+
 <div align="center">
 <img src="Img/Appointment-component.png">
 </div>
 
 **PATIENT:**
+
 <div align="center">
 <img src="Img/Patient-component.png">
 </div>
 
 **MEDICAL HISTORY:**
+
 <div align="center">
 <img src="Img/ClinicalHistory-component.png">
 </div>
-
-
 
 <div id='4.2.3.6.'><h5>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h5></div>
 <div id='4.2.3.6.1.'><h5>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h5></div>
@@ -2030,49 +2568,46 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 
 ## Tabla: Appointments
 
-| Campo           | Tipo        | Descripción                                                   |
-|----------------|-------------|---------------------------------------------------------------|
-| `id`           | `int`       | Identificador único de la cita                                |
-| `appointment_day` | `dateTime` | Fecha y hora programada para la cita                          |
-| `reason`        | `varchar(250)` | Motivo de la cita                                         |
-| `completed`     | `bit`       | Indica si la cita fue completada (`true`/`false`)             |
-| `duration`      | `int`       | Duración estimada de la cita en minutos                       |
-| `user_id`       | `int`       | ID del usuario que registró o está a cargo de la cita         |
-| `patient_id`    | `int`       | ID del paciente al que corresponde la cita                    |
-| `created_at`    | `dateTime`  | Fecha y hora de creación del registro                         |
-| `updated_at`    | `dateTime`  | Fecha y hora de la última actualización del registro          |
-
+| Campo             | Tipo           | Descripción                                           |
+| ----------------- | -------------- | ----------------------------------------------------- |
+| `id`              | `int`          | Identificador único de la cita                        |
+| `appointment_day` | `dateTime`     | Fecha y hora programada para la cita                  |
+| `reason`          | `varchar(250)` | Motivo de la cita                                     |
+| `completed`       | `bit`          | Indica si la cita fue completada (`true`/`false`)     |
+| `duration`        | `int`          | Duración estimada de la cita en minutos               |
+| `user_id`         | `int`          | ID del usuario que registró o está a cargo de la cita |
+| `patient_id`      | `int`          | ID del paciente al que corresponde la cita            |
+| `created_at`      | `dateTime`     | Fecha y hora de creación del registro                 |
+| `updated_at`      | `dateTime`     | Fecha y hora de la última actualización del registro  |
 
 ## Tabla: Patients
 
-| Campo        | Tipo         | Descripción                                                   |
-|--------------|--------------|---------------------------------------------------------------|
-| `id`         | `int`        | Identificador único del paciente                              |
-| `dni`        | `varchar(8)` | Documento Nacional de Identidad del paciente                  |
-| `first_name` | `varchar(20)`| Nombre del paciente                                           |
-| `last_name`  | `varchar(20)`| Apellido del paciente                                         |
-| `email`      | `varchar(50)`| Correo electrónico del paciente                               |
-| `age`        | `int`        | Edad del paciente                                             |
-| `birthday`   | `dateTime`   | Fecha de nacimiento del paciente                              |
-| `user_id`    | `int`        | ID del usuario encargado del registro                         |
-| `created_at` | `dateTime`   | Fecha de creación del registro                                |
-| `updated_at` | `dateTime`   | Fecha de la última actualización del registro                 |
-
+| Campo        | Tipo          | Descripción                                   |
+| ------------ | ------------- | --------------------------------------------- |
+| `id`         | `int`         | Identificador único del paciente              |
+| `dni`        | `varchar(8)`  | Documento Nacional de Identidad del paciente  |
+| `first_name` | `varchar(20)` | Nombre del paciente                           |
+| `last_name`  | `varchar(20)` | Apellido del paciente                         |
+| `email`      | `varchar(50)` | Correo electrónico del paciente               |
+| `age`        | `int`         | Edad del paciente                             |
+| `birthday`   | `dateTime`    | Fecha de nacimiento del paciente              |
+| `user_id`    | `int`         | ID del usuario encargado del registro         |
+| `created_at` | `dateTime`    | Fecha de creación del registro                |
+| `updated_at` | `dateTime`    | Fecha de la última actualización del registro |
 
 ## Tabla: Medical Histories
 
-| Campo        | Tipo          | Descripción                                                  |
-|--------------|---------------|--------------------------------------------------------------|
-| `id`         | `int`         | Identificador único del historial clínico                   |
-| `description`| `varchar(250)`| Descripción general del historial                            |
-| `record`     | `varchar(250)`| Observaciones o antecedentes relevantes                      |
-| `diagnosis`  | `varchar(100)`| Diagnóstico médico del paciente                              |
-| `medication` | `varchar(100)`| Medicamentos prescritos en la consulta                       |
-| `user_id`    | `int`         | ID del usuario que registró la información                   |
-| `patient_id` | `int`         | ID del paciente asociado al historial                        |
-| `created_at` | `dateTime`    | Fecha de creación del historial                              |
-| `updated_at` | `dateTime`    | Fecha de la última actualización del historial               |
-
+| Campo         | Tipo           | Descripción                                    |
+| ------------- | -------------- | ---------------------------------------------- |
+| `id`          | `int`          | Identificador único del historial clínico      |
+| `description` | `varchar(250)` | Descripción general del historial              |
+| `record`      | `varchar(250)` | Observaciones o antecedentes relevantes        |
+| `diagnosis`   | `varchar(100)` | Diagnóstico médico del paciente                |
+| `medication`  | `varchar(100)` | Medicamentos prescritos en la consulta         |
+| `user_id`     | `int`          | ID del usuario que registró la información     |
+| `patient_id`  | `int`          | ID del paciente asociado al historial          |
+| `created_at`  | `dateTime`     | Fecha de creación del historial                |
+| `updated_at`  | `dateTime`     | Fecha de la última actualización del historial |
 
 <div id='4.2.4.'><h4>4.2.4. Bounded Context: &lt;Invoices&gt;</h4></div>
 
@@ -2080,12 +2615,12 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 
 **Sub-capa Model:**
 
-| Tipo         | Nombre        | Descripción                                 | Responsabilidad Principal                                                                            | Relación con otros elementos                                                                                                             |
-| ------------ | ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-|Aggregate|Invoice|Clase para decinir los pagos de citas|Ser el punto de entrada para la gestión de pagos          |Relacionado con el registro de pagos y comandos de creación y de obtención.<br><br>Relacionado con el Bounded Context de Inventory actualizando datos.|
-| Command      | CreateInvoiceCommand      | Comando para crear un nuevo pago | Crear una nueva instancia de Factura  | Relacionado con el Bounded Context de  Gestión de Citas.                                                  |
-|Query | GetAllInvoiceQuery | Query para obtener los pagos | mostrar los pagos guardados | - |
-|Query | GetInvoiceByAppointment| Query para obtener una factura vinculada a una cita específica | mostrar el pago vinculado a la cita de un paciente | Relacionado con el aggregate "Cita" en el BoundedContext de "Management".|
+| Tipo      | Nombre                  | Descripción                                                    | Responsabilidad Principal                          | Relación con otros elementos                                                                                                                           |
+| --------- | ----------------------- | -------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Aggregate | Invoice                 | Clase para decinir los pagos de citas                          | Ser el punto de entrada para la gestión de pagos   | Relacionado con el registro de pagos y comandos de creación y de obtención.<br><br>Relacionado con el Bounded Context de Inventory actualizando datos. |
+| Command   | CreateInvoiceCommand    | Comando para crear un nuevo pago                               | Crear una nueva instancia de Factura               | Relacionado con el Bounded Context de Gestión de Citas.                                                                                                |
+| Query     | GetAllInvoiceQuery      | Query para obtener los pagos                                   | mostrar los pagos guardados                        | -                                                                                                                                                      |
+| Query     | GetInvoiceByAppointment | Query para obtener una factura vinculada a una cita específica | mostrar el pago vinculado a la cita de un paciente | Relacionado con el aggregate "Cita" en el BoundedContext de "Management".                                                                              |
 
 **Sub-capa Services:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
@@ -2096,25 +2631,21 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 <div id='4.2.4.2.'><h5>4.2.4.2. Interface Layer</h5></div>
 
 **Sub-capa REST:**
-| Tipo      | Nombre                                      | Descripción                                               | Responsabilidad Principal                                                                      | Relación con otros elementos                                                                 |
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 |-----------|---------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Controller| InvoiceController                              | Controlador REST para gestionar facturas                     | Recibe solicitudes del cliente relacionadas con facturas, coordina comandos y devuelve respuestas| Utiliza los resources y los assemblers correspondientes      |
-| Resource  | InvoiceRequestResource                         | Estructura de una petición para crear una factura| Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InvoiceController para enviar datos estructurados al sistema                           |
-| Resource  | InvoiceResponseResource                        | Estructura de una respuesta con información de una factura    | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente     | Uso en InvoiceController para responder con datos del sistema                                 |
-| Assembler | CreateInvoiceCommandFromResourceAssembler      | Convierte un recurso de petición en un comando de creación| Evitar acoplamiento entre la interfaz REST y la capa de aplicación                            | Usado en InvoiceController para traducir la petición a CreateInvoiceCommand                 |
-| Assembler |InvoiceResourceFromEntityAssembler             | Convierte una entidad Invoice en un recurso de respuesta   | Asegura una respuesta consistente para el cliente                                              | Usado en InvoiceController para retornar InvoiceResponseResource                              |
-
-
+| Controller| InvoiceController | Controlador REST para gestionar facturas | Recibe solicitudes del cliente relacionadas con facturas, coordina comandos y devuelve respuestas| Utiliza los resources y los assemblers correspondientes |
+| Resource | InvoiceRequestResource | Estructura de una petición para crear una factura| Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InvoiceController para enviar datos estructurados al sistema |
+| Resource | InvoiceResponseResource | Estructura de una respuesta con información de una factura | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en InvoiceController para responder con datos del sistema |
+| Assembler | CreateInvoiceCommandFromResourceAssembler | Convierte un recurso de petición en un comando de creación| Evitar acoplamiento entre la interfaz REST y la capa de aplicación | Usado en InvoiceController para traducir la petición a CreateInvoiceCommand |
+| Assembler |InvoiceResourceFromEntityAssembler | Convierte una entidad Invoice en un recurso de respuesta | Asegura una respuesta consistente para el cliente | Usado en InvoiceController para retornar InvoiceResponseResource |
 
 <div id='4.2.4.3.'><h5>4.2.4.3. Application Layer</h5></div>
-
 
 **Sub-capa Internal:**
 | Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |CommandHandler| InvoiceCommandServiceImpl|Implementación de los Comando de creación de facturas| Implementar los métodos para el servicio de Invoices | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
 |QueryHandler|InvoiceQueryServiceImpl|Implementación de la obtención de datos de facturas | Implementar los métodos para el servicio de Invoices | Implementa los métodos de la interface de su mismo nombre en la capa de "Services".|
-
 
 <div id='4.2.4.4.'><h5>4.2.4.4. Infrastructure Layer</h5></div>
 
@@ -2123,11 +2654,9 @@ Este diagrama UML representa la arquitectura de un sistema de gestión médica c
 | ---- | ------ | ----------- | ------------------------- | ---------------------------- |
 |Repository| InvoiceRepository| repositorio a usar del modelo "Invoice"| acceder y manipular datos persistidos| Usado en la Capa "Application" para actualizar datos de las facturas.|
 
-
 <div id='4.2.4.5.'><h5>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h5></div>
 
 El flujo completo muestra una arquitectura bien separada, donde cada componente cumple una función clara: los controladores manejan la comunicación externa, los servicios de aplicación orquestan la lógica, los comandos y consultas expresan intenciones específicas, las entidades encapsulan el comportamiento del dominio y los repositorios manejan la interacción con la base de datos.
-
 
 <div align="center">
 <img src="Img/Invoice-component.png">
@@ -2145,25 +2674,21 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <img src="Img/UML_Invoice.png">
 </div>
 
-
-
-
-
-
 <div id='4.2.4.6.2.'><h5>4.2.4.6.2. Bounded Context Database Design Diagram</h5></div>
 
 <br><br>
+
 <div align="center">
 <img src="Img/Invoices_DB.png">
 </div>
 
-| Campo            | Tipo de Dato | Descripción                                                                 |
-|------------------|--------------|-----------------------------------------------------------------------------|
-| id             | int      | Identificador único de la factura. Es la clave primaria de la tabla.       |
-| amount        | double     | Monto total facturado al usuario.                                          |
-| appointment_id| int         | Clave foránea que referencia a la cita relacionada con esta factura.       |
-| user_id      | int       | Clave foránea que identifica al usuario al que pertenece la factura.       |
-| created_at`    | DateTime | Fecha y hora en la que se generó la factura.                               |
+| Campo          | Tipo de Dato | Descripción                                                          |
+| -------------- | ------------ | -------------------------------------------------------------------- |
+| id             | int          | Identificador único de la factura. Es la clave primaria de la tabla. |
+| amount         | double       | Monto total facturado al usuario.                                    |
+| appointment_id | int          | Clave foránea que referencia a la cita relacionada con esta factura. |
+| user_id        | int          | Clave foránea que identifica al usuario al que pertenece la factura. |
+| created_at`    | DateTime     | Fecha y hora en la que se generó la factura.                         |
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
@@ -2179,161 +2704,3 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <img src="Img/grafico-de-barras-entrevistas.png" alt="Gráfico de barras de las entrevistas" style="margin-bottom: 5px;" width="600"/>
 
 **Fuente**: Datos recolectados mediante entrevistas aplicadas a tres odontólogos independientes en Lima Metropolitana.
-
-<tr>
-  <td>TS01</td>
-  <td>Registro exitoso del personal</td>
-  <td>Verificar que el personal pueda registrarse correctamente en la aplicación completando el formulario.</td>
-  <td>
-    - Dado que el consultorio ya está registrado<br>
-    - Cuando el personal complete el formulario de registro<br>
-    - Y presione "Registrarme"<br>
-    - Entonces debe redirigirlo a la pantalla de inicio.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS02</td>
-  <td>Inicio de sesión exitoso</td>
-  <td>Verificar que el personal registrado pueda iniciar sesión con sus credenciales válidas.</td>
-  <td>
-    - Dado que el personal ya está registrado<br>
-    - Cuando ingrese su correo y contraseña<br>
-    - Y presione "Iniciar Sesión"<br>
-    - Entonces debe ser redirigido a la pantalla de inicio.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS05</td>
-  <td>Edición de cita futura</td>
-  <td>Verificar que una cita futura pueda ser editada correctamente.</td>
-  <td>
-    - Dado que el asistente ve una cita futura<br>
-    - Cuando modifique sus campos<br>
-    - Entonces el sistema debe actualizarla exitosamente.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS06</td>
-  <td>Bloqueo de edición para cita pasada</td>
-  <td>Verificar que no se pueda editar una cita ya pasada.</td>
-  <td>
-    - Dado que la cita ya pasó<br>
-    - Cuando se intente editar<br>
-    - Entonces el sistema debe mostrar un mensaje de restricción.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS07</td>
-  <td>Registro de nueva cita</td>
-  <td>Verificar que se pueda registrar una nueva cita correctamente.</td>
-  <td>
-    - Dado que el personal está autenticado<br>
-    - Cuando complete los datos de la cita y presione "Registrar"<br>
-    - Entonces debe guardarse y aparecer en la lista.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS08</td>
-  <td>Eliminación de cita futura</td>
-  <td>Verificar que una cita futura pueda ser eliminada y notificar al paciente.</td>
-  <td>
-    - Dado que el asistente selecciona una cita futura<br>
-    - Cuando confirme la eliminación<br>
-    - Entonces debe eliminarse y enviarse la notificación.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS09</td>
-  <td>Restricción para eliminar cita pasada</td>
-  <td>Verificar que no se pueda eliminar una cita que ya ocurrió.</td>
-  <td>
-    - Dado que la cita ya ocurrió<br>
-    - Cuando se intente eliminar<br>
-    - Entonces el sistema debe bloquear la acción con un mensaje.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS10</td>
-  <td>Búsqueda de cita por fecha</td>
-  <td>Verificar que se puedan buscar citas por fecha correctamente.</td>
-  <td>
-    - Dado que el personal está en la sección de citas<br>
-    - Cuando ingrese una fecha y presione buscar<br>
-    - Entonces debe mostrar las citas de esa fecha.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS11</td>
-  <td>Búsqueda de cita por DNI</td>
-  <td>Verificar que se puedan buscar citas mediante el DNI del paciente.</td>
-  <td>
-    - Dado que el personal está en la sección de citas<br>
-    - Cuando ingrese un DNI y presione buscar<br>
-    - Entonces debe mostrar las citas que coincidan con ese paciente.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS12</td>
-  <td>Pago exitoso por parte del paciente</td>
-  <td>Verificar que el paciente pueda pagar un tratamiento desde la plataforma.</td>
-  <td>
-    - Dado que el paciente tiene un tratamiento pendiente<br>
-    - Cuando complete los datos de pago<br>
-    - Entonces el sistema debe procesar y confirmar el pago.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS13</td>
-  <td>Error en el pago del paciente</td>
-  <td>Verificar que el sistema muestre un mensaje ante un error de pago y permita reintentar.</td>
-  <td>
-    - Dado que hay un error de transacción<br>
-    - Cuando el paciente intente pagar<br>
-    - Entonces debe ver un mensaje de error y opción de reintento.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS14</td>
-  <td>Visualización del historial de pagos</td>
-  <td>Verificar que el paciente pueda ver el historial de sus pagos anteriores.</td>
-  <td>
-    - Dado que el paciente accede al historial<br>
-    - Cuando lo visualice<br>
-    - Entonces debe mostrar los pagos previos y sus estados.
-  </td>
-  <td>-</td>
-</tr>
-
-<tr>
-  <td>TS15</td>
-  <td>Registro de pago por parte del personal</td>
-  <td>Verificar que el personal pueda registrar un pago de tratamiento y generar la factura.</td>
-  <td>
-    - Dado que el paciente recibió un tratamiento<br>
-    - Cuando el personal registre el monto pagado<br>
-    - Entonces debe actualizar el estado como pagado y reducir el stock médico.
-  </td>
-  <td>-</td>
-</tr>
