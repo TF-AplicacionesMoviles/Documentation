@@ -2749,9 +2749,71 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
 <div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
 <div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
+
 <div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
+
+Diseño de la interfaz de usuario de una página de aterrizaje, que es la primera página que los usuarios ven al interactuar con un producto o servicio en línea. Su objetivo principal es captar la atención del usuario, comunicar el valor del producto y dirigirlo hacia una acción específica, como registrarse, descargar una aplicación o realizar una compra. Este diseño combina elementos visuales atractivos, navegación intuitiva y contenido persuasivo para maximizar la conversión de visitantes en usuarios activos.
+
 <div id='5.1.3.1.'><h5>5.1.3.1. Landing Page Wireframe</h5></div>
+
+**Nosotros**
+
+<img src="Img/Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/Contactanos.png" alt="Contactanos">
+<img src="Img/Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+**Nosotros** <br>
+<img src="Img/wlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/wlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/wlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/wlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/wlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/wlm_contactenos2.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+
+
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
+
+**Nosotros**
+
+<img src="Img/m-Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/m-Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/m-Contactanos.png" alt="Contactanos">
+<img src="Img/m-Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+
+**Nosotros** <br>
+<img src="Img/mlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/mlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/mlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/mlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/mlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/mlm_contactenos2.png" alt="Contactenos2" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
 <div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
