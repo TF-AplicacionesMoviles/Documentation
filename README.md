@@ -165,9 +165,46 @@ Los integrantes son:
    4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.4.6.) <br>
    4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.4.6.1.) <br>
    4.2.4.6.2. [Bounded Context Database Design Diagram](#4.2.4.6.2.) <br>
+5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
+   5.1. [Product design.](#5.1.)<br>
+   5.1.1. [Style Guidelines.](#5.1.1.)<br>
+   5.1.1.1. [General Style Guidelines.](#5.1.1.1.)<br>
+   5.1.2. [Information Architecture.](#5.1.2.)<br>
+   5.1.2.1. [Organization Systems.](#5.1.2.1.)<br>
+   5.1.2.2. [Labelling Systems.](#5.1.2.2.)<br>
+   5.1.2.3. [SEO Tags and Meta Tags.](#5.1.2.3.)<br>
+   5.1.2.4. [Searching Systems.](#5.1.2.4.)<br>
+   5.1.2.5. [Navigation Systems.](#5.1.2.5.)<br>
+   5.1.3. [Landing Page UI Design.](#5.1.3.)<br>
+   5.1.3.1. [Landing Page Wireframe.](#5.1.3.1.)<br>
+   5.1.3.2. [Landing Page Mock-up.](#5.1.3.2.)<br>
+   5.1.4. [Mobile Applications UX/UI Design.](#5.1.4.)<br>
+   5.1.4.1. [Mobile Applications Wireframes.](#5.1.4.1.)<br>
+   5.1.4.2. [Mobile Applications Wireflow Diagrams.](#5.1.4.2.)<br>
+   5.1.4.3. [Mobile Applications Mock-ups.](#5.1.4.3.)<br>
+   5.1.4.4. [Mobile Applications User Flow Diagrams.](#5.1.4.4.)<br>
+   5.1.4.5. [Mobile Applications Prototyping.](#5.1.4.5.)<br>
 
-5. [Referencias Bibliográficas.](#8.)<br>
-6. [Anexos.](#9.)<br>
+6. [**Capítulo VI: Product Implementation, Validation & Deployment.**](#6.)<br>
+   6.1. [Software Configuration Management.](#6.1.)<br>
+   6.1.1. [Software Development Environment Configuration.](#6.1.1.)<br>
+   6.1.2. [Source Code Management.](#6.1.2.)<br>
+   6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
+   6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
+   6.2. [Landing Page & Mobile Application Implementation.](#6.2.)<br>
+   6.2.X. [Sprint n.](#6.2.X.)<br>
+   6.2.X.1. [Sprint Planning n.](#6.2.X.1.)<br>
+   6.2.X.2. [Sprint Backlog n.](#6.2.X.2.)<br>
+   6.2.X.3. [Development Evidence for Sprint Review.](#6.2.X.3.)<br>
+   6.2.X.4. [Testing Suite Evidence for Sprint Review.](#6.2.X.4.)<br>
+   6.2.X.5. [Execution Evidence for Sprint Review.](#6.2.X.5.)<br>
+   6.2.X.6. [Services Documentation Evidence for Sprint Review.](#6.2.X.6.)<br>
+   6.2.X.7. [Software Deployment Evidence for Sprint Review.](#6.2.X.7.)<br>
+   6.2.X.8. [Team Collaboration Insights during Sprint.](#6.2.X.8.)<br>
+
+7. [Conclusiones](#7.)
+8. [Referencias Bibliográficas.](#8.)<br>
+9. [Anexos.](#9.)<br>
 
 # STUDENT OUTCOME
 
@@ -2701,6 +2738,47 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 | created_at`    | DateTime     | Fecha y hora en la que se generó la factura.                         |
 
 </div>
+
+<div id='5.'><h2>5. Capítulo V: Solution UI/UX Design</h2></div>
+<div id='5.1.'><h3>5.1. Product design</h3></div>
+<div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
+<div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
+<div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
+<div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
+<div id='5.1.2.2.'><h5>5.1.2.2. Labelling Systems</h5></div>
+<div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
+<div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
+<div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
+<div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
+<div id='5.1.3.1.'><h5>5.1.3.1. Landing Page Wireframe</h5></div>
+<div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
+<div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
+<div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
+<div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
+<div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
+<div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
+<div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
+
+<div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
+<div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
+<div id='6.1.1.'><h4>6.1.1. Software Development Environment Configuration</h4></div>
+<div id='6.1.2.'><h4>6.1.2. Source Code Management</h4></div>
+<div id='6.1.3.'><h4>6.1.3. Source Code Style Guide & Conventions</h4></div>
+<div id='6.1.4.'><h4>6.1.4. Software Deployment Configuration</h4></div>
+<div id='6.2.'><h3>6.2. Landing Page & Mobile Application Implementation</h3></div>
+<div id='6.2.X.'><h4>6.2.X. Sprint n</h4></div>
+<div id='6.2.X.1.'><h5>6.2.X.1. Sprint Planning n</h5></div>
+<div id='6.2.X.2.'><h5>6.2.X.2. Sprint Backlog n</h5></div>
+<div id='6.2.X.3.'><h5>6.2.X.3. Development Evidence for Sprint Review</h5></div>
+<div id='6.2.X.4.'><h5>6.2.X.4. Testing Suite Evidence for Sprint Review</h5></div>
+<div id='6.2.X.5.'><h5>6.2.X.5. Execution Evidence for Sprint Review</h5></div>
+<div id='6.2.X.6.'><h5>6.2.X.6. Services Documentation Evidence for Sprint Review</h5></div>
+<div id='6.2.X.7.'><h5>6.2.X.7. Software Deployment Evidence for Sprint Review</h5></div>
+<div id='6.2.X.8.'><h5>6.2.X.8. Team Collaboration Insights during Sprint</h5></div>
+
+
+
+<div id='7.'><h2>CONCLUSIONES</h2></div>
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
