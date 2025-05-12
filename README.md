@@ -2823,6 +2823,10 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <img src="Img/gestion_inventario_wf.png" alt="Gestion de inventario WireFlow" style="margin-bottom: 5px;" width="500">
 
+**User Goal: Perfil** <br>
+
+<img src="Img/perfil_wf.png" alt="Perfil WireFlow" style="margin-bottom: 5px;" width="500">
+
 
 
 
