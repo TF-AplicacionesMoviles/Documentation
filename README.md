@@ -3151,6 +3151,10 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 
 <div id='6.2.X.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
 
+
+### LANDING PAGE:
+
+En el apartado de Landing Page, solo un integrante desarrolló este pequeño proyecto y solo en su máquina local, ya que, al solo ser un participante, por comodidad se optó por esto.
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3167,21 +3171,16 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 	<a href="https://github.com/TF-AplicacionesMoviles/LandingPage" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/LandingPage</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-  </tr>
- <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>47fea191f279d7aeac5bd1cf043b4b887c3b48e2</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>17/05/2025</td>
   </tr>
 </tbody></table>
 
+
+### MOBILE APPLICATION: 
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3213,6 +3212,8 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   </tr>
 </tbody></table>
 
+### WEB SERVICES:
+
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3229,19 +3230,27 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 	<a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Backend</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>6e839b00e9507c2fb4f03ef694a5502ef2697f91</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>09/05/2025</td>
   </tr>
  <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+   <td><br>develop</td>
+    <td><br>fd8e203d31647df10df1171daea69416cb805a1d</td>
+    <td><br>feature: create authenticacion and jwt classes</td>
+    <td><br>feature: create authenticacion and jwt classes</td>
+    <td><br>12/05/2025</td>
   </tr>
+  <tr>
+   <td><br>develop</td>
+    <td><br>0af65eef461f3df0b97a66ee63fc071e2be07038</td>
+    <td><br>feature: create Patients endpoint (POST)</td>
+    <td><br>feature: create Patients endpoint (POST)</td>
+    <td><br>12/05/2025</td>
+  </tr>
+  
 </tbody></table>
 
 <div id='6.2.X.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
@@ -3272,9 +3281,97 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 </tbody></table>
 
 <div id='6.2.X.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
+
+### LANDING PAGE:
+A continuación, se muestran las evidencias de la ejecución de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap.
+
+
+#### US 31-32-33:
+Desarrollo de menú principal, barra de navegación y sección About Us.
+
+<div align="center">
+<img src="Img/LD1.png" alt="Landing page 1">
+</div>
+
+
+<div align="center">
+<img src="Img/LD2.png" alt="Landing page 2">
+</div>
+
+
+#### US 34:
+Desarrollo de información de servicios.
+
+<div align="center">
+<img src="Img/LD3.png" alt="Landing page 3">
+</div>
+
+<div align="center">
+<img src="Img/LD4.png" alt="Landing page 4">
+</div>
+
+
+#### US 35-36:
+Desarrollo de sección Contact us, con formulario y footer informativo.
+<div align="center">
+<img src="Img/LD5.png" alt="Landing page 5">
+</div>
+
+<div align="center">
+<img src="Img/LD6.png" alt="Landing page 6">
+</div>
+
 <div id='6.2.X.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 <div id='6.2.X.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+### LANDING PAGE:
+A continuación, se muestran las evidencias del despliegue de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap usando la funcionalidad de Github Pages.
+
+<a href="https://tf-aplicacionesmoviles.github.io/LandingPage/">https://tf-aplicacionesmoviles.github.io/LandingPage</a>
+
+
+Menú principal, barra de navegación y sección About Us.
+
+<div align="center">
+<img src="Img/LD1.png" alt="Landing page 1">
+</div>
+
+
+<div align="center">
+<img src="Img/LD2.png" alt="Landing page 2">
+</div>
+
+
+Información de servicios.
+
+<div align="center">
+<img src="Img/LD3.png" alt="Landing page 3">
+</div>
+
+<div align="center">
+<img src="Img/LD4.png" alt="Landing page 4">
+</div>
+
+
+Sección Contact us, con formulario y footer informativo.
+<div align="center">
+<img src="Img/LD5.png" alt="Landing page 5">
+</div>
+
+<div align="center">
+<img src="Img/LD6.png" alt="Landing page 6">
+</div>
+
+
 <div id='6.2.X.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+
+| Alumno  | Actividad |
+| -------- | -------- |
+| Bohorquez Lerzundi Gerardo Sebastian| Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
+| Huanaco Huayta, Elizabeth Lucero |Documentación de Product Design, Information Architecture.|
+|Huapaya Cuevas, Anthony | Documentación de Product Design, Information Architecture.|
+| Silva Tirado, Sebastián Valentino | Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
+| Uribe Quispe, Jesús Guillermo |Gestión de proyecto Back End, realización de Landing Page, realización de endpoints de Usuarios y Pacientes en BackEnd.|
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
