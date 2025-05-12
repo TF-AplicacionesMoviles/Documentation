@@ -2800,6 +2800,18 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <img src="Img/facturas_pagos_wm.png" alt="Factura de pagos" style="margin-bottom: 5px;" width="250">
 
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
+
+**Enlace Figma:** https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-2&t=iQyO9xWdVqPb2MTu-1
+
+**User Goal: Autentificacion** <br>
+
+<img src="Img/autentificacion_wf.png" alt="Autentificacion WireFlow" style="margin-bottom: 5px;" width="500">
+
+
+
+
+
+
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
