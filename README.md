@@ -2811,6 +2811,10 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <img src="Img/gestion_citas_wf.png" alt="Gestion de Citas WireFlow" style="margin-bottom: 5px;" width="700">
 
+**User Goal: Gestión de pacientes** <br>
+
+<img src="Img/gestion_pacientes_wf.png" alt="Gestion de pacientes WireFlow" style="margin-bottom: 5px;" width="700">
+
 
 
 
