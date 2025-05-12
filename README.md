@@ -2750,6 +2750,10 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
 <div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
 <div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
+
+**Register** <br>
+
+<img src="Img/register_wm.png" alt="Register" style="margin-bottom: 5px;" width="250">
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
