@@ -38,9 +38,9 @@ width=50%"/>
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
 
-| Versión | Fecha |             Autor             | Descripción de modificación |
-| :-----: | :---: | :---------------------------: | --------------------------- |
-|   TB1   |   24/04/2025   | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design                          |
+| Versión |   Fecha    |             Autor             | Descripción de modificación                                                                                                                                                                       |
+| :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   TB1   | 24/04/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design |
 
 # Project Report Collaboration Insights
 
@@ -58,13 +58,13 @@ URL del repositorio para el reporte del proyecto: https://github.com/TF-Aplicaci
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante                        | Tareas Asignadas |
-| --------------------------------- | ---------------- |
-| Bohorquez Lerzundi, Gerardo       | Analisis Competitivo y User Stories              |
-| Huanaco Huayta, Elizabeth         | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT          |
-| Huapaya Cuevas, Anthony           | Lean Ux, Entrevistas, Análisis de entrevistas y Needfinding, impact map                |
-| Silva Tirado, Sebastián Valentino | Lean Ux, User Stories, NeedFinding, Elaboración de PPT                |
-| Uribe Quispe, Jesús               | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd           |
+| Integrante                        | Tareas Asignadas                                                                                                                                            |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi, Gerardo       | Analisis Competitivo y User Stories                                                                                                                         |
+| Huanaco Huayta, Elizabeth         | Entrevistas, Análisis de entrevistas y Needfinding, As to Be escenario, Elaboración de PPT                                                                  |
+| Huapaya Cuevas, Anthony           | Lean Ux, Entrevistas, Análisis de entrevistas y Needfinding, impact map                                                                                     |
+| Silva Tirado, Sebastián Valentino | Lean Ux, User Stories, NeedFinding, Elaboración de PPT                                                                                                      |
+| Uribe Quispe, Jesús               | Antecedentes y problemática, User and Technical Stories, Product Backlog, Capítulo IV: Solution Software Design, Elaboración de primera versión del BackEnd |
 
 **Github Collaboration Insights**
 
@@ -135,7 +135,7 @@ Los integrantes son:
    4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.) <br>
    4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.) <br>
    4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
-   
+
    4.2.2. [Bounded Context: Inventory](#4.2.2.) <br>
    4.2.2.1. [Domain Layer](#4.2.2.1.) <br>
    4.2.2.2. [Interface Layer](#4.2.2.2.) <br>
@@ -165,6 +165,7 @@ Los integrantes son:
    4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.4.6.) <br>
    4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.4.6.1.) <br>
    4.2.4.6.2. [Bounded Context Database Design Diagram](#4.2.4.6.2.) <br>
+
 5. [**Capítulo V: Solution UI/UX Design.**](#5.)<br>
    5.1. [Product design.](#5.1.)<br>
    5.1.1. [Style Guidelines.](#5.1.1.)<br>
@@ -214,15 +215,14 @@ apropiadas.
 
 <b>ABET – EAC - Student Outcome 7</b>
 
-| Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                               | Conclusiones |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br><br> | **TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo.|
-| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:**  A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br><br> | **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real.    |
-
+| Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br><br>                                                                                       | **TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo. |
+| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br><br> | **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real.                                                                                                                                                                                                                               |
 
 # OBJETIVOS SMART
 
-Los objetivos SMART son una forma de definir metas de manera clara, medible y alcanzable. 
+Los objetivos SMART son una forma de definir metas de manera clara, medible y alcanzable.
 
 <table border="1">
   <thead>
@@ -1743,7 +1743,6 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 </tbody>
 </table>
 
-
 <h4>Epics</h4>
 
 | Epic ID | Título                | Explicación                                                                                    |
@@ -1753,8 +1752,7 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 | EP03    | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.    |
 | EP04    | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.       |
 | EP05    | Pagos                 | Gestiona el registro, historial y control de los pagos relacionados con tratamientos dentales. |
-|EP06 | Landing Page | componentes relacionados al Landing Page |
-
+| EP06    | Landing Page          | componentes relacionados al Landing Page                                                       |
 
 <div id='3.3.'><h3>3.3. Impact map</h3></div>
 
@@ -1848,8 +1846,6 @@ De esta forma, se establece un plan claro de acción para los desarrolladores, a
     <tr><td>68</td><td>US35</td>  <td>Sección Contact Us</td><td>3</td></tr>
     <tr><td>69</td><td>US36</td>  <td>Formulario de contacto</td><td>3</td></tr>
     <tr><td>70</td><td>US37</td>  <td>Footer informativo</td><td>3</td></tr>
-    <tr><td>71</td><td>US37</td>  <td>Registro Fallido</td><td>3</td></tr>
-    <tr><td>72</td><td>US37</td>  <td>Inicio de Sesión fallido</td><td>3</td></tr>
 
   </tbody>
 </table>
@@ -2761,22 +2757,524 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 <div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
+En esta sección establecemos las convenciones que dan una buena consistencia durante el ciclo de vida.
 <div id='6.1.1.'><h4>6.1.1. Software Development Environment Configuration</h4></div>
+
+Para la realización de Dentify, hemos usado las siguientes herramientas:
+
+**Requirements Management:**
+
+**UxPressia:** herramienta que se usó para desarrollar y gestionar los distintos aspectos de la experiencia del cliente final. Gracias a esta herramienta se elaboraron los conceptos de Needfinding como User persona, Journey Map, Empathy Map e Impact Maps.
+
+**Ruta de referencia:** https://uxpressia.com
+
+<div align="center">
+<img src="data:image/png;base64,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">
+</div>
+<br><br>
+
+**Miro:** Plataforma en línea que nos ayudó gracias a la creación de diagramas,flujos de trabajos y principalmente el EventStorming y los escenarios As-Is y To-Be.
+
+**Ruta de referencia:** https://miro.com/es/
+
+<div align="center" style="scale: 0.5;">
+<img src="https://www.insightplatforms.com/wp-content/uploads/2021/04/Miro-Logo-Square-Insight-Platforms.png">
+</div>
+
+**PRODUCT UX/UI DESIGN:**
+
+**Figma:** herramienta de diseño colaborativo que se usó para desarrollar la capa de presentación de la aplicación móvil, así como tambien la Landing Page y prototipos interactivos, permitiendo simular y probar la navegación y las interacciones que deseamos brindar al usuario.
+
+**Ruta de referencia:** https://www.figma.com
+
+<div align="center">
+<img src="data:image/png;base64,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">
+</div>
+<br>
+
+**Overflow:** Es un plugin de Figma que usamos para crear Wireflows y User Flows. Overflow nos permite combinar wireframes con flujos de usuario para visualizar cómo los usuarios interactúan con la interfaz. Además, con Overflow podemos determinar el recorrido completo del usuario.
+
+**Ruta de referencia:** https://www.figma.com/community/plugin/880782315986192393/overflow
+
+<div align="center">
+<img src="https://overflow.io/assets/images/social/facebook-share.png?v=1736240147689" alt="overflow" style="margin-bottom: 5px;" width="400"/> 
+</div>
+
+<br>
+
+**Software Development** <br>
+**Visual Studio Code:** Es un editor de código fuente, gratuito y de código abierto desarrollado por Microsoft. Dicha herramienta nos permite escribir y editar el código HTML, CSS y JavaScript para elaborar la landing page. 
+
+**Ruta de referencia:** https://code.visualstudio.com
+
+<div align="center">
+<img src="https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2019/07/vscode.jpg?width=1200&enable=upscale" alt="vscode" style="margin-bottom: 5px;" width="300"/> 
+</div>
+
+<br><br>
+
+**Android Studio:** Es un IDE oficial para el desarrollo de aplicaciones Android. Dicho software es gratuito y está basado en IntelliJ IDEA. Esta herramienta nos permite desarrollar la aplicación móvil planteada.
+
+
+**Ruta de referencia:** https://developer.android.com/
+
+<div align="center">
+<img src="data:image/png;base64,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">
+
+</div>
+
+<br><br>
+
+**Bootstrap 5:** Es una biblioteca de componentes y un sistema de grillas que facilita el diseño web responsivo. Utilizamos Bootstrap 5 en esta landing page para agilizar la creación de un diseño adaptable y aprovechar sus componentes preconstruidos, como botones, formularios y barras de navegación.
+
+ **Ruta de referencia:** https://getbootstrap.com/
+
+<div align="center">
+<img src="data:image/jpeg;base64,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" alt="bootstrap" style="margin-bottom: 5px;" width="300"/> 
+
+</div>
+
+**Software Deployment** <br>
+**Git:** Es una herramienta de control de versiones que nos permite colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.
+
+ **Ruta de referencia:** https://git-scm.com/
+
+
+<div align="center">
+<img src="data:image/png;base64,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" alt="git" style="margin-bottom: 5px;" width="300"/> 
+
+<br><br>
+
+</div>
+
+**Software Documentation and Project Management**
+**GitHub:** Como plataforma de alojamiento, nos facilita la colaboración en equipo, la gestión de ramas y la integración continua, optimizando el flujo de trabajo de desarrollo. Además, usamos github para recurrir a su funcionalidad Github Pages y desplegar la Landing Page de manera sencilla.
+
+**Ruta de referencia:** https://github.com/
+
+<div align="center">
+<img src="data:image/png;base64,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" alt="github" style="margin-bottom: 5px;" width="300"/> 
+</div>
+
 <div id='6.1.2.'><h4>6.1.2. Source Code Management</h4></div>
+
+La gestión del proyecto de la aplicación móvil, landing page y aplicación Backend, siguen los principios del modelo "Git Branch Model" en la cual se define como una estrategia para administrar y organizar un trabajo en un repositorio de Github mediante la creación de ramas con distintas funcionalidades. Uno de los modelos que usaremos es el "Git Flow", la cual define como crear ramas para mantener el control del ciclo de vida del desarrollo del software.
+
+**Repositorio de Landing Page:** https://github.com/TF-AplicacionesMoviles/LandingPage
+
+**Repositorio de Aplicación Móvil:** https://github.com/TF-AplicacionesMoviles/MobileApp
+
+**Repositorio de Backend:** https://github.com/TF-AplicacionesMoviles/Backend
+
+### Estructura de ramas:
+
+1. Rama principal: esta rama es la principal del proyecto, contendrá versiones finales del desarrollo. Solo se permitirán cambios si ya han pasado por una previa revisión en otras ramas de testing.<br><br>
+
+2. Rama de Desarrollo: esta rama es en donde se lleva a cabo los avances del proyecto en equipo. Es donde se integran las nuevas características antes de fusionarlas al main.<br><br>
+
+3. Rama de Características: Se crean a partir de develop para desarrollar nuevas características o funcionalidades. Una vez completadas, se fusionan de nuevo a develop. Cabe destacar que estas ramas son temporales, ya que su única funcionalidad es desarrollar una funcionalidad y fusionarla con la rama de desarrollo si es que se completó el requerimiento. Sin embargo en el proyecto de la Landing Page, no se eliminarán para fines de descripción.<br><br>
+
+4. Rama de Corrección: Estas ramas se crean para abarcar un error específico y poder solucionarlo para fusionarlo a la rama de desarrollo.<br><br>
+
+5. Rama de Lanzamiento: Se crean cuando en la rama de desarrollo está listo para una nueva versión de producción. Permiten hacer pruebas y correcciones menores antes de fusionar a main.<br><br>
+
+Versionamiento Semántico: Para nombrar las Releases, se utilizará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+Convenciones de Commits: Para los mensajes de los commits realizados, se usa la especificación Conventional Commits, La estructura a seguir será la siguiente:
+
+"(tipo):(titulo)" y "(descripcion)"
+
 <div id='6.1.3.'><h4>6.1.3. Source Code Style Guide & Conventions</h4></div>
+
+Para el desarrollo de Dentify, hemos recurrido a estos lenguajes para desarrollar la solución:
+
+**HTML**
+
+Para el desarrollo en HTML, se han seguido las Convenciones de Codificación para HTML. Los puntos más importantes aplicados son:
+
+- **Uso de etiquetas semánticas:**
+Se han utilizado etiquetas como header, nav, main, footer para mejorar la accesibilidad y la comprensión del documento.
+<br>
+
+- **Indentación y estructura:**
+  A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad, usaremos "kebab-case".
+
+
+**CSS**
+En el CSS, se ha implementado la convención BEM y las guías de estilo recomendadas para mantener el código claro y organizado. Aquí algunos detalles específicos de tu código CSS:
+
+- **Uso de nombres de clases descriptivos y en inglés:**
+  Las clases siguen un esquema claro, usando "kebab-case", lo que facilita la identificación del propósito de cada clase.
+  <br>
+- **Transiciones y efectos en botones:**
+  Se implementaron transiciones suaves para mejorar la experiencia de usuario cuando interactúa con botones.
+  <br>
+- **Uso de fuentes personalizadas:**
+  Se han utilizado varias fuentes personalizadas cargadas mediante @font-face, lo que sigue las mejores prácticas de personalización tipográfica en CSS.
+
+
+**JavaScript**
+En el proyecto se ha utilizado Bootstrap para manejar la interactividad y los componentes dinámicos de la interfaz. Los archivos JavaScript incluidos son versiones oficiales del framework, lo que permite aprovechar funcionalidades avanzadas sin necesidad de escribir código JavaScript desde cero.
+
+**Bootstrap**
+Para Bootstrap, se han seguido las mejores prácticas, como utilizar clases predefinidas para ahorrar tiempo y asegurar que el diseño sea responsive. Además, se ha personalizado el diseño sin modificar directamente las clases de Bootstrap, lo que asegura compatibilidad y facilidad de actualización.
+
+**Java (Springboot)**
+
+Para la aplicación API Restful, usamos la convención estándar "Google Java Style Guide".
+
+- **Definición de nombres de clases:**
+  Para la creación de las clases y métodos de estos en Java hemos usado PascalCase y para la instancia de atributos de clases hemos usado lowerCamelCase.
+  <br>
+
+- **Organización y estructura del proyecto:**
+  Para un mejor desarrollo de la aplicación, hemos usado "Clean Architecture" y principios de Domain Driven Design, separando por Bounded context y dentro de estas por capas como Aplicación, Infraestructura, Dominio e Interfaces.
+
+**Kotlin (Android Studio)**
+
+Para el desarrollo de la aplicación móvil, usamos convenciones de "Google Kotlin Style Guide" para organizar de una mejor manera el proyecto.
+
+- **Definición de nombres de clases:**
+  Para la creación de las clases y métodos de estos en Kotlin hemos usado PascalCase y para la instancia de atributos de clases hemos usado lowerCamelCase.
+  <br>
+
+- **Organización y estructura del proyecto:**
+  Para un mejor desarrollo de la aplicación, hemos usado "Clean Architecture" y principios de Domain Driven Design, separando por Bounded context y dentro de estas por capas como Repositorios, UI, Casos de Uso y Dominios.
+
+
 <div id='6.1.4.'><h4>6.1.4. Software Deployment Configuration</h4></div>
+
+#### Landing Page:
+
+En el caso de la Landing Page, desplegaremos la página en Github Pages que es la funcionalidad de Github para deplegar páginas estáticas.
+
+Iremos a nuestra cuenta de Github, Seleccionamos la opción de "New Repository". Damos un nombre del repositorio y configuramos el repositorio en público, ya que Github Pages necesita repositorios públicos para desplegarlo.
+
+<div align="center">
+<img src="Img/6-1-4.png">
+</div>
+
+<br>
+Luego, podemos usar los comandos en nuestro ide, editor de código o en la terminal para subir nuestro proyecto dependiendo a nuestra circunstancia.
+
+<div align="center">
+<img src="Img/6-1-4b.png">
+</div>
+
+
+<br>
+Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
+<br><br>
+Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
+<br><br>
+En la sección Source, selecciona la rama de la que quieres desplegar (normalmente main).
+
+
+<div align="center">
+<img src="Img/6-1-4c.png">
+</div>
+
+GitHub ahora generará una URL para tu landing page, que estará disponible en algo como: https://usuario.github.io/Example
+
+Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que seleccionaste en la configuración, GitHub Pages actualizará automáticamente la página en cuestión de minutos.
+
+**Consideraciones:** GitHub Pages solo soporta sitios estáticos (HTML, CSS, JavaScript). Si tu landing page necesita procesamiento en el servidor, necesitarás otro servicio de hospedaje. Este también necesita de un archivo "index.html" para poder desplegarse, de lo contrario no se podrá.
+
 <div id='6.2.'><h3>6.2. Landing Page & Mobile Application Implementation</h3></div>
-<div id='6.2.X.'><h4>6.2.X. Sprint n</h4></div>
-<div id='6.2.X.1.'><h5>6.2.X.1. Sprint Planning n</h5></div>
-<div id='6.2.X.2.'><h5>6.2.X.2. Sprint Backlog n</h5></div>
-<div id='6.2.X.3.'><h5>6.2.X.3. Development Evidence for Sprint Review</h5></div>
-<div id='6.2.X.4.'><h5>6.2.X.4. Testing Suite Evidence for Sprint Review</h5></div>
-<div id='6.2.X.5.'><h5>6.2.X.5. Execution Evidence for Sprint Review</h5></div>
-<div id='6.2.X.6.'><h5>6.2.X.6. Services Documentation Evidence for Sprint Review</h5></div>
-<div id='6.2.X.7.'><h5>6.2.X.7. Software Deployment Evidence for Sprint Review</h5></div>
-<div id='6.2.X.8.'><h5>6.2.X.8. Team Collaboration Insights during Sprint</h5></div>
+<div id='6.2.X.'><h4>6.2.1. Sprint 1</h4></div>
+<div id='6.2.X.1.'><h5>6.2.1.1. Sprint Planning #1</h5></div>
+En la siguiente sección, se presentará el sprint #1 con la primera versión del trabajo para la entrega del proyecto. Mostrando la organización, distribución y resultados del landing page, un avance del Web Service y una primera versión del Mobile Application.    
 
 
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-05-07|
+| **Time** | 04:30 PM |
+| **Location** | llamada por la plataforma "Discord" |
+| **Prepared By** | Uribe Quispe, Jesús Guillermo |
+| **Attendees (to planning meeting)** | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado  |
+| **Sprint 1 – 1 Review Summary** | Corresponde el primer sprint, por lo que no hay otros sprint anteriores. |
+| **Sprint 1 – 1 Retrospective Summary** |Corresponde el primer sprint, por lo que no hay otros sprint anteriores.  |
+| **Sprint Goal & User Stories**| |
+| **Sprint #1 Goal** | Desarrollar y desplegar una landing page funcional que presente de manera clara y atractiva los principales beneficios y características del producto, optimizada para dispositivos móviles y preparada para captar leads a través de un formulario de contacto, así como también desarrollar una primera versión de la aplicación movil y el Web Service.|
+| **Sprint #1 Velocity** | 3 story points (media de total de story points)|
+| **Sum of Story Points** | 21 |
+
+<div id='6.2.X.2.'><h5>6.2.1.2. Sprint Backlog n</h5></div>
+
+Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="7">Sprint 1</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>User Story&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Descripción&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Estimación (Hours)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Story points &nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Assigned to&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Status (In&nbsp;&nbsp;&nbsp;-process / To - review / Done)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>US31&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Visualización de Menu Principal&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>UT01&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Página principal de la Landing Page&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>elementos del menú para navegar a las secciones correspondientes de la misma página.&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br> 3&nbsp;&nbsp;&nbsp;</td>
+	  <td>&nbsp;&nbsp;&nbsp;<br> 3&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br> Jesús Uribe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Done&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td><br>US32</td>
+    <td><br>Navegación por la barra principal</td>
+    <td><br>UT02</td>
+    <td><br>Funcionalidad de navegación de la Landing Page</td>
+    <td><br>componente que permite navegar por distintas secciones de la página.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US33</td>
+    <td><br>Sección About Us</td>
+    <td><br>UT03</td>
+    <td><br>Sección About Us de la Landing Page</td>
+    <td><br>sección para detallar y presentarnos hacia nuestros clientes potenciales.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US34</td>
+    <td><br>Sección Servicios</td>
+    <td><br>UT04</td>
+    <td><br>Sección Servicios de la Landing Page</td>
+    <td><br>sección para detallar los servicios que brinda Dentify hacia los clientes potenciales.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US35</td>
+    <td><br>Sección Contact Us</td>
+    <td><br>UT05</td>
+    <td><br>Sección de contacto de la Landing Page</td>
+    <td><br>sección para dar informacíon de contacto para los clientes.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US36</td>
+    <td><br>Formulario de Contacto</td>
+    <td><br>UT06</td>
+    <td><br>Sección del formulario de la Landing Page</td>
+    <td><br>sección para mandar un formulario de contacto por parte del cliente.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US37</td>
+    <td><br>Footer Informativo</td>
+    <td><br>UT07</td>
+    <td><br>Sección informativo de la Landing Page</td>
+    <td><br>sección para detallar y mostrar alguna información extra al cliente.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US01</td>
+    <td><br>Registrar Usuario</td>
+    <td><br>UT08</td>
+    <td><br>Registro de usuario</td>
+    <td><br>formulario para registrar un usuario en la aplicación móvil.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US02</td>
+    <td><br>Iniciar sesión de usuario</td>
+    <td><br>UT09</td>
+    <td><br>Inicio de sesión de usuario</td>
+    <td><br>formulario para autenticar un usuario en la aplicación móvil.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS01</td>
+    <td><br>Registro exitoso del personal</td>
+    <td><br>UT10</td>
+    <td><br>validar Registro de usuario</td>
+    <td><br>lógica para el registro de usuario.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS02</td>
+    <td><br>Inicio de sesión exitoso</td>
+    <td><br>UT10</td>
+    <td><br>validar la autenticación de usuario</td>
+    <td><br>lógica para autenticar un usuario.</td>
+    <td><br> 3</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+</tbody></table>
+
+<div id='6.2.X.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<h5>Landing Page</h5>
+	<a href="https://github.com/TF-AplicacionesMoviles/LandingPage" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/LandingPage</a>
+	<br>
+</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+ <tr>
+   <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+</tbody></table>
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<h5>Mobile Application</h5>
+	<a href="https://github.com/TF-AplicacionesMoviles/MobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/MobileApp</a>
+	<br>
+</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+ <tr>
+   <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+</tbody></table>
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<h5>Web Services</h5>
+	<a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Backend</a>
+	<br>
+</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+ <tr>
+   <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+  </tr>
+</tbody></table>
+
+<div id='6.2.X.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+
+En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10"><a href="-" target="_blank" rel="noopener noreferrer">-</a></td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+  </tr>
+ 
+</tbody></table>
+
+<div id='6.2.X.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
+<div id='6.2.X.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
+<div id='6.2.X.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+<div id='6.2.X.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
