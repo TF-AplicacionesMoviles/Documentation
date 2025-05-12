@@ -2791,6 +2791,14 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <img src="Img/dashboard_wm.png" alt="Dashboard" style="margin-bottom: 5px;" width="250">
 
+**Pagos**
+
+<img src="Img/lista_pagos_wm.png" alt="Lista pagos" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/registrar_pagos_wm.png" alt="Registrar pagos" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/facturas_pagos_wm.png" alt="Factura de pagos" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
