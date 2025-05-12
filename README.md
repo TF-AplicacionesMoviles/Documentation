@@ -2763,6 +2763,10 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <img src="Img/perfil_wm.png" alt="Perfil" style="margin-bottom: 5px;" width="250">
 
+**Menú** <br>
+
+<img src="Img/menu_wm.png" alt="Menú" style="margin-bottom: 5px;" width="250">
+
 
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
