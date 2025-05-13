@@ -2739,20 +2739,294 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.'><h3>5.1. Product design</h3></div>
 <div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
 <div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
+
+
+<div style="text-align: justify;">
+
+**Lenguaje aplicado**
+<br>Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
+
+**Consistencia**
+<br>Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
+
+**Simplicidad**
+<br>Eliminamos los elementos innecesarios o que pueden complicar la interfaz con el fin de que los usuarios puedan realizar sus tareas de manera más sencilla y rápida.
+
+**Comunicación**
+<br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
+</div>
+
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
+
+<div style="text-align: justify;">
+Se usará la organización Jerarquía Visual en lo siguiente:
+
+**Aplicación en la App Móvil (Dentify)**
+<br>Las secciones claves que tendrá la interfaz como (nombrar opciones, como “Reserva de Citas”, “Pagar Tratamiento”, “Historial”), utilizando títulos visibles, botones llamativos y elementos interactivos que orientan al usuario de manera intuitiva. Un ejemplo puede ser “Reservar Citas” se presenta en una posición prioritaria dentro de la pantalla principal o por botones flotantes, facilitando el acceso rápido desde la app.
+
+**Landing Page (MediTech)**
+<br>Secciones como (“Nosotros”, “Servicios”, “Información” y “Contáctenos”) se enfatizan con encabezados grandes y llamados a la acción claros, guiando al visitante a través del sitio con facilidad. Un ejemplo es dentro de “Servicios”, donde se incluyen iconos representativos y botones que dirigen a más información sobre soluciones destacadas como Dentify.
+
+<br>Con respecto a la Categorización del Contenido, a continuación:
+
+**Para la App Móvil (Dentify)**
+<br>Las funciones están ordenadas en categorías intuitivas, como “Citas”, “Pagos” y “Historial”, lo que permite que los usuarios encuentren rápidamente la funcionalidad que necesitan. Para eso, un ejemplo se da en las funciones específicas como “Gestión de Inventario”, donde están organizadas en una sección administrativa accesible solo para usuarios premium.
+
+**Landing Page (MediTech)**
+<br>El contenido se agrupa en secciones informativas bien definidas, como “Nosotros”, que reúne la historia y el equipo, o “Servicios”, que detalla las soluciones ofrecidas por la empresa. Un ejemplo es en la sección “Información”, los contenidos están divididos en temas como eficiencia clínica o gestión de citas, facilitando su exploración.
+
+<br>La Secuencia de Contenidos estará mostrada en los siguientes casos:
+
+**En la App Móvil (Dentify)**
+<br>La experiencia está diseñada con una secuencia lógica de uso: desde el inicio de sesión, el usuario es conducido al menú principal y luego a funciones recurrentes como reservas o consultas. Un ejemplo es al ingresar, donde el usuario encuentra en primer plano opciones frecuentes como “Reserva de Citas”, permitiendo una navegación fluida y enfocada.
+
+**Landing Page (MediTech)**
+<br>La estructura sigue un flujo progresivo: inicia con la presentación de la empresa, continúa con los servicios y termina en la sección de contacto. Eso se visualiza cuando el usuario conoce primero las soluciones disponibles, luego accede a información detallada y, finalmente, a los medios para establecer contacto.
+
+<br>En Agrupación de Funcionalidades se presenta lo siguiente:
+
+**En App Móvil (Dentify)**
+<br>Las funcionalidades están agrupadas por áreas de uso para optimizar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales, mientras que “Citas” contiene programación, recordatorios y seguimiento. De ejemplo tenemos cuando los elementos relacionados como métodos de pago y facturación se integran bajo la categoría “Pagos”, y la información médica del paciente se organiza dentro de “Historial”.
+
+**Landing Page (MediTech)**
+<br>Las secciones funcionales están organizadas para facilitar la navegación. “Servicios” agrupa las soluciones que ofrece la empresa, y “Contáctenos” centraliza todos los medios de comunicación. Un ejemplo es dentro de “Servicios”, donde se puede destacar una subsección dedicada a Dentify, resaltándola como una propuesta innovadora.
+</div>
+
 <div id='5.1.2.2.'><h5>5.1.2.2. Labelling Systems</h5></div>
+
+<div style="text-align: justify;">
+En etiquetas descriptivas y consistentes:
+
+**Aplicación Móvil (Dentify)**
+<br>Se han empleado etiquetas claras y directas que describen de forma precisa la función disponible, facilitando que los usuarios identifiquen rápidamente las acciones que pueden realizar dentro de la app. Como ejemplo tenemos que en el menú principal, se utilizan términos como “Reservar Cita”, “Historial” y “Pagos” que indican exactamente lo que el usuario encontrará. Dentro de la sección “Perfil”, opciones como “Editar Información Personal” o “Modificar Contraseña” están nombradas de forma específica para guiar al usuario sin ambigüedades.
+
+**Landing Page (MediTech)**
+<br>Las secciones están etiquetadas de forma clara, utilizando términos comprensibles como “Servicios” o “Información”, lo que facilita la navegación del visitante desde cualquier dispositivo. Un ejemplo es con la parte de “Contáctenos”, se emplean etiquetas diferenciadas para cada vía de contacto, como “Formulario de Consulta”, “Llamada Telefónica” o “Atención por Chat”, permitiendo al usuario elegir fácilmente el medio de comunicación.
+</div>
+
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
+
+Tenemos lo que es Optimización SEO para Mayor Visibilidad en Plataformas Móviles
+
+<ul>
+  <li>Se han implementado estrategias de posicionamiento en tiendas de aplicaciones (ASO – App Store Optimization), utilizando títulos, descripciones y palabras clave relevantes para que Dentify sea fácilmente localizada por profesionales del sector dental que buscan soluciones móviles de gestión.</li>
+  <li>Ejemplo del título de la App: “Dentify - Gestión Dental Móvil por MediTech”.</li>
+  <li>Descripción de la App: “Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”</li>
+  <li>Palabras Clave: “app dental, gestión de citas, consultorio móvil, odontología digital, Dentify MediTech”.</li>
+</ul>
+
 <div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
+
+Se usará la Búsqueda Personalizada en los siguientes casos:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha incorporado una función de búsqueda optimizada que permite a los usuarios localizar rápidamente información relevante dentro de la app, como citas agendadas, registros de pacientes o tratamientos específicos.</li>
+      <li>Un ejemplo es en la búsqueda, donde incluye filtros por fecha, profesional de salud o tipo de procedimiento, facilitando el acceso ágil a los datos desde cualquier sección de la aplicación, incluso desde dispositivos móviles con pantallas reducidas.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza una barra de búsqueda básica para ayudar a los visitantes a encontrar contenidos específicos, como artículos informativos o detalles sobre los servicios ofrecidos.</li>
+      <li>Como ejemplo tenemos en la sección “Información”, el cual los usuarios pueden buscar temas concretos como “automatización de citas” o “eficiencia administrativa en consultorios dentales”.</li>
+    </ul>
+  </li>
+</ul>
+
 <div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
+
+Para el Menú Principal:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha diseñado un menú principal intuitivo y accesible desde cualquier pantalla mediante un botón desplegable (hamburger menu), que brinda acceso directo a las funciones clave de la app como “Citas”, “Pagos” e “Historial”. Este menú es adaptable a pantallas pequeñas y prioriza la usabilidad en movimiento.</li>
+      <li><strong>Ejemplo:</strong> Los usuarios premium pueden acceder rápidamente al soporte técnico desde cualquier sección, a través de un ícono fijo dentro del menú o accesos rápidos en la pantalla principal.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza un menú superior fijo que permanece visible al hacer scroll, con enlaces a las secciones esenciales del sitio, optimizado también para la versión móvil con íconos representativos y diseño compacto.</li>
+      <li><strong>Ejemplo:</strong> En la vista móvil, el menú muestra íconos claros para acceder a “Nosotros”, “Servicios” y al chat de ayuda, mejorando la navegación desde smartphones.</li>
+    </ul>
+  </li>
+</ul>
+
+Para la Navegación Contextual:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se implementa una navegación interna contextual que permite a los usuarios moverse fácilmente entre funciones relacionadas sin necesidad de volver al menú principal, mejorando la eficiencia en tareas comunes.</li>
+      <li><strong>Ejemplo:</strong> Desde la sección “Historial”, se puede acceder directamente a la opción de reservar una nueva cita con el mismo especialista, agilizando el proceso de seguimiento de tratamientos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>La navegación incluye enlaces que redirigen a contenidos relacionados dentro de la misma página, brindando al usuario más información de forma fluida y sin recargar la interfaz.</li>
+      <li><strong>Ejemplo:</strong> En la sección “Servicios”, los visitantes pueden hacer clic en “leer más” para acceder a casos prácticos o beneficios de cada servicio.</li>
+    </ul>
+  </li>
+</ul>
+
 <div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
+
+Diseño de la interfaz de usuario de una página de aterrizaje, que es la primera página que los usuarios ven al interactuar con un producto o servicio en línea. Su objetivo principal es captar la atención del usuario, comunicar el valor del producto y dirigirlo hacia una acción específica, como registrarse, descargar una aplicación o realizar una compra. Este diseño combina elementos visuales atractivos, navegación intuitiva y contenido persuasivo para maximizar la conversión de visitantes en usuarios activos.
+
 <div id='5.1.3.1.'><h5>5.1.3.1. Landing Page Wireframe</h5></div>
+
+**Nosotros**
+
+<img src="Img/Landing/Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/Landing/Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/Landing/Contactanos.png" alt="Contactanos">
+<img src="Img/Landing/Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+**Nosotros** <br>
+<img src="Img/Landing/wlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/Landing/wlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/Landing/wlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_contactenos2.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+
+
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
+
+**Nosotros**
+
+<img src="Img/Landing/m-Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/Landing/m-Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/Landing/m-Contactanos.png" alt="Contactanos">
+<img src="Img/Landing/m-Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+
+**Nosotros** <br>
+<img src="Img/Landing/mlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/Landing/mlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/Landing/mlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_contactenos2.png" alt="Contactenos2" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
 <div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
+
+**Autenticación** <br>
+**Register** <br>
+<img src="Img/mockups/Register.png" alt="Register" style="margin-bottom: 5px;" width="250">
+
+**Login** <br>
+<img src="Img/mockups/Login.png" alt="Login" style="margin-bottom: 5px;" width="250">
+
+**Perfil** <br>
+<img src="Img/mockups/Perfil.png" alt="Perfil" style="margin-bottom: 5px;" width="250">
+
+**Editar perfil** <br>
+<img src="Img/mockups/Editar perfil.png" alt="Editar perfil" style="margin-bottom: 5px;" width="250">
+
+**Editar contraseña** <br>
+<img src="Img/mockups/Editar contraseña.png" alt="Editar contraseña" style="margin-bottom: 5px;" width="250">
+
+**Menú** <br>
+<img src="Img/mockups/Menu-inicio.png" alt="Menú" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Citas** <br>
+<img src="Img/mockups/Gestión de Citas1.png" alt="Lista de citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas2.png" alt="Opciones" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas3.png" alt="Añadir Cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas4.png" alt="Editar cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas5.png" alt="Eliminar citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas6.png" alt="Buscar citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas7.png" alt="Buscar por dni" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas8.png" alt="Selecciona la fecha y hora" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas9.png" alt="Recordatorio cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas10.png" alt="Gestion de horario" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Pacientes** <br>
+<img src="Img/mockups/Gestión de Pacientes1.png" alt="Lista de citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes2.png" alt="Añadir Paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes3.png" alt="Editar Paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes4.png" alt="Filtro pacientes" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes5.png" alt="Busqueda por DNI" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes6.png" alt="Seccion historial por paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes7.png" alt="Eliminar historial" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes8.png" alt="Eliminar paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes9.png" alt="Agregar historial por paciente" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Inventario** <br>
+<img src="Img/mockups/Gestión de Inventario1.png" alt="Inventario pantalla principal" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario2.png" alt="NuevoPro-Inventario" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario3.png" alt="Modificar-Inventario" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario4.png" alt="EliminarProd-Inv" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario5.png" alt="DashBoard - flujo inventario" style="margin-bottom: 5px;" width="250">
+
+**Pagos** <br>
+<img src="Img/mockups/Pagos1.png" alt="Pagos" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos2.png" alt="Registrar pago" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos3.png" alt="Pago exitoso" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos4.png" alt="Citas a pagar" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos5.png" alt="Vista de factura" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos6.png" alt="Opciones" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos7.png" alt="Pagos por fecha" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos8.png" alt="Pagos por paciente" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
+
+*Enlace figma:* <a href="https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-4&t=hPfuFWY0lvnhIqcf-1">Figma</a>
+
+**User goal: Actualizar datos** <br>
+<img src="Img/UserFlowDiagrams/Actualizar datos.png" alt="Actualizar datos" style="margin-bottom: 5px;" width="500">
+
+**User goal: Cita** <br>
+<img src="Img/UserFlowDiagrams/Cita.png" alt="Cita" style="margin-bottom: 5px;" width="500">
+
+**User goal: Inventario** <br>
+<img src="Img/UserFlowDiagrams/Inventario.png" alt="Inventario" style="margin-bottom: 5px;" width="500">
+
+**User goal: Paciente** <br>
+<img src="Img/UserFlowDiagrams/Paciente.png" alt="Paciente" style="margin-bottom: 5px;" width="500">
+
+**User goal: Pagos** <br>
+<img src="Img/UserFlowDiagrams/Pagos.png" alt="Pagos" style="margin-bottom: 5px;" width="500">
+
+**User goal: Registro** <br>
+<img src="Img/UserFlowDiagrams/Registro.png" alt="Registro" style="margin-bottom: 5px;" width="500">
+
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
