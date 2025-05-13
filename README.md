@@ -2805,8 +2805,77 @@ En etiquetas descriptivas y consistentes:
 </div>
 
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
+
+Tenemos lo que es Optimización SEO para Mayor Visibilidad en Plataformas Móviles
+
+<ul>
+  <li>Se han implementado estrategias de posicionamiento en tiendas de aplicaciones (ASO – App Store Optimization), utilizando títulos, descripciones y palabras clave relevantes para que Dentify sea fácilmente localizada por profesionales del sector dental que buscan soluciones móviles de gestión.</li>
+  <li>Ejemplo del título de la App: “Dentify - Gestión Dental Móvil por MediTech”.</li>
+  <li>Descripción de la App: “Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”</li>
+  <li>Palabras Clave: “app dental, gestión de citas, consultorio móvil, odontología digital, Dentify MediTech”.</li>
+</ul>
+
 <div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
+
+Se usará la Búsqueda Personalizada en los siguientes casos:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha incorporado una función de búsqueda optimizada que permite a los usuarios localizar rápidamente información relevante dentro de la app, como citas agendadas, registros de pacientes o tratamientos específicos.</li>
+      <li>Un ejemplo es en la búsqueda, donde incluye filtros por fecha, profesional de salud o tipo de procedimiento, facilitando el acceso ágil a los datos desde cualquier sección de la aplicación, incluso desde dispositivos móviles con pantallas reducidas.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza una barra de búsqueda básica para ayudar a los visitantes a encontrar contenidos específicos, como artículos informativos o detalles sobre los servicios ofrecidos.</li>
+      <li>Como ejemplo tenemos en la sección “Información”, el cual los usuarios pueden buscar temas concretos como “automatización de citas” o “eficiencia administrativa en consultorios dentales”.</li>
+    </ul>
+  </li>
+</ul>
+
 <div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
+
+Para el Menú Principal:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha diseñado un menú principal intuitivo y accesible desde cualquier pantalla mediante un botón desplegable (hamburger menu), que brinda acceso directo a las funciones clave de la app como “Citas”, “Pagos” e “Historial”. Este menú es adaptable a pantallas pequeñas y prioriza la usabilidad en movimiento.</li>
+      <li><strong>Ejemplo:</strong> Los usuarios premium pueden acceder rápidamente al soporte técnico desde cualquier sección, a través de un ícono fijo dentro del menú o accesos rápidos en la pantalla principal.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza un menú superior fijo que permanece visible al hacer scroll, con enlaces a las secciones esenciales del sitio, optimizado también para la versión móvil con íconos representativos y diseño compacto.</li>
+      <li><strong>Ejemplo:</strong> En la vista móvil, el menú muestra íconos claros para acceder a “Nosotros”, “Servicios” y al chat de ayuda, mejorando la navegación desde smartphones.</li>
+    </ul>
+  </li>
+</ul>
+
+Para la Navegación Contextual:
+
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se implementa una navegación interna contextual que permite a los usuarios moverse fácilmente entre funciones relacionadas sin necesidad de volver al menú principal, mejorando la eficiencia en tareas comunes.</li>
+      <li><strong>Ejemplo:</strong> Desde la sección “Historial”, se puede acceder directamente a la opción de reservar una nueva cita con el mismo especialista, agilizando el proceso de seguimiento de tratamientos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>La navegación incluye enlaces que redirigen a contenidos relacionados dentro de la misma página, brindando al usuario más información de forma fluida y sin recargar la interfaz.</li>
+      <li><strong>Ejemplo:</strong> En la sección “Servicios”, los visitantes pueden hacer clic en “leer más” para acceder a casos prácticos o beneficios de cada servicio.</li>
+    </ul>
+  </li>
+</ul>
+
 <div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
 <div id='5.1.3.1.'><h5>5.1.3.1. Landing Page Wireframe</h5></div>
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
