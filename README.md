@@ -2740,135 +2740,142 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
 <div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
 
-Para el desarrollo de la aplicación web **Dentify** y su respectiva **Landing Page**, hemos adoptado un lenguaje formal, serio y respetuoso, en coherencia con la naturaleza profesional y la finalidad de nuestro producto.
 
-Además, hemos incorporado principios clave del diseño de interfaces para asegurar una experiencia de usuario óptima:
+<div style="text-align: justify;">
+
+**Lenguaje aplicado**
+<br>Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
 
 **Consistencia**
-
-Se ha mantenido una estructura visual coherente en todas las secciones del producto digital. Esto incluye el uso uniforme de tipografías, tamaños de fuente, paletas de colores y estilos de interacción. La familiaridad visual facilita la navegación y mejora la usabilidad para el usuario.
+<br>Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
 
 **Simplicidad**
-
-La interfaz fue diseñada eliminando elementos innecesarios o complejos, permitiendo que los usuarios realicen sus tareas de manera ágil y sin distracciones.
+<br>Eliminamos los elementos innecesarios o que pueden complicar la interfaz con el fin de que los usuarios puedan realizar sus tareas de manera más sencilla y rápida.
 
 **Comunicación**
-
-Se ha priorizado la retroalimentación visual al usuario, brindando confirmaciones claras cada vez que se realiza una acción. Esto refuerza la confianza del usuario y mejora la comprensión del flujo de interacción.
-
-**Jerarquía Visual**
-
-A través del uso estratégico de tamaños y tipos de fuente, combinaciones de colores y contrastes, se ha establecido una jerarquía clara en los elementos visuales. Esto guía la atención del usuario y destaca la información más relevante dentro de la aplicación web.
-
+<br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
+</div>
 
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
 
-**Jerarquía Visual**
+<div style="text-align: justify;">
+Se usará la organización Jerarquía Visual en lo siguiente:
 
-**Landing Page (MediTech):**  
-Se destacan secciones clave como **“Nosotros”**, **“Servicios”**, **“Información”** y **“Contáctenos”** mediante el uso de títulos prominentes y botones visualmente atractivos, lo que facilita la navegación intuitiva del visitante.  
+**Aplicación en la App Móvil (Dentify)**
+<br>Las secciones claves que tendrá la interfaz como (nombrar opciones, como “Reserva de Citas”, “Pagar Tratamiento”, “Historial”), utilizando títulos visibles, botones llamativos y elementos interactivos que orientan al usuario de manera intuitiva. Un ejemplo puede ser “Reservar Citas” se presenta en una posición prioritaria dentro de la pantalla principal o por botones flotantes, facilitando el acceso rápido desde la app.
 
-**Aplicación Mobile (Dentify):**  
-Las funciones más relevantes como **“Reserva de Citas”**, **“Pagar Tratamiento”** y **“Historial”** se priorizan mediante botones destacados, accesibles desde el menú principal.  
+**Landing Page (MediTech)**
+<br>Secciones como (“Nosotros”, “Servicios”, “Información” y “Contáctenos”) se enfatizan con encabezados grandes y llamados a la acción claros, guiando al visitante a través del sitio con facilidad. Un ejemplo es dentro de “Servicios”, donde se incluyen iconos representativos y botones que dirigen a más información sobre soluciones destacadas como Dentify.
 
----
+<br>Con respecto a la Categorización del Contenido, a continuación:
 
-**Categorización de Contenidos**
+**Para la App Móvil (Dentify)**
+<br>Las funciones están ordenadas en categorías intuitivas, como “Citas”, “Pagos” y “Historial”, lo que permite que los usuarios encuentren rápidamente la funcionalidad que necesitan. Para eso, un ejemplo se da en las funciones específicas como “Gestión de Inventario”, donde están organizadas en una sección administrativa accesible solo para usuarios premium.
 
-**Landing Page (MediTech):**  
-El contenido está organizado en secciones claramente diferenciadas para facilitar su exploración. Por ejemplo, **“Nosotros”** agrupa la historia y equipo de la empresa, mientras que **“Servicios”** describe las soluciones ofrecidas.  
+**Landing Page (MediTech)**
+<br>El contenido se agrupa en secciones informativas bien definidas, como “Nosotros”, que reúne la historia y el equipo, o “Servicios”, que detalla las soluciones ofrecidas por la empresa. Un ejemplo es en la sección “Información”, los contenidos están divididos en temas como eficiencia clínica o gestión de citas, facilitando su exploración.
 
-**Aplicación Mobile (Dentify):**  
-Las funcionalidades están distribuidas en categorías definidas, como **“Citas”**, **“Pagos”** y **“Historial”**, lo que permite al usuario ubicar fácilmente la opción deseada.  
+<br>La Secuencia de Contenidos estará mostrada en los siguientes casos:
 
----
+**En la App Móvil (Dentify)**
+<br>La experiencia está diseñada con una secuencia lógica de uso: desde el inicio de sesión, el usuario es conducido al menú principal y luego a funciones recurrentes como reservas o consultas. Un ejemplo es al ingresar, donde el usuario encuentra en primer plano opciones frecuentes como “Reserva de Citas”, permitiendo una navegación fluida y enfocada.
 
-**Secuencia de Contenidos**
+**Landing Page (MediTech)**
+<br>La estructura sigue un flujo progresivo: inicia con la presentación de la empresa, continúa con los servicios y termina en la sección de contacto. Eso se visualiza cuando el usuario conoce primero las soluciones disponibles, luego accede a información detallada y, finalmente, a los medios para establecer contacto.
 
-**Landing Page (MediTech):**  
-La información se presenta siguiendo un flujo lógico que guía al visitante desde la introducción de la empresa hasta el contacto.  
+<br>En Agrupación de Funcionalidades se presenta lo siguiente:
 
-**Aplicación Mobile (Dentify):**  
-La navegación dentro de la aplicación sigue un orden funcional que acompaña al usuario desde su ingreso al perfil hasta la realización de tareas específicas como revisar historial o agendar citas.  
+**En App Móvil (Dentify)**
+<br>Las funcionalidades están agrupadas por áreas de uso para optimizar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales, mientras que “Citas” contiene programación, recordatorios y seguimiento. De ejemplo tenemos cuando los elementos relacionados como métodos de pago y facturación se integran bajo la categoría “Pagos”, y la información médica del paciente se organiza dentro de “Historial”.
 
----
-
-**Agrupación de Funcionalidades**
-
-**Landing Page (MediTech):**  
-Las funcionalidades están agrupadas según su propósito. Por ejemplo, la sección **“Servicios”** concentra las soluciones ofrecidas, mientras que **“Contáctenos”** agrupa los medios de contacto y localización.  
-
-**Aplicación Mobile (Dentify):**  
-Las funciones están organizadas por frecuencia de uso y tipo de tarea. Secciones como **“Perfil”** reúnen configuraciones personales, mientras que **“Citas”** agrupa todo lo relacionado con la agenda del paciente.  
+**Landing Page (MediTech)**
+<br>Las secciones funcionales están organizadas para facilitar la navegación. “Servicios” agrupa las soluciones que ofrece la empresa, y “Contáctenos” centraliza todos los medios de comunicación. Un ejemplo es dentro de “Servicios”, donde se puede destacar una subsección dedicada a Dentify, resaltándola como una propuesta innovadora.
+</div>
 
 <div id='5.1.2.2.'><h5>5.1.2.2. Labelling Systems</h5></div>
 
-**Etiquetas Descriptivas y Consistentes**
+<div style="text-align: justify;">
+En etiquetas descriptivas y consistentes:
 
-**Aplicación Móvil - Landing Page (MediTech)**
+**Aplicación Móvil (Dentify)**
+<br>Se han empleado etiquetas claras y directas que describen de forma precisa la función disponible, facilitando que los usuarios identifiquen rápidamente las acciones que pueden realizar dentro de la app. Como ejemplo tenemos que en el menú principal, se utilizan términos como “Reservar Cita”, “Historial” y “Pagos” que indican exactamente lo que el usuario encontrará. Dentro de la sección “Perfil”, opciones como “Editar Información Personal” o “Modificar Contraseña” están nombradas de forma específica para guiar al usuario sin ambigüedades.
 
-Se emplean nombres de secciones precisos que reflejan de manera directa el contenido o acción esperada, como **“Información”**, **“Servicios”**, o **“Contáctenos”**.  
-**Ejemplo:** En **“Contáctenos”**, las etiquetas guían al usuario hacia el canal de comunicación deseado: formulario, llamada telefónica o chat integrado, todo accesible desde un solo toque.
-
-**Aplicación Móvil - Dentify**
-
-Las funcionalidades están acompañadas de etiquetas orientadas a la acción, como **“Reserva de Citas”**, **“Historial”** y **“Pagos”**, facilitando una navegación rápida y eficiente.  
-**Ejemplo:** Dentro de la sección **“Perfil”**, se incluyen etiquetas como **“Actualizar Información”** y **“Cambiar Contraseña”**, que comunican de forma clara las acciones disponibles, manteniendo la coherencia en todo el sistema.
+**Landing Page (MediTech)**
+<br>Las secciones están etiquetadas de forma clara, utilizando términos comprensibles como “Servicios” o “Información”, lo que facilita la navegación del visitante desde cualquier dispositivo. Un ejemplo es con la parte de “Contáctenos”, se emplean etiquetas diferenciadas para cada vía de contacto, como “Formulario de Consulta”, “Llamada Telefónica” o “Atención por Chat”, permitiendo al usuario elegir fácilmente el medio de comunicación.
+</div>
 
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
 
-**Estrategia SEO para Mayor Visibilidad**
+Tenemos lo que es Optimización SEO para Mayor Visibilidad en Plataformas Móviles
 
-Se han implementado prácticas de optimización SEO a través del uso adecuado de **metaetiquetas** en ambas plataformas, con el objetivo de mejorar el posicionamiento en motores de búsqueda y facilitar que los usuarios encuentren nuestras soluciones digitales para consultorios dentales.
-
-**Ejemplo de título optimizado (Title Tag):**  
-*“Dentify by MediTech – Plataforma Digital para Consultorios Dentales”*
-
-**Meta descripción sugerida:**  
-*"Con Dentify, la gestión de citas, tratamientos y pacientes es más simple y eficiente. Descubre nuestras soluciones tecnológicas desarrolladas por MediTech."*
-
-**Palabras clave (Keywords):**  
-*citas dentales online, gestión de clínicas dentales, app para odontólogos, soluciones digitales odontológicas*
-
+<ul>
+  <li>Se han implementado estrategias de posicionamiento en tiendas de aplicaciones (ASO – App Store Optimization), utilizando títulos, descripciones y palabras clave relevantes para que Dentify sea fácilmente localizada por profesionales del sector dental que buscan soluciones móviles de gestión.</li>
+  <li>Ejemplo del título de la App: “Dentify - Gestión Dental Móvil por MediTech”.</li>
+  <li>Descripción de la App: “Organiza tus citas, tratamientos y pacientes desde una sola app. Dentify optimiza la administración de tu consultorio dental desde cualquier lugar.”</li>
+  <li>Palabras Clave: “app dental, gestión de citas, consultorio móvil, odontología digital, Dentify MediTech”.</li>
+</ul>
 
 <div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
 
-**Funcionalidad de Búsqueda Personalizada**
+Se usará la Búsqueda Personalizada en los siguientes casos:
 
-**Aplicación Móvil - Landing Page (MediTech)**
-
-Se incorpora una función de búsqueda sencilla que permite a los usuarios localizar rápidamente secciones específicas dentro de la página, como contenidos informativos o detalles sobre los servicios ofrecidos.  
-**Ejemplo:** Una barra de búsqueda ubicada en la sección **“Información”**, que permite filtrar artículos por temas relevantes como la gestión clínica o herramientas digitales.
-
-**Aplicación Móvil - Dentify**
-
-La app integra un sistema de búsqueda avanzada que facilita el acceso directo a datos específicos como citas, pacientes o tratamientos registrados.  
-**Ejemplo:** El usuario puede filtrar resultados por fecha, profesional de salud o tipo de procedimiento dentro del apartado de **“Historial”**, mejorando así la eficiencia en la navegación.
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha incorporado una función de búsqueda optimizada que permite a los usuarios localizar rápidamente información relevante dentro de la app, como citas agendadas, registros de pacientes o tratamientos específicos.</li>
+      <li>Un ejemplo es en la búsqueda, donde incluye filtros por fecha, profesional de salud o tipo de procedimiento, facilitando el acceso ágil a los datos desde cualquier sección de la aplicación, incluso desde dispositivos móviles con pantallas reducidas.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza una barra de búsqueda básica para ayudar a los visitantes a encontrar contenidos específicos, como artículos informativos o detalles sobre los servicios ofrecidos.</li>
+      <li>Como ejemplo tenemos en la sección “Información”, el cual los usuarios pueden buscar temas concretos como “automatización de citas” o “eficiencia administrativa en consultorios dentales”.</li>
+    </ul>
+  </li>
+</ul>
 
 <div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
 
-**Menú Principal**
+Para el Menú Principal:
 
-**Aplicación Móvil - Landing Page (MediTech):**  
-Se utiliza un menú superior fijo que ofrece acceso directo a las secciones esenciales del sitio. Este menú permanece visible mientras el usuario se desplaza, optimizando la navegación continua.  
-**Ejemplo:** En la versión móvil, se presenta un menú compacto con íconos que enlazan a **“Nosotros”**, **“Servicios”**, y una opción de chat para soporte inmediato.
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se ha diseñado un menú principal intuitivo y accesible desde cualquier pantalla mediante un botón desplegable (hamburger menu), que brinda acceso directo a las funciones clave de la app como “Citas”, “Pagos” e “Historial”. Este menú es adaptable a pantallas pequeñas y prioriza la usabilidad en movimiento.</li>
+      <li><strong>Ejemplo:</strong> Los usuarios premium pueden acceder rápidamente al soporte técnico desde cualquier sección, a través de un ícono fijo dentro del menú o accesos rápidos en la pantalla principal.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>Se utiliza un menú superior fijo que permanece visible al hacer scroll, con enlaces a las secciones esenciales del sitio, optimizado también para la versión móvil con íconos representativos y diseño compacto.</li>
+      <li><strong>Ejemplo:</strong> En la vista móvil, el menú muestra íconos claros para acceder a “Nosotros”, “Servicios” y al chat de ayuda, mejorando la navegación desde smartphones.</li>
+    </ul>
+  </li>
+</ul>
 
-**Aplicación Móvil - Dentify:**  
-La aplicación incluye un menú dinámico que permite acceder rápidamente a funciones esenciales como **“Citas”**, **“Pagos”** y **“Historial”**. En dispositivos móviles, se presenta como un menú desplegable para maximizar el espacio en pantalla.  
-**Ejemplo:** Los usuarios premium cuentan con un acceso directo al soporte técnico desde cualquier sección de la app.
+Para la Navegación Contextual:
 
----
-
-**Navegación Contextual**
-
-**Aplicación Móvil - Landing Page (MediTech):**  
-Se integran enlaces contextuales que permiten al usuario explorar más detalles sin salir de la sección actual.  
-**Ejemplo:** En la sección **“Información”**, se ofrecen enlaces que conducen directamente a artículos relacionados o casos de estudio dentro de la misma página.
-
-**Aplicación Móvil - Dentify:**  
-Dentro de la app, la navegación contextual conecta funcionalidades relacionadas, mejorando el flujo operativo del usuario.  
-**Ejemplo:** Desde el **“Historial”**, el usuario puede agendar una nueva cita con el mismo especialista mediante un botón directo, agilizando la gestión clínica.
+<ul>
+  <li>
+    <strong>Aplicación Móvil (Dentify):</strong>
+    <ul>
+      <li>Se implementa una navegación interna contextual que permite a los usuarios moverse fácilmente entre funciones relacionadas sin necesidad de volver al menú principal, mejorando la eficiencia en tareas comunes.</li>
+      <li><strong>Ejemplo:</strong> Desde la sección “Historial”, se puede acceder directamente a la opción de reservar una nueva cita con el mismo especialista, agilizando el proceso de seguimiento de tratamientos.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Landing Page (MediTech):</strong>
+    <ul>
+      <li>La navegación incluye enlaces que redirigen a contenidos relacionados dentro de la misma página, brindando al usuario más información de forma fluida y sin recargar la interfaz.</li>
+      <li><strong>Ejemplo:</strong> En la sección “Servicios”, los visitantes pueden hacer clic en “leer más” para acceder a casos prácticos o beneficios de cada servicio.</li>
+    </ul>
+  </li>
+</ul>
 
 <div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
 
@@ -3418,6 +3425,10 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 
 <div id='6.2.X.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
 
+
+### LANDING PAGE:
+
+En el apartado de Landing Page, solo un integrante desarrolló este pequeño proyecto y solo en su máquina local, ya que, al solo ser un participante, por comodidad se optó por esto.
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3434,21 +3445,16 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 	<a href="https://github.com/TF-AplicacionesMoviles/LandingPage" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/LandingPage</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-  </tr>
- <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>47fea191f279d7aeac5bd1cf043b4b887c3b48e2</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>17/05/2025</td>
   </tr>
 </tbody></table>
 
+
+### MOBILE APPLICATION: 
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3480,6 +3486,8 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   </tr>
 </tbody></table>
 
+### WEB SERVICES:
+
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3496,19 +3504,27 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 	<a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Backend</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>6e839b00e9507c2fb4f03ef694a5502ef2697f91</td>
+    <td><br>first commit</td>
+    <td><br>first commit</td>
+    <td><br>09/05/2025</td>
   </tr>
  <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+   <td><br>develop</td>
+    <td><br>fd8e203d31647df10df1171daea69416cb805a1d</td>
+    <td><br>feature: create authenticacion and jwt classes</td>
+    <td><br>feature: create authenticacion and jwt classes</td>
+    <td><br>12/05/2025</td>
   </tr>
+  <tr>
+   <td><br>develop</td>
+    <td><br>0af65eef461f3df0b97a66ee63fc071e2be07038</td>
+    <td><br>feature: create Patients endpoint (POST)</td>
+    <td><br>feature: create Patients endpoint (POST)</td>
+    <td><br>12/05/2025</td>
+  </tr>
+  
 </tbody></table>
 
 <div id='6.2.X.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
@@ -3539,9 +3555,97 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 </tbody></table>
 
 <div id='6.2.X.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
+
+### LANDING PAGE:
+A continuación, se muestran las evidencias de la ejecución de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap.
+
+
+#### US 31-32-33:
+Desarrollo de menú principal, barra de navegación y sección About Us.
+
+<div align="center">
+<img src="Img/LD1.png" alt="Landing page 1">
+</div>
+
+
+<div align="center">
+<img src="Img/LD2.png" alt="Landing page 2">
+</div>
+
+
+#### US 34:
+Desarrollo de información de servicios.
+
+<div align="center">
+<img src="Img/LD3.png" alt="Landing page 3">
+</div>
+
+<div align="center">
+<img src="Img/LD4.png" alt="Landing page 4">
+</div>
+
+
+#### US 35-36:
+Desarrollo de sección Contact us, con formulario y footer informativo.
+<div align="center">
+<img src="Img/LD5.png" alt="Landing page 5">
+</div>
+
+<div align="center">
+<img src="Img/LD6.png" alt="Landing page 6">
+</div>
+
 <div id='6.2.X.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 <div id='6.2.X.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+### LANDING PAGE:
+A continuación, se muestran las evidencias del despliegue de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap usando la funcionalidad de Github Pages.
+
+<a href="https://tf-aplicacionesmoviles.github.io/LandingPage/">https://tf-aplicacionesmoviles.github.io/LandingPage</a>
+
+
+Menú principal, barra de navegación y sección About Us.
+
+<div align="center">
+<img src="Img/LD1.png" alt="Landing page 1">
+</div>
+
+
+<div align="center">
+<img src="Img/LD2.png" alt="Landing page 2">
+</div>
+
+
+Información de servicios.
+
+<div align="center">
+<img src="Img/LD3.png" alt="Landing page 3">
+</div>
+
+<div align="center">
+<img src="Img/LD4.png" alt="Landing page 4">
+</div>
+
+
+Sección Contact us, con formulario y footer informativo.
+<div align="center">
+<img src="Img/LD5.png" alt="Landing page 5">
+</div>
+
+<div align="center">
+<img src="Img/LD6.png" alt="Landing page 6">
+</div>
+
+
 <div id='6.2.X.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+
+| Alumno  | Actividad |
+| -------- | -------- |
+| Bohorquez Lerzundi Gerardo Sebastian| Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
+| Huanaco Huayta, Elizabeth Lucero |Documentación de Product Design, Information Architecture.|
+|Huapaya Cuevas, Anthony | Documentación de Product Design, Information Architecture.|
+| Silva Tirado, Sebastián Valentino | Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
+| Uribe Quispe, Jesús Guillermo |Gestión de proyecto Back End, realización de Landing Page, realización de endpoints de Usuarios y Pacientes en BackEnd.|
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
