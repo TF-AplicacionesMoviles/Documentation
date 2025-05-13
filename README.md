@@ -2740,6 +2740,7 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
 <div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
 
+
 <div style="text-align: justify;">
 
 **Lenguaje aplicado**
@@ -2877,13 +2878,155 @@ Para la Navegación Contextual:
 </ul>
 
 <div id='5.1.3.'><h4>5.1.3. Landing Page UI Design</h4></div>
+
+Diseño de la interfaz de usuario de una página de aterrizaje, que es la primera página que los usuarios ven al interactuar con un producto o servicio en línea. Su objetivo principal es captar la atención del usuario, comunicar el valor del producto y dirigirlo hacia una acción específica, como registrarse, descargar una aplicación o realizar una compra. Este diseño combina elementos visuales atractivos, navegación intuitiva y contenido persuasivo para maximizar la conversión de visitantes en usuarios activos.
+
 <div id='5.1.3.1.'><h5>5.1.3.1. Landing Page Wireframe</h5></div>
+
+**Nosotros**
+
+<img src="Img/Landing/Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/Landing/Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/Landing/Contactanos.png" alt="Contactanos">
+<img src="Img/Landing/Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+**Nosotros** <br>
+<img src="Img/Landing/wlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/Landing/wlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/Landing/wlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/wlm_contactenos2.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+
+
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
+
+**Nosotros**
+
+<img src="Img/Landing/m-Nosotros.png" alt="Nosotros">
+
+**Servicios**
+
+<img src="Img/Landing/m-Servicios.png" alt="Servicios">
+
+
+**Contáctanos**
+
+<img src="Img/Landing/m-Contactanos.png" alt="Contactanos">
+<img src="Img/Landing/m-Contactanos2.png" alt="Contactanos">
+
+**Mobile** <br>
+
+**Nosotros** <br>
+<img src="Img/Landing/mlm_nosotros.png" alt="Nosotros" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_nosotros2.png" alt="Nosotros2" style="margin-bottom: 5px;" width="250">
+
+**Servicios** <br>
+<img src="Img/Landing/mlm_servicios.png" alt="Servicios" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_servicios2.png" alt="Servicios2" style="margin-bottom: 5px;" width="250">
+
+**Contactenos** <br>
+<img src="Img/Landing/mlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
+<img src="Img/Landing/mlm_contactenos2.png" alt="Contactenos2" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
 <div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
+
+**Autenticación** <br>
+**Register** <br>
+<img src="Img/mockups/Register.png" alt="Register" style="margin-bottom: 5px;" width="250">
+
+**Login** <br>
+<img src="Img/mockups/Login.png" alt="Login" style="margin-bottom: 5px;" width="250">
+
+**Perfil** <br>
+<img src="Img/mockups/Perfil.png" alt="Perfil" style="margin-bottom: 5px;" width="250">
+
+**Editar perfil** <br>
+<img src="Img/mockups/Editar perfil.png" alt="Editar perfil" style="margin-bottom: 5px;" width="250">
+
+**Editar contraseña** <br>
+<img src="Img/mockups/Editar contraseña.png" alt="Editar contraseña" style="margin-bottom: 5px;" width="250">
+
+**Menú** <br>
+<img src="Img/mockups/Menu-inicio.png" alt="Menú" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Citas** <br>
+<img src="Img/mockups/Gestión de Citas1.png" alt="Lista de citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas2.png" alt="Opciones" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas3.png" alt="Añadir Cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas4.png" alt="Editar cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas5.png" alt="Eliminar citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas6.png" alt="Buscar citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas7.png" alt="Buscar por dni" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas8.png" alt="Selecciona la fecha y hora" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas9.png" alt="Recordatorio cita" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Citas10.png" alt="Gestion de horario" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Pacientes** <br>
+<img src="Img/mockups/Gestión de Pacientes1.png" alt="Lista de citas" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes2.png" alt="Añadir Paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes3.png" alt="Editar Paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes4.png" alt="Filtro pacientes" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes5.png" alt="Busqueda por DNI" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes6.png" alt="Seccion historial por paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes7.png" alt="Eliminar historial" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes8.png" alt="Eliminar paciente" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Pacientes9.png" alt="Agregar historial por paciente" style="margin-bottom: 5px;" width="250">
+
+**Gestión de Inventario** <br>
+<img src="Img/mockups/Gestión de Inventario1.png" alt="Inventario pantalla principal" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario2.png" alt="NuevoPro-Inventario" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario3.png" alt="Modificar-Inventario" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario4.png" alt="EliminarProd-Inv" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Gestión de Inventario5.png" alt="DashBoard - flujo inventario" style="margin-bottom: 5px;" width="250">
+
+**Pagos** <br>
+<img src="Img/mockups/Pagos1.png" alt="Pagos" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos2.png" alt="Registrar pago" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos3.png" alt="Pago exitoso" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos4.png" alt="Citas a pagar" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos5.png" alt="Vista de factura" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos6.png" alt="Opciones" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos7.png" alt="Pagos por fecha" style="margin-bottom: 5px;" width="250">
+<img src="Img/mockups/Pagos8.png" alt="Pagos por paciente" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
+
+*Enlace figma:* <a href="https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-4&t=hPfuFWY0lvnhIqcf-1">Figma</a>
+
+**User goal: Actualizar datos** <br>
+<img src="Img/UserFlowDiagrams/Actualizar datos.png" alt="Actualizar datos" style="margin-bottom: 5px;" width="500">
+
+**User goal: Cita** <br>
+<img src="Img/UserFlowDiagrams/Cita.png" alt="Cita" style="margin-bottom: 5px;" width="500">
+
+**User goal: Inventario** <br>
+<img src="Img/UserFlowDiagrams/Inventario.png" alt="Inventario" style="margin-bottom: 5px;" width="500">
+
+**User goal: Paciente** <br>
+<img src="Img/UserFlowDiagrams/Paciente.png" alt="Paciente" style="margin-bottom: 5px;" width="500">
+
+**User goal: Pagos** <br>
+<img src="Img/UserFlowDiagrams/Pagos.png" alt="Pagos" style="margin-bottom: 5px;" width="500">
+
+**User goal: Registro** <br>
+<img src="Img/UserFlowDiagrams/Registro.png" alt="Registro" style="margin-bottom: 5px;" width="500">
+
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
