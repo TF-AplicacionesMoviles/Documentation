@@ -2739,9 +2739,71 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.'><h3>5.1. Product design</h3></div>
 <div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
 <div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
+
+<div style="text-align: justify;">
+
+**Lenguaje aplicado**
+<br>Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
+
+**Consistencia**
+<br>Mantenemos una estructura y estilo uniformes en todo el producto digital. Esto incluye el uso coherente de elementos de diseño como tipografías, tamaños de fuente, paleta de colores y patrones de interacción, permitiendo que el usuario se adapte fácilmente a la interfaz y navegue con mayor facilidad.
+
+**Simplicidad**
+<br>Eliminamos los elementos innecesarios o que pueden complicar la interfaz con el fin de que los usuarios puedan realizar sus tareas de manera más sencilla y rápida.
+
+**Comunicación**
+<br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
+</div>
+
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
+
+<div style="text-align: justify;">
+Se usará la organización Jerarquía Visual en lo siguiente:
+
+**Aplicación en la App Móvil (Dentify)**
+<br>Las secciones claves que tendrá la interfaz como (nombrar opciones, como “Reserva de Citas”, “Pagar Tratamiento”, “Historial”), utilizando títulos visibles, botones llamativos y elementos interactivos que orientan al usuario de manera intuitiva. Un ejemplo puede ser “Reservar Citas” se presenta en una posición prioritaria dentro de la pantalla principal o por botones flotantes, facilitando el acceso rápido desde la app.
+
+**Landing Page (MediTech)**
+<br>Secciones como (“Nosotros”, “Servicios”, “Información” y “Contáctenos”) se enfatizan con encabezados grandes y llamados a la acción claros, guiando al visitante a través del sitio con facilidad. Un ejemplo es dentro de “Servicios”, donde se incluyen iconos representativos y botones que dirigen a más información sobre soluciones destacadas como Dentify.
+
+<br>Con respecto a la Categorización del Contenido, a continuación:
+
+**Para la App Móvil (Dentify)**
+<br>Las funciones están ordenadas en categorías intuitivas, como “Citas”, “Pagos” y “Historial”, lo que permite que los usuarios encuentren rápidamente la funcionalidad que necesitan. Para eso, un ejemplo se da en las funciones específicas como “Gestión de Inventario”, donde están organizadas en una sección administrativa accesible solo para usuarios premium.
+
+**Landing Page (MediTech)**
+<br>El contenido se agrupa en secciones informativas bien definidas, como “Nosotros”, que reúne la historia y el equipo, o “Servicios”, que detalla las soluciones ofrecidas por la empresa. Un ejemplo es en la sección “Información”, los contenidos están divididos en temas como eficiencia clínica o gestión de citas, facilitando su exploración.
+
+<br>La Secuencia de Contenidos estará mostrada en los siguientes casos:
+
+**En la App Móvil (Dentify)**
+<br>La experiencia está diseñada con una secuencia lógica de uso: desde el inicio de sesión, el usuario es conducido al menú principal y luego a funciones recurrentes como reservas o consultas. Un ejemplo es al ingresar, donde el usuario encuentra en primer plano opciones frecuentes como “Reserva de Citas”, permitiendo una navegación fluida y enfocada.
+
+**Landing Page (MediTech)**
+<br>La estructura sigue un flujo progresivo: inicia con la presentación de la empresa, continúa con los servicios y termina en la sección de contacto. Eso se visualiza cuando el usuario conoce primero las soluciones disponibles, luego accede a información detallada y, finalmente, a los medios para establecer contacto.
+
+<br>En Agrupación de Funcionalidades se presenta lo siguiente:
+
+**En App Móvil (Dentify)**
+<br>Las funcionalidades están agrupadas por áreas de uso para optimizar la experiencia. Por ejemplo, “Perfil” incluye configuraciones personales, mientras que “Citas” contiene programación, recordatorios y seguimiento. De ejemplo tenemos cuando los elementos relacionados como métodos de pago y facturación se integran bajo la categoría “Pagos”, y la información médica del paciente se organiza dentro de “Historial”.
+
+**Landing Page (MediTech)**
+<br>Las secciones funcionales están organizadas para facilitar la navegación. “Servicios” agrupa las soluciones que ofrece la empresa, y “Contáctenos” centraliza todos los medios de comunicación. Un ejemplo es dentro de “Servicios”, donde se puede destacar una subsección dedicada a Dentify, resaltándola como una propuesta innovadora.
+</div>
+
 <div id='5.1.2.2.'><h5>5.1.2.2. Labelling Systems</h5></div>
+
+<div style="text-align: justify;">
+En etiquetas descriptivas y consistentes:
+
+**Aplicación Móvil (Dentify)**
+<br>Se han empleado etiquetas claras y directas que describen de forma precisa la función disponible, facilitando que los usuarios identifiquen rápidamente las acciones que pueden realizar dentro de la app. Como ejemplo tenemos que en el menú principal, se utilizan términos como “Reservar Cita”, “Historial” y “Pagos” que indican exactamente lo que el usuario encontrará. Dentro de la sección “Perfil”, opciones como “Editar Información Personal” o “Modificar Contraseña” están nombradas de forma específica para guiar al usuario sin ambigüedades.
+
+**Landing Page (MediTech)**
+<br>Las secciones están etiquetadas de forma clara, utilizando términos comprensibles como “Servicios” o “Información”, lo que facilita la navegación del visitante desde cualquier dispositivo. Un ejemplo es con la parte de “Contáctenos”, se emplean etiquetas diferenciadas para cada vía de contacto, como “Formulario de Consulta”, “Llamada Telefónica” o “Atención por Chat”, permitiendo al usuario elegir fácilmente el medio de comunicación.
+</div>
+
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
 <div id='5.1.2.4.'><h5>5.1.2.4. Searching Systems</h5></div>
 <div id='5.1.2.5.'><h5>5.1.2.5. Navigation Systems</h5></div>
