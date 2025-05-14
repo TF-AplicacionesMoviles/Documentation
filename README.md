@@ -3494,12 +3494,56 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   <tr>
     <td><br>TS02</td>
     <td><br>Inicio de sesión exitoso</td>
-    <td><br>UT10</td>
+    <td><br>UT11</td>
     <td><br>validar la autenticación de usuario</td>
     <td><br>lógica para autenticar un usuario.</td>
     <td><br> 3</td>
 	  <td><br> 3</td>
     <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS17</td>
+    <td><br>Visualizar lista de pacientes</td>
+    <td><br>UT12</td>
+    <td><br>Obtener lista de pacientes</td>
+    <td><br>lógica para obtener lista de pacientes</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Elizabeth Huanaco</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS18</td>
+    <td><br>Registrar nuevo paciente</td>
+    <td><br>UT13</td>
+    <td><br>Añadir a un nuevo paciente</td>
+    <td><br>lógica para añadir un nuevo paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS19</td>
+    <td><br>Editar datos de un paciente</td>
+    <td><br>UT14</td>
+    <td><br>Editar un paciente</td>
+    <td><br>lógica para editar un paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Elizabeth Huanaco</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS20</td>
+    <td><br>Eliminar un paciente</td>
+    <td><br>UT15</td>
+    <td><br>Elimina un paciente</td>
+    <td><br>lógica para eliminar un paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 1</td>
+    <td><br> Elizabeth Huanaco</td>
     <td><br>Done</td>
   </tr>
 </tbody></table>
@@ -3625,12 +3669,28 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10"><a href="-" target="_blank" rel="noopener noreferrer">-</a></td>
+<td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
     <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>a094e59</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating report and add new files .feature of EPIC 06</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating report and add new files .feature of EPIC 06</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>9987165</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 01</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 01</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>60164f9</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 03</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 03</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
   </tr>
  
 </tbody></table>
