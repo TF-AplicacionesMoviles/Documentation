@@ -193,15 +193,15 @@ Los integrantes son:
    6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
    6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
    6.2. [Landing Page & Mobile Application Implementation.](#6.2.)<br>
-   6.2.X. [Sprint n.](#6.2.X.)<br>
-   6.2.X.1. [Sprint Planning n.](#6.2.X.1.)<br>
-   6.2.X.2. [Sprint Backlog n.](#6.2.X.2.)<br>
-   6.2.X.3. [Development Evidence for Sprint Review.](#6.2.X.3.)<br>
-   6.2.X.4. [Testing Suite Evidence for Sprint Review.](#6.2.X.4.)<br>
-   6.2.X.5. [Execution Evidence for Sprint Review.](#6.2.X.5.)<br>
-   6.2.X.6. [Services Documentation Evidence for Sprint Review.](#6.2.X.6.)<br>
-   6.2.X.7. [Software Deployment Evidence for Sprint Review.](#6.2.X.7.)<br>
-   6.2.X.8. [Team Collaboration Insights during Sprint.](#6.2.X.8.)<br>
+   6.2.1. [Sprint n.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
+   6.2.1.2. [Sprint Backlog n.](#6.2.1.2.)<br>
+   6.2.1.3. [Development Evidence for Sprint Review.](#6.2.1.3.)<br>
+   6.2.1.4. [Testing Suite Evidence for Sprint Review.](#6.2.1.4.)<br>
+   6.2.1.5. [Execution Evidence for Sprint Review.](#6.2.1.5.)<br>
+   6.2.1.6. [Services Documentation Evidence for Sprint Review.](#6.2.1.6.)<br>
+   6.2.1.7. [Software Deployment Evidence for Sprint Review.](#6.2.1.7.)<br>
+   6.2.1.8. [Team Collaboration Insights during Sprint.](#6.2.1.8.)<br>
 
 7. [Conclusiones](#7.)
 8. [Referencias Bibliográficas.](#8.)<br>
@@ -3336,8 +3336,8 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 **Consideraciones:** GitHub Pages solo soporta sitios estáticos (HTML, CSS, JavaScript). Si tu landing page necesita procesamiento en el servidor, necesitarás otro servicio de hospedaje. Este también necesita de un archivo "index.html" para poder desplegarse, de lo contrario no se podrá.
 
 <div id='6.2.'><h3>6.2. Landing Page & Mobile Application Implementation</h3></div>
-<div id='6.2.X.'><h4>6.2.1. Sprint 1</h4></div>
-<div id='6.2.X.1.'><h5>6.2.1.1. Sprint Planning #1</h5></div>
+<div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
+<div id='6.2.1.1.'><h5>6.2.1.1. Sprint Planning #1</h5></div>
 En la siguiente sección, se presentará el sprint #1 con la primera versión del trabajo para la entrega del proyecto. Mostrando la organización, distribución y resultados del landing page, un avance del Web Service y una primera versión del Mobile Application.    
 
 
@@ -3356,7 +3356,7 @@ En la siguiente sección, se presentará el sprint #1 con la primera versión de
 | **Sprint #1 Velocity** | 3 story points (media de total de story points)|
 | **Sum of Story Points** | 21 |
 
-<div id='6.2.X.2.'><h5>6.2.1.2. Sprint Backlog n</h5></div>
+<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog n</h5></div>
 
 Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
 
@@ -3504,7 +3504,7 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   </tr>
 </tbody></table>
 
-<div id='6.2.X.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
+<div id='6.2.1.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
 
 
 ### LANDING PAGE:
@@ -3608,7 +3608,7 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
   
 </tbody></table>
 
-<div id='6.2.X.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
+<div id='6.2.1.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
 
 
 En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
@@ -3635,7 +3635,7 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
  
 </tbody></table>
 
-<div id='6.2.X.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
+<div id='6.2.1.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
 
 ### LANDING PAGE:
 A continuación, se muestran las evidencias de la ejecución de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap.
@@ -3676,7 +3676,8 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
-<div id='6.2.X.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+<div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
 
@@ -3684,7 +3685,12 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 |---------|--------|-------------|----------------------|------------|----------------------|-----------------------|
 | `/api/auth/login` | Autenticación | POST | `/api/auth/login` | Request Body: `{ "username": "string", "password": "string"}`  | `{"accessToken": "string","refreshToken": "string"}` | [http://localhost:8080/api/auth/login](http://localhost:8080/api/auth/login) |
 | `/api/auth/register` | Registro de usuario | POST | `/api/auth/register` | Request Body: `{"firstName": "string","lastName": "string","email": "string","companyName": "string","username": "string","password": "string","trial": true}`  | `{"accessToken": "string","refreshToken": "string"}` | [http://localhost:8080/api/auth/register](http://localhost:8080/api/auth/register) |
-| `/api/patients` | Creación de Paciente | POST | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `{"id": int}`| [http://localhost:8080/api/auth/login](http://localhost:8080/api/auth/login) |
+| `/api/patients` | Creación de Paciente para un usuario | POST | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `{"id": int}`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
+| `/api/patients` | Obtención de Pacientes de un usuario| GET | `/api/patients` | Request Body: None | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
+| `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+
 
 #### LOGIN: 
 
@@ -3715,7 +3721,9 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <div align="center">
 <img src="Img/bd2.png">
 </div>
-<div id='6.2.X.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+
+<div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 ### LANDING PAGE:
 A continuación, se muestran las evidencias del despliegue de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap usando la funcionalidad de Github Pages.
@@ -3757,7 +3765,7 @@ Sección Contact us, con formulario y footer informativo.
 </div>
 
 
-<div id='6.2.X.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+<div id='6.2.1.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
 | Alumno  | Actividad |
 | -------- | -------- |
