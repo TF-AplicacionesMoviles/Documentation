@@ -2943,7 +2943,88 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <div id='5.1.4.'><h4>5.1.4. Mobile Applications UX/UI Design</h4></div>
 <div id='5.1.4.1.'><h5>5.1.4.1. Mobile Applications Wireframes</h5></div>
+
+**Register** <br>
+
+<img src="Img/register_wm.png" alt="Register" style="margin-bottom: 5px;" width="250">
+
+**Login** <br>
+
+<img src="Img/login_wm.png" alt="Login" style="margin-bottom: 5px;" width="250">
+
+**Perfil** <br>
+
+<img src="Img/perfil_wm.png" alt="Perfil" style="margin-bottom: 5px;" width="250">
+
+**Menú** <br>
+
+<img src="Img/menu_wm.png" alt="Menú" style="margin-bottom: 5px;" width="250">
+
+**Citas** <br>
+
+<img src="Img/lista_citas_wm.png" alt="Lista citas" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/añadir_cita_wm.png" alt="Añadir citas" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/ghorario_wm.png" alt="Gestión de horario" style="margin-bottom: 5px;" width="250">
+
+**Pacientes** <br>
+
+<img src="Img/lista_pacientes_wm.png" alt="Lista pacientes" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/añadir_pacientes_wm.png" alt="Añadir pacientes" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/historial_pacientes_wm.png" alt="Historial pacientes" style="margin-bottom: 5px;" width="250">
+
+**Inventario**
+
+<img src="Img/lista_inventario_wm.png" alt="Lista iventario" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/añadir_inventario_wm.png" alt="Añadir iventario" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/dashboard_wm.png" alt="Dashboard" style="margin-bottom: 5px;" width="250">
+
+**Pagos**
+
+<img src="Img/lista_pagos_wm.png" alt="Lista pagos" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/registrar_pagos_wm.png" alt="Registrar pagos" style="margin-bottom: 5px;" width="250">
+
+<img src="Img/facturas_pagos_wm.png" alt="Factura de pagos" style="margin-bottom: 5px;" width="250">
+
 <div id='5.1.4.2.'><h5>5.1.4.2. Mobile Applications Wireflow Diagrams</h5></div>
+
+**Enlace Figma:** https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-2&t=iQyO9xWdVqPb2MTu-1
+
+**User Goal: Autentificacion** <br>
+
+<img src="Img/autentificacion_wf.png" alt="Autentificacion WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Gestión de Citas** <br>
+
+<img src="Img/gestion_citas_wf.png" alt="Gestion de Citas WireFlow" style="margin-bottom: 5px;" width="700">
+
+**User Goal: Gestión de pacientes** <br>
+
+<img src="Img/gestion_pacientes_wf.png" alt="Gestion de pacientes WireFlow" style="margin-bottom: 5px;" width="700">
+
+**User Goal: Gestión de pagos** <br>
+
+<img src="Img/pagos_wf.png" alt="Gestion de pagos WireFlow" style="margin-bottom: 5px;" width="700">
+
+**User Goal: Gestión de inventario** <br>
+
+<img src="Img/gestion_inventario_wf.png" alt="Gestion de inventario WireFlow" style="margin-bottom: 5px;" width="500">
+
+**User Goal: Perfil** <br>
+
+<img src="Img/perfil_wf.png" alt="Perfil WireFlow" style="margin-bottom: 5px;" width="500">
+
+
+
+
+
+
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
 
 **Autenticación** <br>
@@ -3595,6 +3676,7 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
+
 <div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
@@ -3639,6 +3721,8 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <div align="center">
 <img src="Img/bd2.png">
 </div>
+
+
 <div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 ### LANDING PAGE:
