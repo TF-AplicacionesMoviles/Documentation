@@ -3607,6 +3607,7 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 | `/api/patients` | Obtención de Pacientes de un usuario| GET | `/api/patients` | Request Body: None | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
 | `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
 | `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
 
 
 #### LOGIN: 
