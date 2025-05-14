@@ -3113,7 +3113,8 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 **App Mobile** <br>
 <img src="Img/prototype_mobile.png" alt="Prototipo mobile" style="margin-bottom: 5px;" width="800">
 
-**Enlace Video:** <br> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224149_upc_edu_pe/ETLScXTdNxFPuFhYMwtquWIBV3ZTciAIqPISFo4xXlCXNA?e=eth9PV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224149_upc_edu_pe/ETLScXTdNxFPuFhYMwtquWIBV3ZTciAIqPISFo4xXlCXNA?e=eth9PV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Video prototipo </a>
+
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 <div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
