@@ -3110,6 +3110,11 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
 
+**App Mobile** <br>
+<img src="Img/prototype_mobile.png" alt="Prototipo mobile" style="margin-bottom: 5px;" width="800">
+
+**Enlace Video:** <br> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224149_upc_edu_pe/ETLScXTdNxFPuFhYMwtquWIBV3ZTciAIqPISFo4xXlCXNA?e=eth9PV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 <div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
 En esta sección establecemos las convenciones que dan una buena consistencia durante el ciclo de vida.
