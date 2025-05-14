@@ -2742,6 +2742,42 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 <div style="text-align: justify;">
 
+**Nombre y logotipo**
+
+El nombre de la aplicación, Dentify, transmite  innovación, profesionalismo y un enfoque claro en la gestión de consultorios odontológicos. El logotipo de Dentify está compuesto únicamente por un ícono de un diente sin acompañamiento de texto. Este símbolo representa de forma clara y directa el enfoque odontológico de la aplicación, transmitiendo profesionalismo, salud y confianza. Su diseño limpio y minimalista asegura una fácil identificación
+
+<img src="Img/Dentify-logo.png" alt="Dentify logo" style="margin-bottom: 5px;" width="250">
+
+**Tono de comunicación**
+
+El tono de comunicación será profesional, cercano, claro y transmitirá confianza sin perder la calidez. Se evitará el lenguaje excesivamente técnico y se priorizará expresiones accesibles para facilitar la comprensión. La aplicación hablará como un asistente confiable, siempre dispuesto a ayudar sin resultar invasivo.
+
+**Colors**
+
+La paleta de colores se basa en tonos de celeste y azul, que transmiten confianza, profesionalismo y tranquilidad, ideales para el entorno de la salud dental. Como colores secundarios se utilizan blanco, negro y gris, que aportan equilibrio visual, legibilidad y una estética limpia y moderna. Esta combinación refuerza una imagen clara, ordenada y amigable para los usuarios.
+
+<img src="Img/paleta-de-colores.png" alt="Paleta de colores de la app" style="margin-bottom: 5px;" width="250">
+
+
+**Typography**
+
+La tipografía principal utilizada es Roboto, elegida por su legibilidad, estilo moderno y versatilidad en entornos digitales. Se aplican diferentes tamaños para jerarquizar la información: los títulos emplean un tamaño grande y peso seminegrita para destacar, los subtítulos utilizan un tamaño medio con peso regular o medio, y el texto normal mantiene un tamaño cómodo para lectura continua, con un peso regular.
+
+<img src="Img/tipografía.png" alt="Tipografía de la app" style="margin-bottom: 5px;" width="250">
+
+
+**Spacing**
+
+En nuestra app móvil, aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Utilizamos márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para mejorar la lectura. Esta coherencia visual refuerza el branding y la experiencia de usuario.
+
+
+**Íconos de la aplicación**
+
+La aplicación utiliza una serie de íconos consistentes y minimalistas, seleccionados para mejorar la experiencia del usuario y mantener coherencia visual en toda la interfaz. Cada ícono cumple una función clara y está alineado con la identidad de la marca.
+
+<img src="Img/íconos.png" alt="íconos de la app" style="margin-bottom: 5px;" width="250">
+
+
 **Lenguaje aplicado**
 <br>Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
 
