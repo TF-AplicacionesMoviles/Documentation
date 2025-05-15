@@ -2785,7 +2785,6 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 <div id='5.1.1.'><h4>5.1.1. Style Guidelines</h4></div>
 <div id='5.1.1.1.'><h5>5.1.1.1. General Style Guidelines</h5></div>
 
-
 <div style="text-align: justify;">
 
 **Lenguaje aplicado**
@@ -2800,6 +2799,15 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 **Comunicación**
 <br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
 </div>
+
+**Fuentes tipograficas:**<br>
+ <img src="Img/TipoLetra.png" alt="Fuentes tipograficas" style="margin-bottom: 5px;" width="300"/>
+
+**Colores:**<br>
+ <img src="Img/Colores.png" alt="Colores" style="margin-bottom: 5px;" width="300"/>
+
+**Icons**<br>
+ <img src="Img/icons.png" alt="Icons" style="margin-bottom: 5px;" width="300"/>
 
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
@@ -3844,6 +3852,7 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
+Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
 
 <div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
