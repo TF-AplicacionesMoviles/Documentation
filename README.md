@@ -41,10 +41,32 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión |   Fecha    |             Autor             | Descripción de modificación                                                                                                                                                                       |
 | :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   TB1   | 24/04/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design |
+|   TP   | 15/05/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo V: UI/UX solution design.<br>-Capítulo VI: Product Implementation, Validation & Deployment.  |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/TF-AplicacionesMoviles/Documentation
+
+**TP1**
+<div align="center">
+  <img src="">
+</div>
+<div align="center">
+  <img src="">
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                        | Tareas Asignadas                                                                                                                                            |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi, Gerardo       | Despliegue de Backend, Diseño UX/UI                                                                                            |
+| Huanaco Huayta, Elizabeth         | Realización del Backend y archivos .feature                                                              |
+| Huapaya Cuevas, Anthony           | Realización del Backend y archivos .feature                                                |
+| Silva Tirado, Sebastián Valentino | Diseño UX, UI                                                                     |
+| Uribe Quispe, Jesús               | Documentación Capítulo VI, realización y documentación de Backend, realización y documentación de Landing Page, realización de la aplicación Móvil |
+
+
+**TB1**
 
 <div align="center">
 <img src="Img/insights_tb1_1.png" alt="insights-1">
@@ -54,7 +76,6 @@ URL del repositorio para el reporte del proyecto: https://github.com/TF-Aplicaci
 <img src="Img/insights_tb1_2.png" alt="insights-2">
 </div>
 
-**TB1**
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -193,9 +214,9 @@ Los integrantes son:
    6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
    6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
    6.2. [Landing Page & Mobile Application Implementation.](#6.2.)<br>
-   6.2.1. [Sprint n.](#6.2.1.)<br>
-   6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
-   6.2.1.2. [Sprint Backlog n.](#6.2.1.2.)<br>
+   6.2.1. [Sprint 1.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+   6.2.1.2. [Sprint Backlog 1.](#6.2.1.2.)<br>
    6.2.1.3. [Development Evidence for Sprint Review.](#6.2.1.3.)<br>
    6.2.1.4. [Testing Suite Evidence for Sprint Review.](#6.2.1.4.)<br>
    6.2.1.5. [Execution Evidence for Sprint Review.](#6.2.1.5.)<br>
@@ -1868,6 +1889,30 @@ Para facilitar la comprensión, la información se seccionará y presentará por
 
 <img src="Img/4-1-1aa.jpg" alt="Eventstorming"></img>
 
+#### PROCESO:
+
+Como primer paso, debemos identificar los eventos y trazarlos mediante una linea de tiempo imaginaria que va de izquierda a derecha.
+
+Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo por parte de estos. identificamos a los eventos con un post-it de color anaranjado.
+
+<img src="Img/es-process1.png" alt="Eventstorming"></img>
+
+<br>
+Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
+<img src="Img/es-process2.png" alt="Eventstorming"></img>
+
+<br>
+Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
+<img src="Img/es-process3.png" alt="Eventstorming"></img>
+
+Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por Bounded Context.
+
+Además, también trazamos lineas punteadas para señalar comunicaciones de comandos a eventos de distintos Bounded Context.
+
+
+
+
+
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
 
 La técnica Start-With-Value es un enfoque dentro del diseño centrado en el usuario y Domain-Driven Design (DDD) que propone comenzar el modelado del dominio desde los valores que el sistema debe entregar al usuario final o al negocio.
@@ -1914,19 +1959,19 @@ a continuación determinaremos y realizaremos los Bounded Context Canvases de nu
 
 ## IAM:
 
-<img src="Img/4-1-1-3b.jpg" alt="IAM"/>
+<img src="Img/4-1-1-3b.png" alt="IAM"/>
 
 ## INVENTARIO:
 
-<img src="Img/4-1-1-3a.jpg" alt="Inventory"/>
+<img src="Img/4-1-1-3a.png" alt="Inventory"/>
 
 ## ATENCIÓN:
 
-<img src="Img/4-1-1-3c.jpg" alt="Appointments"/>
+<img src="Img/4-1-1-3c.png" alt="Appointments"/>
 
 ## FACTURACIÓN:
 
-<img src="Img/4-1-1-3d.jpg" alt="Billing"/>
+<img src="Img/4-1-1-3d.png" alt="Billing"/>
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
@@ -2791,6 +2836,15 @@ La aplicación utiliza una serie de íconos consistentes y minimalistas, selecci
 <br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
 </div>
 
+**Fuentes tipograficas:**<br>
+ <img src="Img/TipoLetra.png" alt="Fuentes tipograficas" style="margin-bottom: 5px;" width="300"/>
+
+**Colores:**<br>
+ <img src="Img/Colores.png" alt="Colores" style="margin-bottom: 5px;" width="300"/>
+
+**Icons**<br>
+ <img src="Img/icons.png" alt="Icons" style="margin-bottom: 5px;" width="300"/>
+
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
 
@@ -3145,6 +3199,12 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
 
+**App Mobile** <br>
+<img src="Img/prototype_mobile.png" alt="Prototipo mobile" style="margin-bottom: 5px;" width="800">
+
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224149_upc_edu_pe/ETLScXTdNxFPuFhYMwtquWIBV3ZTciAIqPISFo4xXlCXNA?e=eth9PV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Video prototipo </a>
+
+
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 <div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
 En esta sección establecemos las convenciones que dan una buena consistencia durante el ciclo de vida.
@@ -3391,7 +3451,7 @@ En la siguiente sección, se presentará el sprint #1 con la primera versión de
 | **Sprint #1 Velocity** | 3 story points (media de total de story points)|
 | **Sum of Story Points** | 21 |
 
-<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog n</h5></div>
+<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog 1</h5></div>
 
 Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
 
@@ -3529,12 +3589,56 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   <tr>
     <td><br>TS02</td>
     <td><br>Inicio de sesión exitoso</td>
-    <td><br>UT10</td>
+    <td><br>UT11</td>
     <td><br>validar la autenticación de usuario</td>
     <td><br>lógica para autenticar un usuario.</td>
     <td><br> 3</td>
 	  <td><br> 3</td>
     <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS17</td>
+    <td><br>Visualizar lista de pacientes</td>
+    <td><br>UT12</td>
+    <td><br>Obtener lista de pacientes</td>
+    <td><br>lógica para obtener lista de pacientes</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Elizabeth Huanaco</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS18</td>
+    <td><br>Registrar nuevo paciente</td>
+    <td><br>UT13</td>
+    <td><br>Añadir a un nuevo paciente</td>
+    <td><br>lógica para añadir un nuevo paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS19</td>
+    <td><br>Editar datos de un paciente</td>
+    <td><br>UT14</td>
+    <td><br>Editar un paciente</td>
+    <td><br>lógica para editar un paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 2</td>
+    <td><br> Elizabeth Huanaco</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>TS20</td>
+    <td><br>Eliminar un paciente</td>
+    <td><br>UT15</td>
+    <td><br>Elimina un paciente</td>
+    <td><br>lógica para eliminar un paciente.</td>
+    <td><br> 1</td>
+	  <td><br> 1</td>
+    <td><br> Elizabeth Huanaco</td>
     <td><br>Done</td>
   </tr>
 </tbody></table>
@@ -3587,19 +3691,48 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
 	<a href="https://github.com/TF-AplicacionesMoviles/MobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/MobileApp</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>eb059963f545fd215f0aff02aaf14a0c4e05f74c</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>14/05/2025</td>
   </tr>
  <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+   <td><br>develop</td>
+    <td><br>bd785921cce3319eb1bc0b47b1db7fcb6bccf457</td>
+    <td><br>fix: fixed Login UI and token logic</td>
+    <td><br>fix: fixed Login UI and token logic</td>
+    <td><br>14/05/2025</td>
   </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>01a1b4598a8faf815eb05a84da483c967e700953</td>
+    <td><br>feat: added data files</td>
+    <td><br>feat: added data files</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>5673ef9289bae55086ee5cb4c673be92e8f3e666</td>
+    <td><br>feat: added domain files of Register</td>
+    <td><br>feat: added domain files of Register</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>cb999b325b18e01d127e26eef36a9e3aa1fa5970</td>
+    <td><br>feat: added UI files of Register</td>
+    <td><br>feat: added UI files of Register</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>e3c2d7cabbaa2422e58725ece468bbe802dbd7e5</td>
+    <td><br>feat: added Register and Login Feature</td>
+    <td><br>feat: added Register and Login Feature</td>
+    <td><br>14/05/2025</td>
+  </tr>
+ 
 </tbody></table>
 
 ### WEB SERVICES:
@@ -3640,6 +3773,34 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
     <td><br>feature: create Patients endpoint (POST)</td>
     <td><br>12/05/2025</td>
   </tr>
+  <tr>
+   <td><br>feature-patients</td>
+    <td><br>250f4a6e8e49e266d90d0a0574646a3edfd308dd</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>13/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>8ed6c4582ecda3e602f30f7974459350cb109daf</td>
+    <td><br>feature: fix get all patients by user and get patients by id and user id</td>
+    <td><br>feature: fix get all patients by user and get patients by id and user id</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>1761232c55fe0efd88c6024004e1a55a7860c8ee</td>
+    <td><br>feature: fix delete a patient by id and user id</td>
+    <td><br>feature: fix delete a patient by id and user id</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>250f4a6e8e49e266d90d0a0574646a3edfd308dd</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>13/05/2025</td>
+  </tr>
   
 </tbody></table>
 
@@ -3660,12 +3821,28 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10"><a href="-" target="_blank" rel="noopener noreferrer">-</a></td>
+<td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
     <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>a094e59</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating report and add new files .feature of EPIC 06</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating report and add new files .feature of EPIC 06</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>9987165</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 01</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 01</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>60164f9</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>docs: updating features files from Epic 03</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>updating features files from Epic 03</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14/05/2025</td>
   </tr>
  
 </tbody></table>
@@ -3711,6 +3888,7 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
+Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
 
 <div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
@@ -3723,8 +3901,12 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 | `/api/patients` | Creación de Paciente para un usuario | POST | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `{"id": int}`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
 | `/api/patients` | Obtención de Pacientes de un usuario| GET | `/api/patients` | Request Body: None | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
 | `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients/{id}` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients/{id}` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Obtener Items de un usuario | GET | `/api/items/` | Request Body: None | `[{"id": 0,"name": "string","price": 0,"stockQuantity": 0,"isActive": true,"category": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Añadir Items para un usuario | POST | `/api/items/` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0,"category": "string"}`| `HTTPSTATUS: 202` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Actualizar item de un usuario | UPDATE | `/api/items/{id}` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0, "isActive": true, "category": "string"}`| `HTTPSTATUS: 200` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Eliminar item de un usuario | DELETE | `/api/items/{id}` | Request Body: `{"id": "int"}`| `HTTPSTATUS: 204` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
 
 
 #### LOGIN: 
@@ -3741,8 +3923,60 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 
 #### PATIENTS:
 
+**Función POST:**
+
 <div align="center">
 <img src="Img/patients1.png">
+</div>
+
+**Función GET By ID:**
+
+<div align="center">
+<img src="Img/patientsGetId.jpg">
+</div>
+
+**Función GET ALL:**
+
+<div align="center">
+<img src="Img/patientsGet.jpg">
+</div>
+
+**Función PUT:**
+
+<div align="center">
+<img src="Img/patientsUpdate.jpg">
+</div>
+
+**Función DELETE:**
+
+<div align="center">
+<img src="Img/patientsDelete.jpg">
+</div>
+
+#### INVENTORY:
+
+**Función POST:**
+
+<div align="center">
+<img src="Img/inventoryPost.jpg">
+</div>
+
+**Función GET ALL:**
+
+<div align="center">
+<img src="Img/inventoryGet.jpg">
+</div>
+
+**Función PUT:**
+
+<div align="center">
+<img src="Img/inventoryUpdate.jpg">
+</div>
+
+**Función DELETE:**
+
+<div align="center">
+<img src="Img/inventoryDelete.jpg">
 </div>
 
 #### BD:
@@ -3756,6 +3990,15 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <div align="center">
 <img src="Img/bd2.png">
 </div>
+
+Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos con la relación de objeto a usuario:
+
+<div align="center">
+<img src="Img/dbItem.jpg">
+</div>
+
+**LINK DE EVIDENCIA DE DESPLIEGUE:** [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
@@ -3799,6 +4042,58 @@ Sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
+Link del video de evidencia de despligue de Landing Page: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
+
+### WEB SERVICES:
+
+Para el despliegue del Web Service hemos recurrido a Azure mediante el plugin perteneciente a IntelliJ IDEA.
+
+Entramos a la parte superior y autenticamos con nuestras credenciales de Azure.
+
+
+<div align="center">
+<img src="Img/deploy5.png" alt="Deploy WS 1">
+</div>
+
+Instanciamos la base de datos y el web service en un grupo de Recursos de Azure.
+
+<div align="center">
+<img src="Img/deploy2.jpeg" alt="Deploy WS 2">
+</div>
+
+Luego de Validar credenciales, configuración de variables de entorno, etcétera, Procedemos a desplegar la aplicación.
+
+<div align="center">
+<img src="Img/deploy1.png" alt="Deploy WS 3">
+</div>
+
+#### Probamos con el registro y nos autenticamos con el Login:
+
+<div align="center">
+<img src="Img/deploy3.png" alt="Deploy WS 4">
+</div>
+
+
+se puede apreciar la URL del despliegue de azure y la respuesta correcta por parte del servidor ante la validación de las credenciales creadas anteriormente.
+
+<div align="center">
+<img src="Img/deploy4.png" alt="Deploy WS 5">
+</div>
+
+#### Base de Datos remota:
+
+<div align="center">
+<img src="Img/deploy6.jpeg" alt="Deploy WS 6">
+</div>
+
+
+##### LINK DE DESPLIEGUE:
+ https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/
+
+##### LINK DE EVIDENCIA DE DESPLIEGUE:
+ [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
 <div id='6.2.1.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
@@ -3812,6 +4107,8 @@ Sección Contact us, con formulario y footer informativo.
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
+Como conclusión para este entregable, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Android Studio y Kotlin, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.
+
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
@@ -3820,6 +4117,19 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <div id='9.'><h2>ANEXOS</h2></div>
 
 **Anexo A**
+| Descripción                           | Enlace                                                                                                                                                                                              |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Repositorio de Aplicación Móvil         | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp)                                                                                |
+| Repositorio de Landing Page           | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage)                                                                       |
+| Despliegue de Landing Page            |  [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/)                                                                                  |
+| Repositorio de Web Service            | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend)   |       
+| Despligue de Web Service               | [https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/](https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/)  |                                                                                         |
+| Organización de Github                | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles)                                                                                                                |
+| Link de Exposición                    |[video]()|
+| Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
+
+
+**Anexo B**
 
 **Caraterísticas comunes entre odontólogos entrevistados**
 
