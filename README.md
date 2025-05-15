@@ -3867,6 +3867,10 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 | `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
 | `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
 | `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Creación de un nuevo objeto para un usuario | POST | `/api/items` | Request Body: `{"name": "string", "price": 0, "stockQuantity": 0, "category": "string"}` | `{"id": int}`| [http://localhost:8080/api/items](http://localhost:8080/api/items) |
+| `/api/items` | Obtención de objetos de un usuario | GET | `/api/items` | Request Body: None | `[{"id": 0, "name": "string", "price": 0, "stockQuantity": 0, "isActive": true, "category": "string"}]`| [http://localhost:8080/api/items](http://localhost:8080/api/items) |
+| `/api/items` | Actualización de un objeto de un usuario | PUT | `/api/items` | Request Body: `{"name": "string", "price": 0, "stockQuantity": 0, "category": "string"}` | `{"id": 0, "name": "string", "price": 0, "stockQuantity": 0, "isActive": true, "category": "string"}`| [http://localhost:8080/api/items/{id}](http://localhost:8080/api/items) |
+| `/api/items` | Eliminación de un objeto de un usuario | DELETE | `/api/items` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/items{id}](http://localhost:8080/api/items) |
 
 
 #### LOGIN: 
@@ -3883,8 +3887,60 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 
 #### PATIENTS:
 
+**Función POST:**
+
 <div align="center">
 <img src="Img/patients1.png">
+</div>
+
+**Función GET By ID:**
+
+<div align="center">
+<img src="Img/patientsGetId.jpg">
+</div>
+
+**Función GET ALL:**
+
+<div align="center">
+<img src="Img/patientsGet.jpg">
+</div>
+
+**Función PUT:**
+
+<div align="center">
+<img src="Img/patientsUpdate.jpg">
+</div>
+
+**Función DELETE:**
+
+<div align="center">
+<img src="Img/patientsDelete.jpg">
+</div>
+
+#### INVENTORY:
+
+**Función POST:**
+
+<div align="center">
+<img src="Img/inventoryPost.jpg">
+</div>
+
+**Función GET ALL:**
+
+<div align="center">
+<img src="Img/inventoryGet.jpg">
+</div>
+
+**Función PUT:**
+
+<div align="center">
+<img src="Img/inventoryUpdate.jpg">
+</div>
+
+**Función DELETE:**
+
+<div align="center">
+<img src="Img/inventoryDelete.jpg">
 </div>
 
 #### BD:
@@ -3899,6 +3955,10 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <img src="Img/bd2.png">
 </div>
 
+Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos con la relación de objeto a usuario:
+
+<div align="center">
+<img src="Img/dbItem.jpg">
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
 
