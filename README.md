@@ -41,10 +41,32 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión |   Fecha    |             Autor             | Descripción de modificación                                                                                                                                                                       |
 | :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   TB1   | 24/04/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design |
+|   TP   | 15/05/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo V: UI/UX solution design.<br>-Capítulo VI: Product Implementation, Validation & Deployment.  |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/TF-AplicacionesMoviles/Documentation
+
+**TP1**
+<div align="center">
+  <img src="">
+</div>
+<div align="center">
+  <img src="">
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                        | Tareas Asignadas                                                                                                                                            |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi, Gerardo       | Despliegue de Backend, Diseño UX/UI                                                                                            |
+| Huanaco Huayta, Elizabeth         | Realización del Backend y archivos .feature                                                              |
+| Huapaya Cuevas, Anthony           | Realización del Backend y archivos .feature                                                |
+| Silva Tirado, Sebastián Valentino | Diseño UX, UI                                                                     |
+| Uribe Quispe, Jesús               | Documentación Capítulo VI, realización y documentación de Backend, realización y documentación de Landing Page, realización de la aplicación Móvil |
+
+
+**TB1**
 
 <div align="center">
 <img src="Img/insights_tb1_1.png" alt="insights-1">
@@ -54,7 +76,6 @@ URL del repositorio para el reporte del proyecto: https://github.com/TF-Aplicaci
 <img src="Img/insights_tb1_2.png" alt="insights-2">
 </div>
 
-**TB1**
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -193,9 +214,9 @@ Los integrantes son:
    6.1.3. [Source Code Style Guide & Conventions.](#6.1.3.)<br>
    6.1.4. [Software Deployment Configuration.](#6.1.4.)<br>
    6.2. [Landing Page & Mobile Application Implementation.](#6.2.)<br>
-   6.2.1. [Sprint n.](#6.2.1.)<br>
-   6.2.1.1. [Sprint Planning n.](#6.2.1.1.)<br>
-   6.2.1.2. [Sprint Backlog n.](#6.2.1.2.)<br>
+   6.2.1. [Sprint 1.](#6.2.1.)<br>
+   6.2.1.1. [Sprint Planning 1.](#6.2.1.1.)<br>
+   6.2.1.2. [Sprint Backlog 1.](#6.2.1.2.)<br>
    6.2.1.3. [Development Evidence for Sprint Review.](#6.2.1.3.)<br>
    6.2.1.4. [Testing Suite Evidence for Sprint Review.](#6.2.1.4.)<br>
    6.2.1.5. [Execution Evidence for Sprint Review.](#6.2.1.5.)<br>
@@ -1868,6 +1889,30 @@ Para facilitar la comprensión, la información se seccionará y presentará por
 
 <img src="Img/4-1-1aa.jpg" alt="Eventstorming"></img>
 
+#### PROCESO:
+
+Como primer paso, debemos identificar los eventos y trazarlos mediante una linea de tiempo imaginaria que va de izquierda a derecha.
+
+Algunos eventos estan en la misma columna, ya que, el orden no es consecutivo por parte de estos. identificamos a los eventos con un post-it de color anaranjado.
+
+<img src="Img/es-process1.png" alt="Eventstorming"></img>
+
+<br>
+Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
+<img src="Img/es-process2.png" alt="Eventstorming"></img>
+
+<br>
+Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
+<img src="Img/es-process3.png" alt="Eventstorming"></img>
+
+Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por Bounded Context.
+
+Además, también trazamos lineas punteadas para señalar comunicaciones de comandos a eventos de distintos Bounded Context.
+
+
+
+
+
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
 
 La técnica Start-With-Value es un enfoque dentro del diseño centrado en el usuario y Domain-Driven Design (DDD) que propone comenzar el modelado del dominio desde los valores que el sistema debe entregar al usuario final o al negocio.
@@ -1914,19 +1959,19 @@ a continuación determinaremos y realizaremos los Bounded Context Canvases de nu
 
 ## IAM:
 
-<img src="Img/4-1-1-3b.jpg" alt="IAM"/>
+<img src="Img/4-1-1-3b.png" alt="IAM"/>
 
 ## INVENTARIO:
 
-<img src="Img/4-1-1-3a.jpg" alt="Inventory"/>
+<img src="Img/4-1-1-3a.png" alt="Inventory"/>
 
 ## ATENCIÓN:
 
-<img src="Img/4-1-1-3c.jpg" alt="Appointments"/>
+<img src="Img/4-1-1-3c.png" alt="Appointments"/>
 
 ## FACTURACIÓN:
 
-<img src="Img/4-1-1-3d.jpg" alt="Billing"/>
+<img src="Img/4-1-1-3d.png" alt="Billing"/>
 
 <div id='4.1.2.'><h4>4.1.2. Context Mapping</h4></div>
 
@@ -3356,7 +3401,7 @@ En la siguiente sección, se presentará el sprint #1 con la primera versión de
 | **Sprint #1 Velocity** | 3 story points (media de total de story points)|
 | **Sum of Story Points** | 21 |
 
-<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog n</h5></div>
+<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog 1</h5></div>
 
 Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
 
@@ -3596,19 +3641,48 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
 	<a href="https://github.com/TF-AplicacionesMoviles/MobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/MobileApp</a>
 	<br>
 </td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+    <td><br>main</td>
+    <td><br>eb059963f545fd215f0aff02aaf14a0c4e05f74c</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>14/05/2025</td>
   </tr>
  <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
+   <td><br>develop</td>
+    <td><br>bd785921cce3319eb1bc0b47b1db7fcb6bccf457</td>
+    <td><br>fix: fixed Login UI and token logic</td>
+    <td><br>fix: fixed Login UI and token logic</td>
+    <td><br>14/05/2025</td>
   </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>01a1b4598a8faf815eb05a84da483c967e700953</td>
+    <td><br>feat: added data files</td>
+    <td><br>feat: added data files</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>5673ef9289bae55086ee5cb4c673be92e8f3e666</td>
+    <td><br>feat: added domain files of Register</td>
+    <td><br>feat: added domain files of Register</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>cb999b325b18e01d127e26eef36a9e3aa1fa5970</td>
+    <td><br>feat: added UI files of Register</td>
+    <td><br>feat: added UI files of Register</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-register</td>
+    <td><br>e3c2d7cabbaa2422e58725ece468bbe802dbd7e5</td>
+    <td><br>feat: added Register and Login Feature</td>
+    <td><br>feat: added Register and Login Feature</td>
+    <td><br>14/05/2025</td>
+  </tr>
+ 
 </tbody></table>
 
 ### WEB SERVICES:
@@ -3648,6 +3722,34 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
     <td><br>feature: create Patients endpoint (POST)</td>
     <td><br>feature: create Patients endpoint (POST)</td>
     <td><br>12/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>feature-patients</td>
+    <td><br>250f4a6e8e49e266d90d0a0574646a3edfd308dd</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>13/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>8ed6c4582ecda3e602f30f7974459350cb109daf</td>
+    <td><br>feature: fix get all patients by user and get patients by id and user id</td>
+    <td><br>feature: fix get all patients by user and get patients by id and user id</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>1761232c55fe0efd88c6024004e1a55a7860c8ee</td>
+    <td><br>feature: fix delete a patient by id and user id</td>
+    <td><br>feature: fix delete a patient by id and user id</td>
+    <td><br>14/05/2025</td>
+  </tr>
+  <tr>
+   <td><br>hotfix-patients</td>
+    <td><br>250f4a6e8e49e266d90d0a0574646a3edfd308dd</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>add: inventory bounded context and patient aggregate</td>
+    <td><br>13/05/2025</td>
   </tr>
   
 </tbody></table>
@@ -3837,6 +3939,8 @@ Sección Contact us, con formulario y footer informativo.
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
+Como conclusión para este entregable, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Android Studio y Kotlin, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.
+
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
@@ -3845,6 +3949,19 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <div id='9.'><h2>ANEXOS</h2></div>
 
 **Anexo A**
+| Descripción                           | Enlace                                                                                                                                                                                              |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Repositorio de Aplicación Móvil         | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp)                                                                                |
+| Repositorio de Landing Page           | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage)                                                                       |
+| Despliegue de Landing Page            | [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/)                                                                                     |
+| Repositorio de Web Service            | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend)   |       
+| Despligue de Web Service               | [a](a)|                                                                                         |
+| Organización de Github                | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles)                                                                                                                |
+| Link de Exposición                    |[video]()|
+| Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
+
+
+**Anexo B**
 
 **Caraterísticas comunes entre odontólogos entrevistados**
 
