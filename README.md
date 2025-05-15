@@ -3959,6 +3959,7 @@ Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos
 
 <div align="center">
 <img src="Img/dbItem.jpg">
+</div>
 
 **LINK DE EVIDENCIA DE DESPLIEGUE:** [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
