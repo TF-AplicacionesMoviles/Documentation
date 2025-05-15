@@ -3865,8 +3865,14 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 | `/api/patients` | Creación de Paciente para un usuario | POST | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `{"id": int}`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
 | `/api/patients` | Obtención de Pacientes de un usuario| GET | `/api/patients` | Request Body: None | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
 | `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients/{id}` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients/{id}` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Obtener Items de un usuario | GET | `/api/items/` | Request Body: None | `[{"id": 0,"name": "string","price": 0,"stockQuantity": 0,"isActive": true,"category": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Añadir Items para un usuario | POST | `/api/items/` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0,"category": "string"}`| `HTTPSTATUS: 202` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Actualizar item de un usuario | UPDATE | `/api/items/{id}` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0, "isActive": true, "category": "string"}`| `HTTPSTATUS: 200` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| `/api/items` | Eliminar item de un usuario | DELETE | `/api/items/{id}` | Request Body: `{"id": "int"}`| `HTTPSTATUS: 204` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+
+
 
 
 #### LOGIN: 
@@ -3898,6 +3904,10 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <div align="center">
 <img src="Img/bd2.png">
 </div>
+
+
+**LINK DE EVIDENCIA DE DESPLIEGUE:** [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 
 <div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
@@ -3941,6 +3951,58 @@ Sección Contact us, con formulario y footer informativo.
 <img src="Img/LD6.png" alt="Landing page 6">
 </div>
 
+Link del video de evidencia de despligue de Landing Page: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
+
+### WEB SERVICES:
+
+Para el despliegue del Web Service hemos recurrido a Azure mediante el plugin perteneciente a IntelliJ IDEA.
+
+Entramos a la parte superior y autenticamos con nuestras credenciales de Azure.
+
+
+<div align="center">
+<img src="Img/deploy5.png" alt="Deploy WS 1">
+</div>
+
+Instanciamos la base de datos y el web service en un grupo de Recursos de Azure.
+
+<div align="center">
+<img src="Img/deploy2.jpeg" alt="Deploy WS 2">
+</div>
+
+Luego de Validar credenciales, configuración de variables de entorno, etcétera, Procedemos a desplegar la aplicación.
+
+<div align="center">
+<img src="Img/deploy1.png" alt="Deploy WS 3">
+</div>
+
+#### Probamos con el registro y nos autenticamos con el Login:
+
+<div align="center">
+<img src="Img/deploy3.png" alt="Deploy WS 4">
+</div>
+
+
+se puede apreciar la URL del despliegue de azure y la respuesta correcta por parte del servidor ante la validación de las credenciales creadas anteriormente.
+
+<div align="center">
+<img src="Img/deploy4.png" alt="Deploy WS 5">
+</div>
+
+#### Base de Datos remota:
+
+<div align="center">
+<img src="Img/deploy6.jpeg" alt="Deploy WS 6">
+</div>
+
+
+##### LINK DE DESPLIEGUE:
+ https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/
+
+##### LINK DE EVIDENCIA DE DESPLIEGUE:
+ [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
 <div id='6.2.1.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
@@ -3968,9 +4030,9 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Repositorio de Aplicación Móvil         | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp)                                                                                |
 | Repositorio de Landing Page           | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage)                                                                       |
-| Despliegue de Landing Page            | [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/)                                                                                     |
+| Despliegue de Landing Page            |  [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/)                                                                                  |
 | Repositorio de Web Service            | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend)   |       
-| Despligue de Web Service               | [a](a)|                                                                                         |
+| Despligue de Web Service               | [https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/](https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/)  |                                                                                         |
 | Organización de Github                | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles)                                                                                                                |
 | Link de Exposición                    |[video]()|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
