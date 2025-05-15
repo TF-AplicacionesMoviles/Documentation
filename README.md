@@ -3944,6 +3944,8 @@ Añadir un item en el inventario del usuario autenticado.
 <img src="Img/US21-add-item-view.jpg" alt="Add item view">
 </div>
 
+Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/EcvxxdeGBbREsGUFFumayioBSGd_ifaNDogUyVaSWZ90cQ?e=nrtEMl">Video </a>
+
 <div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
