@@ -3890,6 +3890,60 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 
 Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
 
+
+### MOBILE APPLICATION:
+A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
+
+
+#### US 01:
+Desarrollo del registro de usuario.
+
+<div align="center">
+<img src="Img/US01-register-user-view.jpg" alt="Register view">
+</div>
+
+#### US 02:
+Desarrollo del inicio de sesión del usuario.
+
+<div align="center">
+<img src="Img/US02-login-view.jpg" alt="Login view">
+</div>
+
+#### US 12:
+Desarrollo de la visualización de pacientes del usuario autenticado.
+
+<div align="center">
+<img src="Img/US12-get-all-patients-view.jpg" alt="Patients view">
+</div>
+
+#### US 13:
+Añadir un paciente del usuario autenticado.
+
+<div align="center">
+<img src="Img/US13-add-new-patient-view.jpg" alt="Add patient view">
+</div>
+
+#### US 15:
+Eliminar un paciente del usuario autenticado.
+
+<div align="center">
+<img src="Img/US15-delete-patient-view.jpg" alt="Delete patient view">
+</div>
+
+#### US 20:
+Desarrollo de la visualización de items del usuario autenticado.
+
+<div align="center">
+<img src="Img/US20-get-all-items-view.jpg" alt="Items view">
+</div>
+
+#### US 21:
+Añadir un item en el inventario del usuario autenticado.
+
+<div align="center">
+<img src="Img/US21-add-item-view.jpg" alt="Add item view">
+</div>
+
 <div id='6.2.1.6.'><h5>6.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
