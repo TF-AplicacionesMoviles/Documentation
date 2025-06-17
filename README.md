@@ -41,13 +41,14 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | Versión |   Fecha    |             Autor             | Descripción de modificación                                                                                                                                                                       |
 | :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   TB1   | 24/04/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design |
-|   TP   | 15/05/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo V: UI/UX solution design.<br>-Capítulo VI: Product Implementation, Validation & Deployment.  |
+|   TP    | 15/05/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo V: UI/UX solution design.<br>-Capítulo VI: Product Implementation, Validation & Deployment.                                                                         |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/TF-AplicacionesMoviles/Documentation
 
 **TP1**
+
 <div align="center">
   <img src="Img/insights-doc.png">
 </div>
@@ -57,14 +58,13 @@ URL del repositorio para el reporte del proyecto: https://github.com/TF-Aplicaci
 
 Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante                        | Tareas Asignadas                                                                                                                                            |
-| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bohorquez Lerzundi, Gerardo       | Despliegue de Backend, Diseño UX/UI                                                                                            |
-| Huanaco Huayta, Elizabeth         | Realización del Backend y archivos .feature                                                              |
-| Huapaya Cuevas, Anthony           | Realización del Backend y archivos .feature                                                |
-| Silva Tirado, Sebastián Valentino | Diseño UX, UI                                                                     |
+| Integrante                        | Tareas Asignadas                                                                                                                                   |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi, Gerardo       | Despliegue de Backend, Diseño UX/UI                                                                                                                |
+| Huanaco Huayta, Elizabeth         | Realización del Backend y archivos .feature                                                                                                        |
+| Huapaya Cuevas, Anthony           | Realización del Backend y archivos .feature                                                                                                        |
+| Silva Tirado, Sebastián Valentino | Diseño UX, UI                                                                                                                                      |
 | Uribe Quispe, Jesús               | Documentación Capítulo VI, realización y documentación de Backend, realización y documentación de Landing Page, realización de la aplicación Móvil |
-
 
 **TB1**
 
@@ -75,7 +75,6 @@ Para el desarrollo del informe perteneciente a la entrega TP, se dividió la imp
 <div align="center">
 <img src="Img/insights_tb1_2.png" alt="insights-2">
 </div>
-
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -236,10 +235,10 @@ apropiadas.
 
 <b>ABET – EAC - Student Outcome 7</b>
 
-| Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TP:** Durante el desarrollo del TP1, fortalecí mis conocimientos en diseño UI/UX mediante el uso de Figma, aprendiendo a crear interfaces intuitivas y centradas en el usuario. Además, consolidé mi experiencia en control de versiones utilizando Git y GitHub, lo que me permitió gestionar eficientemente el código en equipo. El despliegue en GitHub Pages me ayudó a entender cómo publicar aplicaciones web de manera práctica. Finalmente, trabajar en IntelliJ IDEA y Android Studio me permitió aplicar conceptos de desarrollo de software en entornos reales, mejorando mi capacidad para implementar soluciones técnicas alineadas con las necesidades del proyecto. <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TP:** En el TP1, el uso de Git y GitHub para el control de versiones reforzó mi capacidad para colaborar en equipo y mantener un historial claro del proyecto. El despliegue en GitHub Pages me enseñó a publicar soluciones web de forma accesible. Además, el desarrollo en IntelliJ IDEA y Android Studio me ayudó a aplicar conceptos de programación y debugging en entornos profesionales, fortaleciendo mis habilidades técnicas para el proyecto. <br>**TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TP:** En el TP1, profundicé en el desarrollo en IntelliJ IDEA y Android Studio me ayudó a consolidar mis conocimientos en programación y configuración de entornos, contribuyendo a mi crecimiento como ingeniero de software. <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TP:** Durante el TP1, me enfoqué en el diseño UI/UX en Figma, actualizando mis conocimientos sobre la creación de prototipos interactivos que reflejan las necesidades del usuario. El uso de Git y GitHub para el control de versiones me permitió mantener una estructura clara y colaborativa en el desarrollo. <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo**<br> **TP:** En el TP1, consolidé mis conocimientos en Git y GitHub, esto me permitió gestionar el proyecto de manera eficiente, asegurando una colaboración fluida con el equipo. El despliegue en GitHub Pages me proporcionó experiencia práctica en la publicación de aplicaciones web. Además, el desarrollo en IntelliJ IDEA y Android Studio fortaleció mi capacidad para implementar soluciones técnicas robustas, aplicando conceptos de ingeniería de software actualizados y alineados con las demandas del proyecto. <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br><br>                                                                                       | **TP:** Como conclusión para este entregable, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Android Studio y Kotlin, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.<br><br>**TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo. |
-| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TP:** Durante el desarrollo del TP1, comprendí la importancia del aprendizaje continuo para mi crecimiento profesional en ingeniería de software. Diseñar interfaces UI/UX en Figma me desafió a investigar y aplicar técnicas modernas para crear prototipos intuitivos y centrados en el usuario. Además, el uso de Git y GitHub para el control de versiones me llevó a explorar prácticas avanzadas de colaboración, mientras que el despliegue en GitHub Pages me enseñó a publicar aplicaciones web de manera efectiva. Estos retos reforzaron mi compromiso con la actualización constante de conocimientos para entregar soluciones de calidad. <br>**TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TP:** El TP1 destacó la necesidad de un aprendizaje permanente para sobresalir en ingeniería de software. Mi participación en el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot me exigió profundizar en Kotlin, Java 17 y técnicas de debugging en entornos profesionales. El uso de Git y GitHub para la gestión colaborativa del código me motivó a aprender mejores prácticas de control de versiones, y el despliegue en GitHub Pages me brindó experiencia práctica en publicación web. Este proceso reafirmó la importancia de mantenerme actualizada para contribuir al proyecto de manera efectiva. <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TP:** A lo largo del TP1, reconocí que el aprendizaje continuo es esencial para mi desarrollo como ingeniero de software. Trabajar en la aplicación móvil con Android Studio y en el backend con Spring Boot me llevó a investigar y aplicar conceptos avanzados de programación en Kotlin y Java 17, así como a configurar entornos complejos. El uso de Git y GitHub para el control de versiones me permitió mejorar mis habilidades de colaboración en equipo. Estos desafíos me enseñaron que la actualización constante es clave para desarrollar soluciones técnicas robustas y alineadas con los objetivos del proyecto. <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TP:** Durante el TP, el diseño UI/UX en Figma me llevó a explorar técnicas avanzadas para crear prototipos interactivos que reflejen las necesidades del usuario, destacando la relevancia del aprendizaje continuo. El uso de Git y GitHub para gestionar el control de versiones me motivó a investigar estrategias de colaboración eficiente. Estos retos me hicieron comprender que mantenerme actualizado en herramientas y metodologías de diseño es fundamental para mi desarrollo profesional y para el éxito de proyectos en ingeniería de software. <br>**TB1:** A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TP:** El TP consolidó mi entendimiento sobre la importancia del aprendizaje permanente en ingeniería de software. Mi trabajo en el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot me desafió a profundizar en Kotlin, Java 17 y arquitectura de software, enfrentándome a retos técnicos que requirieron investigar nuevas soluciones. Además, el uso de Git y GitHub para la colaboración en equipo y el despliegue en GitHub Pages me brindaron experiencia práctica en gestión de código y publicación web. Este proceso fortaleció mi compromiso con la mejora continua para entregar soluciones técnicas efectivas. <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br><br> |**TP:** Como equipo, reconocemos que el aprendizaje permanente es esencial para nuestro desempeño profesional y el desarrollo exitoso de proyectos en tecnologías de ingeniería de software. Durante el TP1, enfrentamos desafíos que requirieron actualizar nuestros conocimientos en áreas específicas: el diseño UI/UX en Figma nos permitió crear interfaces intuitivas, mientras que el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot nos exigió dominar tecnologías modernas como Kotlin y Java 17. El uso de Git, GitHub y GitHub Pages facilitó una colaboración ordenada y la publicación de nuestras soluciones. Este proceso colectivo de aprendizaje continuo no solo enriqueció nuestras habilidades técnicas, sino que también nos preparó para abordar los retos del ámbito profesional con soluciones innovadoras, escalables y centradas en el usuario. <br> <br> **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real.                                                                                                                                                                                                                               |
+| Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TP:** Durante el desarrollo del TP1, fortalecí mis conocimientos en diseño UI/UX mediante el uso de Figma, aprendiendo a crear interfaces intuitivas y centradas en el usuario. Además, consolidé mi experiencia en control de versiones utilizando Git y GitHub, lo que me permitió gestionar eficientemente el código en equipo. El despliegue en GitHub Pages me ayudó a entender cómo publicar aplicaciones web de manera práctica. Finalmente, trabajar en IntelliJ IDEA y Android Studio me permitió aplicar conceptos de desarrollo de software en entornos reales, mejorando mi capacidad para implementar soluciones técnicas alineadas con las necesidades del proyecto. <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TP:** En el TP1, el uso de Git y GitHub para el control de versiones reforzó mi capacidad para colaborar en equipo y mantener un historial claro del proyecto. El despliegue en GitHub Pages me enseñó a publicar soluciones web de forma accesible. Además, el desarrollo en IntelliJ IDEA y Android Studio me ayudó a aplicar conceptos de programación y debugging en entornos profesionales, fortaleciendo mis habilidades técnicas para el proyecto. <br>**TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TP:** En el TP1, profundicé en el desarrollo en IntelliJ IDEA y Android Studio me ayudó a consolidar mis conocimientos en programación y configuración de entornos, contribuyendo a mi crecimiento como ingeniero de software. <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TP:** Durante el TP1, me enfoqué en el diseño UI/UX en Figma, actualizando mis conocimientos sobre la creación de prototipos interactivos que reflejan las necesidades del usuario. El uso de Git y GitHub para el control de versiones me permitió mantener una estructura clara y colaborativa en el desarrollo. <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo**<br> **TP:** En el TP1, consolidé mis conocimientos en Git y GitHub, esto me permitió gestionar el proyecto de manera eficiente, asegurando una colaboración fluida con el equipo. El despliegue en GitHub Pages me proporcionó experiencia práctica en la publicación de aplicaciones web. Además, el desarrollo en IntelliJ IDEA y Android Studio fortaleció mi capacidad para implementar soluciones técnicas robustas, aplicando conceptos de ingeniería de software actualizados y alineados con las demandas del proyecto. <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **TP:** Como conclusión para este entregable, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Android Studio y Kotlin, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.<br><br>**TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo. |
+| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TP:** Durante el desarrollo del TP1, comprendí la importancia del aprendizaje continuo para mi crecimiento profesional en ingeniería de software. Diseñar interfaces UI/UX en Figma me desafió a investigar y aplicar técnicas modernas para crear prototipos intuitivos y centrados en el usuario. Además, el uso de Git y GitHub para el control de versiones me llevó a explorar prácticas avanzadas de colaboración, mientras que el despliegue en GitHub Pages me enseñó a publicar aplicaciones web de manera efectiva. Estos retos reforzaron mi compromiso con la actualización constante de conocimientos para entregar soluciones de calidad. <br>**TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TP:** El TP1 destacó la necesidad de un aprendizaje permanente para sobresalir en ingeniería de software. Mi participación en el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot me exigió profundizar en Kotlin, Java 17 y técnicas de debugging en entornos profesionales. El uso de Git y GitHub para la gestión colaborativa del código me motivó a aprender mejores prácticas de control de versiones, y el despliegue en GitHub Pages me brindó experiencia práctica en publicación web. Este proceso reafirmó la importancia de mantenerme actualizada para contribuir al proyecto de manera efectiva. <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TP:** A lo largo del TP1, reconocí que el aprendizaje continuo es esencial para mi desarrollo como ingeniero de software. Trabajar en la aplicación móvil con Android Studio y en el backend con Spring Boot me llevó a investigar y aplicar conceptos avanzados de programación en Kotlin y Java 17, así como a configurar entornos complejos. El uso de Git y GitHub para el control de versiones me permitió mejorar mis habilidades de colaboración en equipo. Estos desafíos me enseñaron que la actualización constante es clave para desarrollar soluciones técnicas robustas y alineadas con los objetivos del proyecto. <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TP:** Durante el TP, el diseño UI/UX en Figma me llevó a explorar técnicas avanzadas para crear prototipos interactivos que reflejen las necesidades del usuario, destacando la relevancia del aprendizaje continuo. El uso de Git y GitHub para gestionar el control de versiones me motivó a investigar estrategias de colaboración eficiente. Estos retos me hicieron comprender que mantenerme actualizado en herramientas y metodologías de diseño es fundamental para mi desarrollo profesional y para el éxito de proyectos en ingeniería de software. <br>**TB1:** A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TP:** El TP consolidó mi entendimiento sobre la importancia del aprendizaje permanente en ingeniería de software. Mi trabajo en el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot me desafió a profundizar en Kotlin, Java 17 y arquitectura de software, enfrentándome a retos técnicos que requirieron investigar nuevas soluciones. Además, el uso de Git y GitHub para la colaboración en equipo y el despliegue en GitHub Pages me brindaron experiencia práctica en gestión de código y publicación web. Este proceso fortaleció mi compromiso con la mejora continua para entregar soluciones técnicas efectivas. <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br><br> | **TP:** Como equipo, reconocemos que el aprendizaje permanente es esencial para nuestro desempeño profesional y el desarrollo exitoso de proyectos en tecnologías de ingeniería de software. Durante el TP1, enfrentamos desafíos que requirieron actualizar nuestros conocimientos en áreas específicas: el diseño UI/UX en Figma nos permitió crear interfaces intuitivas, mientras que el desarrollo de la aplicación móvil con Android Studio y el backend con Spring Boot nos exigió dominar tecnologías modernas como Kotlin y Java 17. El uso de Git, GitHub y GitHub Pages facilitó una colaboración ordenada y la publicación de nuestras soluciones. Este proceso colectivo de aprendizaje continuo no solo enriqueció nuestras habilidades técnicas, sino que también nos preparó para abordar los retos del ámbito profesional con soluciones innovadoras, escalables y centradas en el usuario. <br> <br> **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real.                                                                                                              |
 
 # OBJETIVOS SMART
 
@@ -1909,10 +1908,6 @@ Como último paso, identificamos los eventos que se relacionen entre sí mediant
 
 Además, también trazamos lineas punteadas para señalar comunicaciones de comandos a eventos de distintos Bounded Context.
 
-
-
-
-
 <div id='4.1.1.1.'><h5>4.1.1.1. Candidate Context Discovery</h5></div>
 
 La técnica Start-With-Value es un enfoque dentro del diseño centrado en el usuario y Domain-Driven Design (DDD) que propone comenzar el modelado del dominio desde los valores que el sistema debe entregar al usuario final o al negocio.
@@ -2789,7 +2784,7 @@ Usa la interface de AuditableAbstractAggregateRoot para implementar atributos ge
 
 **Nombre y logotipo**
 
-El nombre de la aplicación, Dentify, transmite  innovación, profesionalismo y un enfoque claro en la gestión de consultorios odontológicos. El logotipo de Dentify está compuesto únicamente por un ícono de un diente sin acompañamiento de texto. Este símbolo representa de forma clara y directa el enfoque odontológico de la aplicación, transmitiendo profesionalismo, salud y confianza. Su diseño limpio y minimalista asegura una fácil identificación
+El nombre de la aplicación, Dentify, transmite innovación, profesionalismo y un enfoque claro en la gestión de consultorios odontológicos. El logotipo de Dentify está compuesto únicamente por un ícono de un diente sin acompañamiento de texto. Este símbolo representa de forma clara y directa el enfoque odontológico de la aplicación, transmitiendo profesionalismo, salud y confianza. Su diseño limpio y minimalista asegura una fácil identificación
 
 <img src="Img/Dentify-logo.png" alt="Dentify logo" style="margin-bottom: 5px;" width="250">
 
@@ -2803,25 +2798,21 @@ La paleta de colores se basa en tonos de celeste y azul, que transmiten confianz
 
 <img src="Img/paleta-de-colores.png" alt="Paleta de colores de la app" style="margin-bottom: 5px;" width="250">
 
-
 **Typography**
 
 La tipografía principal utilizada es Roboto, elegida por su legibilidad, estilo moderno y versatilidad en entornos digitales. Se aplican diferentes tamaños para jerarquizar la información: los títulos emplean un tamaño grande y peso seminegrita para destacar, los subtítulos utilizan un tamaño medio con peso regular o medio, y el texto normal mantiene un tamaño cómodo para lectura continua, con un peso regular.
 
 <img src="Img/tipografía.png" alt="Tipografía de la app" style="margin-bottom: 5px;" width="250">
 
-
 **Spacing**
 
 En nuestra app móvil, aplicamos un sistema de spacing consistente para mantener una estructura visual ordenada y accesible. Utilizamos márgenes de 19.5px entre secciones principales, un padding interno de 18px en botones y componentes, y un interlineado de 1.5x en los textos largos para mejorar la lectura. Esta coherencia visual refuerza el branding y la experiencia de usuario.
-
 
 **Íconos de la aplicación**
 
 La aplicación utiliza una serie de íconos consistentes y minimalistas, seleccionados para mejorar la experiencia del usuario y mantener coherencia visual en toda la interfaz. Cada ícono cumple una función clara y está alineado con la identidad de la marca.
 
 <img src="Img/íconos.png" alt="íconos de la app" style="margin-bottom: 5px;" width="250">
-
 
 **Lenguaje aplicado**
 <br>Para el desarrollo de la aplicación móvil “Dentify” y su correspondiente landing page, se ha adoptado un lenguaje formal, serio y respetuoso, alineado con el propósito y los objetivos del producto. En el diseño y construcción tanto de la aplicación móvil como de la landing page, se han aplicado los principios fundamentales del diseño visual.
@@ -2834,16 +2825,17 @@ La aplicación utiliza una serie de íconos consistentes y minimalistas, selecci
 
 **Comunicación**
 <br>Hemos incorporado confirmaciones visuales que se presentan cuando los usuarios realizan alguna acción. Este tipo de retroalimentación les permite identificar su ubicación dentro del proceso y, sobre todo, verificar que sus acciones se han llevado a cabo correctamente.
+
 </div>
 
 **Fuentes tipograficas:**<br>
- <img src="Img/TipoLetra.png" alt="Fuentes tipograficas" style="margin-bottom: 5px;" width="300"/>
+<img src="Img/TipoLetra.png" alt="Fuentes tipograficas" style="margin-bottom: 5px;" width="300"/>
 
 **Colores:**<br>
- <img src="Img/Colores.png" alt="Colores" style="margin-bottom: 5px;" width="300"/>
+<img src="Img/Colores.png" alt="Colores" style="margin-bottom: 5px;" width="300"/>
 
 **Icons**<br>
- <img src="Img/icons.png" alt="Icons" style="margin-bottom: 5px;" width="300"/>
+<img src="Img/icons.png" alt="Icons" style="margin-bottom: 5px;" width="300"/>
 
 <div id='5.1.2.'><h4>5.1.2. Information Architecture</h4></div>
 <div id='5.1.2.1.'><h5>5.1.2.1. Organization Systems</h5></div>
@@ -2880,6 +2872,7 @@ Se usará la organización Jerarquía Visual en lo siguiente:
 
 **Landing Page (MediTech)**
 <br>Las secciones funcionales están organizadas para facilitar la navegación. “Servicios” agrupa las soluciones que ofrece la empresa, y “Contáctenos” centraliza todos los medios de comunicación. Un ejemplo es dentro de “Servicios”, donde se puede destacar una subsección dedicada a Dentify, resaltándola como una propuesta innovadora.
+
 </div>
 
 <div id='5.1.2.2.'><h5>5.1.2.2. Labelling Systems</h5></div>
@@ -2892,6 +2885,7 @@ En etiquetas descriptivas y consistentes:
 
 **Landing Page (MediTech)**
 <br>Las secciones están etiquetadas de forma clara, utilizando términos comprensibles como “Servicios” o “Información”, lo que facilita la navegación del visitante desde cualquier dispositivo. Un ejemplo es con la parte de “Contáctenos”, se emplean etiquetas diferenciadas para cada vía de contacto, como “Formulario de Consulta”, “Llamada Telefónica” o “Atención por Chat”, permitiendo al usuario elegir fácilmente el medio de comunicación.
+
 </div>
 
 <div id='5.1.2.3.'><h5>5.1.2.3. SEO Tags and Meta Tags</h5></div>
@@ -2980,7 +2974,6 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <img src="Img/Landing/Servicios.png" alt="Servicios">
 
-
 **Contáctanos**
 
 <img src="Img/Landing/Contactanos.png" alt="Contactanos">
@@ -2999,7 +2992,6 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 <img src="Img/Landing/wlm_contactenos.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
 <img src="Img/Landing/wlm_contactenos2.png" alt="Contactenos" style="margin-bottom: 5px;" width="250">
 
-
 <div id='5.1.3.2.'><h5>5.1.3.2. Landing Page Mock-up</h5></div>
 
 **Nosotros**
@@ -3009,7 +3001,6 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 **Servicios**
 
 <img src="Img/Landing/m-Servicios.png" alt="Servicios">
-
 
 **Contáctanos**
 
@@ -3109,11 +3100,6 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <img src="Img/perfil_wf.png" alt="Perfil WireFlow" style="margin-bottom: 5px;" width="500">
 
-
-
-
-
-
 <div id='5.1.4.3.'><h5>5.1.4.3. Mobile Applications Mock-ups</h5></div>
 
 **Autenticación** <br>
@@ -3177,7 +3163,7 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 
 <div id='5.1.4.4.'><h5>5.1.4.4. Mobile Applications User Flow Diagrams</h5></div>
 
-*Enlace figma:* <a href="https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-4&t=hPfuFWY0lvnhIqcf-1">Figma</a>
+_Enlace figma:_ <a href="https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-4&t=hPfuFWY0lvnhIqcf-1">Figma</a>
 
 **User goal: Actualizar datos** <br>
 <img src="Img/UserFlowDiagrams/Actualizar datos.png" alt="Actualizar datos" style="margin-bottom: 5px;" width="500">
@@ -3203,7 +3189,6 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 <img src="Img/prototype_mobile.png" alt="Prototipo mobile" style="margin-bottom: 5px;" width="800">
 
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224149_upc_edu_pe/ETLScXTdNxFPuFhYMwtquWIBV3ZTciAIqPISFo4xXlCXNA?e=eth9PV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D"> Video prototipo </a>
-
 
 <div id='6.'><h2>6. Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
 <div id='6.1.'><h3>6.1. Software Configuration Management</h3></div>
@@ -3253,7 +3238,7 @@ Para la realización de Dentify, hemos usado las siguientes herramientas:
 <br>
 
 **Software Development** <br>
-**Visual Studio Code:** Es un editor de código fuente, gratuito y de código abierto desarrollado por Microsoft. Dicha herramienta nos permite escribir y editar el código HTML, CSS y JavaScript para elaborar la landing page. 
+**Visual Studio Code:** Es un editor de código fuente, gratuito y de código abierto desarrollado por Microsoft. Dicha herramienta nos permite escribir y editar el código HTML, CSS y JavaScript para elaborar la landing page.
 
 **Ruta de referencia:** https://code.visualstudio.com
 
@@ -3264,7 +3249,6 @@ Para la realización de Dentify, hemos usado las siguientes herramientas:
 <br><br>
 
 **Android Studio:** Es un IDE oficial para el desarrollo de aplicaciones Android. Dicho software es gratuito y está basado en IntelliJ IDEA. Esta herramienta nos permite desarrollar la aplicación móvil planteada.
-
 
 **Ruta de referencia:** https://developer.android.com/
 
@@ -3277,21 +3261,20 @@ Para la realización de Dentify, hemos usado las siguientes herramientas:
 
 **Bootstrap 5:** Es una biblioteca de componentes y un sistema de grillas que facilita el diseño web responsivo. Utilizamos Bootstrap 5 en esta landing page para agilizar la creación de un diseño adaptable y aprovechar sus componentes preconstruidos, como botones, formularios y barras de navegación.
 
- **Ruta de referencia:** https://getbootstrap.com/
+**Ruta de referencia:** https://getbootstrap.com/
 
 <div align="center">
-<img src="Img/Bootstrap.png" alt="bootstrap" style="margin-bottom: 5px;" width="300"/> 
+<img src="Img/Bootstrap.png" alt="bootstrap" style="margin-bottom: 5px;" width="300"/>
 
 </div>
 
 **Software Deployment** <br>
 **Git:** Es una herramienta de control de versiones que nos permite colaborar de manera eficiente y mantener un historial detallado de las modificaciones en el código.
 
- **Ruta de referencia:** https://git-scm.com/
-
+**Ruta de referencia:** https://git-scm.com/
 
 <div align="center">
-<img src="Img/Git.png" alt="git" style="margin-bottom: 5px;" width="300"/> 
+<img src="Img/Git.png" alt="git" style="margin-bottom: 5px;" width="300"/>
 
 <br><br>
 
@@ -3343,12 +3326,11 @@ Para el desarrollo de Dentify, hemos recurrido a estos lenguajes para desarrolla
 Para el desarrollo en HTML, se han seguido las Convenciones de Codificación para HTML. Los puntos más importantes aplicados son:
 
 - **Uso de etiquetas semánticas:**
-Se han utilizado etiquetas como header, nav, main, footer para mejorar la accesibilidad y la comprensión del documento.
-<br>
+  Se han utilizado etiquetas como header, nav, main, footer para mejorar la accesibilidad y la comprensión del documento.
+  <br>
 
 - **Indentación y estructura:**
   A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad, usaremos "kebab-case".
-
 
 **CSS**
 En el CSS, se ha implementado la convención BEM y las guías de estilo recomendadas para mantener el código claro y organizado. Aquí algunos detalles específicos de tu código CSS:
@@ -3361,7 +3343,6 @@ En el CSS, se ha implementado la convención BEM y las guías de estilo recomend
   <br>
 - **Uso de fuentes personalizadas:**
   Se han utilizado varias fuentes personalizadas cargadas mediante @font-face, lo que sigue las mejores prácticas de personalización tipográfica en CSS.
-
 
 **JavaScript**
 En el proyecto se ha utilizado Bootstrap para manejar la interactividad y los componentes dinámicos de la interfaz. Los archivos JavaScript incluidos son versiones oficiales del framework, lo que permite aprovechar funcionalidades avanzadas sin necesidad de escribir código JavaScript desde cero.
@@ -3391,7 +3372,6 @@ Para el desarrollo de la aplicación móvil, usamos convenciones de "Google Kotl
 - **Organización y estructura del proyecto:**
   Para un mejor desarrollo de la aplicación, hemos usado "Clean Architecture" y principios de Domain Driven Design, separando por Bounded context y dentro de estas por capas como Repositorios, UI, Casos de Uso y Dominios.
 
-
 <div id='6.1.4.'><h4>6.1.4. Software Deployment Configuration</h4></div>
 
 #### Landing Page:
@@ -3411,14 +3391,12 @@ Luego, podemos usar los comandos en nuestro ide, editor de código o en la termi
 <img src="Img/6-1-4b.png">
 </div>
 
-
 <br>
 Para configurar GitHub Pages una vez el código esté en el repositorio, sigue estos pasos para habilitar GitHub Pages:
 <br><br>
 Ve a tu repositorio en GitHub. Haz clic en la pestaña Settings (Configuración). Desplázate hacia abajo hasta la sección Pages en el menú lateral izquierdo. 
 <br><br>
 En la sección Source, selecciona la rama de la que quieres desplegar (normalmente main).
-
 
 <div align="center">
 <img src="Img/6-1-4c.png">
@@ -3433,23 +3411,22 @@ Si necesitas hacer actualizaciones, cada vez que hagas un cambio en la rama que 
 <div id='6.2.'><h3>6.2. Landing Page & Mobile Application Implementation</h3></div>
 <div id='6.2.1.'><h4>6.2.1. Sprint 1</h4></div>
 <div id='6.2.1.1.'><h5>6.2.1.1. Sprint Planning #1</h5></div>
-En la siguiente sección, se presentará el sprint #1 con la primera versión del trabajo para la entrega del proyecto. Mostrando la organización, distribución y resultados del landing page, un avance del Web Service y una primera versión del Mobile Application.    
+En la siguiente sección, se presentará el sprint #1 con la primera versión del trabajo para la entrega del proyecto. Mostrando la organización, distribución y resultados del landing page, un avance del Web Service y una primera versión del Mobile Application.
 
-
-| Sprint # | Sprint 1 |
-|----------|----------|
-| **Sprint Planning Background** | |
-| **Date** | 2025-05-07|
-| **Time** | 04:30 PM |
-| **Location** | llamada por la plataforma "Discord" |
-| **Prepared By** | Uribe Quispe, Jesús Guillermo |
-| **Attendees (to planning meeting)** | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado  |
-| **Sprint 1 – 1 Review Summary** | Corresponde el primer sprint, por lo que no hay otros sprint anteriores. |
-| **Sprint 1 – 1 Retrospective Summary** |Corresponde el primer sprint, por lo que no hay otros sprint anteriores.  |
-| **Sprint Goal & User Stories**| |
-| **Sprint #1 Goal** | Desarrollar y desplegar una landing page funcional que presente de manera clara y atractiva los principales beneficios y características del producto, optimizada para dispositivos móviles y preparada para captar leads a través de un formulario de contacto, así como también desarrollar una primera versión de la aplicación movil y el Web Service.|
-| **Sprint #1 Velocity** | 3 story points (media de total de story points)|
-| **Sum of Story Points** | 21 |
+| Sprint #                               | Sprint 1                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                            |
+| **Date**                               | 2025-05-07                                                                                                                                                                                                                                                                                                                                                 |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                        |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                              |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                    |
+| **Sprint 1 – 1 Review Summary**        | Corresponde el primer sprint, por lo que no hay otros sprint anteriores.                                                                                                                                                                                                                                                                                   |
+| **Sprint 1 – 1 Retrospective Summary** | Corresponde el primer sprint, por lo que no hay otros sprint anteriores.                                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint #1 Goal**                     | Desarrollar y desplegar una landing page funcional que presente de manera clara y atractiva los principales beneficios y características del producto, optimizada para dispositivos móviles y preparada para captar leads a través de un formulario de contacto, así como también desarrollar una primera versión de la aplicación movil y el Web Service. |
+| **Sprint #1 Velocity**                 | 3 story points (media de total de story points)                                                                                                                                                                                                                                                                                                            |
+| **Sum of Story Points**                | 21                                                                                                                                                                                                                                                                                                                                                         |
 
 <div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog 1</h5></div>
 
@@ -3645,10 +3622,10 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 
 <div id='6.2.1.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
 
-
 ### LANDING PAGE:
 
 En el apartado de Landing Page, solo un integrante desarrolló este pequeño proyecto y solo en su máquina local, ya que, al solo ser un participante, por comodidad se optó por esto.
+
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3673,8 +3650,8 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
   </tr>
 </tbody></table>
 
+### MOBILE APPLICATION:
 
-### MOBILE APPLICATION: 
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
@@ -3748,11 +3725,11 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
-	<h5>Web Services</h5>
-	<a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Backend</a>
-	<br>
-</td>
+    <td rowspan="10">
+	    <h5>Web Services</h5>
+	      <a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Backend</a>
+	      <br>
+    </td>
     <td><br>main</td>
     <td><br>6e839b00e9507c2fb4f03ef694a5502ef2697f91</td>
     <td><br>first commit</td>
@@ -3806,9 +3783,7 @@ En el apartado de Landing Page, solo un integrante desarrolló este pequeño pro
 
 <div id='6.2.1.4.'><h5>6.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
 
-
 En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
-
 
 <table><thead>
   <tr>
@@ -3850,23 +3825,23 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 <div id='6.2.1.5.'><h5>6.2.1.5. Execution Evidence for Sprint Review</h5></div>
 
 ### LANDING PAGE:
+
 A continuación, se muestran las evidencias de la ejecución de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap.
 
-
 #### US 31-32-33:
+
 Desarrollo de menú principal, barra de navegación y sección About Us.
 
 <div align="center">
 <img src="Img/LD1.png" alt="Landing page 1">
 </div>
 
-
 <div align="center">
 <img src="Img/LD2.png" alt="Landing page 2">
 </div>
 
-
 #### US 34:
+
 Desarrollo de información de servicios.
 
 <div align="center">
@@ -3877,9 +3852,10 @@ Desarrollo de información de servicios.
 <img src="Img/LD4.png" alt="Landing page 4">
 </div>
 
-
 #### US 35-36:
+
 Desarrollo de sección Contact us, con formulario y footer informativo.
+
 <div align="center">
 <img src="Img/LD5.png" alt="Landing page 5">
 </div>
@@ -3890,12 +3866,12 @@ Desarrollo de sección Contact us, con formulario y footer informativo.
 
 Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETTS5TFSJflCtVMagVMxwzABd6sCGM1x2e_0wQepDUw8oA?e=ZPhQTR">Video </a>
 
-
 ### MOBILE APPLICATION:
+
 A continuación, se muestran las evidencias de la ejecución de la aplicación móvil desarrollada en Android Studio.
 
-
 #### US 01:
+
 Desarrollo del registro de usuario.
 
 <div align="center">
@@ -3903,6 +3879,7 @@ Desarrollo del registro de usuario.
 </div>
 
 #### US 02:
+
 Desarrollo del inicio de sesión del usuario.
 
 <div align="center">
@@ -3910,6 +3887,7 @@ Desarrollo del inicio de sesión del usuario.
 </div>
 
 #### US 12:
+
 Desarrollo de la visualización de pacientes del usuario autenticado.
 
 <div align="center">
@@ -3917,6 +3895,7 @@ Desarrollo de la visualización de pacientes del usuario autenticado.
 </div>
 
 #### US 13:
+
 Añadir un paciente del usuario autenticado.
 
 <div align="center">
@@ -3924,6 +3903,7 @@ Añadir un paciente del usuario autenticado.
 </div>
 
 #### US 15:
+
 Eliminar un paciente del usuario autenticado.
 
 <div align="center">
@@ -3931,6 +3911,7 @@ Eliminar un paciente del usuario autenticado.
 </div>
 
 #### US 20:
+
 Desarrollo de la visualización de items del usuario autenticado.
 
 <div align="center">
@@ -3938,6 +3919,7 @@ Desarrollo de la visualización de items del usuario autenticado.
 </div>
 
 #### US 21:
+
 Añadir un item en el inventario del usuario autenticado.
 
 <div align="center">
@@ -3950,28 +3932,27 @@ Link del video: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u2021
 
 En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
 
-| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros o Peticiones | Ejemplo de Response | URL de Documentación |
-|---------|--------|-------------|----------------------|------------|----------------------|-----------------------|
-| `/api/auth/login` | Autenticación | POST | `/api/auth/login` | Request Body: `{ "username": "string", "password": "string"}`  | `{"accessToken": "string","refreshToken": "string"}` | [http://localhost:8080/api/auth/login](http://localhost:8080/api/auth/login) |
-| `/api/auth/register` | Registro de usuario | POST | `/api/auth/register` | Request Body: `{"firstName": "string","lastName": "string","email": "string","companyName": "string","username": "string","password": "string","trial": true}`  | `{"accessToken": "string","refreshToken": "string"}` | [http://localhost:8080/api/auth/register](http://localhost:8080/api/auth/register) |
-| `/api/patients` | Creación de Paciente para un usuario | POST | `/api/patients` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `{"id": int}`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
-| `/api/patients` | Obtención de Pacientes de un usuario| GET | `/api/patients` | Request Body: None | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients](http://localhost:8080/api/patients) |
-| `/api/patients` | Obtención de un Paciente específico de un usuario| GET | `/api/patients/{id}` | Request Body: `{"id": int}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Actualización de Paciente de un usuario | PUT | `/api/patients/{id}` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}` | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/patients` | Eliminación de Paciente de un usuario | DELETE | `/api/patients/{id}` | Request Body: `{"id": "int"}` | `HTTPSTATUS: 200`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/items` | Obtener Items de un usuario | GET | `/api/items/` | Request Body: None | `[{"id": 0,"name": "string","price": 0,"stockQuantity": 0,"isActive": true,"category": "string"}]`| [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/items` | Añadir Items para un usuario | POST | `/api/items/` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0,"category": "string"}`| `HTTPSTATUS: 202` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/items` | Actualizar item de un usuario | UPDATE | `/api/items/{id}` | Request Body: `{"name": "string","price": 0,"stockQuantity": 0, "isActive": true, "category": "string"}`| `HTTPSTATUS: 200` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
-| `/api/items` | Eliminar item de un usuario | DELETE | `/api/items/{id}` | Request Body: `{"id": "int"}`| `HTTPSTATUS: 204` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients) |
+| Endpoint             | Acción                                            | Verbo HTTP | Sintaxis de llamada  | Parámetros o Peticiones                                                                                                                                        | Ejemplo de Response                                                                                                                     | URL de Documentación                                                               |
+| -------------------- | ------------------------------------------------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `/api/auth/login`    | Autenticación                                     | POST       | `/api/auth/login`    | Request Body: `{ "username": "string", "password": "string"}`                                                                                                  | `{"accessToken": "string","refreshToken": "string"}`                                                                                    | [http://localhost:8080/api/auth/login](http://localhost:8080/api/auth/login)       |
+| `/api/auth/register` | Registro de usuario                               | POST       | `/api/auth/register` | Request Body: `{"firstName": "string","lastName": "string","email": "string","companyName": "string","username": "string","password": "string","trial": true}` | `{"accessToken": "string","refreshToken": "string"}`                                                                                    | [http://localhost:8080/api/auth/register](http://localhost:8080/api/auth/register) |
+| `/api/patients`      | Creación de Paciente para un usuario              | POST       | `/api/patients`      | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}`                | `{"id": int}`                                                                                                                           | [http://localhost:8080/api/patients](http://localhost:8080/api/patients)           |
+| `/api/patients`      | Obtención de Pacientes de un usuario              | GET        | `/api/patients`      | Request Body: None                                                                                                                                             | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]` | [http://localhost:8080/api/patients](http://localhost:8080/api/patients)           |
+| `/api/patients`      | Obtención de un Paciente específico de un usuario | GET        | `/api/patients/{id}` | Request Body: `{"id": int}`                                                                                                                                    | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/patients`      | Actualización de Paciente de un usuario           | PUT        | `/api/patients/{id}` | Request Body: `{"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "2025-05-13"}`                | `[{"id": 0,"dni": "string","firstName": "string","lastName": "string","email": "string","homeAddress": "string","birthday": "string"}]` | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/patients`      | Eliminación de Paciente de un usuario             | DELETE     | `/api/patients/{id}` | Request Body: `{"id": "int"}`                                                                                                                                  | `HTTPSTATUS: 200`                                                                                                                       | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/items`         | Obtener Items de un usuario                       | GET        | `/api/items/`        | Request Body: None                                                                                                                                             | `[{"id": 0,"name": "string","price": 0,"stockQuantity": 0,"isActive": true,"category": "string"}]`                                      | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/items`         | Añadir Items para un usuario                      | POST       | `/api/items/`        | Request Body: `{"name": "string","price": 0,"stockQuantity": 0,"category": "string"}`                                                                          | `HTTPSTATUS: 202`                                                                                                                       | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/items`         | Actualizar item de un usuario                     | UPDATE     | `/api/items/{id}`    | Request Body: `{"name": "string","price": 0,"stockQuantity": 0, "isActive": true, "category": "string"}`                                                       | `HTTPSTATUS: 200`                                                                                                                       | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
+| `/api/items`         | Eliminar item de un usuario                       | DELETE     | `/api/items/{id}`    | Request Body: `{"id": "int"}`                                                                                                                                  | `HTTPSTATUS: 204`                                                                                                                       | [http://localhost:8080/api/patients/{id}](http://localhost:8080/api/patients)      |
 
-
-#### LOGIN: 
+#### LOGIN:
 
 <div align="center">
 <img src="Img/login1.png">
 </div>
 
-#### REGISTER: 
+#### REGISTER:
 
 <div align="center">
 <img src="Img/register1.png">
@@ -4055,16 +4036,13 @@ Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos
 
 **LINK DE EVIDENCIA DE DESPLIEGUE:** [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-
-
 <div id='6.2.1.7.'><h5>6.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 ### LANDING PAGE:
+
 A continuación, se muestran las evidencias del despliegue de la landing page hecha en HTML, CSS y JS usando la biblioteca Bootstrap usando la funcionalidad de Github Pages.
 
-
 <a href="https://tf-aplicacionesmoviles.github.io/LandingPage/">https://tf-aplicacionesmoviles.github.io/LandingPage</a>
-
 
 Menú principal, barra de navegación y sección About Us.
 
@@ -4072,11 +4050,9 @@ Menú principal, barra de navegación y sección About Us.
 <img src="Img/LD1.png" alt="Landing page 1">
 </div>
 
-
 <div align="center">
 <img src="Img/LD2.png" alt="Landing page 2">
 </div>
-
 
 Información de servicios.
 
@@ -4088,8 +4064,8 @@ Información de servicios.
 <img src="Img/LD4.png" alt="Landing page 4">
 </div>
 
-
 Sección Contact us, con formulario y footer informativo.
+
 <div align="center">
 <img src="Img/LD5.png" alt="Landing page 5">
 </div>
@@ -4105,7 +4081,6 @@ Link del video de evidencia de despligue de Landing Page: <a href="https://upced
 Para el despliegue del Web Service hemos recurrido a Azure mediante el plugin perteneciente a IntelliJ IDEA.
 
 Entramos a la parte superior y autenticamos con nuestras credenciales de Azure.
-
 
 <div align="center">
 <img src="Img/deploy5.png" alt="Deploy WS 1">
@@ -4129,7 +4104,6 @@ Luego de Validar credenciales, configuración de variables de entorno, etcétera
 <img src="Img/deploy3.png" alt="Deploy WS 4">
 </div>
 
-
 se puede apreciar la URL del despliegue de azure y la respuesta correcta por parte del servidor ante la validación de las credenciales creadas anteriormente.
 
 <div align="center">
@@ -4142,27 +4116,25 @@ se puede apreciar la URL del despliegue de azure y la respuesta correcta por par
 <img src="Img/deploy6.jpeg" alt="Deploy WS 6">
 </div>
 
-
 ##### LINK DE DESPLIEGUE:
- https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/
+
+https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/
 
 ##### LINK DE EVIDENCIA DE DESPLIEGUE:
- [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-
+[Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <div id='6.2.1.8.'><h5>6.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
-| Alumno  | Actividad |
-| -------- | -------- |
-| Bohorquez Lerzundi Gerardo Sebastian| Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
-| Huanaco Huayta, Elizabeth Lucero |Documentación de Product Design, Information Architecture.|
-|Huapaya Cuevas, Anthony | Documentación de Product Design, Information Architecture.|
-| Silva Tirado, Sebastián Valentino | Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.|
-| Uribe Quispe, Jesús Guillermo |Gestión de proyecto Back End, realización de Landing Page, realización de endpoints de Usuarios y Pacientes en BackEnd.|
+| Alumno                               | Actividad                                                                                                               |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi Gerardo Sebastian | Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.                                    |
+| Huanaco Huayta, Elizabeth Lucero     | Documentación de Product Design, Information Architecture.                                                              |
+| Huapaya Cuevas, Anthony              | Documentación de Product Design, Information Architecture.                                                              |
+| Silva Tirado, Sebastián Valentino    | Documentación y elaboración de Landing Page UI and Mobile Applications UX/UI Design.                                    |
+| Uribe Quispe, Jesús Guillermo        | Gestión de proyecto Back End, realización de Landing Page, realización de endpoints de Usuarios y Pacientes en BackEnd. |
 
 #### INSIGHTS:
-
 
 <div align="center">
   <img src="Img/insights-backend.png">
@@ -4171,7 +4143,1014 @@ se puede apreciar la URL del despliegue de azure y la respuesta correcta por par
   <img src="Img/insights-mobile.png">
 </div>
 
+<div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
+<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning #1</h5></div>
+En la siguiente sección, se presentará el sprint #2 con la versión completa del Web Service y gran parte del desarrollo de la aplicación móvil en Android Studio. Mostrando la organización, distribución y resultados del  Web Service y la segunda versión del Mobile Application.
 
+| Sprint #                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-06-01                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 1 – 1 Review Summary**        | Desarrollo completo de Backend                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 1 – 1 Retrospective Summary** | Cumplimos la meta de lanzar nuestra primera versión de la aplicación móvil y servicio web.                                                                                                                                                                                                                                                                             |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #2 Goal**                     | Desarrollar y desplegar un servicio web y una aplicación móvil que presente de manera clara y atractiva los principales beneficios y características del producto, optimizada para dispositivos móviles y preparada para captar leads a través de un formulario de contacto, así como también desarrollar una primera versión de la aplicación movil y el Web Service. |
+| **Sprint #2 Velocity**                 | 3 story points (media de total de story points)                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**                | 21                                                                                                                                                                                                                                                                                                                                                                     |
+
+<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog 1</h5></div>
+
+Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="7">Sprint 1</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>User Story&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Descripción&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Estimación (Hours)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Story points &nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Assigned to&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Status (In&nbsp;&nbsp;&nbsp;-process / To - review / Done)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+      <td>TS01</td>
+      <td>Registro exitoso del personal</td>
+      <td>UT01</td>
+      <td>Verificar registro exitoso del personal</td>
+      <td>Dado que el consultorio ya está registrado<br>Cuando el personal complete el formulario de registro<br>Y presione "Registrarme"<br>Entonces debe redirigirlo a la pantalla de inicio.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Inicio de sesión exitoso</td>
+      <td>UT02</td>
+      <td>Verificar inicio de sesión con credenciales válidas</td>
+      <td>Dado que el personal ya está registrado<br>Cuando ingrese su correo y contraseña<br>Y presione "Iniciar Sesión"<br>Entonces debe ser redirigido a la pantalla de inicio.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Registro fallido</td>
+      <td>UT03</td>
+      <td>Verificar fallo en registro por datos incompletos</td>
+      <td>Dado que el personal está en la zona de registro<br>Cuando ingrese datos en blanco<br>Y presione "Registrarse"<br>Entonces debe ser advertido de que faltan campos por completar.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Inicio de sesión fallido</td>
+      <td>UT04</td>
+      <td>Verificar fallo en inicio de sesión por credenciales incorrectas</td>
+      <td>Dado que el personal ya está registrado<br>Cuando ingrese su correo y contraseña<br>Y presione "Iniciar Sesión"<br>Entonces debe ser advertido de que las credenciales son incorrectas.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>Edición de cita futura</td>
+      <td>UT05</td>
+      <td>Verificar edición exitosa de cita futura</td>
+      <td>Dado que el asistente ve una cita futura<br>Cuando modifique sus campos<br>Entonces el sistema debe actualizarla exitosamente.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Bloqueo de edición para cita pasada</td>
+      <td>UT06</td>
+      <td>Verificar restricción de edición para cita pasada</td>
+      <td>Dado que la cita ya pasó<br>Cuando se intente editar<br>Entonces el sistema debe mostrar un mensaje de restricción.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Registro de nueva cita</td>
+      <td>UT07</td>
+      <td>Verificar registro exitoso de nueva cita</td>
+      <td>Dado que el personal está autenticado<br>Cuando complete los datos de la cita y presione "Registrar"<br>Entonces debe guardarse y aparecer en la lista.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Eliminación de cita futura</td>
+      <td>UT08</td>
+      <td>Verificar eliminación de cita futura con notificación</td>
+      <td>Dado que el asistente selecciona una cita futura<br>Cuando confirme la eliminación<br>Entonces debe eliminarse y enviarse la notificación.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Restricción para eliminar cita pasada</td>
+      <td>UT09</td>
+      <td>Verificar restricción de eliminación de cita pasada</td>
+      <td>Dado que la cita ya ocurrió<br>Cuando se intente eliminar<br>Entonces el sistema debe bloquear la acción con un mensaje.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Búsqueda de cita por fecha</td>
+      <td>UT10</td>
+      <td>Verificar búsqueda de citas por fecha</td>
+      <td>Dado que el personal está en la sección de citas<br>Cuando ingrese una fecha y presione buscar<br>Entonces debe mostrar las citas de esa fecha.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Búsqueda de cita por DNI</td>
+      <td>UT11</td>
+      <td>Verificar búsqueda de citas por DNI del paciente</td>
+      <td>Dado que el personal está en la sección de citas<br>Cuando ingrese un DNI y presione buscar<br>Entonces debe mostrar las citas que coincidan con ese paciente.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Pago exitoso por parte del paciente</td>
+      <td>UT12</td>
+      <td>Verificar pago exitoso de tratamiento por paciente</td>
+      <td>Dado que el paciente tiene un tratamiento pendiente<br>Cuando complete los datos de pago<br>Entonces el sistema debe procesar y confirmar el pago.</td>
+      <td>5</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Error en el pago del paciente</td>
+      <td>UT13</td>
+      <td>Verificar manejo de error en pago con opción de reintento</td>
+      <td>Dado que hay un error de transacción<br>Cuando el paciente intente pagar<br>Entonces debe ver un mensaje de error y opción de reintento.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Visualización del historial de pagos</td>
+      <td>UT14</td>
+      <td>Verificar visualización del historial de pagos del paciente</td>
+      <td>Dado que el paciente accede al historial<br>Cuando lo visualice<br>Entonces debe mostrar los pagos previos y sus estados.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Registro de pago por parte del personal</td>
+      <td>UT15</td>
+      <td>Verificar registro de pago y generación de factura</td>
+      <td>Dado que el paciente recibió un tratamiento<br>Cuando el personal registre el monto pagado<br>Entonces debe actualizar el estado como pagado y reducir el stock médico.</td>
+      <td>5</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Visualizar historial de pagos</td>
+      <td>UT16</td>
+      <td>Verificar lista de pagos con fecha, monto y paciente</td>
+      <td>Dado que el personal accede al módulo de pagos<br>Cuando seleccione la opción "Historial de pagos"<br>Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Visualizar lista de pacientes</td>
+      <td>UT17</td>
+      <td>Verificar visualización de pacientes registrados</td>
+      <td>Dado que el personal ha iniciado sesión en la aplicación<br>Y accede a la sección de pacientes<br>Cuando se cargue la pantalla<br>Entonces la aplicación mostrará una lista con los datos de todos los pacientes registrados.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Registrar nuevo paciente</td>
+      <td>UT18</td>
+      <td>Verificar registro de nuevo paciente</td>
+      <td>Dado que el personal accede a la sección de pacientes<br>Cuando complete el formulario con los datos del nuevo paciente<br>Y presione "Guardar"<br>Entonces la aplicación registrará al paciente y lo mostrará en la lista.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS19</td>
+      <td>Editar datos de un paciente</td>
+      <td>UT19</td>
+      <td>Verificar actualización de datos de paciente</td>
+      <td>Dado que el personal accede a la sección de pacientes<br>Y selecciona a un paciente de la lista<br>Cuando actualice los datos en el formulario<br>Y presione el botón "Guardar cambios"<br>Entonces el sistema actualizará la información del paciente correctamente.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS20</td>
+      <td>Eliminar un paciente</td>
+      <td>UT20</td>
+      <td>Verificar eliminación de paciente con confirmación</td>
+      <td>Dado que el personal accede a la lista de pacientes<br>Cuando seleccione un paciente<br>Y elija la opción de eliminar<br>Y confirme la acción<br>Entonces la aplicación eliminará dicho registro de la base de datos.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS21</td>
+      <td>Buscar paciente por DNI</td>
+      <td>UT21</td>
+      <td>Verificar búsqueda de paciente por DNI</td>
+      <td>Dado que existen pacientes registrados<br>Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>Y seleccione el botón de buscar<br>Entonces la aplicación mostrará al paciente correspondiente en los resultados.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS22</td>
+      <td>Registrar historial clínico</td>
+      <td>UT22</td>
+      <td>Verificar registro de historial clínico</td>
+      <td>Dado que el personal accede al perfil de un paciente<br>Cuando seleccione "Añadir historial clínico"<br>Y complete los campos requeridos<br>Y presione "Guardar"<br>Entonces la aplicación almacenará el nuevo historial vinculado al paciente.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS23</td>
+      <td>Eliminar historial clínico</td>
+      <td>UT23</td>
+      <td>Verificar eliminación de historial clínico</td>
+      <td>Dado que el personal accede al historial clínico de un paciente<br>Cuando seleccione la opción de eliminar historial<br>Y confirme la acción<br>Entonces la aplicación eliminará dicho historial y actualizará la vista.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS24</td>
+      <td>Visualizar historial clínico</td>
+      <td>UT24</td>
+      <td>Verificar visualización de historial clínico</td>
+      <td>Dado que el personal accede al perfil de un paciente<br>Cuando seleccione "Ver historial clínico"<br>Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS25</td>
+      <td>Visualizar inventario</td>
+      <td>UT25</td>
+      <td>Verificar visualización de inventario con stock</td>
+      <td>Dado que el personal se encuentra correctamente logueado en la aplicación<br>Cuando acceda al módulo de inventario<br>Entonces la aplicación mostrará la lista de todos los objetos registrados con su stock disponible.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS26</td>
+      <td>Formulario de registro de objetos</td>
+      <td>UT26</td>
+      <td>Verificar registro de nuevos objetos en inventario</td>
+      <td>Cuando el usuario acceda al módulo de inventario, entonces podrá ver el botón "Añadir objeto".<br>Cuando el usuario complete los campos requeridos y envíe el formulario, entonces el objeto se añadirá a la base de datos y aparecerá en la lista del inventario.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS27</td>
+      <td>Edición de objeto del inventario</td>
+      <td>UT27</td>
+      <td>Verificar edición de objeto en inventario</td>
+      <td>Cuando el usuario seleccione un objeto del inventario, entonces podrá ver sus datos actuales.<br>Cuando el usuario modifique los datos y presione "Guardar cambios", entonces se actualizarán en la base de datos.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS28</td>
+      <td>Eliminar objeto del inventario</td>
+      <td>UT28</td>
+      <td>Verificar eliminación de objeto del inventario</td>
+      <td>Cuando el usuario presione "Eliminar" en un objeto del inventario, entonces se mostrará una confirmación.<br>Cuando el usuario confirme, entonces el objeto será eliminado de la base de datos.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS29</td>
+      <td>Dashboard de inventario con métricas</td>
+      <td>UT29</td>
+      <td>Verificar dashboard con métricas de inventario</td>
+      <td>Cuando el usuario acceda al dashboard desde la sección de inventario, entonces verá gráficos con métricas de stock, consumo y disponibilidad.<br>Los datos deberán estar actualizados en tiempo real o con sincronización periódica.</td>
+      <td>6</td>
+      <td>5</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS30</td>
+      <td>Registro de fecha de ajuste de inventario</td>
+      <td>UT30</td>
+      <td>Verificar registro de fecha en ajustes de inventario</td>
+      <td>Cuando se realice una edición o consumo de inventario, entonces el sistema almacenará la fecha del ajuste en el historial.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Anthony Huapaya</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS31</td>
+      <td>Guardar ID del objeto consumido</td>
+      <td>UT31</td>
+      <td>Verificar guardado de ID de objeto consumido</td>
+      <td>Cuando se añadan ítems a un tratamiento, entonces el sistema guardará automáticamente los IDs de los objetos usados.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS32</td>
+      <td>Guardar ID de facturación en consumo</td>
+      <td>UT32</td>
+      <td>Verificar guardado de ID de factura en consumo</td>
+      <td>Cuando se complete el proceso de facturación, entonces el sistema almacenará el ID de la factura junto con los datos de los objetos consumidos.</td>
+      <td>2</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS33</td>
+      <td>Registro de cantidad consumida de objetos</td>
+      <td>UT33</td>
+      <td>Verificar registro de cantidad consumida</td>
+      <td>Cuando se registre el consumo de objetos, entonces se deberá ingresar la cantidad utilizada.<br>Entonces el sistema almacenará esa cantidad como parte del historial de consumo.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Jesús Uribe</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS34</td>
+      <td>Menú de navegación del sistema</td>
+      <td>UT34</td>
+      <td>Verificar menú de navegación</td>
+      <td>Cuando el usuario inicie sesión y acceda a la aplicación, entonces visualizará el menú con todas las secciones disponibles.<br>Cuando el usuario seleccione una opción, entonces será redirigido a la vista correspondiente.</td>
+      <td>4</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS35</td>
+      <td>Gestión del perfil del usuario</td>
+      <td>UT35</td>
+      <td>Verificar gestión de perfil de usuario</td>
+      <td>Cuando el usuario acceda a la sección de perfil, entonces verá su información actual.<br>Cuando edite sus datos y presione "Guardar", entonces la información será actualizada correctamente en la base de datos.</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Elizabeth Huanaco</td>
+      <td>Done</td>
+    </tr>
+</tbody>
+</table>
+
+<div id='6.2.1.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
+
+### MOBILE APPLICATION:
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10">
+	<h5>Mobile Application</h5>
+	<a href="https://github.com/TF-AplicacionesMoviles/MobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/MobileApp</a>
+	<br>
+</td>
+    <td><br>main</td>
+    <td><br>eb059963f545fd215f0aff02aaf14a0c4e05f74c</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>updated first version of Dentify app Mobile</td>
+    <td><br>14/05/2025</td>
+  </tr>
+ <tr>
+   <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-</td>
+    <td><br>-/06/2025</td>
+  </tr>
+  
+ 
+</tbody></table>
+
+### WEB SERVICES:
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="100">
+        <strong>Web Services</strong><br>
+        <a href="https://github.com/TF-AplicacionesMoviles/Backend" target="_blank" rel="noopener noreferrer">
+          https://github.com/TF-AplicacionesMoviles/Backend
+        </a>
+      </td>
+      <td>main</td>
+      <td>6e839b00e9507c2fb4f03ef694a5502ef2697f91</td>
+      <td>first commit</td>
+      <td>first commit</td>
+      <td>09/05/2025</td>
+    </tr>
+    <tr>
+      <td>develop</td>
+      <td>12a9aa3d60e332d58b3d1f915a6fb1f1afbdcf97</td>
+      <td>Dentify API v1.3.0</td>
+      <td>Dentify API v1.3.0</td>
+      <td>2025-06-05</td>
+    </tr>
+    <!-- Continúa con los demás commits... -->
+    <tr>
+    <td>develop</td>
+    <td>12a9aa3d60e332d58b3d1f915a6fb1f1afbdcf97</td>
+    <td>Dentify API v1.3.0</td>
+    <td>Dentify API v1.3.0</td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>da2c90bd25928b4fb41126f8892da9d0a1f419d8</td>
+    <td>feat: get all invoices by user</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>2c036cd18c753c1ede384ae41566df7eb98ecb23</td>
+    <td>chore: add new arguments, appointment and invoice resources</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>af34d9c6e3325df161ae456da556082f8580d5f7</td>
+    <td>feat: dashboard has been implemented</td>
+    <td>Dashboard</td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>075c2dc393da9066a4047bd2723f22bffe8fcfe1</td>
+    <td>feat: get item by id and user id</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>ca7ffbb8b3fbc569698efe31cf488fecf7d7b1e6</td>
+    <td>chore: remove unused imports</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>13cd4a44468304bf7c53e27fa91fd2b7300abcd1</td>
+    <td>chore: edit arguments of UpdateAppointmentResource</td>
+    <td>-</td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>7f1d552c26ec0c445244ff92dabfc19e2ead62de</td>
+    <td>feat: dashboard implementation dtos</td>
+    <td>-</td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+  <td>develop1</td>
+  <td>dff.45.5</td>
+  <td>dff.45.5</td>
+  <td>dff.45.5</td>
+  <td>dff.45.5</td>
+  </tr>
+  <tr>
+  <td>develop</td>
+  <td>ddf8b82e6d38ad95150e9f9c6780aaad7fdf6ae3</td>
+  <td>feat: dashboard implementation</td>
+  <td>-</td>
+  <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>e7c227bd73e51bf2a91693318aff0550656a08f9</td>
+    <td>feat: find top 3 low stock items</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>4bb3fa5047e6c75415fbda5c55ea7501419bb343</td>
+    <td>feat: get last five invoices</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>ecf74b116fd40029392ee1c427e1d5cf84752a6f</td>
+    <td>feat: get today appointments of a user</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>371573067680ce3d2e7fe064e514028a46d10f1b</td>
+    <td>fix: LocalDateTime to createdAt and updatedAt AuditableAbstractAggregate Root and AuditableModel</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>fe5e3c7eda24e5a3394770322253d045a82efd0e</td>
+    <td>feat: get all appointment order by appointment date desc query and get today appointments by user id query implementation</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>ed9c6803d1d3f20692992ac748f5bf99f9a48697</td>
+    <td>feat: get all appointment order by appointment date desc query and get today appointments by user id query</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>14465603f53c7ff1e9024045d1ada13bb4a416f4</td>
+    <td>feat: refactor AppointmentQueryService</td>
+    <td></td>
+    <td>2025-06-05</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>44c3a3d825b807b76d3f7bc5bd1d68808c76e8a7</td>
+    <td>feat: delete appointment by id of the authenticated user</td>
+    <td></td>
+    <td>2025-06-04</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>bd425025ae67e9bb63393123a5764896ef38151c</td>
+    <td>feat: get all appointments of the authenticated user</td>
+    <td></td>
+    <td>2025-06-04</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>516ecf6082d3f66130b60e1591b1683ff51c54e7</td>
+    <td>feat: dtos - update appointment</td>
+    <td></td>
+    <td>2025-06-04</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>1783648ff7638e35fa51e7f70158d880ccdc46cb</td>
+    <td>feat: update command service implementation</td>
+    <td></td>
+    <td>2025-06-04</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0a14d55b5fb62ab2a61635cb23053931ac42a64c</td>
+    <td>v1.2.0 Dentify API</td>
+    <td>v1.2.0 Dentify API</td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>d51c3a49e429b1c06900e64ca43bfc5054fcaa9d</td>
+    <td>Feature payments</td>
+    <td>Feature payments</td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f523bb52f27a7953dc9ae7c7d766b12e0236bad3</td>
+    <td>fix: fix unused imports</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0cd7e52ee2a9df447d276aba215b09447c529cc0</td>
+    <td>fix: fix unused imports</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>bb661684890139751b834a1916f6781e5b538eb4</td>
+    <td>fix: fix unused imports</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>026d7125a17ba94e7f1ede7d02ac613b078ad49b</td>
+    <td>feat: invoice controller has been added</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>71f576b0bf7df79d8a7e064cf7e4c03d8f18a792</td>
+    <td>feat: invoice command and query service implementation</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>2a4295d63703698581f3b5c2d9bb990cdeefd673</td>
+    <td>feat: appointment anti corruption layer (bounded context: invoices)</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>ba480866609679d524b354162289b75a88e3dc4c</td>
+    <td>refact: refactor InvoiceCommandServiceImpl</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>1f33a1704688da2a9f5ada7af9e0d2cb9a233be9</td>
+    <td>feat: invoice controller</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>763d08e87c919c441c354d3dd9bd8faf9c439e96</td>
+    <td>feat: invoice assemblers and resources have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>320278f90ea8fb1e69a0ed69f956f7def34a799f</td>
+    <td>feat: invoice command service implementation and acl repository (appointments)</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>b3ef3518e3dc1572c051f597603ecb96d35a377a</td>
+    <td>feat: invoice and payment method queries services (get invoice by appointment id) have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>8bdd22f3aea6cf3399a1eb9ccc3d0d98c95dfc51</td>
+    <td>feat: invoice and payment method command services (get invoice by appointment id) have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>4df597136ffdd127921411556fe0f66e7a548c61</td>
+    <td>feat: invoice and payment method command (get invoice by appointment id) have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>e4806e9a8c0348e322bde084f3dfd08aa71cb97b</td>
+    <td>feat: invoice query command (get invoice by appointment id) have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>40fb27f745f124eb7ec22ee1399d59a4a52b0bc0</td>
+    <td>feat: invoice and paymentmethod create commands have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>02b6544bdd110bd04c197f7520568dec3f3f62ae</td>
+    <td>feat: invoice and paymentMethod Entities have been created</td>
+    <td></td>
+    <td>2025-06-02</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>d9e66f8a57bfd00598f5b16ded03c8fcebeb7cac</td>
+    <td>v1.1.0 Dentify</td>
+    <td>Develop</td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0f5166ba10eb8436f23b8a19fbb2b9c9abc8b07d</td>
+    <td>Feature medical history</td>
+    <td>Feature medical history</td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>1d5c9f2177eef15ef5ae3bdbc3e2e570529b2b81</td>
+    <td>feat: endpoint (GET) of medical history | Get all medical histories by patient from userId</td>
+    <td></td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0be747b3b1257171ce6c23204e3e3da56ed01cba</td>
+    <td>feat: endpoint of Medical History</td>
+    <td></td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>344dacc1f09dece85a9f7d45d9a6e9f843806dc2</td>
+    <td>feat: Medical History Dtos and assemblers</td>
+    <td></td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f4744a36b0e47557ecdd65a6eaa491a0b58fb3ae</td>
+    <td>feat: Medical History command service and implementation has been created</td>
+    <td></td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0a3b72ce021f2d5b8038feac5f677efc83f4d203</td>
+    <td>feat: Medical History entity has been created</td>
+    <td></td>
+    <td>2025-05-30</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>efaa457f59aedcac3624646fe1445b55ac678911</td>
+    <td>Fix patients</td>
+    <td>Fix patients</td>
+    <td>2025-05-29</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f622b82e1fa672e5178fd206d30f50d6e1ff6d68</td>
+    <td>fix: removed unused imports</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>8c1afc7d7c5a369cfe7e71ef0224676afd0d5eeb</td>
+    <td>fix: removed unused imports</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f8752b94d90cda7f97640b1beefbbb1f2fe43e92</td>
+    <td>feat: create POST endpoint from Appointments</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>5e105ddbcf532671dab083bc0fe7a92a8de63f03</td>
+    <td>feat: create resources from Create command services</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>3ba0fb127bd295d8fe2020952e67903e02c4dbc8</td>
+    <td>feat: create command service from Appointments</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>bf251862bacf4893c031e505188e4f2721877597</td>
+    <td>feat: create commands of Appointments</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>b43034a61cb118f6b88cd6aefbe59267f2c9c150</td>
+    <td>feat: created endpoint of appointments</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>afaf0c3611fd68e710bdfdfff6a88307c8c667f1</td>
+    <td>feat: added Dtos, Resources and assemblers</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0cf912f2751fcc7f39f17144246e4d6b41f4b70b</td>
+    <td>feat: added Query Service from Appointment</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f93ab57dba8a073a292ca1189192b7a65b381719</td>
+    <td>feat: added AppointmentRepository JPA</td>
+    <td></td>
+    <td>2025-05-28</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>332ce09713255c9012e56da0b28216f8fbf50064</td>
+    <td>fix: hotfix validate existing item from a specific user in DELETE</td>
+    <td></td>
+    <td>2025-05-15</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>0d7e370ddef0d15edb79c8e1d93af6afc5fb2a65</td>
+    <td>fix: hotfix validate existing item from a specific user in UPDATE</td>
+    <td></td>
+    <td>2025-05-15</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>16625e73592e80db7c3838aa1ea3956347cde94d</td>
+    <td>fix: hotfix validate name of item by inventory of user</td>
+    <td></td>
+    <td>2025-05-15</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>f1d7d6278c5cc3738d9f4af392bca39101d3aafc</td>
+    <td>feature: fix update a patient by id and user id</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>1761232c55fe0efd88c6024004e1a55a7860c8ee</td>
+    <td>feature: fix delete a patient by id and user id</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>develop</td>
+    <td>8ed6c4582ecda3e602f30f7974459350cb109daf</td>
+    <td>feature: fix get all patients by user and get patients by id and user id</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  </tbody>
+  </table>
+
+
+<div id='6.2.2.4.'><h5>6.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
+
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+  </tr>
+ 
+</tbody></table>
+
+<div id='6.2.2.5.'><h5>6.2.2.5. Execution Evidence for Sprint Review</h5></div>
+
+
+<div id='6.2.2.6.'><h5>6.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+En este Sprint se logró documentar con OpenAPI los siguientes Endpoints correspondientes a las funcionalidades implementadas. La documentación incluye detalles técnicos de las acciones soportadas, como los verbos HTTP, parámetros de entrada y respuestas esperadas, lo que permite una mejor comprensión e interacción con los Web Services desarrollados. A continuación, se presenta un resumen detallado:
+
+| Endpoint             | Acción                                            | Verbo HTTP | Sintaxis de llamada  | Parámetros o Peticiones                                                                                                                                        | Ejemplo de Response                                                                                                                     | URL de Documentación                                                               |
+| -------------------- | ------------------------------------------------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+|a|a|a|a|a|a|a|
+|b|b|b|b|b|b|b|
+
+
+
+<div id='6.2.2.7.'><h5>6.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+<div id='6.2.2.8.'><h5>6.2.2.8. Team Collaboration Insights during Sprint</h5></div>
+
+| Alumno                               | Actividad                                                                                                               |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi Gerardo Sebastian |Elaboración de funcionalidad Dashboard |
+| Huanaco Huayta, Elizabeth Lucero     | Elaboración de funcionalidad Medical Histories                                                             |
+| Huapaya Cuevas, Anthony              | Elaboración de funcionalidad Inventario                                                       |
+| Silva Tirado, Sebastián Valentino    | Elaboración de funcionalidad de pagos                        |
+| Uribe Quispe, Jesús Guillermo        | Elaboración de funcionalidad de citas y elaboración de las funcionalidades restantes del Backend |
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
@@ -4185,17 +5164,16 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 <div id='9.'><h2>ANEXOS</h2></div>
 
 **Anexo A**
-| Descripción                           | Enlace                                                                                                                                                                                              |
+| Descripción | Enlace |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Repositorio de Aplicación Móvil         | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp)                                                                                |
-| Repositorio de Landing Page           | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage)                                                                       |
-| Despliegue de Landing Page            |  [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/)                                                                                  |
-| Repositorio de Web Service            | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend)   |       
-| Despligue de Web Service               | [https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/](https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/)  |                                                                                         |
-| Organización de Github                | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles)                                                                                                                |
-| Link de Exposición                    |[video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EZww6kGS7K1EustiXBmST3YBrIBzG4NIyFvViKDv8KUF-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SqwPwf)|
+| Repositorio de Aplicación Móvil | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp) |
+| Repositorio de Landing Page | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage) |
+| Despliegue de Landing Page | [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/) |
+| Repositorio de Web Service | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend) |  
+| Despligue de Web Service | [https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/](https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/) | |
+| Organización de Github | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles) |
+| Link de Exposición |[video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EZww6kGS7K1EustiXBmST3YBrIBzG4NIyFvViKDv8KUF-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SqwPwf)|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
-
 
 **Anexo B**
 
