@@ -42,19 +42,33 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 | :-----: | :--------: | :---------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   TB1   | 24/04/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br> - Capítulo I: Presentación<br>- Capítulo II: Requirements Elicitation & Analysis, <br>- Capítulo III: Requirements specification <br>- Capítulo IV: Solution Software Design |
 |   TP    | 15/05/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo V: UI/UX solution design.<br>-Capítulo VI: Product Implementation, Validation & Deployment.                                                                         |
+|   TB2    | 20/06/2025 | Uribe Quispe, Jesús Guillermo | Realización de: <br>-Capítulo VI: Product Implementation, Validation & Deployment.  (Sprint #2) y Validation Interviews                                                |
 
 # Project Report Collaboration Insights
 
 URL del repositorio para el reporte del proyecto: https://github.com/TF-AplicacionesMoviles/Documentation
+
+**TB2**
+<div align="center">
+  <img src="Img/insights-tb2.png">
+</div>
+
+Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                        | Tareas Asignadas                                                                                                                                   |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi, Gerardo       | Despliegue de Backend, Realización de funcionalidad Dashboard en la aplicación móvil.                                                                                                            |
+| Huanaco Huayta, Elizabeth         | Realización de funcionalidad pacientes e historiales médicos en la aplicación móvil.                                                                                                       |
+| Huapaya Cuevas, Anthony           | Realización de la funcionalidad de inventariado en la aplicación móvil.                                                                                                        |
+| Silva Tirado, Sebastián Valentino | Realización de la funcionalidad de pagos en la aplicación móvil.                                                                                                                               |
+| Uribe Quispe, Jesús               | Documentación Capítulo VI, realización y documentación de Backend, realización y documentación de Landing Page, realización de funcionalidad de citas en la aplicación móvil. |
 
 **TP1**
 
 <div align="center">
   <img src="Img/insights-doc.png">
 </div>
-<div align="center">
-  <img src="">
-</div>
+
 
 Para el desarrollo del informe perteneciente a la entrega TP, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -4016,87 +4030,6 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 <img src="Img/inventoryDelete.jpg">
 </div>
 
-#### APPOINTMENTS:
-
-**Función POST**
-
-<div align="center">
-<img src="Img/appopost.jpg">
-</div>
-
-**Función PUT**
-
-<div align="center">
-<img src="Img/appoput.jpg">
-</div>
-
-**Función GET ALL**
-
-<div align="center">
-<img src="Img/appogetall.jpg">
-</div>
-
-**Función GET BY ID**
-
-<div align="center">
-<img src="Img/appogetbyid.jpg">
-</div>
-
-**Función DELETE**
-
-<div align="center">
-<img src="Img/appodelete.jpg">
-</div>
-
-#### INVOICES:
-
-**Función POST**
-
-<div align="center">
-<img src="Img/invoicespost.jpg">
-</div>
-
-**Función GET ALL**
-
-<div align="center">
-<img src="Img/invoicesgetall.jpg">
-</div>
-
-**Función GET BY ID**
-
-<div align="center">
-<img src="Img/invoicesgetbyid.jpg">
-</div>
-
-#### DASHBOARD:
-
-**Función GET**
-
-<div align="center">
-<img src="Img/dashboardget.jpg">
-</div>
-
-
-#### BD:
-
-Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el Swagger y se ve una relación de paciente a usuario:
-
-<div align="center">
-<img src="Img/db1.png">
-</div>
-
-<div align="center">
-<img src="Img/bd2.png">
-</div>
-
-<div align="center">
-<img src="Img/bd3.png">
-</div>
-
-<div align="center">
-<img src="Img/bd4.png">
-</div>
-
 Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos con la relación de objeto a usuario:
 
 <div align="center">
@@ -4641,6 +4574,363 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
       <td>Elizabeth Huanaco</td>
       <td>Done</td>
     </tr>
+    <tr>
+  <td>US03</td>
+  <td>Recordatorio de citas</td>
+  <td>UT36</td>
+  <td>Recordatorios por correo y notificación</td>
+  <td>
+    Escenario 1: Envío automático de recordatorio por correo electrónico<br>
+    Dado que una cita ha sido registrada con al menos 24h de anticipación<br>
+    Cuando se acerque la fecha y hora de la cita<br>
+    Entonces el sistema enviará un correo recordatorio al paciente.<br><br>
+    Escenario 2: Envío de notificación interna<br>
+    Dado que el paciente ha iniciado sesión<br>
+    Cuando tenga una cita próxima (24h antes)<br>
+    Entonces el sistema mostrará una notificación en la plataforma.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Mostrar citas</td>
+  <td>UT37</td>
+  <td>Visualizar todas las citas</td>
+  <td>
+    Escenario 1: Visualización de citas registradas<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y accede a la sección de citas<br>
+    Cuando se cargue la pantalla de citas<br>
+    Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Editar cita</td>
+  <td>UT38</td>
+  <td>Editar información de citas</td>
+  <td>
+    Escenario 1: Modificación exitosa de una cita<br>
+    Dado que el asistente visualiza una cita futura<br>
+    Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+    Entonces la información se actualizará correctamente en el sistema.<br><br>
+    Escenario 2: Cita pasada no editable<br>
+    Dado que una cita ya ha pasado<br>
+    Cuando el asistente intente editarla<br>
+    Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Añadir citas</td>
+  <td>UT39</td>
+  <td>Registrar nuevas citas</td>
+  <td>
+    Escenario 1: Registro de una nueva cita<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y se encuentra en la sección de citas<br>
+    Cuando seleccione la opción para añadir nueva cita<br>
+    Y complete los campos requeridos como paciente, fecha y hora<br>
+    Y confirme el registro<br>
+    Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Eliminar cita</td>
+  <td>UT40</td>
+  <td>Eliminar citas futuras</td>
+  <td>
+    Escenario 1: Eliminación confirmada de cita futura<br>
+    Dado que el asistente accede a la lista de citas<br>
+    Cuando seleccione una cita futura y confirme la eliminación<br>
+    Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
+    Escenario 2: Intento de eliminar cita pasada<br>
+    Dado que la cita ya ocurrió<br>
+    Cuando se intente eliminar<br>
+    Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Buscar citas</td>
+  <td>UT41</td>
+  <td>Buscar citas por fecha o DNI</td>
+  <td>
+    Escenario 1: Búsqueda de cita por fecha<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese una fecha en el campo de búsqueda<br>
+    Y seleccione el botón Buscar<br>
+    Entonces la aplicación mostrará las citas programadas para esa fecha.<br><br>
+    Escenario 2: Busqueda de citas por DNI<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese el DNI de un paciente en el campo de busqueda<br>
+    Y seleccione el boton Buscar<br>
+    Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Gestionar horarios de atención</td>
+  <td>UT42</td>
+  <td>Gestionar disponibilidad de especialistas</td>
+  <td>
+    Escenario 1: Ver horarios de atención con citas agendadas<br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando accedo a la sección de gestión de horarios de atención<br>
+    Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+    Escenario 2: Editar horarios de atención<br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando modifico los horarios de atención de un especialista<br>
+    Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Pagar tratamiento</td>
+  <td>UT43</td>
+  <td>Pago desde la plataforma</td>
+  <td>
+    Escenario 1: Pago exitoso desde la plataforma<br>
+    Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+    Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+    Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+    Escenario 2: Error en el pago<br>
+    Dado que el paciente intenta pagar<br>
+    Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+    Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+    Escenario 3: Ver historial de pagos<br>
+    Dado que el paciente ha realizado pagos anteriores<br>
+    Cuando acceda a la sección de historial<br>
+    Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián Silva</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US11</td>
+  <td>Historial de pagos</td>
+  <td>UT44</td>
+  <td>Ver pagos registrados</td>
+  <td>
+    Escenario 1: Visualización de historial de pagos<br><br>
+    Dado que el personal accede al módulo de pagos<br>
+    Cuando seleccione la opción "Historial de pagos"<br>
+    Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Sebastian Silva</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Editar paciente</td>
+  <td>UT45</td>
+  <td>Modificar datos del paciente</td>
+  <td>
+    Escenario 1: Edición de datos exitosa<br><br>
+    Dado que el personal accede a la sección de pacientes<br>
+    Y selecciona a un paciente de la lista<br>
+    Cuando actualice los datos en el formulario<br>
+    Y presione el botón "Guardar cambios"<br>
+    Entonces el sistema actualizará la información del paciente correctamente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US16</td>
+  <td>Buscar pacientes</td>
+  <td>UT46</td>
+  <td>Búsqueda por DNI</td>
+  <td>Escenario 1: Búsqueda exitosa por DNI<br><br>
+      Dado que existen pacientes registrados<br>
+      Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>
+      Y seleccione el botón de buscar<br>
+      Entonces la aplicación mostrará al paciente correspondiente en los resultados.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US17</td>
+  <td>Añadir historial clínico</td>
+  <td>UT47</td>
+  <td>Registro de historial</td>
+  <td>Escenario 1: Registro de historial clínico<br><br>
+      Dado que el personal accede al perfil de un paciente<br>
+      Cuando seleccione "Añadir historial clínico"<br>
+      Y complete los campos requeridos<br>
+      Y presione "Guardar"<br>
+      Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US18</td>
+  <td>Eliminar historial clínico</td>
+  <td>UT48</td>
+  <td>Eliminar historial</td>
+  <td>Escenario 1: Eliminación de historial clínico<br><br>
+      Dado que el personal accede al historial clínico de un paciente<br>
+      Cuando seleccione la opción de eliminar historial<br>
+      Y confirme la acción<br>
+      Entonces la aplicación eliminará dicho historial y actualizará la vista.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US19</td>
+  <td>Mostrar historial clínico</td>
+  <td>UT49</td>
+  <td>Visualizar historial</td>
+  <td>Escenario 1: Visualización del historial clínico<br><br>
+      Dado que el personal accede al perfil de un paciente<br>
+      Cuando seleccione "Ver historial clínico"<br>
+      Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US21</td>
+  <td>Añadir objeto al inventario</td>
+  <td>UT50</td>
+  <td>Nuevo objeto inventario</td>
+  <td>Escenario 1: Registro de nuevo objeto<br><br>
+      Dado que el personal accede al módulo de inventario<br>
+      Cuando seleccione "Añadir objeto"<br>
+      Y complete los campos requeridos (nombre, tipo, cantidad)<br>
+      Entonces la aplicación registrará el objeto en el inventario.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US22</td>
+  <td>Editar objeto de inventario</td>
+  <td>UT51</td>
+  <td>Modificar objeto</td>
+  <td>Escenario 1: Modificación de objeto del inventario<br><br>
+      Dado que el personal accede a la sección de inventario<br>
+      Cuando seleccione un objeto de la lista<br>
+      Y actualice su información<br>
+      Y presione "Guardar cambios"<br>
+      Entonces la aplicación guardará la información modificada del objeto.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US23</td>
+  <td>Eliminar objeto de inventario</td>
+  <td>UT52</td>
+  <td>Eliminar objeto</td>
+  <td>Escenario 1: Eliminación de objeto<br><br>
+      Dado que el personal accede a la lista del inventario<br>
+      Cuando seleccione un objeto<br>
+      Y presione "Eliminar"<br>
+      Y confirme la acción<br>
+      Entonces la aplicación eliminará el objeto seleccionado.
+  </td>
+  <td>3h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US24</td>
+  <td>Dashboard de inventario</td>
+  <td>UT53</td>
+  <td>Resumen inventario</td>
+  <td>Escenario 1: Visualización del dashboard<br><br>
+      Dado que el personal accede a la seccion de inventario<br>
+      Cuando seleccione la opción de "Dashboard"<br>
+      Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US29</td>
+  <td>Menú</td>
+  <td>UT58</td>
+  <td>Menú de navegación</td>
+  <td>Escenario 1: Acceso al menú de navegación<br><br>
+      Dado que el personal ha iniciado sesión<br>
+      Cuando acceda a la aplicación<br>
+      Entonces visualizará un menú con las secciones disponibles como citas, pacientes, inventario, perfil, pagos y dashboard.
+  </td>
+  <td>3h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US30</td>
+  <td>Perfil</td>
+  <td>UT59</td>
+  <td>Visualizar y editar perfil</td>
+  <td>Escenario 1: Visualización y edición del perfil<br><br>
+      Dado que el personal ha iniciado sesión<br>
+      Cuando acceda a la sección de perfil<br>
+      Entonces podrá visualizar su información registrada<br>
+      Y si edita sus datos y guarda los cambios<br>
+      Entonces la aplicación actualizará su perfil correctamente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
 </tbody>
 </table>
 
@@ -4659,7 +4949,7 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
   </tr></thead>
 <tbody>
   <tr>
-<td rowspan="10">
+<td rowspan="200">
 	<h5>Mobile Application</h5>
 	<a href="https://github.com/TF-AplicacionesMoviles/MobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/MobileApp</a>
 	<br>
@@ -4670,14 +4960,39 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
     <td><br>updated first version of Dentify app Mobile</td>
     <td><br>14/05/2025</td>
   </tr>
- <tr>
-   <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-</td>
-    <td><br>-/06/2025</td>
-  </tr>
-  
+  <tr><td>develop</td><td>2eb4452142cf06681c0317181ac0dd2613c01a29</td><td>Feature inventory</td><td>Feature inventory</td><td>2025-06-17</td></tr>
+<tr><td>origin/feature-inventoryV2</td><td>fbaee41dd7a5a47e1092654441a82b5318ebfa0f</td><td>Merge branch 'develop' into feature-inventoryV2</td><td></td><td>2025-06-17</td></tr>   
+<tr><td></td><td>cb1326aacd8d04de7d18950d36b037ec5cecec23</td><td>Feature dashboard</td><td>Feature dashboard</td><td>2025-06-17</td></tr>
+<tr><td>origin/feature-dashboard</td><td>56d7bfebbce151edfc59398bbb0fdd992ab689c4</td><td>Update ApiConstants.kt</td><td></td><td>2025-06-17</td></tr>
+<tr><td>feature-dashboard</td><td>a5e59f91473b9767ef596ea6d04f69e7cf179909</td><td>feature-dashboard mejora de vista</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>495b82c378a125877f1bb2dc6893b233623e01e8</td><td>feature-dashboard variable global</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>c7f4cd0dc494e364f9cbf47336ba909b6d68d77f</td><td>feature-dashboard estrucutra</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>8004ce68fc6f64315e18603442e32b948859e77f</td><td>Feat appointments</td><td>Feat appointments</td><td>2025-06-17</td></tr>
+<tr><td>origin/feat-appointments, feat-appointments</td><td>16f377032c2324a1c7b5051ef520da59440c4b8e</td><td>feat: update appointment (presentation view)</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>7e9c03e79b548927b81e3268484aba9fd1bdc084</td><td>feat: update appointment (presentation viewmodel)</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>65fdb03cd0d7687758f01bd32ca2980216190207</td><td>feat: update appointment (domain)</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>68f4678fb19820c718ca70de3fb87ec3def5660c</td><td>feat: update appointment (service)</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>256b105d186136cff3976bc223d41e8f910c0e10</td><td>feat: update appointment repository</td><td></td><td>2025-06-17</td></tr>
+<tr><td></td><td>2a1b999b8fc5c2d8324f6ea82d1b776b7a4c2fcd</td><td>feat: add new model data from patient (form info)</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>4d7e7fc2277800425aa8ef14b5e41bc56005bbf3</td><td>feat: presentation files (appointments). navigation and routing</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>5ea2ccd1d3e4f04820616ae4f88ca6b7c7061323</td><td>feat: presentation files (appointments). navigation an routing</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>14051c7cda480def0366993c8ac75307fc5c2cef</td><td>feat: presentation files (appointments).add and update appointment view model and appointment view model</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>172e53f0fa4d4a608de89ec8905069e2a21d4913</td><td>feat: domain files (appointments). Interface repository, use cases and models</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>ed4115cd19020be933b9b13913aa677f0e2d31df</td><td>feat: data files (appointments). Appointment response, service and repository implementation</td><td></td><td>2025-06-15</td></tr>
+<tr><td></td><td>aef2168b55775c49343e0cbe8ed181415562b284</td><td>feat: correct update item</td><td></td><td>2025-06-06</td></tr>
+<tr><td></td><td>3a3f875a08cfd76e59534619dc6d2861d5dedf88</td><td>feat: add items of inventory bounded context with CRUD</td><td></td><td>2025-06-05</td></tr>
+<tr><td></td><td>1159ecb84131e1105dd22af2f66e1f336a4fbd3a</td><td>feat: added navigation</td><td>feat: added navigation</td><td>2025-06-03</td></tr>
+<tr><td>origin/hotfix-navigation, hotfix-navigation</td><td>65787e340b25d9603ce8e91b31a007c087afbc5d</td><td>hotfix: delete unused content from navigation</td><td></td><td>2025-06-03</td></tr>
+<tr><td>origin/feature-navigation</td><td>833e9daeb26c59128759768e290f28a6d5283778</td><td>feat: add navigation controller</td><td></td><td>2025-06-02</td></tr>
+<tr><td>origin/feature-patients-v2</td><td>aa054ae10058c3f9c4f7f56263c43eb9ee7adf9b</td><td>feat: update patient's views</td><td></td><td>2025-06-01</td></tr>
+<tr><td></td><td>e1039358057a6339428cb53762cd7c15b113333a</td><td>merge: added POST, GET AND DELETE Patients</td><td>Add: get all, insert and delete in patients</td><td>2025-05-15</td></tr>
+<tr><td>feature-patients</td><td>b10852be500c28cdef050bd564e9f660da0d2c3f</td><td>Add: get all, insert and delete in patients</td><td></td><td>2025-05-15</td></tr>
+<tr><td></td><td>e3c2d7cabbaa2422e58725ece468bbe802dbd7e5</td><td>feat: added Register and Login Feature</td><td>register and login UI, domain and data files</td><td>2025-05-14</td></tr>
+<tr><td>feature-register</td><td>cb999b325b18e01d127e26eef36a9e3aa1fa5970</td><td>feat: added UI files of Register</td><td></td><td>2025-05-14</td></tr>
+<tr><td></td><td>5673ef9289bae55086ee5cb4c673be92e8f3e666</td><td>feat: added domain files of Register</td><td></td><td>2025-05-14</td></tr>
+<tr><td></td><td>01a1b4598a8faf815eb05a84da483c967e700953</td><td>feat: added data files</td><td></td><td>2025-05-14</td></tr>
+<tr><td></td><td>bd785921cce3319eb1bc0b47b1db7fcb6bccf457</td><td>fix: fixed Login UI and token logic</td><td></td><td>2025-05-14</td></tr>
+<tr><td>origin/main, main</td><td>eb059963f545fd215f0aff02aaf14a0c4e05f74c</td><td>updated first version of Dentify app Mobile</td><td></td><td>2025-05-14</td></tr>
  
 </tbody></table>
 
@@ -5197,6 +5512,99 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
+#### EJECUCIÓN DE LA APLICACIÓN MÓVIL EN ANDROID STUDIO
+
+##### EP02 (Gestión de Citas):
+
+###### Añadir una cita:
+<div align="center">
+<img src="Img/ep02-01.png">
+</div>
+
+###### Obtener citas:
+<div align="center">
+<img src="Img/ep02-02.png">
+</div>
+
+###### Actualizar una cita:
+<div align="center">
+<img src="Img/ep02-03.png">
+</div>
+
+###### Eliminar una cita:
+<div align="center">
+<img src="Img/ep02-04.png">
+</div>
+
+##### EP03 (Gestión de Pacientes):
+###### Añadir un paciente:
+<div align="center">
+<img src="Img/ep03-02.png">
+</div>
+
+###### Obtener pacientes:
+<div align="center">
+<img src="Img/ep03-03.png">
+</div>
+
+###### Actualizar un paciente:
+<div align="center">
+<img src="Img/ep03-04.png">
+</div>
+
+###### Eliminar un paciente:
+<div align="center">
+<img src="Img/ep03-05.png">
+</div>
+
+###### Agregar historial médico a un paciente:
+<div align="center">
+<img src="Img/ep03-06.png">
+</div>
+
+###### Mostrar historiales médicos de un paciente:
+<div align="center">
+<img src="Img/ep03-07.png">
+</div>
+
+##### EP04 (Gestión de Inventario):
+
+###### Añadir un objeto al inventario:
+<div align="center">
+<img src="Img/ep04-1.png">
+</div>
+
+###### Obtener objetos del inventario:
+<div align="center">
+<img src="Img/ep04-2.png">
+</div>
+
+###### Actualizar un objeto al inventario:
+<div align="center">
+<img src="Img/ep04-3.png">
+</div>
+
+###### Eliminar un objeto del inventario:
+<div align="center">
+<img src="Img/ep04-4.png">
+</div>
+
+##### EP05 (Pagos)
+
+
+###### Añadir Pago a la cita
+
+###### Mostrar Pagos generales
+
+
+##### (Datos Generales):
+<div align="center">
+<img src="Img/dashboard-01.png">
+</div>
+
+
+**LINK DE VIDEO DE EJECUCIÓN:** 
+
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
 
@@ -5204,12 +5612,152 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 
 | Endpoint             | Acción                                            | Verbo HTTP | Sintaxis de llamada  | Parámetros o Peticiones                                                                                                                                        | Ejemplo de Response                                                                                                                     | URL de Documentación                                                               |
 | -------------------- | ------------------------------------------------- | ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-|a|a|a|a|a|a|a|
-|b|b|b|b|b|b|b|
+| `/api/v1/appointments`    | Obtener citas                                     | GET       | `/api/v1/appointments`    | Request Body: Ninguno                                                                                                  |`{"id": 0,"patientName": "string","dni": "string","appointmentDate": "2025-06-18T06:34:22.478Z","reason": "string","completed": true,"duration": "HH:MM"},"createdAt": "2025-06-18T06:34:22.478Z"}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/appointments/{patientId}`    | Obtener citas por id de paciente                                    | GET       | `/api/v1/appointments/{patientId}`    | Path: `patientId`                                                                                                |`{"id": 0,"patientName": "string","dni": "string","appointmentDate": "2025-06-18T06:34:22.478Z","reason": "string","completed": true,"duration": "HH:MM"},"createdAt": "2025-06-18T06:34:22.478Z"}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/appointments`    | Añadir                                 | POST       | `/api/v1/appointments`    | Request Body: `{"appointmentDate": "YYYY-MM-DDTHH:MM:SS.mssZ", "reason": "string", "duration": "HH:MM","patientId": 0}`                                                                                                  |`{"id": 0,"patientName": "string","dni": "string","appointmentDate": "2025-06-18T06:34:22.478Z","reason": "string","completed": true,"duration": "HH:MM"},"createdAt": "2025-06-18T06:34:22.478Z"}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/appointments/{appointmentId}`    | Actualizar cita                                 | PUT       | `/api/v1/appointments/{appointmentId}`    | Request Body: `{"appointmentDate": "YYYY-MM-DDTHH:MM:SS.mssZ", "reason": "string", "duration": "HH:MM"}`                                                                                                  |`{"id": 0,"patientName": "string","dni": "string","appointmentDate": "2025-06-18T06:34:22.478Z","reason": "string","completed": true,"duration": "HH:MM"},"createdAt": "2025-06-18T06:34:22.478Z"}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/appointments/{appointmentId}`    | Eliminar cita                                 | DELETE       | `/api/v1/appointments/{appointmentId}`    | Path: `appointmentId`                                                                                                  |HTTP STATUS 200                                          | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/invoices`    | Obtener pagos                                     | GET       | `/api/v1/invoices`    | Request Body: Ninguno                                                                                                  |`[{"id": 0,"appointmentId": 0,"patientName": "string","dni": "string","email": "string","amount": 0,"createdAt": "2025-06-18T06:43:29.231Z"}]`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/invoices/{appointmentId}`    | Obtener pago por cita ligada                                | GET       | `/api/v1/invoices/{appointmentId}`    | Path: `appointmentId`|`{"id": 0,"appointmentId": 0,"patientName": "string","dni": "string","email": "string","amount": 0,"createdAt": "2025-06-18T06:43:29.231Z"}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/invoices`    | Añadir pagos                                     | POST       | `/api/v1/invoices`    | Request Body: `{"amount": 0,"appointmentId": 0,"paymentMethodId": 0}`                                                                                                | HTTP STATUS 201                                                                                | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
+| `/api/v1/dashboard`    | Obtener datos de Dashboard                                     | GET       | `/api/v1/dashboard`    | Request Body: Ninguno                                                                                                  |`{"lowStockItems": [{"id": 0,"name": "string","stockQuantity": 0}],"recentPayments": [{"id": 0,"amount": 0,"createdAt": "2025-06-18T06:48:11.352Z"}],"recentAppointments": [{"id": 0,"appointmentDate": "2025-06-18T06:48:11.352Z","reason": "string","duration": {"hour": 0,"minute": 0,"second": 0,"nano": 0},"createdAt": "2025-06-18T06:48:11.352Z"}]}`                                                                                    | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)       |
 
 
+
+Ejecución de las últimas funcionalidades implementadas en el backend:
+#### APPOINTMENTS:
+
+**Función POST**
+
+<div align="center">
+<img src="Img/appopost.jpg">
+</div>
+
+**Función PUT**
+
+<div align="center">
+<img src="Img/appoput.jpg">
+</div>
+
+**Función GET ALL**
+
+<div align="center">
+<img src="Img/appogetall.jpg">
+</div>
+
+**Función GET BY ID**
+
+<div align="center">
+<img src="Img/appogetbyid.jpg">
+</div>
+
+**Función DELETE**
+
+<div align="center">
+<img src="Img/appodelete.jpg">
+</div>
+
+#### INVOICES:
+
+**Función POST**
+
+<div align="center">
+<img src="Img/invoicespost.jpg">
+</div>
+
+**Función GET ALL**
+
+<div align="center">
+<img src="Img/invoicesgetall.jpg">
+</div>
+
+**Función GET BY ID**
+
+<div align="center">
+<img src="Img/invoicesgetbyid.jpg">
+</div>
+
+#### DASHBOARD:
+
+**Función GET**
+
+<div align="center">
+<img src="Img/dashboardget.jpg">
+</div>
+
+
+#### BD:
+
+Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el Swagger y se ve una relación de paciente a usuario:
+
+<div align="center">
+<img src="Img/db1.png">
+</div>
+
+<div align="center">
+<img src="Img/bd2.png">
+</div>
+
+<div align="center">
+<img src="Img/bd3.png">
+</div>
+
+<div align="center">
+<img src="Img/bd4.png">
+</div>
+
+**LINK DE VIDEO DE EJECUCIÓN:** [link de video]()
+**LINK DE DESPLIEGUE:** [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html) 
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+### WEB SERVICES:
+
+Para el despliegue del Web Service hemos recurrido a Azure mediante el plugin perteneciente a IntelliJ IDEA.
+
+Entramos a la parte superior y autenticamos con nuestras credenciales de Azure.
+
+<div align="center">
+<img src="Img/deploy5.png" alt="Deploy WS 1">
+</div>
+
+Instanciamos la base de datos y el web service en un grupo de Recursos de Azure.
+
+<div align="center">
+<img src="Img/deploy2.jpeg" alt="Deploy WS 2">
+</div>
+
+Luego de Validar credenciales, configuración de variables de entorno, etcétera, Procedemos a desplegar la aplicación.
+
+<div align="center">
+<img src="Img/deploy1.png" alt="Deploy WS 3">
+</div>
+
+#### Probamos con el registro y nos autenticamos con el Login:
+
+<div align="center">
+<img src="Img/deploy3.png" alt="Deploy WS 4">
+</div>
+
+se puede apreciar la URL del despliegue de azure y la respuesta correcta por parte del servidor ante la validación de las credenciales creadas anteriormente.
+
+<div align="center">
+<img src="Img/deploy4.png" alt="Deploy WS 5">
+</div>
+
+#### Base de Datos remota:
+
+<div align="center">
+<img src="Img/deploy6.jpeg" alt="Deploy WS 6">
+</div>
+
+##### LINK DE DESPLIEGUE: 
+[https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)
+
+##### LINK DE EVIDENCIA DE DESPLIEGUE:
+
+[Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 
 <div id='6.2.2.8.'><h5>6.2.2.8. Team Collaboration Insights during Sprint</h5></div>
 
@@ -5220,6 +5768,175 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 | Huapaya Cuevas, Anthony              | Elaboración de funcionalidad Inventario                                                       |
 | Silva Tirado, Sebastián Valentino    | Elaboración de funcionalidad de pagos                        |
 | Uribe Quispe, Jesús Guillermo        | Elaboración de funcionalidad de citas y elaboración de las funcionalidades restantes del Backend |
+
+#### INSIGHTS: 
+<div align="center">
+<img src="Img/insights-backend-2.png">
+</div>
+
+
+<div id='6.3.'><h3> 6.3. Validation Interviews </h3></div>
+En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los puntos de mejora de nuestra aplicación móvil para lograr un mayor compromiso de los odontólogos. Esta fase crucial del proyecto implica un diálogo directo con nuestros principales usuarios para recopilar sus opiniones y sugerencias a través de entrevistas. Así, aseguramos que la plataforma no solo cumpla con los requisitos técnicos, sino que también se adapte a las operaciones diarias y expectativas del personal administrativo y de los odontólogos.
+
+<div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas </h4></div>
+
+Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, Dentify, respondan efectivamente a las necesidades reales de los odontólogos y el personal administrativo. A continuación, se presentan dichos objetivos de usuario:
+
+<b>Landing page</b>
+
+<b>Aplicación Móvil</b>
+
+<div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas </h4></div>
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: X:XX min
+    </td>
+    <td>
+      Nombre: 
+      <br>Segmento Objetivo: 
+      <br>Edad: 
+      <br>Distrito: 
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="" style="width: 200px;"><br>
+      Link:
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: X:XX min
+    </td>
+    <td>
+      Nombre: 
+      <br>Segmento Objetivo: 
+      <bt>Edad: 
+      <bt>Distrito: 
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="" style="width: 200px;"><br>
+      Link:
+    </td>
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: X:XX min
+    </td>
+    <td>
+      Nombre: 
+      <br>Segmento Objetivo: 
+      <br>Edad: 
+      <br>Distrito: 
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="" style="width: 200px;"><br>
+      Link:
+    </td>
+  </tr>
+ 
+</table>
+
+<div id='6.3.3.'><h4> 6.3.3. Evaluations according to heuristics </h4></div>
+
+<h4>APP A EVALUAR:</h4>
+
+<h5>Dentify</h5>
+
+Objetivo: Esta evaluación tiene como propósito principal detectar los problemas presentes en la aplicación móvil Dentify.
+
+Método: Los problemas en la aplicación se identificarán empleando la lista de Heurísticas de Nielsen, inicialmente investigada y desarrollada por Jakob Nielsen.
+
+<h4>TAREAS A EVALUAR:</h4>
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+2. Inicio de sesión
+3. Reserva de citas
+4. Visualización de citas
+5. Actualizaciones de citas
+6. Visualización de pacientes
+7. Registro de pacientes
+8. Actualización de pacientes
+4. Registro de historiales médicos
+10. Visualización de historiales médicos por paciente
+11. Visualización de facturas
+12. Creación de facturas
+13. Dashboard
+14. Gestión de inventariado
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Edición de perfil
+
+<h4>ESCALA DE SEVERIDAD:</h4>
+
+Los errores se calificarán según la siguiente escala de severidad.
+
+| Nivel | Descripción                                                                                                                                               |
+|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+
+<h4>TABLA RESUMEN:</h4>
+
+
+| #  | Problema                                                         | Escala de severidad | Heurística/Principio violado                                |
+|----|------------------------------------------------------------------|---------------------|------------------------------------------------------------|
+| 1  |- | -                  | -  |
+| 2  |- | -                  | -  |
+| 3  |- | -                  | -  |
+
+
+<h4>DESCRIPCIÓN DE PROBLEMAS:</h4>
+ 
+* PROBLEMA #1: 
+- Severidad: 
+- Heurística violada: 
+- Problema:
+
+ <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
+
+- Recomendación:
+
+---
+
+* PROBLEMA #2: 
+- Severidad: 
+- Heurística violada: 
+- Problema:
+
+
+ <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
+
+- Recomendación:
+
+---
+
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
@@ -5239,9 +5956,9 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Repositorio de Landing Page | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage) |
 | Despliegue de Landing Page | [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/) |
 | Repositorio de Web Service | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend) |  
-| Despligue de Web Service | [https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/](https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/) | |
+| Despligue de Web Service | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html) | |
 | Organización de Github | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles) |
-| Link de Exposición |[video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EZww6kGS7K1EustiXBmST3YBrIBzG4NIyFvViKDv8KUF-Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SqwPwf)|
+| Link de Exposición |[video]()|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
 
 **Anexo B**
