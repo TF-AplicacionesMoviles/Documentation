@@ -236,6 +236,19 @@ Los integrantes son:
    6.2.1.6. [Services Documentation Evidence for Sprint Review.](#6.2.1.6.)<br>
    6.2.1.7. [Software Deployment Evidence for Sprint Review.](#6.2.1.7.)<br>
    6.2.1.8. [Team Collaboration Insights during Sprint.](#6.2.1.8.)<br>
+   6.2.2. [Sprint 2.](#6.2.2.)<br>
+   6.2.2.1. [Sprint Planning 1.](#6.2.2.1.)<br>
+   6.2.2.2. [Sprint Backlog 1.](#6.2.2.2.)<br>
+   6.2.2.3. [Development Evidence for Sprint Review.](#6.2.2.3.)<br>
+   6.2.2.4. [Testing Suite Evidence for Sprint Review.](#6.2.2.4.)<br>
+   6.2.2.5. [Execution Evidence for Sprint Review.](#6.2.2.5.)<br>
+   6.2.2.6. [Services Documentation Evidence for Sprint Review.](#6.2.2.6.)<br>
+   6.2.2.7. [Software Deployment Evidence for Sprint Review.](#6.2.2.7.)<br>
+   6.2.2.8. [Team Collaboration Insights during Sprint.](#6.2.2.8.)<br>
+   6.3.[Validation Interviews.](#6.3.)
+   6.3.1.[Interview Design.](#6.3.1.)
+   6.3.2.[Registro de entrevistas](#6.3.2.)
+   6.3.3.[Evaluations according to heuristics](#6.3.3.)
 
 7. [Conclusiones](#7.)
 8. [Referencias Bibliográficas.](#8.)<br>
