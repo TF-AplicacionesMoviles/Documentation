@@ -4016,6 +4016,67 @@ En este Sprint se logró documentar con OpenAPI los siguientes Endpoints corresp
 <img src="Img/inventoryDelete.jpg">
 </div>
 
+#### APPOINTMENTS:
+
+**Función POST**
+
+<div align="center">
+<img src="Img/appopost.jpg">
+</div>
+
+**Función PUT**
+
+<div align="center">
+<img src="Img/appoput.jpg">
+</div>
+
+**Función GET ALL**
+
+<div align="center">
+<img src="Img/appogetall.jpg">
+</div>
+
+**Función GET BY ID**
+
+<div align="center">
+<img src="Img/appogetbyid.jpg">
+</div>
+
+**Función DELETE**
+
+<div align="center">
+<img src="Img/appodelete.jpg">
+</div>
+
+#### INVOICES:
+
+**Función POST**
+
+<div align="center">
+<img src="Img/invoicespost.jpg">
+</div>
+
+**Función GET ALL**
+
+<div align="center">
+<img src="Img/invoicesgetall.jpg">
+</div>
+
+**Función GET BY ID**
+
+<div align="center">
+<img src="Img/invoicesgetbyid.jpg">
+</div>
+
+#### DASHBOARD:
+
+**Función GET**
+
+<div align="center">
+<img src="Img/dashboardget.jpg">
+</div>
+
+
 #### BD:
 
 Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el Swagger y se ve una relación de paciente a usuario:
@@ -4026,6 +4087,14 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 
 <div align="center">
 <img src="Img/bd2.png">
+</div>
+
+<div align="center">
+<img src="Img/bd3.png">
+</div>
+
+<div align="center">
+<img src="Img/bd4.png">
 </div>
 
 Acá se puede visualizar que se guardan los datos del Swagger a la Base de Datos con la relación de objeto a usuario:
