@@ -5491,8 +5491,7 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
 
-En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
-
+En este segundo Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
 
 <table><thead>
   <tr>
@@ -5506,19 +5505,43 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 <tbody>
   <tr>
 <td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
   </tr>
 
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
   </tr>
  
 </tbody></table>
