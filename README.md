@@ -1795,7 +1795,7 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 
 | Epic ID | Título                | Explicación                                                                                    |
 | ------- | --------------------- | ---------------------------------------------------------------------------------------------- |
-| EP01    | Autenticación         | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
+| EP01    | Autenticación y Usuario        | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
 | EP02    | Gestión de Citas      | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.     |
 | EP03    | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.    |
 | EP04    | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.       |
@@ -5549,7 +5549,37 @@ En este segundo Sprint, veremos los archivos .feature relacionados a los user ta
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
+#### EJECUCIÓN DE LA NUEVA VERSIÓN DE LANDING PAGE:
+Nueva funcionalidad de Política de privacidad y protección de datos personales:
+
+<div align="center">
+<img src="Img/ld-pv1.png">
+</div>
+
+<div align="center">
+<img src="Img/ld-pv1.png">
+</div>
+
 #### EJECUCIÓN DE LA APLICACIÓN MÓVIL EN ANDROID STUDIO
+
+##### EP01 (Autenticación y usuario):
+
+###### Datos generales de Perfil:
+<div align="center">
+<img src="Img/ep01-01.png">
+</div>
+
+###### Cambiar datos de perfil:
+<div align="center">
+<img src="Img/ep01-02.png">
+</div>
+
+###### Cambiar contraseña de usuario
+<div align="center">
+<img src="Img/ep01-03.png">
+</div>
+
+
 
 ##### EP02 (Gestión de Citas):
 
@@ -5842,9 +5872,8 @@ En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los 
 
 Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, Dentify, respondan efectivamente a las necesidades reales de los odontólogos y el personal administrativo. A continuación, se presentan dichos objetivos de usuario:
 
-<b>Landing page</b>
+<b> User Flows: Aplicación Móvil</b>
 
-<b>Aplicación Móvil</b>
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas </h4></div>
 <table style="font-size: 12px;">
@@ -5858,27 +5887,28 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 12:40 min
     </td>
     <td>
-      Nombre: 
-      <br>Segmento Objetivo: 
-      <br>Edad: 
-      <br>Distrito: 
+      Nombre: Paolo Reaño
+      <br>Segmento Objetivo: Asistente centro odontológico
+      <br>Edad: 24
+      <br>Distrito: San Juan de Lurigancho
     </td>
     <td>
       Screenshot: <br>
-      <img src="" style="width: 200px;"><br>
-      Link:
+      <img src="Img/vi-vid.png" style="width: 200px;"></img>
+       Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EVnF1BShQ7xHgN9_BozBjioBSJh0KNgT_9fP7tsZCMMLEQ?e=R9CMef">Video</a>
     </td>
+
   </tr>
   <tr>
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: 12:30 min<br>
     </td>
@@ -5898,7 +5928,7 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: X:XX min
     </td>
@@ -5945,10 +5975,8 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 12. Creación de facturas
 13. Dashboard
 14. Gestión de inventariado
+15. Edición de Perfil
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-
-1. Edición de perfil
 
 <h4>ESCALA DE SEVERIDAD:</h4>
 
@@ -5959,7 +5987,7 @@ Los errores se calificarán según la siguiente escala de severidad.
 | 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
 | 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. | 1 | Consistencia y estándares
 
 
 ### TABLA RESUMEN:
@@ -5969,7 +5997,8 @@ Los errores se calificarán según la siguiente escala de severidad.
 | 1  | Falta de confirmación visual de la cita al intentar editar       | 3                   | Visibilidad del estado del sistema                        |
 | 2  | El formulario de "Agregar nuevo paciente" tiene campos de entrada mal alineados | 2                   | Diseño estético y minimalista                            |
 | 3  | No hay opción de retroceder fácilmente al crear una factura      | 3                   | Control y libertad del usuario                            |
-
+|4 | Demora en cargar los datos  | 3 | Visibilidad del estado del sistema |
+| 5 | Algunos Bugs visuales referentes al Dark Mode | 1 | Consistencia y estándares
 ---
 
 ### DESCRIPCIÓN DE PROBLEMAS:
@@ -6007,6 +6036,24 @@ Los errores se calificarán según la siguiente escala de severidad.
 - **Recomendación:** Incluir un botón de "Cancelar" o "Volver" de forma destacada para permitir que el usuario pueda fácilmente retroceder o abandonar el proceso de creación de una factura si lo desea.
 
 ---
+
+**PROBLEMA #4:**
+- **Severidad:** 3
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** Demora unos pocos segundos en cargar los datos.
+- **Recomendación:** optar por un mejor servicio de despliegue.
+
+**PROBLEMA #5:**
+- **Severidad:** 1
+- **Heurística violada:** Consistencia y estándares
+- **Problema:** Bugs visuales en el dark mode
+
+<div align="center">
+  <img src="Img/vi_1.png"></img>
+</div>
+<br>
+
+- **Recomendación:** Arreglar y hacer compatible al 100% con Dark Mode
 
 <div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
 
