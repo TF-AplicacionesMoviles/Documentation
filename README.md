@@ -5858,7 +5858,7 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: X:XX min
     </td>
@@ -5878,27 +5878,27 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 12:30 min<br>
     </td>
     <td>
-      Nombre: 
-      <br>Segmento Objetivo: 
-      <bt>Edad: 
-      <bt>Distrito: 
+      Nombre: Sebastian Escobar Palomino
+      <br>Segmento Objetivo: Odontólogos independientes<br>
+      <bt>Edad: 21<br>
+      <bt>Distrito: Ate, Lima <br>
     </td>
     <td>
       Screenshot: <br>
-      <img src="" style="width: 200px;"><br>
-      Link:
+      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/EUIsP0eXu2BDiDWnxRR0GmgB61LvsV4Llb50FZW6aMEFng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Asjtp6">Video</a>
     </td>
   </tr>
   <tr>
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-3<n><br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: X:XX min
     </td>
@@ -5962,38 +5962,49 @@ Los errores se calificarán según la siguiente escala de severidad.
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
 
-<h4>TABLA RESUMEN:</h4>
-
+### TABLA RESUMEN:
 
 | #  | Problema                                                         | Escala de severidad | Heurística/Principio violado                                |
 |----|------------------------------------------------------------------|---------------------|------------------------------------------------------------|
-| 1  |- | -                  | -  |
-| 2  |- | -                  | -  |
-| 3  |- | -                  | -  |
-
-
-<h4>DESCRIPCIÓN DE PROBLEMAS:</h4>
- 
-* PROBLEMA #1: 
-- Severidad: 
-- Heurística violada: 
-- Problema:
-
- <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
-
-- Recomendación:
+| 1  | Falta de confirmación visual de la cita al intentar editar       | 3                   | Visibilidad del estado del sistema                        |
+| 2  | El formulario de "Agregar nuevo paciente" tiene campos de entrada mal alineados | 2                   | Diseño estético y minimalista                            |
+| 3  | No hay opción de retroceder fácilmente al crear una factura      | 3                   | Control y libertad del usuario                            |
 
 ---
 
-* PROBLEMA #2: 
-- Severidad: 
-- Heurística violada: 
-- Problema:
+### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:**
+- **Severidad:** 3
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** Cuando intentas editar una cita, no hay una confirmación visual o mensaje claro que indique si la cita se ha guardado correctamente. Esto puede generar confusión en el usuario, que no sabe si la operación fue exitosa.
+
+ <img src="Img/ep02-03.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
 
 
- <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
+- **Recomendación:** Implementar un mensaje de confirmación visual, como un "Cita guardada correctamente" o "Edición exitosa", después de editar y guardar una cita para mantener informado al usuario en todo momento.
 
-- Recomendación:
+---
+
+**PROBLEMA #2:**
+- **Severidad:** 2
+- **Heurística violada:** Diseño estético y minimalista
+- **Problema:** En el formulario de "Agregar nuevo paciente", algunos campos de entrada están desalineados. Esto hace que el diseño se vea desordenado y puede dificultar la navegación para el usuario.
+
+ <img src="Img/ep03-02.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
+
+- **Recomendación:** Alinear los campos de entrada correctamente y mejorar el espaciado para que el formulario se vea más organizado y agradable a la vista.
+
+---
+
+**PROBLEMA #3:**
+- **Severidad:** 3
+- **Heurística violada:** Control y libertad del usuario
+- **Problema:** Al crear una factura, no hay una opción visible o clara para volver a la vista anterior o cancelar la acción, lo que limita el control del usuario.
+
+ <img src="Img/ep05-02.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
+
+- **Recomendación:** Incluir un botón de "Cancelar" o "Volver" de forma destacada para permitir que el usuario pueda fácilmente retroceder o abandonar el proceso de creación de una factura si lo desea.
 
 ---
 
