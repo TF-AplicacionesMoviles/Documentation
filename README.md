@@ -245,10 +245,11 @@ Los integrantes son:
    6.2.2.6. [Services Documentation Evidence for Sprint Review.](#6.2.2.6.)<br>
    6.2.2.7. [Software Deployment Evidence for Sprint Review.](#6.2.2.7.)<br>
    6.2.2.8. [Team Collaboration Insights during Sprint.](#6.2.2.8.)<br>
-   6.3.[Validation Interviews.](#6.3.)
-   6.3.1.[Interview Design.](#6.3.1.)
-   6.3.2.[Registro de entrevistas](#6.3.2.)
-   6.3.3.[Evaluations according to heuristics](#6.3.3.)
+   6.3.[Validation Interviews.](#6.3.)<br>
+   6.3.1.[Interview Design.](#6.3.1.)<br>
+   6.3.2.[Registro de entrevistas](#6.3.2.)<br>
+   6.3.3.[Evaluations according to heuristics](#6.3.3.)<br>
+   6.4. [Video About-the-Product](#6.4.)<br>
 
 7. [Conclusiones](#7.)
 8. [Referencias Bibliográficas.](#8.)<br>
@@ -264,8 +265,8 @@ apropiadas.
 
 | Criterio específico                                                                                                                                                       | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br><br>                                                                                       | **TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo. |
-| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica. <br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br><br> | **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real.                                                                                                                                                                                                                               |
+| 7.c1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software                | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Al desarrollar el análisis competitivo y las user stories, reforcé conceptos clave de metodologías ágiles y análisis de mercado, lo que me permitió comprender mejor cómo estructurar requerimientos funcionales en proyectos reales. Esto contribuyó a mi formación profesional al aplicar conocimientos actualizados en un contexto práctico. <br> **TP1:** Durante el proyecto, profundicé en los principios de Clean Architecture, lo cual me permitió estructurar la lógica de negocio de forma clara y desacoplada tanto en el backend como en la app móvil. Este conocimiento fue clave para facilitar el mantenimiento y escalabilidad del sistema. **TB2:** El desarrollo de este entregable se centro meramente en la implementacion de la aplicacion en Android Estudio. Esto me ayudo a pontenciar mis habilidad con el lenguaje kotlin y  el desarrollo con Composable   <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me ayudaron a actualizar mis conocimientos en ingeniería de software para el proyecto. La investigación de competidores me permitió conocer las herramientas y prácticas del mercado. Diseñar y realizar entrevistas me dio una mejor comprensión de las necesidades del usuario. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, pude mejorar el diseño de la solución y aplicar lo aprendido de manera práctica.<br>**TP1:** Reforcé mis habilidades en el uso de control de versiones con Git y aprendi a colaborar de manera eficiente en entornos distribuidos a través de GitHub. Esto contribuyó a mejorar nuestra organización y comunicación como equipo de desarrollo. <br> **TB2:** Durante este sprint, desarrollamos el flujo de navegación en la aplicación y el bounded context atención del paciente, que incluye las interfaces de pacientes e historias clínicas. El desarrollo de estas tareas me permitieron complementar y profundizar mis conocimientos en android studio.<br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las actividades que realicé contribuyeron a reforzar mis conocimientos en ingeniería de software, aplicándolos directamente en el proyecto. La investigación y suposiciones que realicé me ayudó a ver una mejor forma sobre a donde nos dirigimos con nuestra aplicación por los Assumptions e Hypothesis. A través del diseño y ejecución de las entrevistas, me ayudó a comprender de mejor manera las necesidades que tienen los usuarios que nos enfocamos. Asimismo, al elaborar el análisis de las entrevistas, la realización del As-Is Map y el Emphaty Mapping con respecto al User Persona que se realizó, donde ayuda de mejor manera comprender la necesidad de nuestro cliente.<br> **TP1:** Aprendí a aplicar el enfoque de Domain-Driven Design (DDD), lo cual me ayudó a entender mejor el dominio del consultorio odontológico y a traducir sus reglas de negocio en código con una alta cohesión semántica.<br>**TB2:** Para esta entrega, lo que realicé es parte de la navegación de la aplicación de Android, además de una parte del código de medical histories. Además del bounded context inventory. Además, para la documentación realicé los feature con Gherkin.<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** Durante esta etapa, me enfoqué en la redacción y estructuración de las user stories, aplicando conceptos actualizados de metodologías ágiles y priorización de funcionalidades desde la perspectiva del usuario. Además, complementé el repositorio en formato Markdown, asegurando una documentación clara y alineada a estándares colaborativos, fortaleciendo así la trazabilidad del proyecto. <br> **TP1:** Exploramos nuevas herramientas y librerías en Android Jetpack y en Spring Boot, lo que me permitió implementar funcionalidades modernas como navegación segura, persistencia local y servicios RESTful bien estructurados.<br> **TB2:** Investigamos nuevas herramientas y bibliotecas en Android Jetpack y Spring Boot, lo que me facilitó la implementación de funcionalidades avanzadas como navegación segura, almacenamiento local y servicios RESTful bien organizados.<br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Durante el desarrollo de este proyecto, actualicé y consolidé de manera significativa mis conocimientos y conceptos clave en el ámbito de la ingeniería de software. Herramientas como la construcción de user stories y la priorización del product backlog me permitieron comprender de forma integral el contexto del problema y definir una solución alineada a las necesidades reales. Además, al aplicar técnicas de Domain-Driven Design a nivel estratégico—como EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecí mi capacidad para estructurar dominios complejos y entender sus límites. Los diagramas de arquitectura a distintos niveles (contexto, contenedor y despliegue) fueron clave para visualizar la solución completa y asegurar su coherencia técnica. Este proceso representó un crecimiento profesional relevante y me permitió afianzar habilidades esenciales para mi formación como ingeniero de software.<br> **TP1:** Nos actualizamos en prácticas de testing unitario y de integración, lo que reforzó la calidad del software entregado y nos ayudó a identificar errores en etapas tempranas del desarrollo.<br><br> **TB2:** Investigamos nuevas funcionalidades, conceptos de arquitectura de software lo que facilitó el desarrollo y la producción de la aplicación móvil.                                                                                      | **TB1:** Durante el desarrollo de nuestro proyecto en soluciones de ingeniería de software, actualizamos constantemente los conceptos y conocimientos necesarios para afrontar cada etapa del proceso con una base sólida. El trabajo con herramientas como el solution profile, las entrevistas, el needfinding y la elaboración de user stories y del product backlog, nos permitió comprender profundamente las necesidades de los usuarios y traducirlas en requerimientos funcionales claros. Asimismo, al aplicar metodologías avanzadas como el Domain-Driven Design a nivel estratégico—incluyendo EventStorming, Candidate Context Discovery, Bounded Context Canvases y Context Mapping—fortalecimos nuestras capacidades de diseño conceptual y organizacional del software. Complementamos esto con la elaboración de distintos niveles de diagramas de arquitectura (contexto, contenedor y despliegue), lo que nos permitió estructurar la solución de forma coherente, escalable y alineada con las mejores prácticas de la industria. Este proceso representó una actualización constante de conocimientos clave para nuestro desarrollo profesional colectivo. <br> **TP1:** Actualizar constantemente nuestros conocimientos técnicos ha sido fundamental para afrontar los retos del proyecto, ya que nos permitió aplicar buenas prácticas, entender mejor las necesidades del negocio y entregar un producto más sólido y mantenible. <br> **TB2:** Durante el desarrollo de nuestro proyecto usar conceptos de arquitectura de software, domain driven design, conventional commits y control de versiones nos permitieron elaborar de mejor manera la aplicación.  |
+| 7.c2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software. | **Bohorquez Lerzundi Gerardo Sebastián** <br> **TB1:** Estas actividades me hicieron ver la importancia de estar en constante aprendizaje, ya que para poder plantear buenas historias de usuario y entender la competencia, tuve que investigar nuevas herramientas y enfoques. Aprendí que el desarrollo profesional en ingeniería de software exige una mejora continua.<br>**TP1:** Durante el desarrollo de la aplicación, comprendimos que la tecnología evoluciona rápidamente. Para poder tomar decisiones técnicas adecuadas, tuvimos que investigar constantemente nuevas soluciones y enfoques. **TB2:** El desarrollo total del proyecto conlleva a permanente estudio, ya que, siempre estoy a la expectativaa de aprender las funcionalidades del lneguaje usado. <br><br> **Huanaco Huayta Elizabeth Lucero** <br> **TB1:** Las tareas que desarrollé me permitieron reconocer la importancia del aprendizaje constante en mi carrera profesional. La investigación de competidores me ayudó a entender las tendencias del mercado y la necesidad de actualizarme continuamente en tecnologías emergentes. Diseñar y realizar entrevistas me enseñó a aplicar métodos efectivos de recolección de datos. Además, al desarrollar herramientas como la User Task Matrix, el As-is scenario mapping y el To-be scenario mapping, comprendí la relevancia de adaptarme a las necesidades del usuario y cómo el aprendizaje continuo mejora la calidad del proyecto. <br>**TP1:** Nos dimos cuenta de que muchas decisiones de diseño, como la adopción de Clean Architecture o DDD, requerían entender primero los fundamentos teóricos y luego adaptarlos al contexto específico de nuestro sistema. <br> **TB2:** Durante este sprint, el desarrollo de estas tareas me permitieron profundizar mis conocimientos de android studio y conocer las tecnologías que se están usando actualmente.Para esto, tuve que investigar nuevos tópicos de android studio para complementar el desarrollo de las tareas en el proyecto.<br><br> **Huapaya Cuevas Anthony Martin** <br> **TB1:** Las tareas que llevé a cabo me permitieron valorar la importancia del aprendizaje continuo en mi desarrollo profesional. La aplicación del enfoque Lean UX, mediante la elaboración de suposiciones e hipótesis, me ayudó a identificar tendencias y necesidades clave en el diseño centrado en el usuario. Diseñar y conducir entrevistas me permitió aplicar métodos eficaces de recolección de información, y su análisis posterior fue fundamental para extraer insights relevantes. Asimismo, al trabajar con herramientas como el As-is scenario mapping y el Empathy Mapping, comprendí la importancia de adaptar la solución a las necesidades reales del usuario, reafirmando cómo el aprendizaje constante impacta positivamente en la calidad de los proyectos. <br> **TP1:** Al trabajar con errores y desafíos técnicos, nos vimos obligados a aprender sobre debugging avanzado, buenas prácticas de manejo de excepciones y arquitectura desacoplada. Esto fortaleció nuestra capacidad de adaptación.<br>**TB2:** Durante esta entrega, el desarrollo de las tareas qye me asignaron me ayudaron a comprender de mejor manera el funcionamiento de la aplicación y como está compuesta, la distribución de los archivos necesarios para un correcto entendimiento en como funciona Android<br><br> **Silva Tirado, Sebastián Valentino** <br> **TB1:** A lo largo del desarrollo del proyecto, reconocí la importancia del aprendizaje constante, especialmente al enfrentar nuevos retos en la redacción de user stories, donde fue necesario investigar y aplicar buenas prácticas para representar correctamente las necesidades del usuario. Asimismo, el complemento del repositorio Markdown me motivó a actualizarme en herramientas de documentación colaborativa y estructuración técnica.<br> **TP1:** La integración entre el frontend móvil y el backend nos llevó a aprender sobre estándares de APIs, formatos de respuesta y seguridad en la transmisión de datos, temas que no dominábamos completamente al inicio.<br> **TB2:** La conexión entre el frontend móvil y el backend nos permitió adquirir conocimientos sobre los estándares de APIs, los formatos de respuesta y la seguridad en la transmisión de datos, áreas en las que no teníamos un dominio total al principio.<br><br> **Uribe Quispe Jesús Guillermo** <br> **TB1:** Reconozco plenamente la importancia del aprendizaje permanente para mantenerme actualizado y competente dentro del campo de la ingeniería de software. Este proyecto me brindó la oportunidad de enfrentarme a nuevos retos que exigieron no solo aplicar conocimientos previos, sino también investigar y aprender constantemente. Explorar metodologías como el Domain-Driven Design en sus niveles estratégico y táctico, y diseñar arquitecturas de software bien fundamentadas, me permitió no solo resolver problemas técnicos complejos, sino también entender mejor la dinámica entre el negocio, los usuarios y la tecnología. Este enfoque de mejora continua es clave para mi desarrollo profesional, y reafirma mi compromiso con una carrera en constante evolución, centrada en la creación de soluciones útiles, sostenibles y bien diseñadas. <br> **TP1:** El uso colaborativo de herramientas como GitHub nos mostró la importancia de aprender a trabajar en equipo, usar Pull Requests efectivas, y entender flujos como Git Flow, lo cual no se logra sin práctica constante.<br><br> **TB2:** Es importante el aprendizaje permanente ya que para poder realizar el proyecto debimos haber investigado sobre conceptos de arquitectura funcionalidades, diseño UI/UX, etc. | **TB1:** Como equipo, reconocemos que el aprendizaje permanente es una necesidad fundamental para nuestro desempeño profesional y el desarrollo de proyectos efectivos en el ámbito de las tecnologías de ingeniería de software. A lo largo del proyecto, nos enfrentamos a múltiples desafíos que requerían no solo conocimientos previos, sino también la disposición de investigar, analizar y aplicar nuevas herramientas y enfoques. La implementación de prácticas como el Domain-Driven Design en su nivel táctico, junto con el diseño de arquitecturas modernas y centradas en el dominio, nos permitió ampliar nuestras competencias técnicas y reforzar nuestra capacidad de construir soluciones relevantes, sostenibles y orientadas al usuario. Este proceso de aprendizaje continuo no solo enriqueció nuestra experiencia académica, sino que también nos preparó mejor para enfrentar los retos del ejercicio profesional real. <br><br>**TB2:** Reconocer que el aprendizaje es un proceso continuo nos ha permitido evolucionar como profesionales, ya que cada desafío del proyecto nos impulsó a investigar, mejorar y adaptarnos a nuevas tecnologías y metodologías de trabajo.<br>     |
 
 # OBJETIVOS SMART
 
@@ -1794,7 +1795,7 @@ El To-Be Scenario Mapping muestra cómo los odontólogos podrán gestionar su co
 
 | Epic ID | Título                | Explicación                                                                                    |
 | ------- | --------------------- | ---------------------------------------------------------------------------------------------- |
-| EP01    | Autenticación         | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
+| EP01    | Autenticación y Usuario        | Gestiona el acceso seguro de los usuarios al sistema mediante inicio de sesión y logout.       |
 | EP02    | Gestión de Citas      | Permite crear, modificar, eliminar y gestionar recordatorios de citas de manera eficiente.     |
 | EP03    | Gestión de Pacientes  | Controla el registro, modificación, visualización y eliminación de pacientes e historiales.    |
 | EP04    | Gestión de Inventario | Administra los objetos médicos, registrando entradas, salidas, ajustes e identificación.       |
@@ -4159,7 +4160,7 @@ https://app-250515015826.azurewebsites.net/swagger-ui/index.html#/
 </div>
 
 <div id='6.2.2.'><h4>6.2.2. Sprint 2</h4></div>
-<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning #1</h5></div>
+<div id='6.2.2.1.'><h5>6.2.2.1. Sprint Planning #2</h5></div>
 En la siguiente sección, se presentará el sprint #2 con la versión completa del Web Service y gran parte del desarrollo de la aplicación móvil en Android Studio. Mostrando la organización, distribución y resultados del  Web Service y la segunda versión del Mobile Application.
 
 | Sprint #                               | Sprint 2                                                                                                                                                                                                                                                                                                                                                               |
@@ -4177,14 +4178,14 @@ En la siguiente sección, se presentará el sprint #2 con la versión completa d
 | **Sprint #2 Velocity**                 | 3 story points (media de total de story points)                                                                                                                                                                                                                                                                                                                        |
 | **Sum of Story Points**                | 21                                                                                                                                                                                                                                                                                                                                                                     |
 
-<div id='6.2.1.2.'><h5>6.2.1.2. Sprint Backlog 1</h5></div>
+<div id='6.2.2.2.'><h5>6.2.2.2. Sprint Backlog 2</h5></div>
 
-Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
+Para el Sprint #2 nos trazamos como objetivo desarrollar y desplegar una landing page funcional, optimizada para móviles y preparada para captar leads, lista para producción en GitHub Pages con un diseño responsivo y tiempos de carga rápidos.
 
 <table><thead>
   <tr>
     <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="7">Sprint 1</th>
+    <th colspan="7">Sprint 2</th>
   </tr></thead>
 <tbody>
   <tr>
@@ -4947,7 +4948,7 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 </tbody>
 </table>
 
-<div id='6.2.1.3.'><h5>6.2.1.3. Development Evidence for Sprint Review</h5></div>
+<div id='6.2.2.3.'><h5>6.2.2.3. Development Evidence for Sprint Review</h5></div>
 
 ### MOBILE APPLICATION:
 
@@ -5491,8 +5492,7 @@ Para el Sprint #1 nos trazamos como objetivo desarrollar y desplegar una landing
 
 <div id='6.2.2.4.'><h5>6.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
 
-En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
-
+En este segundo Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
 
 <table><thead>
   <tr>
@@ -5506,26 +5506,80 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 <tbody>
   <tr>
 <td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
   </tr>
 
   <tr>
-    <td>&nbsp;&nbsp;&nbsp;<br>-&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
   </tr>
  
 </tbody></table>
 
 <div id='6.2.2.5.'><h5>6.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
+#### EJECUCIÓN DE LA NUEVA VERSIÓN DE LANDING PAGE:
+Nueva funcionalidad de Política de privacidad y protección de datos personales:
+
+<div align="center">
+<img src="Img/ld-pv1.png">
+</div>
+
+<div align="center">
+<img src="Img/ld-pv1.png">
+</div>
+
 #### EJECUCIÓN DE LA APLICACIÓN MÓVIL EN ANDROID STUDIO
+
+##### EP01 (Autenticación y usuario):
+
+###### Datos generales de Perfil:
+<div align="center">
+<img src="Img/ep01-01.png">
+</div>
+
+###### Cambiar datos de perfil:
+<div align="center">
+<img src="Img/ep01-02.png">
+</div>
+
+###### Cambiar contraseña de usuario
+<div align="center">
+<img src="Img/ep01-03.png">
+</div>
+
+
 
 ##### EP02 (Gestión de Citas):
 
@@ -5607,16 +5661,23 @@ En este tercer Sprint, veremos los archivos .feature relacionados a los user tas
 
 ###### Añadir Pago a la cita
 
+<div align="center">
+<img src="Img/ep05-02.png">
+</div>
+
 ###### Mostrar Pagos generales
 
+<div align="center">
+<img src="Img/ep05-01.png">
+</div>
 
 ##### (Datos Generales):
 <div align="center">
 <img src="Img/dashboard-01.png">
 </div>
+<br>
 
-
-**LINK DE VIDEO DE EJECUCIÓN:** 
+**LINK DE VIDEO DE EJECUCIÓN:** [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/EYl2zJZoB69KpNzdmPfZpFIBudOgg6t6diM8HbbXl2I_WQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RznkU9)
 
 
 <div id='6.2.2.6.'><h5>6.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
@@ -5719,7 +5780,8 @@ Acá se puede mostrar que en la Base de Datos se guardan los datos dados en el S
 <img src="Img/bd4.png">
 </div>
 
-**LINK DE VIDEO DE EJECUCIÓN:** [link de video]()
+**LINK DE VIDEO DE EJECUCIÓN:** [Link de video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ET0leWGZnVpBmIHlFNVQn30BgZHRWi97mnQnZVEov7zx0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hOkPsc)
+
 **LINK DE DESPLIEGUE:** [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html) 
 
 <div id='6.2.2.7.'><h5>6.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
@@ -5764,6 +5826,21 @@ se puede apreciar la URL del despliegue de azure y la respuesta correcta por par
 <img src="Img/deploy6.jpeg" alt="Deploy WS 6">
 </div>
 
+### MOBILE APP:
+
+Para desplegar la aplicación móvil necesitamos crear un proyecto en Firebase, una vez ya creada una cuenta de Google, llenamos la información necesaria para identificar nuestro proyecto.
+<div align="center">
+<img src="Img/firebase2.jpg" alt="Deploy WS 6">
+</div>
+<div align="center">
+<img src="Img/firebase.jpg" alt="Deploy WS 6">
+</div>
+<div align="center">
+<img src="Img/firebase3.jpg" alt="Deploy WS 6">
+</div>
+
+Como resultado, tenemos generado el APK de la aplicación móvil lista para instalar en un dispositivo Android.
+
 ##### LINK DE DESPLIEGUE: 
 [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)
 
@@ -5795,9 +5872,8 @@ En esta sección de nuestro proyecto, nos enfocamos en detectar cuáles son los 
 
 Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevistas, los cuales son fundamentales para asegurar que nuestro aplicativo, Dentify, respondan efectivamente a las necesidades reales de los odontólogos y el personal administrativo. A continuación, se presentan dichos objetivos de usuario:
 
-<b>Landing page</b>
+<b> User Flows: Aplicación Móvil</b>
 
-<b>Aplicación Móvil</b>
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas </h4></div>
 <table style="font-size: 12px;">
@@ -5811,47 +5887,48 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 12:40 min
     </td>
     <td>
-      Nombre: 
-      <br>Segmento Objetivo: 
-      <br>Edad: 
-      <br>Distrito: 
+      Nombre: Paolo Reaño
+      <br>Segmento Objetivo: Asistente centro odontológico
+      <br>Edad: 24
+      <br>Distrito: San Juan de Lurigancho
     </td>
     <td>
       Screenshot: <br>
-      <img src="" style="width: 200px;"><br>
-      Link:
+      <img src="Img/vi-vid.png" style="width: 200px;"></img>
+       Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EVnF1BShQ7xHgN9_BozBjioBSJh0KNgT_9fP7tsZCMMLEQ?e=R9CMef">Video</a>
+    </td>
+
+  </tr>
+  <tr>
+    <td>Validation Interviews</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 12:30 min<br>
+    </td>
+    <td>
+      Nombre: Sebastian Escobar Palomino
+      <br>Segmento Objetivo: Odontólogos independientes<br>
+      <bt>Edad: 21<br>
+      <bt>Distrito: Ate, Lima <br>
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/validation_interviews_2.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/EUIsP0eXu2BDiDWnxRR0GmgB61LvsV4Llb50FZW6aMEFng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Asjtp6">Video</a>
     </td>
   </tr>
   <tr>
     <td>Validation Interviews</td>
     <td>
       <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
-      <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
-    </td>
-    <td>
-      Nombre: 
-      <br>Segmento Objetivo: 
-      <bt>Edad: 
-      <bt>Distrito: 
-    </td>
-    <td>
-      Screenshot: <br>
-      <img src="" style="width: 200px;"><br>
-      Link:
-    </td>
-  </tr>
-  <tr>
-    <td>Validation Interviews</td>
-    <td>
-      <strong>Cantidad de videos</strong>: 1<br>
-      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-1<n><br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
       <strong>Duración</strong>: X:XX min
     </td>
@@ -5898,10 +5975,8 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 12. Creación de facturas
 13. Dashboard
 14. Gestión de inventariado
+15. Edición de Perfil
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-
-1. Edición de perfil
 
 <h4>ESCALA DE SEVERIDAD:</h4>
 
@@ -5912,44 +5987,101 @@ Los errores se calificarán según la siguiente escala de severidad.
 | 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
 | 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. | 1 | Consistencia y estándares
 
 
-<h4>TABLA RESUMEN:</h4>
-
+### TABLA RESUMEN:
 
 | #  | Problema                                                         | Escala de severidad | Heurística/Principio violado                                |
 |----|------------------------------------------------------------------|---------------------|------------------------------------------------------------|
-| 1  |- | -                  | -  |
-| 2  |- | -                  | -  |
-| 3  |- | -                  | -  |
+| 1  | Falta de confirmación visual de la cita al intentar editar       | 3                   | Visibilidad del estado del sistema                        |
+| 2  | El formulario de "Agregar nuevo paciente" tiene campos de entrada mal alineados | 2                   | Diseño estético y minimalista                            |
+| 3  | No hay opción de retroceder fácilmente al crear una factura      | 3                   | Control y libertad del usuario                            |
+|4 | Demora en cargar los datos  | 3 | Visibilidad del estado del sistema |
+| 5 | Algunos Bugs visuales referentes al Dark Mode | 1 | Consistencia y estándares
+---
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:**
+- **Severidad:** 3
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** Cuando intentas editar una cita, no hay una confirmación visual o mensaje claro que indique si la cita se ha guardado correctamente. Esto puede generar confusión en el usuario, que no sabe si la operación fue exitosa.
+
+ <img src="Img/ep02-03.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
 
 
-<h4>DESCRIPCIÓN DE PROBLEMAS:</h4>
- 
-* PROBLEMA #1: 
-- Severidad: 
-- Heurística violada: 
-- Problema:
-
- <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
-
-- Recomendación:
+- **Recomendación:** Implementar un mensaje de confirmación visual, como un "Cita guardada correctamente" o "Edición exitosa", después de editar y guardar una cita para mantener informado al usuario en todo momento.
 
 ---
 
-* PROBLEMA #2: 
-- Severidad: 
-- Heurística violada: 
-- Problema:
+**PROBLEMA #2:**
+- **Severidad:** 2
+- **Heurística violada:** Diseño estético y minimalista
+- **Problema:** En el formulario de "Agregar nuevo paciente", algunos campos de entrada están desalineados. Esto hace que el diseño se vea desordenado y puede dificultar la navegación para el usuario.
 
+ <img src="Img/ep03-02.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
 
- <img src="" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="800"/>
-
-- Recomendación:
+- **Recomendación:** Alinear los campos de entrada correctamente y mejorar el espaciado para que el formulario se vea más organizado y agradable a la vista.
 
 ---
 
+**PROBLEMA #3:**
+- **Severidad:** 3
+- **Heurística violada:** Control y libertad del usuario
+- **Problema:** Al crear una factura, no hay una opción visible o clara para volver a la vista anterior o cancelar la acción, lo que limita el control del usuario.
+
+ <img src="Img/ep05-02.png" alt="Failed Edition Appointment" style="margin-bottom: 5px;" width="200"/>
+
+- **Recomendación:** Incluir un botón de "Cancelar" o "Volver" de forma destacada para permitir que el usuario pueda fácilmente retroceder o abandonar el proceso de creación de una factura si lo desea.
+
+---
+
+**PROBLEMA #4:**
+- **Severidad:** 3
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** Demora unos pocos segundos en cargar los datos.
+- **Recomendación:** optar por un mejor servicio de despliegue.
+
+**PROBLEMA #5:**
+- **Severidad:** 1
+- **Heurística violada:** Consistencia y estándares
+- **Problema:** Bugs visuales en el dark mode
+
+<div align="center">
+  <img src="Img/vi_1.png"></img>
+</div>
+<br>
+
+- **Recomendación:** Arreglar y hacer compatible al 100% con Dark Mode
+
+<div id='6.4.'><h3>6.4. Video About-the-Product.</h3></div>
+
+<table style="font-size: 12px;">
+  <tr>
+    <th>Sección</th>
+    <th>Características del video</th>
+    <th>Sobre el contenido</th>
+    <th>Integración y entrega</th>
+  </tr>
+  <tr>
+    <td>About The Product</td>
+    <td>
+      <strong>Cantidad de videos</strong>: 1<br>
+      <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-meditech-about-the-product-sprint-3<br>
+      <strong>Formato</strong>: .mp4<br>
+      <strong>Duración</strong>: 3:03 min
+    </td>
+    <td>
+      Video de About The Product en base a la aplicación "Dentify" desarrollado por MediTech.
+    </td>
+    <td>
+      Screenshot: <br>
+      <img src="Img/screen-video-about-the-product.png" alt="ATP" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/EYl2zJZoB69KpNzdmPfZpFIBudOgg6t6diM8HbbXl2I_WQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RznkU9">Video</a>
+    </td>
+  </tr>
+  </table>
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
