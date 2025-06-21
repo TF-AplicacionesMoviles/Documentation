@@ -6103,7 +6103,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Repositorio de Web Service | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend) |  
 | Despligue de Web Service | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html) | |
 | Organización de Github | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles) |
-| Link de Exposición |[video]()|
+| Link de Exposición |[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETM5AvcYFVRDmY0_587ww0kBk8ZyFvExXB06mwerdCqRQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aTPuwi)|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
 
 **Anexo B**
