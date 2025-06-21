@@ -5892,6 +5892,34 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
 
 <b> User Flows: Aplicación Móvil</b>
 
+**User goal: Actualizar datos** <br>
+
+Al ingresa a la aplicación Dentify, primero se solicita al usuario que inicie sesión. Una vez autenticado, el usuario puede acceder a su perfil y actualizar sus datos personales. Esto incluye cambiar su nombre, correo electrónico y contraseña. El usuario también puede agregar o modificar información adicional como su número de teléfono o dirección.
+
+**User goal: Cita** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de citas. Desde allí, puede ver sus citas programadas, agregar nuevas citas o modificar las existentes. El usuario también puede cancelar citas si es necesario. 
+
+**User goal: Inventario** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de inventario. Desde allí, puede ver los productos disponibles, agregar nuevos productos o modificar los existentes. El usuario también puede eliminar productos que ya no son necesarios.
+
+**User goal: Paciente** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de pacientes. Desde allí, puede ver la lista de pacientes registrados, agregar nuevos pacientes o modificar la información de los existentes. El usuario también puede eliminar pacientes si es necesario.
+
+**User goal: Pagos** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de pagos. Desde allí, puede ver las citas pendientes de pago, registrar nuevos pagos y generar facturas. El usuario también puede consultar el historial de pagos realizados.
+
+
+**User goal: Registro** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede registrarse si aún no tiene una cuenta. El proceso de registro incluye proporcionar información básica como nombre, correo electrónico y contraseña. Una vez registrado, el usuario puede iniciar sesión y acceder a todas las funcionalidades de la aplicación.
+
+**Landing Page** <br>
+
+Al ingresar al landing page de Dentify, el usuario puede ver información general sobre la aplicación, sus características y beneficios. También puede acceder a enlaces de Nosotros, Servicios, Suscripciones e Información. La landing page está diseñada para ser informativa y atractiva, facilitando al usuario entender el propósito de Dentify, al final de la página se encuentra la política de la privacidad.
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas </h4></div>
 <table style="font-size: 12px;">
