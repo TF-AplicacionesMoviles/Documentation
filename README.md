@@ -5930,18 +5930,18 @@ Esta sección detallamos los objetivos de usuario que guiarán nuestras entrevis
       <strong>Cantidad de videos</strong>: 1<br>
       <strong>Nomenclatura</strong>: upc-pre-202501-cc238-353-Dentify-validation-sprint-2<n><br>
       <strong>Formato</strong>: .mp4<br>
-      <strong>Duración</strong>: X:XX min
+      <strong>Duración</strong>: 9:17 min
     </td>
     <td>
-      Nombre: 
-      <br>Segmento Objetivo: 
-      <br>Edad: 
-      <br>Distrito: 
+      Nombre: Fabrisio Belahonia Miranda
+      <br>Segmento Objetivo: Odontólogo independiente<br>
+      <br>Edad: 23
+      <br>Distrito: Ciudad de Huachipa
     </td>
     <td>
       Screenshot: <br>
-      <img src="" style="width: 200px;"><br>
-      Link:
+      <img src="Img/validation_interviews_3.png" style="width: 200px;"><br>
+      Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EZPPAnomh0hLv9oYjywhQucBDzQErvuB6o7IvC9s-HWG7A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Pk2Oxk">Video</a>
     </td>
   </tr>
  
