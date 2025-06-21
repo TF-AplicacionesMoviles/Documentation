@@ -3194,21 +3194,39 @@ Diseño de la interfaz de usuario de una página de aterrizaje, que es la primer
 _Enlace figma:_ <a href="https://www.figma.com/design/pMdl4Fo78rEnWKwgLgQko7/Landing-page---Aplicaciones-para-Dispositivos-M%C3%B3viles?node-id=1-4&t=hPfuFWY0lvnhIqcf-1">Figma</a>
 
 **User goal: Actualizar datos** <br>
+
+Al ingresa a la aplicación Dentify, primero se solicita al usuario que inicie sesión. Una vez autenticado, el usuario puede acceder a su perfil y actualizar sus datos personales. Esto incluye cambiar su nombre, correo electrónico y contraseña. El usuario también puede agregar o modificar información adicional como su número de teléfono o dirección.
+
 <img src="Img/UserFlowDiagrams/Actualizar datos.png" alt="Actualizar datos" style="margin-bottom: 5px;" width="500">
 
 **User goal: Cita** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de citas. Desde allí, puede ver sus citas programadas, agregar nuevas citas o modificar las existentes. El usuario también puede cancelar citas si es necesario. 
+
 <img src="Img/UserFlowDiagrams/Cita.png" alt="Cita" style="margin-bottom: 5px;" width="500">
 
 **User goal: Inventario** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de inventario. Desde allí, puede ver los productos disponibles, agregar nuevos productos o modificar los existentes. El usuario también puede eliminar productos que ya no son necesarios.
+
 <img src="Img/UserFlowDiagrams/Inventario.png" alt="Inventario" style="margin-bottom: 5px;" width="500">
 
 **User goal: Paciente** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de pacientes. Desde allí, puede ver la lista de pacientes registrados, agregar nuevos pacientes o modificar la información de los existentes. El usuario también puede eliminar pacientes si es necesario.
+
 <img src="Img/UserFlowDiagrams/Paciente.png" alt="Paciente" style="margin-bottom: 5px;" width="500">
 
 **User goal: Pagos** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede acceder a la sección de pagos. Desde allí, puede ver las citas pendientes de pago, registrar nuevos pagos y generar facturas. El usuario también puede consultar el historial de pagos realizados.
+
 <img src="Img/UserFlowDiagrams/Pagos.png" alt="Pagos" style="margin-bottom: 5px;" width="500">
 
 **User goal: Registro** <br>
+
+Al ingresar a la aplicación Dentify, el usuario puede registrarse si aún no tiene una cuenta. El proceso de registro incluye proporcionar información básica como nombre, correo electrónico y contraseña. Una vez registrado, el usuario puede iniciar sesión y acceder a todas las funcionalidades de la aplicación.
+
 <img src="Img/UserFlowDiagrams/Registro.png" alt="Registro" style="margin-bottom: 5px;" width="500">
 
 <div id='5.1.4.5.'><h5>5.1.4.5. Mobile Applications Prototyping</h5></div>
