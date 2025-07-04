@@ -237,14 +237,23 @@ Los integrantes son:
    6.2.1.7. [Software Deployment Evidence for Sprint Review.](#6.2.1.7.)<br>
    6.2.1.8. [Team Collaboration Insights during Sprint.](#6.2.1.8.)<br>
    6.2.2. [Sprint 2.](#6.2.2.)<br>
-   6.2.2.1. [Sprint Planning 1.](#6.2.2.1.)<br>
-   6.2.2.2. [Sprint Backlog 1.](#6.2.2.2.)<br>
+   6.2.2.1. [Sprint Planning 2.](#6.2.2.1.)<br>
+   6.2.2.2. [Sprint Backlog 2.](#6.2.2.2.)<br>
    6.2.2.3. [Development Evidence for Sprint Review.](#6.2.2.3.)<br>
    6.2.2.4. [Testing Suite Evidence for Sprint Review.](#6.2.2.4.)<br>
    6.2.2.5. [Execution Evidence for Sprint Review.](#6.2.2.5.)<br>
    6.2.2.6. [Services Documentation Evidence for Sprint Review.](#6.2.2.6.)<br>
    6.2.2.7. [Software Deployment Evidence for Sprint Review.](#6.2.2.7.)<br>
    6.2.2.8. [Team Collaboration Insights during Sprint.](#6.2.2.8.)<br>
+   6.2.3. [Sprint 3.](#6.2.3.)<br>
+   6.2.3.1. [Sprint Planning 3.](#6.2.3.1.)<br>
+   6.2.3.2. [Sprint Backlog 3.](#6.2.3.2.)<br>
+   6.2.3.3. [Development Evidence for Sprint Review.](#6.2.3.3.)<br>
+   6.2.3.4. [Testing Suite Evidence for Sprint Review.](#6.2.3.4.)<br>
+   6.2.3.5. [Execution Evidence for Sprint Review.](#6.2.3.5.)<br>
+   6.2.3.6. [Services Documentation Evidence for Sprint Review.](#6.2.3.6.)<br>
+   6.2.3.7. [Software Deployment Evidence for Sprint Review.](#6.2.3.7.)<br>
+   6.2.3.8. [Team Collaboration Insights during Sprint.](#6.2.3.8.)<br>
    6.3.[Validation Interviews.](#6.3.)<br>
    6.3.1.[Interview Design.](#6.3.1.)<br>
    6.3.2.[Registro de entrevistas](#6.3.2.)<br>
@@ -5880,6 +5889,612 @@ Como resultado, tenemos generado el APK de la aplicación móvil lista para inst
 #### INSIGHTS: 
 <div align="center">
 <img src="Img/insights-backend-2.png">
+</div>
+
+
+
+<div id='6.2.3.'><h4>6.2.3. Sprint 3</h4></div>
+<div id='6.2.3.1.'><h5>6.2.3.1. Sprint Planning #3</h5></div>
+En la siguiente sección, se presentará el sprint #3 con la versión completa del aplicativo móvil en Flutter. Mostrando la organización, distribución y resultados de la última versión del Mobile Application.
+
+| Sprint #                               | Sprint 3                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Date**                               | 2025-07-01                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                               | 04:30 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                           | llamada por la plataforma "Discord"                                                                                                                                                                                                                                                                                                                                    |
+| **Prepared By**                        | Uribe Quispe, Jesús Guillermo                                                                                                                                                                                                                                                                                                                                          |
+| **Attendees (to planning meeting)**    | Uribe Quispe Jesús Guillermo / Bohorquez Lerzundi Gerardo Sebastián / Huanaco Huayta Elizabeth Lucero / Huapaya Cuevas Anthony / Sebastián Silva Tirado                                                                                                                                                                                                                |
+| **Sprint 2 – 2 Review Summary**        | Desarrollo completo de aplicación móvil en android studio                                                                                                                                                                                                                                                                                                                                         |
+| **Sprint 2 – 2 Retrospective Summary** | Cumplimos la meta de lanzar la versión completa del servicio web y la aplicación móvil para dispositivos Android.                                                                                                                                                                                                                                                                           |
+| **Sprint Goal & User Stories**         |                                                                                                                                                                                                                                                                                                                                                                        |
+| **Sprint #3 Goal**                     | Desarrollar y desplegar una aplicación móvil y una aplicación móvil que presente de manera clara y atractiva los principales beneficios y características del producto, optimizada para dispositivos móviles y preparada para captar leads a través de un formulario de contacto. |
+| **Sprint #3 Velocity**                 | 3 story points (media de total de story points)                                                                                                                                                                                                                                                                                                                        |
+| **Sum of Story Points**                | X                                                                                                                                                                                                                                                                                                                                                                    |
+
+<div id='6.2.3.2.'><h5>6.2.3.2. Sprint Backlog 3</h5></div>
+
+Para el Sprint #3 nos trazamos como objetivo desarrollar y desplegar la aplicación móvil hecho en Flutter.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br># Sprint&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="7">Sprint 2</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">&nbsp;&nbsp;&nbsp;<br>User Story&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Id&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Title&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Descripción&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Estimación (Hours)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Story points &nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Assigned to&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>Status (In&nbsp;&nbsp;&nbsp;-process / To - review / Done)&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td><br>US01</td>
+    <td><br>Registrar Usuario</td>
+    <td><br>UT01</td>
+    <td><br>Registro de usuario</td>
+    <td><br>Escenario 1: Dado que un usuario ingresa los datos en el formulario, Cuando accione el botón de registrar, Entonces el sistema guardará los datos dados en la base de datos y devolverá un token de autenticaci ón.</td>
+    <td><br> 3h</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+    <td><br>US02</td>
+    <td><br>Iniciar sesión de usuario</td>
+    <td><br>UT02</td>
+    <td><br>Inicio de sesión de usuario</td>
+    <td><br>Escenario 1: Dado que un usuario ingrese los datos pedidos para autenticar, Cuando accione el botón de iniciar sesión, entonces el sistema validará los datos y permitirá el acceso a las demás funcionalidades.</td>
+    <td><br> 3h</td>
+	  <td><br> 3</td>
+    <td><br> Jesús Uribe</td>
+    <td><br>Done</td>
+  </tr>
+  <tr>
+  <td>US03</td>
+  <td>Recordatorio de citas</td>
+  <td>UT03</td>
+  <td>Recordatorios por correo y notificación</td>
+  <td>
+    Escenario 1: Envío automático de recordatorio por correo electrónico<br>
+    Dado que una cita ha sido registrada con al menos 24h de anticipación<br>
+    Cuando se acerque la fecha y hora de la cita<br>
+    Entonces el sistema enviará un correo recordatorio al paciente.<br><br>
+    Escenario 2: Envío de notificación interna<br>
+    Dado que el paciente ha iniciado sesión<br>
+    Cuando tenga una cita próxima (24h antes)<br>
+    Entonces el sistema mostrará una notificación en la plataforma.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US04</td>
+  <td>Mostrar citas</td>
+  <td>UT04</td>
+  <td>Visualizar todas las citas</td>
+  <td>
+    Escenario 1: Visualización de citas registradas<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y accede a la sección de citas<br>
+    Cuando se cargue la pantalla de citas<br>
+    Entonces la aplicación mostrará una lista con todas las citas registradas, incluyendo la información del paciente, fecha y hora.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US05</td>
+  <td>Editar cita</td>
+  <td>UT05</td>
+  <td>Editar información de citas</td>
+  <td>
+    Escenario 1: Modificación exitosa de una cita<br>
+    Dado que el asistente visualiza una cita futura<br>
+    Cuando edite los campos permitidos (fecha, hora, tratamiento, profesional)<br>
+    Entonces la información se actualizará correctamente en el sistema.<br><br>
+    Escenario 2: Cita pasada no editable<br>
+    Dado que una cita ya ha pasado<br>
+    Cuando el asistente intente editarla<br>
+    Entonces el sistema mostrará un mensaje indicando que no puede ser modificada.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US06</td>
+  <td>Añadir citas</td>
+  <td>UT06</td>
+  <td>Registrar nuevas citas</td>
+  <td>
+    Escenario 1: Registro de una nueva cita<br><br>
+    Dado que el personal del consultorio ha iniciado sesión<br>
+    Y se encuentra en la sección de citas<br>
+    Cuando seleccione la opción para añadir nueva cita<br>
+    Y complete los campos requeridos como paciente, fecha y hora<br>
+    Y confirme el registro<br>
+    Entonces la aplicación guardará la nueva cita y la mostrará en la lista de citas registradas.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US07</td>
+  <td>Eliminar cita</td>
+  <td>UT07</td>
+  <td>Eliminar citas futuras</td>
+  <td>
+    Escenario 1: Eliminación confirmada de cita futura<br>
+    Dado que el asistente accede a la lista de citas<br>
+    Cuando seleccione una cita futura y confirme la eliminación<br>
+    Entonces la cita será eliminada del sistema y se notificará al paciente.<br><br>
+    Escenario 2: Intento de eliminar cita pasada<br>
+    Dado que la cita ya ocurrió<br>
+    Cuando se intente eliminar<br>
+    Entonces el sistema impedirá la acción y mostrará un mensaje de restricción.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US08</td>
+  <td>Buscar citas</td>
+  <td>UT08</td>
+  <td>Buscar citas por fecha o DNI</td>
+  <td>
+    Escenario 1: Búsqueda de cita por fecha<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese una fecha en el campo de búsqueda<br>
+    Y seleccione el botón Buscar<br>
+    Entonces la aplicación mostrará las citas programadas para esa fecha.<br><br>
+    Escenario 2: Busqueda de citas por DNI<br><br>
+    Dado que el personal del consultorio se encuentra en la sección de citas<br>
+    Cuando ingrese el DNI de un paciente en el campo de busqueda<br>
+    Y seleccione el boton Buscar<br>
+    Entonces la aplicación mostrará las citas que coincidan con el DNI correspondiente.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US09</td>
+  <td>Gestionar horarios de atención</td>
+  <td>UT09</td>
+  <td>Gestionar disponibilidad de especialistas</td>
+  <td>
+    Escenario 1: Ver horarios de atención con citas agendadas<br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando accedo a la sección de gestión de horarios de atención<br>
+    Entonces debo poder ver los horarios disponibles y ocupados, con las citas agendadas reflejadas en la agenda.<br><br>
+    Escenario 2: Editar horarios de atención<br>
+    Dado que soy un administrador autenticado en el sistema<br>
+    Cuando modifico los horarios de atención de un especialista<br>
+    Entonces el sistema debe actualizar automáticamente la disponibilidad y bloquear esos horarios para nuevas reservas si ya están ocupados por citas.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US10</td>
+  <td>Pagar tratamiento</td>
+  <td>UT10</td>
+  <td>Pago desde la plataforma</td>
+  <td>
+    Escenario 1: Pago exitoso desde la plataforma<br>
+    Dado que el paciente ha iniciado sesión y tiene un tratamiento pendiente de pago<br>
+    Cuando acceda a la sección de pagos y complete los datos de su tarjeta<br>
+    Entonces el sistema procesará el pago y mostrará una confirmación.<br><br>
+    Escenario 2: Error en el pago<br>
+    Dado que el paciente intenta pagar<br>
+    Cuando ocurra un error en la transacción (fondos insuficientes, datos inválidos, etc.)<br>
+    Entonces el sistema mostrará un mensaje de error y permitirá reintentar el pago.<br><br>
+    Escenario 3: Ver historial de pagos<br>
+    Dado que el paciente ha realizado pagos anteriores<br>
+    Cuando acceda a la sección de historial<br>
+    Entonces podrá visualizar el detalle de los pagos realizados y sus estados.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián Silva</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US11</td>
+  <td>Historial de pagos</td>
+  <td>UT11</td>
+  <td>Ver pagos registrados</td>
+  <td>
+    Escenario 1: Visualización de historial de pagos<br><br>
+    Dado que el personal accede al módulo de pagos<br>
+    Cuando seleccione la opción "Historial de pagos"<br>
+    Entonces la aplicación mostrará una lista de todos los pagos registrados con su fecha, monto y paciente asociado.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Sebastian Silva</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US14</td>
+  <td>Editar paciente</td>
+  <td>UT12</td>
+  <td>Modificar datos del paciente</td>
+  <td>
+    Escenario 1: Edición de datos exitosa<br><br>
+    Dado que el personal accede a la sección de pacientes<br>
+    Y selecciona a un paciente de la lista<br>
+    Cuando actualice los datos en el formulario<br>
+    Y presione el botón "Guardar cambios"<br>
+    Entonces el sistema actualizará la información del paciente correctamente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US16</td>
+  <td>Buscar pacientes</td>
+  <td>UT13</td>
+  <td>Búsqueda por DNI</td>
+  <td>Escenario 1: Búsqueda exitosa por DNI<br><br>
+      Dado que existen pacientes registrados<br>
+      Cuando el personal ingrese un número de DNI en el campo de búsqueda<br>
+      Y seleccione el botón de buscar<br>
+      Entonces la aplicación mostrará al paciente correspondiente en los resultados.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US17</td>
+  <td>Añadir historial clínico</td>
+  <td>UT14</td>
+  <td>Registro de historial</td>
+  <td>Escenario 1: Registro de historial clínico<br><br>
+      Dado que el personal accede al perfil de un paciente<br>
+      Cuando seleccione "Añadir historial clínico"<br>
+      Y complete los campos requeridos<br>
+      Y presione "Guardar"<br>
+      Entonces la aplicación almacenará el nuevo historial vinculado al paciente.
+  </td>
+  <td>5h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US18</td>
+  <td>Eliminar historial clínico</td>
+  <td>UT15</td>
+  <td>Eliminar historial</td>
+  <td>Escenario 1: Eliminación de historial clínico<br><br>
+      Dado que el personal accede al historial clínico de un paciente<br>
+      Cuando seleccione la opción de eliminar historial<br>
+      Y confirme la acción<br>
+      Entonces la aplicación eliminará dicho historial y actualizará la vista.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US19</td>
+  <td>Mostrar historial clínico</td>
+  <td>UT16</td>
+  <td>Visualizar historial</td>
+  <td>Escenario 1: Visualización del historial clínico<br><br>
+      Dado que el personal accede al perfil de un paciente<br>
+      Cuando seleccione "Ver historial clínico"<br>
+      Entonces la aplicación mostrará todos los registros clínicos asociados a dicho paciente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US21</td>
+  <td>Añadir objeto al inventario</td>
+  <td>UT17</td>
+  <td>Nuevo objeto inventario</td>
+  <td>Escenario 1: Registro de nuevo objeto<br><br>
+      Dado que el personal accede al módulo de inventario<br>
+      Cuando seleccione "Añadir objeto"<br>
+      Y complete los campos requeridos (nombre, tipo, cantidad)<br>
+      Entonces la aplicación registrará el objeto en el inventario.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US22</td>
+  <td>Editar objeto de inventario</td>
+  <td>UT18</td>
+  <td>Modificar objeto</td>
+  <td>Escenario 1: Modificación de objeto del inventario<br><br>
+      Dado que el personal accede a la sección de inventario<br>
+      Cuando seleccione un objeto de la lista<br>
+      Y actualice su información<br>
+      Y presione "Guardar cambios"<br>
+      Entonces la aplicación guardará la información modificada del objeto.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US23</td>
+  <td>Eliminar objeto de inventario</td>
+  <td>UT19</td>
+  <td>Eliminar objeto</td>
+  <td>Escenario 1: Eliminación de objeto<br><br>
+      Dado que el personal accede a la lista del inventario<br>
+      Cuando seleccione un objeto<br>
+      Y presione "Eliminar"<br>
+      Y confirme la acción<br>
+      Entonces la aplicación eliminará el objeto seleccionado.
+  </td>
+  <td>3h</td>
+  <td>3</td>
+  <td>Anthony</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US24</td>
+  <td>Dashboard de inventario</td>
+  <td>UT20</td>
+  <td>Resumen inventario</td>
+  <td>Escenario 1: Visualización del dashboard<br><br>
+      Dado que el personal accede a la seccion de inventario<br>
+      Cuando seleccione la opción de "Dashboard"<br>
+      Entonces la aplicación mostrará gráficos y métricas de stock, consumo y disponibilidad.
+  </td>
+  <td>6h</td>
+  <td>3</td>
+  <td>Sebastián</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US29</td>
+  <td>Menú</td>
+  <td>UT21</td>
+  <td>Menú de navegación</td>
+  <td>Escenario 1: Acceso al menú de navegación<br><br>
+      Dado que el personal ha iniciado sesión<br>
+      Cuando acceda a la aplicación<br>
+      Entonces visualizará un menú con las secciones disponibles como citas, pacientes, inventario, perfil, pagos y dashboard.
+  </td>
+  <td>3h</td>
+  <td>3</td>
+  <td>Elizabeth</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>US30</td>
+  <td>Perfil</td>
+  <td>UT22</td>
+  <td>Visualizar y editar perfil</td>
+  <td>Escenario 1: Visualización y edición del perfil<br><br>
+      Dado que el personal ha iniciado sesión<br>
+      Cuando acceda a la sección de perfil<br>
+      Entonces podrá visualizar su información registrada<br>
+      Y si edita sus datos y guarda los cambios<br>
+      Entonces la aplicación actualizará su perfil correctamente.
+  </td>
+  <td>4h</td>
+  <td>3</td>
+  <td>Jesús</td>
+  <td>Done</td>
+</tr>
+</tbody>
+</table>
+
+<div id='6.2.3.3.'><h5>6.2.3.3. Development Evidence for Sprint Review</h5></div>
+
+en este tercer sprint, veremos los commits realizados en base a las funcionalidades realizadas en la aplicación móvil.
+
+### MOBILE APPLICATION (Flutter):
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/FlutterMobileApp" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/FlutterMobileApp</a></td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+</tbody></table>
+
+<div id='6.2.3.4.'><h5>6.2.3.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+En este tercer Sprint, veremos los archivos .feature relacionados a los user tasks que hemos desarrollado, subidos en el repositorio.
+
+<table><thead>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;<br>Repository&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Branch&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit ID&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Commit<br>&nbsp;&nbsp;&nbsp;<br>Message Body&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;<br>Committed on&nbsp;&nbsp;&nbsp;(Date)&nbsp;&nbsp;&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+<td rowspan="10"><a href="https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features" target="_blank" rel="noopener noreferrer">https://github.com/TF-AplicacionesMoviles/Documentation/tree/main/Features</a></td>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC02</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature files from EPIC05</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 4</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 1</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;<br>main&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>-</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>feat: add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>add feature from EPIC 3</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>18/06/2025</td>
+  </tr>
+ 
+</tbody></table>
+
+<div id='6.2.3.5.'><h5>6.2.3.5. Execution Evidence for Sprint Review</h5></div>
+
+En esta sección mostraremos las evidencias de la ejecución de la aplicación móvil realizada en Flutter.
+
+
+
+<div id='6.2.3.6.'><h5>6.2.3.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+
+<div id='6.2.3.7.'><h5>6.2.3.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+### WEB SERVICES:
+
+Para el despliegue del Web Service hemos recurrido a Azure mediante el plugin perteneciente a IntelliJ IDEA.
+
+Entramos a la parte superior y autenticamos con nuestras credenciales de Azure.
+
+<div align="center">
+<img src="Img/deploy5.png" alt="Deploy WS 1">
+</div>
+
+Instanciamos la base de datos y el web service en un grupo de Recursos de Azure.
+
+<div align="center">
+<img src="Img/deploy2.jpeg" alt="Deploy WS 2">
+</div>
+
+Luego de Validar credenciales, configuración de variables de entorno, etcétera, Procedemos a desplegar la aplicación.
+
+<div align="center">
+<img src="Img/deploy1.png" alt="Deploy WS 3">
+</div>
+
+#### Probamos con el registro y nos autenticamos con el Login:
+
+<div align="center">
+<img src="Img/deploy3.png" alt="Deploy WS 4">
+</div>
+
+se puede apreciar la URL del despliegue de azure y la respuesta correcta por parte del servidor ante la validación de las credenciales creadas anteriormente.
+
+<div align="center">
+<img src="Img/deploy4.png" alt="Deploy WS 5">
+</div>
+
+#### Base de Datos remota:
+
+<div align="center">
+<img src="Img/deploy6.jpeg" alt="Deploy WS 6">
+</div>
+
+### MOBILE APP:
+
+Para desplegar la aplicación móvil necesitamos crear un proyecto en Firebase, una vez ya creada una cuenta de Google, llenamos la información necesaria para identificar nuestro proyecto.
+<div align="center">
+<img src="Img/firebase2.jpg" alt="Deploy WS 6">
+</div>
+<div align="center">
+<img src="Img/firebase.jpg" alt="Deploy WS 6">
+</div>
+<div align="center">
+<img src="Img/firebase3.jpg" alt="Deploy WS 6">
+</div>
+
+Como resultado, tenemos generado el APK de la aplicación móvil lista para instalar en un dispositivo Android.
+
+##### LINK DE DESPLIEGUE (WEB SERVICE): 
+[https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html)
+
+**link de evidencia de despliegue**: [Click para ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221876_upc_edu_pe/EQDCj88INNVJqO4NIpEEZf0BHiLXEi6VpqB-8Gjxagj0aQ?e=71pdlJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+<div id='6.2.3.8.'><h5>6.2.3.8. Team Collaboration Insights during Sprint</h5></div>
+
+| Alumno                               | Actividad                                                                                                               |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Bohorquez Lerzundi Gerardo Sebastian |Elaboración de funcionalidad Dashboard |
+| Huanaco Huayta, Elizabeth Lucero     | Elaboración de funcionalidad Historiales médicos  y Pacientes                                                           |
+| Huapaya Cuevas, Anthony              | Elaboración de funcionalidad Inventario                                                       |
+| Silva Tirado, Sebastián Valentino    | Elaboración de funcionalidad de pagos y autenticación                       |
+| Uribe Quispe, Jesús Guillermo        | Elaboración de funcionalidad de citas y perfil|
+
+#### INSIGHTS: 
+<div align="center">
+<img src="">
 </div>
 
 
