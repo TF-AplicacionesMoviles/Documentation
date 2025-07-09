@@ -282,8 +282,9 @@ Los integrantes son:
    6.4. [Video About-the-Product](#6.4.)<br>
 
 7. [Conclusiones](#7.)
-8. [Referencias Bibliográficas.](#8.)<br>
-9. [Anexos.](#9.)<br>
+8. [ABOUT-THE-TEAM](#8.)
+8. [Referencias Bibliográficas.](#9.)<br>
+9. [Anexos.](#10.)<br>
 
 # STUDENT OUTCOME
 
@@ -6973,12 +6974,18 @@ Los errores se calificarán según la siguiente escala de severidad.
 
 Como conclusión de este proyecto, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Flutter para dispositivos Android y iOs, así como también de forma nativa para Android, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.
 
-<div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
+<div id='8.'><h2>ABOUT-THE-TEAM</h2></div>
+
+En esta sección se muestra la comunicación del equipo, los avances logrados y los testimonios de cada integrante sobre su experiencia durante el desarrollo del proyecto.<br>
+<img src="Img/about-the-team.png" alt="ATT" style="width: 600px;"><br>
+Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EUKTxKgFWSBBi4pgOrPLA9UBaTqKJuF-YeCnIW8uK4iFlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnlObw">Video del About-the-team</a>
+
+<div id='9.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
 Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: Encuesta Residencial de Servicios de Telecomunicaciones – ERESTEL 2021. https://www.osiptel.gob.pe/media/dujjruwd/erestel-2021.pdf
 <br>
 
-<div id='9.'><h2>ANEXOS</h2></div>
+<div id='10.'><h2>ANEXOS</h2></div>
 
 **Anexo A**
 | Descripción | Enlace |
@@ -6992,7 +6999,7 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Organización de Github | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles) |
 | Link de Exposición |[Video]()|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
-| Video About The Team | []() |
+| Video About The Team | [Video About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220235_upc_edu_pe/EUKTxKgFWSBBi4pgOrPLA9UBaTqKJuF-YeCnIW8uK4iFlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hnlObw) |
 | Video About The Product | []()|
 
 **Anexo B**
