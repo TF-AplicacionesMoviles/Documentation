@@ -6971,7 +6971,7 @@ Los errores se calificarán según la siguiente escala de severidad.
 
 <div id='7.'><h2>CONCLUSIONES</h2></div>
 
-Como conclusión para este entregable, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Android Studio y Kotlin, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.
+Como conclusión de este proyecto, es importante destacar el valor de aplicar distintas arquitecturas y el uso de Domain-Driven Design (DDD) para lograr una mejor organización, escalabilidad y mantenibilidad del sistema. La implementación de una aplicación móvil con Flutter para dispositivos Android y iOs, así como también de forma nativa para Android, junto con un backend robusto en Spring Boot utilizando Java 17, permitió establecer una base tecnológica moderna y eficiente. Además, el enfoque en UX/UI design aseguró una experiencia de usuario intuitiva y atractiva. Finalmente, el uso de control de versiones con Git y la adopción de GitFlow como estrategia de ramificación facilitaron una gestión ordenada y colaborativa del desarrollo, asegurando la trazabilidad y calidad del código a lo largo del proyecto.
 
 <div id='8.'><h2>REFERENCIAS BIBLIOGRÁFICAS</h2></div>
 
@@ -6984,13 +6984,16 @@ Osiptel. (2022). Los servicios de telecomunicaciones en los hogares peruanos: En
 | Descripción | Enlace |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Repositorio de Aplicación Móvil | [https://github.com/TF-AplicacionesMoviles/MobileApp](https://github.com/TF-AplicacionesMoviles/MobileApp) |
+| Repositorio de Aplicación Móvil (Flutter) | [https://github.com/TF-AplicacionesMoviles/FlutterMobileApp](https://github.com/TF-AplicacionesMoviles/FlutterMobileApp) |
 | Repositorio de Landing Page | [https://github.com/TF-AplicacionesMoviles/LandingPage](https://github.com/TF-AplicacionesMoviles/LandingPage) |
 | Despliegue de Landing Page | [https://tf-aplicacionesmoviles.github.io/LandingPage/](https://tf-aplicacionesmoviles.github.io/LandingPage/) |
 | Repositorio de Web Service | [https://github.com/TF-AplicacionesMoviles/BackEnd](https://github.com/TF-AplicacionesMoviles/Backend) |  
 | Despligue de Web Service | [https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html](https://dentify-g0daf5g9gwasgtdg.centralus-01.azurewebsites.net/swagger-ui/index.html) | |
 | Organización de Github | [https://github.com/TF-AplicacionesMoviles](https://github.com/TF-AplicacionesMoviles) |
-| Link de Exposición |[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g296_upc_edu_pe/ETM5AvcYFVRDmY0_587ww0kBk8ZyFvExXB06mwerdCqRQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aTPuwi)|
+| Link de Exposición |[Video]()|
 | Miro (Strategic-Level DDD) |[https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892](https://miro.com/app/board/uXjVIDh6_X8=/?share_link_id=378770332892) |
+| Video About The Team | []() |
+| Video About The Product | []()|
 
 **Anexo B**
 
